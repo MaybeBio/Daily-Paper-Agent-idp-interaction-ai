@@ -7,10 +7,10 @@ topic: idp-interaction-ai
 title: 无序蛋白互作 × AI
 
 # 抓取时间窗口（天），每周自动跑默认 7；手动跑可改 1
-window_days: 7
+window_days: 14
 
 # GitHub Pages 站点根地址，用于 Issue「链接」列的绝对跳转（解析页）
-site_base_url: https://MaybeBio.github.io/Daily-Paper-idp-interaction-ai
+site_base_url: https://MaybeBio.github.io/Daily-Paper-Agent-idp-interaction-ai
 
 # 搜索框占位提示词（站点文案，换课题时改成新领域示例词）
 search_placeholder: 如 molecular dynamics、相分离、intrinsically disordered
