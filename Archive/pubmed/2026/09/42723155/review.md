@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims made in the abstract
+- **Shared manuscript claim summary** The authors propose MolDBG, a unified site-aware representation learning framework that simultaneously performs drug-target affinity prediction, binding-site identification, and affinity-conditioned molecular generation. The model uses binding-site supervision to prioritize interaction-critical residues, claims competitive performance across all three tasks, and generalizes to structurally elusive targets such as cryptic pockets and intrinsically disordered proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript (methods, datasets, training details, evaluation metrics, baseline comparisons, ablation studies, case studies, code, and data); no quantitative results are available for assessment
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful framework that aims to unify three distinct molecular modeling tasks under a single architecture. The concept of site-aware representation learning with explicit binding-site supervision is timely and addresses a recognized limitation in sequence-based methods. However, the abstract lacks any quantitative evidence, making it impossible to evaluate the validity of the claimed competitive performance or the generalizability claims. The claims are currently unsubstantiated.
+- **Who would be interested in the results, and why** Computational drug discovery researchers, medicinal chemists, and structural biologists would be interested if the claims are validated. The unified framework could streamline screening and design workflows, and the ability to handle structurally elusive targets (cryptic pockets, IDPs) would be of particular interest to those working on challenging protein families.
+- **Major strengths** 1. The problem formulation is well-motivated: unifying affinity prediction, site identification, and generation under a single interpretable framework is a clear gap. 2. The site-aware approach with explicit binding-site supervision is a logical and potentially powerful way to reduce false positives from misaligned binding sites. 3. The claimed generalizability to cryptic pockets and intrinsically disordered proteins, if true, would represent a significant advance over structure-dependent methods.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "MolDBG achieves competitive performance across all three tasks"
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The abstract provides no quantitative results, metrics, or comparisons to baselines for any of the three tasks (affinity prediction, binding-site identification, molecular generation). The term "competitive performance" is undefined.
+    - **Why it matters** Without any numerical evidence, the central claim of the paper cannot be evaluated. The reader cannot assess whether the model is state-of-the-art, merely adequate, or underperforming.
+    - **Resolution test** Provide performance metrics (e.g., RMSE, Pearson/Spearman correlation for affinity; DCC, F1, or IoU for site identification; validity, uniqueness, novelty, and docking scores for generation) and compare against a set of established baselines (e.g., DeepDTA, GraphDTA, EquiDock, TargetDiff, etc.).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Generalizability claim
+    - **Claim pointer** "The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** This is a strong claim that requires specific experimental validation. The abstract provides no details on how this was tested, what datasets were used, or what metrics were achieved.
+    - **Why it matters** Generalization to cryptic pockets and IDPs is a major challenge. If unsubstantiated, this claim could mislead the community. The abstract does not even specify whether the model was tested on known cryptic pocket systems (e.g., PTP1B, CDK2) or IDP benchmarks.
+    - **Resolution test** Provide case studies or benchmark results on established cryptic pocket and IDP datasets. Show that the model can identify binding sites and generate ligands for these targets with performance comparable to or better than structure-based methods.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Methodological clarity
+    - **Claim pointer** "With binding-site supervision, MolDBG prioritizes interaction-critical residues before learning drug-target representations"
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The abstract does not explain how binding-site supervision is obtained or integrated. Is it derived from known structures, predicted by a separate module, or learned from co-complex data? The mechanism of "prioritizing" residues is unclear.
+    - **Why it matters** The novelty of the framework hinges on this site-aware mechanism. Without understanding the supervision source and integration, the contribution cannot be distinguished from existing attention-based or graph-based methods that also learn residue importance.
+    - **Resolution test** Clearly describe the supervision source (e.g., known PDB binding sites, AlphaFold predictions, or a learned attention mask). Provide an ablation study showing the impact of removing site supervision on all three tasks.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Terminology
+    - **Evidence pointer** Abstract; location not provided
+    - **Issue** The term "site-aware" is used but not defined. It is unclear whether this refers to known binding sites, predicted sites, or a learned latent representation of binding regions.
+    - **Required correction** Define "site-aware" explicitly in the abstract or introduction. For example, specify whether the model uses known binding site annotations or learns them end-to-end.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Scope
+    - **Affected element** Claim scope
+    - **Evidence pointer** Abstract; location not provided
+    - **Issue** The abstract claims "unified molecular interaction modeling and generative design" but only mentions three tasks. It is unclear if the framework can handle other interaction types (e.g., protein-protein, protein-nucleic acid) or if it is limited to drug-target pairs.
+    - **Required correction** Clarify the scope of "molecular interaction modeling" in the abstract. If the framework is drug-target specific, state this explicitly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (unsubstantiated generalizability claim), R1-M3 (unclear methodology for site supervision)
+- **Assessment against Nature-style criteria** 
+    - **Originality**: The concept of a unified, site-aware framework for three tasks is novel and addresses a clear gap. However, the abstract does not provide enough detail to assess whether the technical implementation is truly novel or a straightforward combination of existing methods.
+    - **Scientific importance**: If validated, the framework could have high impact on drug discovery, particularly for challenging targets. The importance is currently speculative.
+    - **Interdisciplinary readership**: The work would appeal to computational chemists, structural biologists, and AI researchers. The abstract is accessible to a broad audience.
+    - **Technical soundness**: Cannot be assessed from the abstract alone. The lack of any quantitative results or methodological details is a critical deficiency.
+    - **Readability for nonspecialists**: The abstract is well-written and clear, but the lack of concrete results makes it difficult for a nonspecialist to gauge the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept but provides no data to support the central claims. A full manuscript with quantitative results, baseline comparisons, and methodological details is required before a meaningful assessment can be made.
+
+## Risk / unsupported claims
+- "MolDBG achieves competitive performance across all three tasks" – unsupported; no quantitative evidence provided.
+- "The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins" – unsupported; no experimental validation or dataset details provided.
+- "reducing false positives from misaligned binding sites and improving interpretability" – unsupported; no ablation or interpretability analysis provided.

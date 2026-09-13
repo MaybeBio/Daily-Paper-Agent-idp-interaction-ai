@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report that membrane phase, charge, and curvature cooperatively regulate the binding dynamics of alpha-synuclein, with gel-phase membranes and anionic lipids promoting kinetically stabilized states, and curvature-induced defect formation being amplified in gel-phase membranes but insensitive to charge.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided.
+- **Missing materials affecting confidence** Full manuscript, including all experimental data (fluorescence microscopy, CD, FRAP), simulation methods and results, statistical analyses, and control experiments.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and systematic study of how multiple membrane properties jointly regulate alpha-synuclein binding. The combination of experimental and computational approaches is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the methods, the robustness of the conclusions, or the novelty relative to existing literature. Several claims are stated without quantitative support or clear mechanistic explanation.
+- **Who would be interested in the results, and why** Researchers in the fields of protein-membrane interactions, neurodegenerative diseases (particularly Parkinson's disease), biophysics of intrinsically disordered proteins, and membrane biophysics. The work could provide mechanistic insights into how membrane heterogeneity influences protein binding, which is relevant to understanding alpha-synuclein's physiological and pathological roles.
+- **Major strengths** 1. Systematic investigation of three membrane properties (phase, charge, curvature) in combination, rather than in isolation. 2. Integration of multiple experimental techniques (fluorescence microscopy, CD, FRAP) with coarse-grained simulations. 3. Focus on both equilibrium and dynamic aspects of binding, which is often overlooked.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "Under zwitterionic conditions, alphaSyn preferentially binds highly curved gel-phase membranes, driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The claim that binding is driven by "curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies" is a specific mechanistic statement. The abstract provides no evidence for the existence of faceted morphologies, no quantification of packing defects, and no direct link between defect density and binding affinity. The simulations are mentioned but not described in sufficient detail to assess whether they support this mechanism.
+    - **Why it matters** This is a central mechanistic claim of the paper. Without supporting data (e.g., cryo-EM images of vesicle morphology, defect density calculations from simulations, or binding assays with controlled defect densities), the claim is not established.
+    - **Resolution test** Provide experimental or simulation data demonstrating faceted vesicle morphologies under the conditions used, quantify packing defects as a function of curvature and phase, and show a correlation between defect density and alphaSyn binding.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "Incorporation of anionic lipids selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The term "selectively enhances" implies a differential effect of anionic lipids on liquid vs. gel phases. The abstract does not provide quantitative binding data (e.g., binding constants, partition coefficients, or fluorescence intensity changes) to support this selectivity. Similarly, "attenuating curvature-dependent partitioning" is a qualitative statement without numerical evidence.
+    - **Why it matters** The interplay between charge and phase is a key finding. Without quantitative data, it is impossible to assess the magnitude or statistical significance of these effects.
+    - **Resolution test** Present binding isotherms or binding curves for both liquid and gel-phase membranes with varying anionic lipid content, and show statistical comparisons (e.g., p-values, confidence intervals) for the differential effects.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "Dynamic measurements reveal that membrane phase and charge also govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The term "kinetically stabilized states" is vague. The abstract does not specify what kinetic parameters were measured (e.g., dissociation rates, exchange rates from FRAP, or binding/unbinding rate constants) or how stability was defined. No numerical values (e.g., half-lives, recovery fractions, or rate constants) are provided.
+    - **Why it matters** The kinetic stabilization of alphaSyn on membranes is a potentially important finding for understanding its aggregation behavior. Without clear definitions and quantitative data, the claim is not testable.
+    - **Resolution test** Provide FRAP recovery curves, fitted rate constants, and statistical comparisons across conditions. Define what constitutes a "kinetically stabilized state" (e.g., slower recovery, higher immobile fraction).
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "Simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The abstract does not describe the simulation model (e.g., Martini, other CG force field), system size, simulation time, or how "defect formation" was quantified. Without these details, the reliability and relevance of the simulation results cannot be assessed.
+    - **Why it matters** The simulation results are used to support a key mechanistic claim. The lack of methodological detail makes it impossible to evaluate the validity of the simulation approach or the robustness of the findings.
+    - **Resolution test** Provide a clear description of the simulation model, parameters, and analysis methods. Show quantitative data (e.g., defect density as a function of curvature, phase, and charge) and error estimates.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract; location not provided
+    - **Issue** The phrase "synucleopathies" is used, but the more common term is "synucleinopathies."
+    - **Required correction** Correct to "synucleinopathies" for consistency with the literature.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract; location not provided
+    - **Issue** The abstract does not mention the specific anionic lipid used (e.g., PS, PI, or PG). This is important for reproducibility and comparison with other studies.
+    - **Required correction** Specify the anionic lipid(s) used in the study.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract; location not provided
+    - **Issue** The abstract states that the findings "highlight the importance of resolving both thermodynamic and kinetic contributions," but no thermodynamic parameters (e.g., binding affinities, free energies) are mentioned in the abstract.
+    - **Required correction** Either provide thermodynamic data in the abstract or rephrase to reflect what was actually measured (e.g., "equilibrium and dynamic contributions").
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence for all major claims, and the mechanistic interpretations are not supported by the data presented.
+- **Assessment against Nature-style criteria** 
+    - **Originality**: The abstract suggests a systematic approach to studying combined effects of membrane properties, which is a step beyond isolated studies. However, the novelty cannot be fully assessed without seeing how this work compares to existing literature on alpha-synuclein-membrane interactions.
+    - **Scientific importance**: The topic is important for understanding alpha-synuclein function and pathology. The potential to resolve cooperative effects of phase, charge, and curvature is valuable, but the abstract does not demonstrate that the findings are transformative.
+    - **Interdisciplinary readership**: The work bridges biophysics, cell biology, and neuroscience, which could appeal to a broad audience. However, the abstract is too specialized in its current form to be accessible to nonspecialists.
+    - **Technical soundness**: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative data raises concerns.
+    - **Readability for nonspecialists**: The abstract is reasonably clear but uses jargon (e.g., "faceted vesicle morphologies," "kinetically stabilized states") without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but does not provide sufficient data to support the claims. A full manuscript with quantitative results, statistical analyses, and detailed methods is required for a proper evaluation.

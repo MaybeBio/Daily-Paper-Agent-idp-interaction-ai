@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript (including Abstract, Introduction, Results, Discussion, Methods, and Supplementary Information references)
+- **Assessment boundary** Scientific claims, methodology, experimental validation, and data interpretation as presented in the provided text
+- **Shared manuscript claim summary** The authors present LLPSense, a machine learning framework that integrates protein language model embeddings with environmental parameters (e.g., temperature, pH, salt concentration) to predict condition-dependent protein phase separation. They claim that LLPSense outperforms existing sequence-only and condition-aware models, identifies previously unrecognized phase-separating proteins (e.g., SGTA), predicts mutational effects on α-synuclein phase behavior, and enables reprogramming of UBQLN4 from LCST to UCST behavior.
+- **Visible evidence base** Abstract, Introduction, Results (including Figures 1–6 and Supplementary Figures 1–23), Discussion, Methods, and Supplementary Information references
+- **Missing materials affecting confidence** Source data files, Supplementary Data files (1–3), and Supplementary Notes are referenced but not provided; code and trained model weights are not available for independent verification; raw experimental images beyond representative fields are not shown; full dataset for LLPSense training (curated from LLPSDB v2) is not provided in the manuscript.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and ambitious framework for predicting condition-dependent protein phase separation, addressing a critical gap in the field. The integration of protein language model embeddings with environmental parameters is conceptually sound, and the experimental validations—particularly for SGTA, α-synuclein mutants, and UBQLN4 reprogramming—are impressive in scope. However, several technical concerns undermine the strength of the claims, including potential data leakage in the training set, insufficient benchmarking against state-of-the-art methods, and lack of clarity on model generalizability. The manuscript would benefit from addressing these issues to establish the case for LLPSense as a robust tool.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates, phase separation, and machine learning for protein biophysics will find this work highly relevant. The condition-aware prediction capability and the demonstration of mutational engineering for phase behavior modulation are of particular interest for understanding disease mechanisms (e.g., neurodegeneration) and for synthetic biology applications. The proteome-wide analysis also provides a resource for the community.
+- **Major strengths** 1. Addresses a significant limitation of existing sequence-only predictors by incorporating environmental parameters, enabling condition-aware predictions. 2. Comprehensive experimental validation across multiple proteins (SGTA, α-synuclein, UBQLN4, LAF-SUMO) with diverse phase behaviors, including reentrant and LCST/UCST regimes. 3. Demonstrates a novel application of model-guided mutagenesis to reprogram phase behavior (UBQLN4 LCST-to-UCST), which is a proof-of-concept for programmable condensate design. 4. Proteome-wide analysis provides insights into physicochemical dependencies of phase separation.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Data integrity and model validation
+    - **Claim pointer** "LLPSense accurately predicts condition-dependent protein phase behavior" and "LLPSense demonstrated robust predictive performance, achieving an average AUROC of 0.77 and an AUPRC of 0.74" (Results, paragraph 2).
+    - **Evidence pointer** Figure 1f–h; Methods: Dataset preparation and model training
+    - **Concern** The training dataset for LLPSense is curated from LLPSDB v2, which includes entries for α-synuclein (as acknowledged in the text: "even with the target protein included in its training"). This raises a critical concern about data leakage: the model is evaluated on α-synuclein mutants, but the wild-type α-synuclein sequence and its condition-dependent data are likely present in the training set. The authors acknowledge this ("The absolute probability for the WT sequence (0.204) may be subject to moderate overestimation due to its inclusion in the training set") but do not provide a clear analysis of how this affects the mutational predictions. For example, the model's ability to rank mutants (e.g., E28M > WT) could be biased if the training data includes similar sequences or conditions. The cluster-based cross-validation (MMseqs2 at 20% identity) may not fully exclude homologous sequences, especially for well-studied proteins like α-synuclein. The authors should perform a leave-one-protein-out validation for α-synuclein and other key test proteins to assess true generalization.
+    - **Why it matters** If the model's performance on α-synuclein mutants is inflated due to data leakage, the claims of "single-residue resolution" and "bidirectional prediction" are not robustly supported. This undermines the core utility of LLPSense for disease-associated mutation analysis.
+    - **Resolution test** Perform a leave-one-protein-out cross-validation where all entries for α-synuclein (and other test proteins) are excluded from the training set. Report AUROC/AUPRC for the condition-dependent task on these held-out proteins. Alternatively, provide a clear list of all proteins in the training set and demonstrate that α-synuclein and its close homologs (e.g., β-synuclein) are not present.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Benchmarking and comparison
+    - **Claim pointer** "This performance significantly surpasses the AUROC value reported for Droppler (0.64)" and "LLPSense continued to exhibit superior predictive accuracy" (Results, paragraph 2).
+    - **Evidence pointer** Figure 1f; Supplementary Figure 1
+    - **Concern** The comparison with Droppler is incomplete and potentially unfair. The authors compare LLPSense (trained on their curated dataset) with Droppler's reported AUROC of 0.64, but Droppler was trained on a different, likely smaller dataset. The authors also retrained Droppler on their dataset ("Droppler+ProtT5"), but the architecture of this retrained model is not clearly described. Was the original Droppler neural network architecture used, or was it modified? The disentanglement experiment (Supplementary Figure 2) shows that ProtT5 embeddings improve Droppler's performance, but the final LLPSense still outperforms. However, the authors do not compare with other condition-aware methods (e.g., catGRANULE 2.0, which is mentioned only for α-synuclein mutants) or with simpler baselines (e.g., logistic regression on the same features). Without a comprehensive benchmark, the claim of "superior predictive accuracy" is not fully substantiated.
+    - **Why it matters** The field needs clear evidence that LLPSense is a significant advance over existing tools. Incomplete benchmarking risks overstating the model's novelty and utility.
+    - **Resolution test** 1. Provide a detailed description of the retrained Droppler model (architecture, hyperparameters, training procedure). 2. Compare LLPSense with at least one additional condition-aware method (e.g., catGRANULE 2.0) on the same test set. 3. Include a simple baseline (e.g., logistic regression on ProtT5 embeddings + condition variables) to demonstrate the benefit of the XGBoost architecture.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Experimental validation and reproducibility
+    - **Claim pointer** "LLPSense accurately predicts mutations in Parkinson's disease-associated α-synuclein that either enhance or suppress phase separation" and "LLPSense-guided mutations reprogram UBQLN4 from LCST to UCST phase behavior" (Abstract; Results).
+    - **Evidence pointer** Figures 4–6; Methods: Turbidity assays and microscopy
+    - **Concern** The experimental validation, while extensive, has several limitations that affect the strength of the claims. 1. For α-synuclein mutants, turbidity measurements are performed under a limited set of conditions (nine combinations of PEG8k and protein concentration). The authors do not test whether the predicted mutational effects are consistent across other environmental parameters (e.g., temperature, salt). 2. For UBQLN4 reprogramming, the final variant (UBQLN4-UCST) contains 30 mutations, and the authors do not assess whether these mutations affect protein stability, folding, or function. The microscopy images (Supplementary Figure 14b) show "percolated clusters," which may indicate aggregation rather than liquid-liquid phase separation. 3. The authors do not provide quantitative droplet metrics (e.g., size distribution, number density, fusion events) for any of the experimental systems, relying primarily on turbidity (A350) as a proxy for phase separation. Turbidity can be influenced by aggregation, precipitation, or gelation, which are not equivalent to LLPS.
+    - **Why it matters** The claims of "modulating phase behavior" and "programmable condensate design" require rigorous evidence that the observed phenomena are indeed liquid-liquid phase separation, not aggregation or gelation. Without quantitative characterization, the biological relevance of the findings is unclear.
+    - **Resolution test** 1. For α-synuclein mutants, perform turbidity or microscopy under at least one additional condition (e.g., varying temperature or salt) to confirm that the predicted rank order holds. 2. For UBQLN4-UCST, provide evidence of liquid-like behavior (e.g., droplet fusion, fluorescence recovery after photobleaching (FRAP), or rheological measurements). 3. Report quantitative droplet metrics (e.g., mean droplet size, number of droplets per field) for key experiments (SGTA, α-synuclein, UBQLN4).
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Model interpretability and feature importance
+    - **Claim pointer** "LLPSense accurately predicts condition-dependent protein phase behavior" and "Proteome-wide analysis of physicochemical dependencies" (Results).
+    - **Evidence pointer** Supplementary Figures 16, 17, 20, 23
+    - **Concern** The model uses 13 condition variables concatenated with 1024-dimensional ProtT5 embeddings. The authors perform SHAP analysis (Supplementary Figure 23) and UMAP projections (Supplementary Figure 20), but these analyses are superficial. For example, the SHAP analysis does not show which condition variables are most important for prediction, nor does it reveal how the model integrates sequence and condition information. The claim that the model "recapitulates the underlying physicochemical rules" (Discussion) is based on correlative analyses (e.g., salt sensitivity vs. FCR), but these do not demonstrate that the model has learned causal relationships. Without a deeper understanding of feature importance, it is difficult to assess whether the model is robust or overfits to spurious correlations in the training data.
+    - **Why it matters** For a model intended for biological discovery (e.g., identifying disease mutations), interpretability is crucial. Users need to trust that predictions are based on meaningful physicochemical principles, not artifacts of the training data.
+    - **Resolution test** 1. Provide a SHAP summary plot showing the top 10–20 features (including condition variables and sequence embedding dimensions) that contribute most to predictions. 2. Perform ablation studies where individual condition variables are removed to assess their impact on model performance. 3. Test the model on synthetic or perturbed data (e.g., scrambled sequences, randomized conditions) to confirm that predictions degrade as expected.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Figure 2c
+    - **Evidence pointer** Figure 2c
+    - **Issue** The predicted temperature profile for SGTA (Figure 2c) shows a "reentrant phase behavior," but the y-axis label is "Probability" without specifying the condition (e.g., protein concentration, PEG concentration). The text mentions "under physiological conditions (100 µM protein concentration, pH 7.3, and 160 mM NaCl)," but this is not stated in the figure legend.
+    - **Required correction** Add the specific conditions (protein concentration, pH, NaCl, crowding agent) to the figure legend for Figure 2c. Consider adding a second y-axis or a table to clarify the conditions for each panel.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Data availability
+    - **Affected element** Data Availability statement
+    - **Evidence pointer** Methods: "All curated datasets and preprocessing scripts used in this study are publicly available"
+    - **Issue** The manuscript states that datasets and scripts are publicly available, but no repository link or accession number is provided in the main text. The URL in the abstract (https://pubmed.ncbi.nlm.nih.gov/42669678/) is a PubMed ID, not a data repository.
+    - **Required correction** Provide a clear data availability statement with a link to a public repository (e.g., GitHub, Zenodo, Figshare) containing the curated dataset, preprocessing scripts, and trained model weights.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Statistical reporting
+    - **Affected element** Figure 5b
+    - **Evidence pointer** Figure 5b
+    - **Issue** The statistical test for Figure 5b is a two-sided Wilcoxon rank-sum test, but the sample sizes are large (n=2660), and the p-value (3.76 × 10^-91) is extremely small. The authors should report effect size (e.g., Cohen's d) or a measure of practical significance, as the p-value is likely inflated by the large sample size.
+    - **Required correction** Report effect size (e.g., Cohen's d or rank-biserial correlation) alongside the p-value. Alternatively, use a visualization that better conveys the distribution differences (e.g., cumulative distribution functions).
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Technical detail
+    - **Affected element** Methods: Sampling of experimental condition data
+    - **Evidence pointer** Methods: "If the resulting combinatorial expansion exceeded a predefined limit (n > 100), a random subset of configurations was sampled."
+    - **Issue** The random subset sampling is not described in sufficient detail. The authors do not specify the random seed or whether the sampling was stratified. This could introduce bias in the training data, especially for conditions with sparse experimental data.
+    - **Required correction** Describe the random sampling procedure in detail (e.g., seed, stratification strategy). Provide a sensitivity analysis showing that the model performance is robust to different random subsets.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Presentation
+    - **Affected element** Figure 6d
+    - **Evidence pointer** Figure 6d
+    - **Issue** The schematic in Figure 6d is difficult to interpret. The "top 10 mutations" are selected per iteration, but the bottom plots show "the simultaneous introduction of the top 10 mutations." It is unclear whether the mutations are additive or if each round starts from the wild-type sequence.
+    - **Required correction** Clarify the mutagenesis strategy in the figure legend. Indicate whether mutations are cumulative (i.e., round 2 builds on round 1) or independent. Add a step-by-step workflow in the main text or a supplementary figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (data leakage), R1-M2 (incomplete benchmarking), R1-M3 (experimental validation rigor)
+- **Assessment against Nature-style criteria** 
+    - **Originality** High. The integration of protein language model embeddings with environmental parameters for condition-aware phase separation prediction is novel. The demonstration of model-guided reprogramming of phase behavior (LCST to UCST) is particularly innovative.
+    - **Scientific importance** High. Condition-dependent phase separation is a fundamental biological process with implications for disease and synthetic biology. A reliable predictive tool would be of broad interest.
+    - **Interdisciplinary readership** Moderate to high. The work bridges computational biology, biophysics, and cell biology. The proteome-wide analysis and mutational scanning are accessible to a broad audience, but the machine learning details may be less so.
+    - **Technical soundness** Moderate. The experimental validation is impressive, but the concerns about data leakage, benchmarking, and experimental rigor (e.g., lack of quantitative droplet metrics) weaken the technical foundation. The model interpretability analysis is superficial.
+    - **Readability for nonspecialists** Good. The manuscript is well-written, with clear figures and a logical flow. The abstract and introduction effectively motivate the problem. However, the Methods section is dense and may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and experimental validations are promising, but the issues of data leakage, incomplete benchmarking, and experimental rigor must be addressed before the claims can be fully accepted. The authors should provide a leave-one-protein-out validation, a more comprehensive benchmark, and quantitative characterization of phase behavior (e.g., droplet fusion, FRAP) for key experiments.
+
+## Risk / unsupported claims
+- The claim that LLPSense "accurately predicts mutations in Parkinson's disease-associated α-synuclein" is not fully supported due to potential data leakage (R1-M1). The model's performance on α-synuclein mutants may be inflated.
+- The claim that LLPSense "reprograms UBQLN4 from LCST to UCST phase behavior" is not fully supported because the final variant (UBQLN4-UCST) contains 30 mutations, and the observed "percolated clusters" may indicate aggregation rather than LLPS (R1-M3). Quantitative evidence of liquid-like behavior is missing.
+- The claim that LLPSense "surpasses" Droppler is not fully supported due to incomplete benchmarking (R1-M2). The comparison is based on a retrained model with unclear architecture.
+- The claim that LLPSense "recapitulates the underlying physicochemical rules" is not supported by the provided interpretability analysis (R1-M4). The SHAP and correlation analyses are insufficient to demonstrate causal learning.

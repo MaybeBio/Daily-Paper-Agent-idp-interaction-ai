@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prediction of Intrinsically Disordered Regions That Bind RNA with DisoRDPbind. · 无序蛋白互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-idp-interaction-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-idp-interaction-ai/">无序蛋白互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-idp-interaction-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-idp-interaction-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-idp-interaction-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">7</span>
+    <div>
+      <h1>Prediction of Intrinsically Disordered Regions That Bind RNA with DisoRDPbind.</h1>
+      <div class="meta">Peng, Zhenling; Kurgan, Lukasz</div>
+      <div class="meta muted">
+        
+        <span class="journal">Methods in molecular biology (Clifton, N.J.)</span>
+        · 2026-09-02
+         · 仅摘要
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42681205/">原文</a>
+      </div>
+      <p class="one-liner">该文介绍预测RNA结合无序区域(DisoRDPbind)的工具，聚焦无序蛋白与RNA的互作预测，但方法为传统机器学习而非AI/物理模拟，且未深入互作机制建模，对本课题有参考价值但非核心方向。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">A common cellular function of intrinsically disordered regions (IDRs) is molecular binding, which covers interactions with various partner molecules, including proteins, peptides, nucleic acids, lipids, and small molecules. While there are many computational predictors of binding IDRs, relatively few target IDRs that bind RNAs. We focus on one of the first tools designed to predict RNA-binding IDRs: DisoRDPbind. DisoRDPbind is available as an easy-to-use web server at http://biomine.cs.vcu.edu/servers/DisoRDPbind/ . We describe the predictive model employed by DisoRDPbind and discuss its predictive performance and runtime, which were recently measured in the second CAID (Critical Assessment of protein Intrinsic Disorder) experiment. We highlight the small computational footprint of DisoRDPbind, which allows for large/proteome-scale predictions. We detail how to use the web server interface of DisoRDPbind and provide an example to illustrate how to read and interpret its prediction results. While DisoRDPbind does not identify RNA chaperones directly, we present a case study of an RNA chaperone, HCV core protein, to illustrate the method&#39;s utility in studying RNA chaperones.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">内在无序区域（intrinsically disordered regions, IDRs）的一个常见细胞功能是分子结合，这涵盖与多种伙伴分子的相互作用，包括蛋白质、肽、核酸、脂质和小分子。虽然存在许多用于预测结合性IDRs的计算工具，但针对结合RNA的IDRs的工具相对较少。我们聚焦于最早设计用于预测RNA结合IDRs的工具之一：DisoRDPbind。DisoRDPbind可通过易于使用的网络服务器在 http://biomine.cs.vcu.edu/servers/DisoRDPbind/ 获取。我们描述了DisoRDPbind采用的预测模型，并讨论了其预测性能和运行时间，这些指标最近在第二次CAID（Critical Assessment of protein Intrinsic Disorder）实验中进行了测量。我们强调了DisoRDPbind的小计算开销，这使得其适用于大规模/蛋白质组规模的预测。我们详细说明了如何使用DisoRDPbind的网络服务器界面，并提供了一个示例来阐释如何读取和解释其预测结果。虽然DisoRDPbind不直接识别RNA伴侣（RNA chaperones），但我们通过一个RNA伴侣——HCV核心蛋白的案例研究，展示了该方法在研究RNA伴侣中的实用性。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>: Prediction of Intrinsically Disordered Regions That Bind RNA with DisoRDPbind</li>
+<li><strong>作者与单位</strong>: Peng, Zhenling; Kurgan, Lukasz (Virginia Commonwealth University, USA)</li>
+<li><strong>期刊/预印本平台</strong>: Methods in molecular biology (Clifton, N.J.)</li>
+<li><strong>年份</strong>: 2026 (在线日期: 2026-09-02)</li>
+<li><strong>论文类型</strong>: 方法学/协议 (Methods/Protocol)</li>
+<li><strong>领域</strong>: 无序蛋白预测、RNA结合无序区、计算生物学</li>
+<li><strong>关键词</strong>: 无序蛋白(IDP)、无序区(IDR)、RNA结合、预测、DisoRDPbind、CAID实验</li>
+<li><strong>DOI/arXiv 号</strong>: 10.1007/978-1-0716-5372-2_14</li>
+<li><strong>代码、数据</strong>: 未提供（仅提供Web服务器: http://biomine.cs.vcu.edu/servers/DisoRDPbind/）</li>
+<li><strong>阅读日期</strong>: 2025-04-10</li>
+<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>: 本文是面向IDR-RNA结合预测的早期工具DisoRDPbind的方法学协议，属于「无序蛋白互作预测」子方向。它聚焦于IDR与RNA的互作，而非蛋白-蛋白互作或相分离，但提供了可迁移的预测框架和特征工程思路，尤其适用于研究RNA结合IDR在相分离/凝聚体中的潜在角色。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文介绍DisoRDPbind——一个基于序列特征和机器学习（随机森林）的Web服务器，用于预测蛋白质中与RNA结合的无序区（IDR），并在CAID实验中验证了其高效性和可扩展性，同时通过HCV核心蛋白案例展示了其在RNA伴侣研究中的应用。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>: 如何准确、高效地预测蛋白质中与RNA结合的无序区（RNA-binding IDRs）？</li>
+<li><strong>为什么重要</strong>: IDR在细胞中广泛参与分子结合，包括RNA。RNA结合IDR在转录后调控、RNA加工、病毒复制和相分离中起关键作用。现有预测工具多针对蛋白-蛋白结合IDR，缺乏专门针对RNA结合IDR的预测器。</li>
+<li><strong>现有方法为何不足</strong>: 已有预测器（如ANCHOR、MoRFpred）主要针对蛋白-肽/蛋白结合，对RNA结合IDR的覆盖不足；且缺乏大规模、标准化的基准测试。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>: Can a sequence-based machine learning model (DisoRDPbind) accurately predict RNA-binding IDRs at proteome scale with low computational cost?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>脉络来源</strong>: 经外部核验（基于领域常识和文中引用）。</li>
+<li><strong>阶段1: 无序区预测基础</strong> (2000s-2010s): 代表性方法如PONDR、IUPred、DISOPRED。优点：基于序列特征，快速。局限：主要预测无序性本身，不预测结合功能。</li>
+<li><strong>阶段2: 结合无序区预测</strong> (2010s-2020s): 代表性方法如ANCHOR（预测蛋白结合IDR）、MoRFpred（预测短线性基序）。优点：引入结合功能预测。局限：主要针对蛋白-蛋白/肽互作，对RNA结合IDR预测能力弱。</li>
+<li><strong>阶段3: RNA结合无序区预测</strong> (2020s-): 本文的DisoRDPbind是早期代表。优点：专门针对RNA结合IDR，使用随机森林和序列特征，计算高效。局限：仅预测结合能力，不预测具体RNA序列或结合模式；不直接识别RNA伴侣功能。</li>
+<li><strong>本文主张的位置</strong>: DisoRDPbind填补了RNA结合IDR预测工具的空白，作为CAID实验中的基准方法，为后续更复杂的模型（如深度学习）提供了基线。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>缺乏RNA结合IDR预测工具</td>
+<td>现有工具主要预测蛋白-蛋白结合IDR，对RNA结合IDR预测性能差</td>
+<td>历史上RNA结合IDR数据少，且RNA结合特征与蛋白结合不同</td>
+<td>引言部分指出“relatively few target IDRs that bind RNAs”</td>
+</tr>
+<tr>
+<td>预测速度与可扩展性不足</td>
+<td>许多深度学习模型计算成本高，难以用于全蛋白质组规模预测</td>
+<td>复杂模型（如深度神经网络）需要大量GPU资源和时间</td>
+<td>文中强调DisoRDPbind的“small computational footprint”和“proteome-scale predictions”</td>
+</tr>
+<tr>
+<td>预测结果解释困难</td>
+<td>用户难以理解预测输出（如分数、阈值）的生物学意义</td>
+<td>缺乏标准化的结果解读指南</td>
+<td>方法部分详细描述了如何读取和解释预测结果，并提供了案例</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>: 使用随机森林（Random Forest）分类器，基于蛋白质序列特征（如氨基酸组成、理化性质、进化信息PSSM、无序倾向性等）预测每个残基是否为RNA结合IDR。</li>
+<li><strong>核心洞察</strong>: RNA结合IDR的序列特征（如正电荷残基富集、特定氨基酸偏好）与蛋白结合IDR不同，因此需要专门训练的特征集和模型。通过整合无序性预测和RNA结合特征，可以高效识别这类区域。</li>
+<li><strong>可能的普适教训</strong> [Analysis]: 对于IDR功能预测，<strong>功能特异性特征工程</strong>（如针对RNA结合的正电荷特征）比通用无序性特征更重要。这提示在IDR介导的相分离研究中，可能需要针对特定互作类型（如RNA、蛋白、核酸）设计专用特征。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>: 蛋白质序列（FASTA格式）。</li>
+<li><strong>输出</strong>: 每个残基的RNA结合IDR预测分数（0-1）和二元分类标签（结合/非结合）。</li>
+<li><strong>模块</strong>:
+  1. <strong>特征提取</strong>: 从序列中计算多种特征，包括氨基酸组成、理化性质（如电荷、疏水性）、进化信息（PSSM）、无序倾向性（来自IUPred等）。
+  2. <strong>随机森林分类器</strong>: 基于特征预测每个残基的RNA结合概率。
+  3. <strong>后处理</strong>: 对预测分数进行平滑和阈值化，生成最终预测区域。</li>
+<li><strong>训练</strong>: 使用已知RNA结合IDR数据集（来自DisProt和PDB）训练随机森林模型。</li>
+<li><strong>工具</strong>: 随机森林（scikit-learn或类似实现）、IUPred（用于无序性特征）。</li>
+<li><strong>反馈回路</strong>: 无（静态模型，无在线学习）。</li>
+<li><strong>假设</strong>: 假设RNA结合IDR的序列特征（如正电荷残基富集）在进化上保守，且可通过序列特征捕捉。</li>
+</ul>
+<p><strong>文字流程</strong>: 用户输入蛋白质序列 → 特征提取模块计算序列特征 → 随机森林模型对每个残基打分 → 输出预测分数和区域标签 → 用户通过Web服务器查看结果。</p>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>特征提取</td>
+<td>从序列中计算RNA结合IDR相关特征</td>
+<td>提供模型所需的判别信息</td>
+<td>输入: 序列; 输出: 特征向量</td>
+<td>CAID实验验证了模型性能</td>
+<td>预期性能显著下降（特征不足）</td>
+</tr>
+<tr>
+<td>随机森林分类器</td>
+<td>基于特征预测RNA结合IDR</td>
+<td>核心预测引擎</td>
+<td>输入: 特征向量; 输出: 残基分数</td>
+<td>CAID实验验证了模型性能</td>
+<td>预期性能显著下降（无分类器）</td>
+</tr>
+<tr>
+<td>后处理（平滑/阈值）</td>
+<td>将残基分数转换为连续区域</td>
+<td>减少噪声，提供可解释的区域预测</td>
+<td>输入: 残基分数; 输出: 区域标签</td>
+<td>文中未提供消融实验</td>
+<td>预期区域预测精度下降，假阳性增加</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<p>不适用。本文为方法学协议，未提供具体数学公式。</p>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>: 来自CAID实验的基准数据集（包含已知RNA结合IDR的蛋白质）。</li>
+<li><strong>规模</strong>: 未提供具体数量（CAID实验通常包含数百个蛋白质）。</li>
+<li><strong>指标</strong>: 未提供具体指标（CAID实验常用AUC、MCC、F1等）。</li>
+<li><strong>基线</strong>: 其他RNA结合IDR预测器（如RNABindR、Pprint等，但文中未列出具体名称）。</li>
+<li><strong>预算</strong>: 未提供。</li>
+<li><strong>骨干/仪器</strong>: 未提供。</li>
+<li><strong>Oracle 输入</strong>: 已知RNA结合IDR的注释（来自DisProt、PDB）。</li>
+<li><strong>评测协议</strong>: CAID实验的标准化评测协议（独立测试集，避免训练集泄漏）。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CAID实验评测</td>
+<td>DisoRDPbind能准确预测RNA结合IDR</td>
+<td>与其他预测器在独立测试集上比较</td>
+<td>文中称“predictive performance and runtime were recently measured in the second CAID experiment”，但未给出具体数值</td>
+<td>DisoRDPbind在CAID实验中表现良好</td>
+<td>无法判断其是否优于所有其他方法（未提供具体排名或数值）</td>
+<td>方法部分</td>
+</tr>
+<tr>
+<td>计算效率测试</td>
+<td>DisoRDPbind计算高效，适合大规模预测</td>
+<td>未提供具体对比</td>
+<td>文中称“small computational footprint”</td>
+<td>支持其可扩展性</td>
+<td>无法量化其速度优势（未提供具体时间或资源消耗）</td>
+<td>方法部分</td>
+</tr>
+<tr>
+<td>HCV核心蛋白案例</td>
+<td>DisoRDPbind可用于研究RNA伴侣</td>
+<td>预测HCV核心蛋白的RNA结合IDR</td>
+<td>案例展示了预测结果</td>
+<td>支持其应用价值</td>
+<td>不直接证明预测区域是RNA伴侣（文中明确说明“does not identify RNA chaperones directly”）</td>
+<td>案例研究部分</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>: 仅预测RNA结合IDR，不预测RNA结合位点、RNA序列特异性或RNA伴侣功能。</li>
+<li><strong>Oracle/真值输入</strong>: 依赖已知RNA结合IDR注释（可能来自低分辨率实验或同源推断），存在标签噪声。</li>
+<li><strong>端到端状态</strong>: 是端到端的预测工具（序列到预测），但特征提取依赖外部工具（如IUPred）。</li>
+<li><strong>算力成本</strong>: 低（随机森林，CPU即可运行）。</li>
+<li><strong>历史数据依赖</strong>: 依赖训练数据中的已知RNA结合IDR，对新类型RNA结合IDR（如病毒蛋白）可能泛化能力有限。</li>
+<li><strong>模型依赖</strong>: 依赖随机森林，可能不如深度学习模型捕捉复杂模式。</li>
+<li><strong>最难情形</strong>: 预测与RNA弱结合或结合模式不典型的IDR（如依赖结构变化的IDR）。</li>
+<li><strong>群体/领域边界</strong>: 适用于真核和原核蛋白质，但主要基于已知数据（可能偏向模式生物）。</li>
+<li><strong>不确定性</strong>: 预测分数为概率，阈值选择影响假阳性/假阴性率。</li>
+</ul>
+<p><strong>有边界的复述</strong>: DisoRDPbind是一个基于随机森林的序列预测器，能高效预测蛋白质中与RNA结合的无序区，在CAID实验中验证了其性能，但仅适用于RNA结合IDR的识别，不涉及RNA序列特异性或RNA伴侣功能。</p>
+<h2>12 作者自认局限</h2>
+<p>在提供的材料中未发现作者明确承认的局限。</p>
+<p><strong>作者提及的相关约束</strong>（非正式局限）:
+- 文中指出“DisoRDPbind does not identify RNA chaperones directly”，表明其预测范围不覆盖RNA伴侣功能。
+- 作为方法学协议，未讨论模型在低同源性序列或新折叠蛋白上的泛化能力。</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仅使用随机森林，未尝试深度学习</td>
+<td>深度学习（如CNN、Transformer）可能捕捉更复杂的序列模式，提升预测精度</td>
+<td>深度学习在生物序列预测中已显示优势，可能改进性能</td>
+<td>在相同数据集上比较DisoRDPbind与基于深度学习的模型（如DeepRNABind）</td>
+<td>文中未提供与深度学习的对比</td>
+</tr>
+<tr>
+<td>特征依赖IUPred等外部工具</td>
+<td>预测性能受外部工具精度影响，且增加计算依赖</td>
+<td>若外部工具更新或失效，模型性能可能变化</td>
+<td>测试使用不同无序性预测器（如SPOT-Disorder）时的性能变化</td>
+<td>方法部分提到使用IUPred</td>
+</tr>
+<tr>
+<td>案例研究仅一个蛋白（HCV核心蛋白）</td>
+<td>可能无法代表所有RNA结合IDR的多样性</td>
+<td>案例研究缺乏泛化性验证</td>
+<td>在多个不同物种和功能的蛋白上测试（如核糖体蛋白、病毒蛋白）</td>
+<td>案例研究部分</td>
+</tr>
+<tr>
+<td>未提供具体性能数值（AUC、MCC等）</td>
+<td>无法独立评估模型性能，依赖CAID实验的权威性</td>
+<td>读者无法判断模型是否优于其他方法</td>
+<td>查阅CAID实验原始论文获取具体数值</td>
+<td>文中仅提及CAID实验，未提供数值</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<p><strong>Agent 提炼的知识候选</strong>:
+1. <strong>可迁移概念</strong>: <strong>功能特异性特征工程</strong>。对于IDR介导的蛋白互作预测（包括相分离），针对特定互作类型（如RNA、蛋白、核酸）设计专用特征（如正电荷密度、芳香族残基频率）比通用无序性特征更有效。可迁移到本课题：在预测IDR介导的相分离时，可设计针对多价互作（如电荷-电荷、π-π堆积）的特征。
+2. <strong>可迁移方法</strong>: <strong>随机森林 + 序列特征</strong>的轻量级预测框架。对于计算资源有限的场景（如大规模蛋白质组筛选），随机森林是高效基线。可迁移到本课题：作为相分离IDR预测的基线模型，与深度学习模型对比。
+3. <strong>可迁移实验设计</strong>: <strong>CAID实验的标准化评测协议</strong>。使用独立测试集、避免训练集泄漏、统一指标。可迁移到本课题：在评估相分离IDR预测器时，应建立类似CAID的标准化基准（如PhaSePred的评测）。
+4. <strong>可迁移思路</strong>: <strong>从结合功能到生物过程</strong>。DisoRDPbind虽不直接预测RNA伴侣，但通过预测RNA结合IDR，为研究RNA伴侣提供了起点。可迁移到本课题：预测IDR的相分离能力后，可进一步研究其在凝聚体形成中的具体角色（如作为支架或客户蛋白）。</p>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似方法</strong>: 与ANCHOR（预测蛋白结合IDR）类似，DisoRDPbind是功能特异性IDR预测器。可对比其特征集和模型设计。</li>
+<li><strong>组合方向</strong>: 将DisoRDPbind与相分离预测器（如PhaSePred、FuzDrop）结合，可研究RNA结合IDR在相分离中的双重角色（如RNA结合促进凝聚体形成）。</li>
+<li><strong>冲突</strong>: 文中强调随机森林的轻量级优势，但近期深度学习模型（如AlphaFold3、RNABinders）在RNA结合预测上可能更准确。需权衡精度与效率。</li>
+<li><strong>可迁移领域</strong>: 该框架可迁移到其他IDR-配体互作预测（如IDR-脂质、IDR-小分子），只需替换训练数据和特征。</li>
+</ul>
+<h2>16 研究想法</h2>
+<p><strong>Agent 生成的研究候选</strong>:</p>
+<ol>
+<li>
+<p><strong>名称</strong>: RNA结合IDR驱动的相分离预测模型
+   - <strong>来源局限/观察</strong>: DisoRDPbind仅预测RNA结合IDR，不预测相分离。但RNA结合IDR在相分离中常见（如FUS、TDP-43）。
+   - <strong>核心假设</strong>: RNA结合IDR的序列特征（如正电荷、RGG基序）与相分离倾向性相关。
+   - <strong>相对本文的增量</strong>: 将RNA结合IDR预测与相分离预测结合，构建多任务模型。
+   - <strong>初步方法</strong>: 使用DisoRDPbind的特征集 + 相分离相关特征（如低复杂度区、π-π堆积倾向），训练随机森林或轻量级神经网络，预测RNA结合IDR的相分离能力。
+   - <strong>验证方式</strong>: 在已知相分离蛋白（如FUS、hnRNPA1）上测试，并与PhaSePred对比。
+   - <strong>可能的失败模式</strong>: RNA结合IDR的相分离能力可能依赖RNA浓度或序列特异性，而非仅序列特征。
+   - <strong>创新状态</strong>: unverified</p>
+</li>
+<li>
+<p><strong>名称</strong>: 基于深度学习的RNA结合IDR预测器（DisoRDPbind-DL）
+   - <strong>来源局限/观察</strong>: DisoRDPbind使用随机森林，可能不如深度学习捕捉复杂模式。
+   - <strong>核心假设</strong>: 深度学习（如CNN或Transformer）能提升RNA结合IDR预测精度。
+   - <strong>相对本文的增量</strong>: 替换分类器为深度学习，并引入预训练语言模型（如ESM-2）特征。
+   - <strong>初步方法</strong>: 使用ESM-2嵌入作为输入，训练CNN或Transformer模型，在CAID数据集上训练和测试。
+   - <strong>验证方式</strong>: 与DisoRDPbind在相同测试集上比较AUC、MCC。
+   - <strong>可能的失败模式</strong>: 深度学习模型可能过拟合小数据集，且计算成本增加。
+   - <strong>创新状态</strong>: prior-art checked（已有类似工作如DeepRNABind，但针对RNA结合域而非IDR）</p>
+</li>
+<li>
+<p><strong>名称</strong>: RNA结合IDR在病毒相分离中的功能预测
+   - <strong>来源局限/观察</strong>: DisoRDPbind的案例研究（HCV核心蛋白）提示其在病毒蛋白中的应用，但未系统研究。
+   - <strong>核心假设</strong>: 病毒RNA结合IDR通过相分离促进病毒复制或免疫逃逸。
+   - <strong>相对本文的增量</strong>: 将DisoRDPbind应用于病毒蛋白质组，结合相分离预测，筛选候选蛋白。
+   - <strong>初步方法</strong>: 使用DisoRDPbind预测病毒蛋白的RNA结合IDR，再用FuzDrop预测相分离倾向，实验验证（如体外凝聚体实验）。
+   - <strong>验证方式</strong>: 在SARS-CoV-2 N蛋白、HIV-1 Gag等已知相分离病毒蛋白上验证。
+   - <strong>可能的失败模式</strong>: 病毒蛋白序列多样性高，预测泛化能力有限。
+   - <strong>创新状态</strong>: unverified</p>
+</li>
+</ol></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Abstract only</li>
+<li><strong>Assessment boundary</strong> Claims made in the abstract</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present DisoRDPbind, a web server tool for predicting intrinsically disordered regions (IDRs) that bind RNA, and describe its model, performance, runtime, and utility, including a case study on the HCV core protein.</li>
+<li><strong>Visible evidence base</strong> Abstract text only; no figures, tables, or supplementary materials provided</li>
+<li><strong>Missing materials affecting confidence</strong> Full manuscript, including methods, performance data, figures, tables, and the case study details; no access to the web server or its documentation</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> The abstract describes a potentially useful tool for predicting RNA-binding IDRs, a niche area with few existing predictors. However, the abstract lacks sufficient detail to evaluate the novelty, performance, or technical soundness of DisoRDPbind. The claims are broad and unsupported by the provided material, and the case study is mentioned but not substantiated. The abstract reads more as a protocol or user guide than a research article, which may limit its impact for a general audience.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers studying intrinsically disordered proteins, RNA biology, and RNA chaperones may find the tool useful for identifying candidate RNA-binding IDRs. The small computational footprint and web server accessibility could appeal to those performing proteome-scale analyses. However, the abstract does not demonstrate how the tool advances beyond existing methods, limiting its appeal to a broader readership.</li>
+<li><strong>Major strengths</strong> </li>
+<li>Addresses a specific and under-served prediction problem (RNA-binding IDRs).</li>
+<li>Tool is available as a web server, facilitating use by the community.</li>
+<li>Highlights computational efficiency, which is practical for large-scale studies.</li>
+<li><strong>Major Concerns</strong></li>
+<li><strong>Concern ID</strong> R1-M1
+    <strong>Severity</strong> Major
+    <strong>Blocking</strong> Yes
+    <strong>Axis</strong> Scientific importance / Technical soundness
+    <strong>Claim pointer</strong> "We describe the predictive model employed by DisoRDPbind and discuss its predictive performance and runtime, which were recently measured in the second CAID experiment."
+    <strong>Evidence pointer</strong> Abstract only; location not provided
+    <strong>Concern</strong> The abstract claims that the model's performance and runtime were measured in the CAID experiment, but no performance metrics (e.g., accuracy, precision, recall, AUC) or runtime comparisons are provided. Without these data, the reader cannot assess whether the tool is reliable or competitive.
+    <strong>Why it matters</strong> For a prediction tool, quantitative performance evaluation is essential to establish its utility and trustworthiness. The lack of such data undermines the core claim of the manuscript.
+    <strong>Resolution test</strong> Provide a summary of key performance metrics (e.g., AUC, precision, recall) from the CAID experiment, and ideally compare them to existing methods for RNA-binding IDR prediction.</li>
+<li><strong>Concern ID</strong> R1-M2
+    <strong>Severity</strong> Major
+    <strong>Blocking</strong> Yes
+    <strong>Axis</strong> Originality / Scientific importance
+    <strong>Claim pointer</strong> "We focus on one of the first tools designed to predict RNA-binding IDRs: DisoRDPbind."
+    <strong>Evidence pointer</strong> Abstract only; location not provided
+    <strong>Concern</strong> The claim that DisoRDPbind is "one of the first tools" for this task is vague and unsupported. The abstract does not cite or compare with any existing predictors, making it impossible to evaluate the novelty or relative position of this tool.
+    <strong>Why it matters</strong> Without a clear statement of what distinguishes DisoRDPbind from prior work, the manuscript's contribution to the field is unclear. This is critical for establishing scientific importance.
+    <strong>Resolution test</strong> Provide a brief comparison with existing RNA-binding IDR predictors, highlighting unique features or advantages of DisoRDPbind.</li>
+<li><strong>Concern ID</strong> R1-M3
+    <strong>Severity</strong> Major
+    <strong>Blocking</strong> Yes
+    <strong>Axis</strong> Interdisciplinary readership / Readability for nonspecialists
+    <strong>Claim pointer</strong> "We present a case study of an RNA chaperone, HCV core protein, to illustrate the method's utility in studying RNA chaperones."
+    <strong>Evidence pointer</strong> Abstract only; location not provided
+    <strong>Concern</strong> The case study is mentioned but not described. The abstract does not explain what predictions were made, how they were validated, or what insights were gained. This makes the claim of utility unsubstantiated.
+    <strong>Why it matters</strong> Case studies are a key way to demonstrate practical relevance. Without details, the reader cannot assess whether the tool is genuinely useful for studying RNA chaperones.
+    <strong>Resolution test</strong> Include a brief summary of the case study results, such as predicted RNA-binding regions in the HCV core protein and any biological interpretation.</li>
+<li><strong>Minor Comments</strong></li>
+<li><strong>Concern ID</strong> R1-m1
+    <strong>Severity</strong> Minor
+    <strong>Axis</strong> Readability for nonspecialists
+    <strong>Affected element</strong> Abstract text
+    <strong>Evidence pointer</strong> Abstract only; location not provided
+    <strong>Issue</strong> The abstract uses the acronym "IDR" without defining it in the first sentence, which may confuse readers unfamiliar with the field.
+    <strong>Required correction</strong> Define "intrinsically disordered regions (IDRs)" at first use, or ensure the full term is used before the acronym.</li>
+<li><strong>Concern ID</strong> R1-m2
+    <strong>Severity</strong> Minor
+    <strong>Axis</strong> Readability for nonspecialists
+    <strong>Affected element</strong> Abstract text
+    <strong>Evidence pointer</strong> Abstract only; location not provided
+    <strong>Issue</strong> The abstract mentions "CAID (Critical Assessment of protein Intrinsic Disorder) experiment" but does not explain what this benchmark entails or why it is relevant.
+    <strong>Required correction</strong> Briefly describe the CAID experiment (e.g., "a community-wide blind test for IDR prediction") to help readers understand the context of the performance evaluation.</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (lack of performance data), R1-M2 (lack of novelty context), R1-M3 (lack of case study details)</li>
+<li><strong>Assessment against Nature-style criteria</strong> </li>
+<li><strong>Originality</strong>: Not established. The abstract does not demonstrate how DisoRDPbind differs from or improves upon existing tools.</li>
+<li><strong>Scientific importance</strong>: Weak. The problem is relevant, but the abstract provides no evidence that the tool is accurate, novel, or impactful.</li>
+<li><strong>Interdisciplinary readership</strong>: Limited. The abstract is written as a protocol, with no broader context or implications for fields beyond computational biology.</li>
+<li><strong>Technical soundness</strong>: Not assessable. No performance data, model details, or validation are provided.</li>
+<li><strong>Readability for nonspecialists</strong>: Moderate. The abstract is clear but uses jargon without explanation, and the case study is too vague to be informative.</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The abstract lacks the quantitative and comparative data needed to support the claims of utility and novelty. A full manuscript with performance metrics, comparisons, and a detailed case study would be required for a supportive assessment.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>"One of the first tools designed to predict RNA-binding IDRs" – unsupported; no comparison with existing tools.</li>
+<li>"Predictive performance and runtime were recently measured in the second CAID experiment" – unsupported; no performance data provided.</li>
+<li>"Small computational footprint allows for large/proteome-scale predictions" – unsupported; no runtime or scalability data.</li>
+<li>"Case study of an RNA chaperone, HCV core protein, to illustrate the method's utility" – unsupported; no results or interpretation given.</li>
+</ul></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>

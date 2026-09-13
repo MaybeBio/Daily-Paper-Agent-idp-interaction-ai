@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.01.748708",
+  "title": "Beyond Equilibrium Ensembles: Time Rescaling in Coarse-Grained Simulations across Single-Molecule and Condensate Regimes",
+  "authors": "Gopi S; Qin H; Best RB; Schuler B",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-02",
+  "window": {
+    "start": "2026-08-30",
+    "end": "2026-09-12"
+  },
+  "score": 9,
+  "one_liner_zh": "该文使用残基级粗粒化模拟研究无序蛋白prothymosin α与阳离子伴侣形成的凝聚体，聚焦平衡与非平衡动力学的时间尺度重标，揭示了PPI对摩擦效应的影响，直接关联无序蛋白介导的相分离PPI机制建模。",
+  "abstract": "<h4>ABSTRACT</h4> Residue-level coarse-grained simulations provide a powerful route for modeling biomolecular condensates over length and time scales that are difficult to access with atomistic molecular dynamics. Coarse-grained models have been shown to reproduce many aspects of equilibrium phase behavior. However, it remains unclear to what extent such models can reproduce the relative timescales of molecular dynamics. Here, we examine this question for complex coacervates with markedly different dynamics, formed by the highly acidic intrinsically disordered protein prothymosin α with four cationic partners: linker histone H1, protamine, polylysine, and polyarginine. Coexistence simulations using a residue-level coarse-grained model reproduce key equilibrium observables from experiments, including dense-phase concentrations, ionic-strength-dependent phase behavior, and chain dimensions in the dense and dilute phases. Dynamics are accelerated in these simulations, but a composition-specific time-rescaling factor captures the ionic-strength dependence of chain reconfiguration times within a given complex coacervate. In contrast, time rescaling is not transferable between dense and dilute phases or across condensate compositions and can depend on the chosen observable. These results show that agreement with measured equilibrium observables does not imply a universally transferable timescale for conformational dynamics in residue-level coarse-grained simulations. However, we find that the required time rescaling strongly correlates with the interaction energy of the protein chains, suggesting that the missing frictional effects arise from protein-protein interactions rather than solely from protein-solvent interactions, reminiscent of internal friction. Our findings highlight the need to combine thermodynamic validation with kinetic calibration when interpreting chain relaxation, molecular diffusion, and material properties from residue-level coarse-grained simulations of biomolecular condensates.",
+  "abstract_zh": "<h4>摘要</h4> 残基层级粗粒化模拟为在原子分子动力学 (atomistic molecular dynamics) 难以触及的长度和时间尺度上模拟生物分子凝聚体提供了强大途径。粗粒化模型已被证明能够再现平衡相行为的许多方面。然而，这类模型能在多大程度上再现分子动力学的相对时间尺度仍不清楚。在此，我们针对由高度酸性的固有无序蛋白 prothymosin α 与四种阳离子伴侣——连接组蛋白 H1 (linker histone H1)、鱼精蛋白 (protamine)、聚赖氨酸 (polylysine) 和聚精氨酸 (polyarginine)——形成的、具有显著不同动力学的复合凝聚体，探讨了这一问题。使用残基层级粗粒化模型进行的共存模拟再现了实验中的关键平衡观测量，包括密相浓度、离子强度依赖性相行为以及密相和稀相中的链尺寸。这些模拟中的动力学被加速，但一个特定于组成的时标重缩放因子能够捕捉给定复合凝聚体内链重构时间的离子强度依赖性。相比之下，时标重缩放无法在密相和稀相之间或跨凝聚体组成转移，并且可能依赖于所选的观测量。这些结果表明，与测量的平衡观测量一致并不意味着残基层级粗粒化模拟中构象动力学具有普遍可转移的时标。然而，我们发现所需的时标重缩放与蛋白质链的相互作用能强相关，这表明缺失的摩擦效应源于蛋白质-蛋白质相互作用，而非仅源于蛋白质-溶剂相互作用，这让人联想到内摩擦 (internal friction)。我们的发现强调了在从生物分子凝聚体的残基层级粗粒化模拟中解释链弛豫、分子扩散和材料性质时，需要将热力学验证与动力学校准相结合。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748708",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748708",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.01.748708/index.html"
+}

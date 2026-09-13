@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42680104",
+  "title": "Multicomplex Integrative Structural Modeling of a Human Histone Deacetylase Interactome.",
+  "authors": "Nde, Jules; Majila, Kartik; Zimmermann, Rosalyn C; Kempf, Cassandra; Zhang, Ying; Cesare, Joseph; Thornton, Janet L; Workman, Jerry L; Florens, Laurence; Viswanath, Shruthi; Washburn, Michael P",
+  "journal": "Molecular & cellular proteomics : MCP",
+  "published_date": "2026-09-01",
+  "window": {
+    "start": "2026-08-30",
+    "end": "2026-09-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合XL-MS与AlphaFold的整合建模，构建含HDAC1 CTD无序区域的NuRD等复合物结构，揭示IDR折叠为α螺旋并参与PPI组装，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Histone Deacetylase (HDAC) 1 and 2 are key enzymatic components in multiple large chromatin remodeling complexes including NuRD, SIN3, and CoREST. In addition, both HDAC 1 and 2 contain a large intrinsically disordered region (IDR) within their C-terminal domain (CTD). How HDAC1/2 assemble into these complexes and the structure of the CTD IDR remains poorly understood. Here, we used HDAC1/2 to isolate their protein interaction networks from cells and used crosslinking mass spectrometry (XL-MS) coupled with the Integrative Modeling Platform to build structural models of the NuRD, SIN3A, and CoREST complexes. Next, we implemented an AlphaFold-enabled XL-MS constrained modeling approach to investigate how HDAC1 could assemble into these complexes. We show that the CTD IDR of HDAC1 folds into alpha helices in these complexes. Finally, we built a complete integrative structural model of a NuRD subcomplex including the abundant HDAC1:MBD3:MTA1:GATAD2B:RBBP4 subunits, which included 6 IDRs. The approaches used herein are broadly applicable for the study of protein complexes and protein interaction networks that can provide important insights into IDRs.",
+  "abstract_zh": "组蛋白去乙酰化酶（HDAC）1和2是多个大型染色质重塑复合物（包括NuRD、SIN3和CoREST）中的关键酶组分。此外，HDAC1和2在其C端结构域（CTD）内均含有一个大的固有无序区域（IDR）。HDAC1/2如何组装成这些复合物以及CTD IDR的结构仍知之甚少。在此，我们利用HDAC1/2从细胞中分离其蛋白质相互作用网络，并结合交联质谱（XL-MS）与整合建模平台构建了NuRD、SIN3A和CoREST复合物的结构模型。接下来，我们采用了一种AlphaFold增强的XL-MS约束建模方法，以研究HDAC1如何组装到这些复合物中。我们表明，HDAC1的CTD IDR在这些复合物中折叠成α螺旋。最后，我们构建了一个NuRD亚复合物的完整整合结构模型，包括丰富的HDAC1:MBD3:MTA1:GATAD2B:RBBP4亚基，其中包含6个IDR。本文所采用的方法广泛适用于蛋白质复合物和蛋白质相互作用网络的研究，可为IDR提供重要见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42680104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42680104/",
+  "paper_page_path": "papers/pubmed/42680104/index.html"
+}
