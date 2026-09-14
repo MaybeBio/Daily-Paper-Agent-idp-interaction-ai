@@ -155,7 +155,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/11 05:36",
-    "fetched_at": "2026-09-13 05:43:50"
+    "fetched_at": "2026-09-14 15:56:33"
   },
   "links": {
     "cites": [],
@@ -216,8 +216,8 @@
       "15187081",
       "12215545",
       "10601285",
-      "25138215",
       "9430642",
+      "25138215",
       "20444884",
       "10428842",
       "24953769",
@@ -271,9 +271,26 @@
       "12511601",
       "24055275"
     ],
-    "pmc": [],
+    "pmc": [
+      "13562826"
+    ],
     "entrez": {},
-    "external": [],
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cbic.202500967",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
     "text_mined": []
   }
 }

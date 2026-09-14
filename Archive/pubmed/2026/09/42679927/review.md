@@ -1,83 +1,99 @@
 ## Review setup
-- **Input scope** Full manuscript (text only, no figures or tables provided)
-- **Assessment boundary** Theoretical framework and mathematical modeling presented in the manuscript
-- **Shared manuscript claim summary** The authors propose the Epichaperome Matrix Theory, a systems-level model in which epichaperomes function as dynamic, nonequilibrium biomolecular matrices with emergent transport-regulatory properties, and extend this to the Transcellular Epichaperome Continuum Hypothesis, suggesting multiscale organizational networks spanning cells, tissues, and organ systems.
-- **Visible evidence base** Text describing the theoretical framework, mathematical principles invoked, and qualitative predictions; no experimental data, simulations, or quantitative results are provided.
-- **Missing materials affecting confidence** No figures, tables, equations, simulation results, experimental validation, or quantitative predictions are included. The manuscript appears to be a purely conceptual proposal without any computational or empirical support.
+- **Input scope** Abstract only
+- **Assessment boundary** Conceptual and mathematical claims presented in the abstract; no methods, derivations, or experimental data were available for evaluation
+- **Shared manuscript claim summary** The authors propose the Epichaperome Matrix Theory, a systems-level framework describing epichaperomes as nonequilibrium biomolecular matrices with emergent transport-regulatory properties. The theory integrates multiple biophysical formalisms to model electrostatic landscapes, molecular flux, and signaling efficiency. A Transcellular Epichaperome Continuum Hypothesis extends the framework to intercellular and tissue-level organization. The authors acknowledge the theory is speculative and lacks direct experimental validation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, derivations, or experimental results were provided
+- **Missing materials affecting confidence** Full manuscript, mathematical derivations, model assumptions, parameter definitions, simulation or analytical results, any empirical data, and all figures and tables
 
 ## Reviewer
-- **Overall assessment** This manuscript presents an ambitious theoretical framework that attempts to integrate multiple biophysical and systems biology concepts to describe epichaperome function. While the scope is broad and the conceptual synthesis is interesting, the manuscript in its current form is a qualitative proposal without any mathematical implementation, computational modeling, or experimental validation. The claims are speculative and the evidence base is insufficient to establish the proposed theory as a testable scientific framework.
-- **Who would be interested in the results, and why** Researchers in chaperone biology, stress response, and protein homeostasis may find the conceptual framework thought-provoking as a potential new way to think about epichaperome organization. Biophysicists and systems biologists interested in active matter and nonequilibrium systems might also be intrigued by the proposed integration of theories. However, the lack of quantitative predictions or testable models limits the immediate utility for experimentalists.
-- **Major strengths** The manuscript attempts to bridge multiple disciplines (electrostatics, transport theory, active matter, percolation theory, graph theory, condensate thermodynamics) to provide a unified view of epichaperome function. The extension to transcellular and intercellular scales is novel and could inspire new experimental directions. The authors explicitly acknowledge the speculative nature of the theory and identify testable predictions.
-- **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Technical soundness
-    - **Claim pointer** The manuscript claims to develop a "mathematical description" of epichaperome function by integrating Poisson-Boltzmann electrostatics, Nernst-Planck transport theory, active matter physics, percolation theory, graph theory, biomolecular condensate thermodynamics, and porous hydrogel transport models.
-    - **Evidence pointer** Section "RESULTS", location not provided
-    - **Concern** No equations, parameters, boundary conditions, or any mathematical formalism are presented. The manuscript merely lists the names of theoretical frameworks without showing how they are integrated, what assumptions are made, or what predictions emerge. Without any mathematical implementation, the claim of a "mathematical description" is unsupported.
-    - **Why it matters** A theory that claims to be mathematical must provide the actual mathematics. Without equations, the framework remains a verbal analogy, not a testable model. This is a fundamental technical failing that prevents evaluation of the theory's internal consistency, predictive power, or falsifiability.
-    - **Resolution test** Provide the full mathematical formulation, including governing equations, parameter definitions, boundary conditions, and any simplifying assumptions. Show how the different theoretical components are coupled and what specific predictions emerge from the model.
+- **Overall assessment** The abstract presents an ambitious theoretical synthesis that connects epichaperome biology to multiple branches of biophysics and systems science. The conceptual ambition is notable, and the authors are transparent about the speculative nature of the framework. However, the abstract provides no mathematical details, no derivations, no model specifications, and no validation of any kind. The core claims about emergent transport properties, percolating networks, and electrostatic coupling domains are asserted rather than demonstrated. As presented, the work is a proposal for a theory rather than a theory with supporting evidence. The scientific value cannot be assessed beyond the conceptual level from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chaperone biology, proteostasis, stress response, and systems biology may find the conceptual framework stimulating as a source of hypotheses. Biophysicists and mathematical biologists working on active matter, electrostatic models of cellular organization, or percolation theory in biological systems may be interested in the proposed integration of formalisms. However, the lack of concrete mathematical results limits the immediate utility for these communities.
+- **Major strengths** The abstract identifies a genuine gap in epichaperome research, namely the potential physical and organizational roles beyond protein interaction networks. The integration of multiple biophysical frameworks is intellectually ambitious and could generate novel hypotheses. The authors are appropriately cautious in stating the speculative nature of the work and explicitly list testable predictions, which is commendable for a theoretical proposal.
+- **Major Concerns** 
+  - R1-M1
+  - R1-M2
+  - R1-M3
+  - R1-M4
+- **Minor Comments** 
+  - R1-m1
+  - R1-m2
+  - R1-m3
+- **Technical failings that need to be addressed before the case is established** The absence of any mathematical formulation, model specification, or analytical results means the central claims of the theory cannot be evaluated. The abstract asserts that mathematical analysis predicts certain emergent behaviors, but no analysis is shown. The connection between the listed biophysical principles and the claimed outcomes is not demonstrated. The Transcellular Epichaperome Continuum Hypothesis is presented without any mechanistic basis or supporting evidence.
+- **Assessment against Nature-style criteria** Originality: The conceptual framing appears original in its specific integration of epichaperomes with active matter and electrostatic transport theory, though the individual components are established fields. Scientific importance: Potentially high if the framework generates testable predictions and stimulates empirical work, but currently unsubstantiated. Interdisciplinary readership: The abstract is written to appeal across biology, biophysics, and systems science, but the lack of concrete results limits cross-disciplinary engagement. Technical soundness: Cannot be assessed from the abstract alone; no derivations, equations, or model details are provided. Readability for nonspecialists: The abstract is dense with jargon from multiple fields and would be challenging for a general scientific audience; the conceptual narrative is clear but the technical vocabulary is heavy.
+- **Recommendation posture** Currently not established from the provided evidence. The proposal is intellectually interesting, but the abstract alone does not provide sufficient material to evaluate whether the theory has mathematical coherence, predictive power, or biological relevance. A full manuscript with derivations, model specifications, and at least illustrative analytical or numerical results would be required to assess the case.
 
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Scientific importance / evidence
-    - **Claim pointer** The manuscript claims that "mathematical analysis predicts the emergence of percolating transport networks, electrostatic coupling domains, synchronized conformational dynamics, and stress-responsive communication pathways when epichaperome connectivity exceeds critical thresholds."
-    - **Evidence pointer** Section "RESULTS", location not provided
-    - **Concern** No analysis, simulations, or quantitative results are presented to support these predictions. The manuscript does not specify what "critical thresholds" are, how they are calculated, or what parameter values would be required. The predictions are stated as if derived from the model, but no evidence of any analysis is provided.
-    - **Why it matters** Predictions are the core of a scientific theory. Without showing how these predictions are derived from the model, they are merely speculative statements. This undermines the scientific value of the framework and prevents experimental testing.
-    - **Resolution test** Provide the mathematical analysis that leads to these predictions, including any phase diagrams, bifurcation analyses, or simulation results. Specify the critical threshold values and the parameter ranges over which the predictions hold.
+### Major Concerns
 
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Originality / evidence
-    - **Claim pointer** The Transcellular Epichaperome Continuum Hypothesis proposes that intracellular epichaperomes are functionally coupled to plasma membrane-associated and extracellular epichaperome assemblies, forming a multiscale organizational network.
-    - **Evidence pointer** Section "RESULTS", location not provided
-    - **Concern** No evidence is provided for the existence of membrane-associated or extracellular epichaperome assemblies. The manuscript does not cite any experimental data showing that epichaperomes exist outside the intracellular space or that they are functionally coupled across cellular boundaries. The hypothesis is presented without any supporting observations or literature.
-    - **Why it matters** Extending the theory to transcellular scales without any empirical basis makes the framework highly speculative. For a theory to be taken seriously, it should be grounded in at least some experimental observations or well-established precedents. The current presentation risks being unfalsifiable.
-    - **Resolution test** Provide experimental evidence or strong circumstantial evidence (e.g., from published literature) for the existence of membrane-associated or extracellular epichaperome assemblies. Alternatively, clearly state that this is a purely speculative extension and discuss how it could be tested.
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** The abstract claims that a mathematical description is developed in which epichaperomes function as adaptive organizational scaffolds capable of influencing molecular flux, signaling efficiency, and spatial coordination.
+- **Evidence pointer** Abstract, Results section; location not provided
+- **Concern** No mathematical formulation is presented. The abstract lists several theoretical frameworks (Poisson-Boltzmann electrostatics, Nernst-Planck transport, active matter physics, percolation theory, graph theory, condensate thermodynamics, porous hydrogel models) but provides no equations, no model structure, no parameter definitions, and no indication of how these frameworks are integrated. The claim that a mathematical description is developed cannot be verified.
+- **Why it matters** The central contribution of the paper is presented as a mathematical theory. Without any mathematical content, the reader cannot assess whether the integration is coherent, whether the models are well-posed, or whether the predictions follow from the assumptions. The claim of a developed mathematical description is unsupported.
+- **Resolution test** Provide the full mathematical model in the manuscript, including governing equations, boundary conditions, parameter definitions, and a clear statement of how the listed frameworks are combined. The derivations should be complete enough for an independent researcher to reproduce the results.
 
-- **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Readability for nonspecialists
-    - **Affected element** Abstract and Introduction
-    - **Evidence pointer** Location not provided
-    - **Issue** The manuscript uses highly specialized terminology from multiple fields (e.g., Poisson-Boltzmann electrostatics, Nernst-Planck transport, percolation theory, active matter physics) without defining these terms or explaining their relevance to a general biological audience.
-    - **Required correction** Provide brief definitions or explanations of key theoretical concepts when they are first introduced, or include a glossary. This would make the manuscript accessible to the broader readership of Cell Stress & Chaperones.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Evidence quality
+- **Claim pointer** The abstract states that mathematical analysis predicts the emergence of percolating transport networks, electrostatic coupling domains, synchronized conformational dynamics, and stress-responsive communication pathways when epichaperome connectivity exceeds critical thresholds.
+- **Evidence pointer** Abstract, Results section; location not provided
+- **Concern** The abstract reports predictions from mathematical analysis but provides no results, no figures, no parameter regimes, and no indication of whether these predictions come from analytical derivations, numerical simulations, or heuristic arguments. The critical thresholds are mentioned but not defined or quantified.
+- **Why it matters** Predictions are the testable output of a theoretical framework. Without showing the analysis that produces these predictions, the reader cannot evaluate their robustness, their dependence on assumptions, or their empirical relevance. The claim of predicted emergent behaviors is currently an assertion.
+- **Resolution test** Present the analytical or numerical results that lead to these predictions, including the conditions under which percolation transitions occur, the nature of the electrostatic coupling domains, and the criteria for synchronized dynamics. Define the critical thresholds in terms of model parameters.
 
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Clarity of claims
-    - **Affected element** Conclusions
-    - **Evidence pointer** Location not provided
-    - **Issue** The manuscript states that the theory "remains speculative and currently lacks direct experimental validation" but then claims it "generates testable predictions." The nature of these predictions is not specified beyond vague qualitative statements.
-    - **Required correction** List at least 3-5 specific, quantitative, and falsifiable predictions that could be tested experimentally. For example, what specific electrostatic potential values are predicted? What connectivity thresholds? What transport rates?
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Conceptual coherence
+- **Claim pointer** The abstract proposes the Transcellular Epichaperome Continuum Hypothesis, stating that intracellular epichaperomes may be functionally coupled to plasma membrane-associated and extracellular epichaperome assemblies, forming a multiscale organizational network.
+- **Evidence pointer** Abstract, Results section; location not provided
+- **Concern** The extension from intracellular to transcellular organization is presented without any mechanistic justification. The abstract states that membrane-bound epichaperomes act as coupling interfaces and that secreted chaperones and extracellular vesicles contribute to intercellular connectivity, but no argument is given for why or how such coupling would arise, what physical or biochemical signals would propagate, or how the proposed mathematical framework would extend across cellular boundaries.
+- **Why it matters** The transcellular hypothesis substantially expands the scope of the theory. Without a mechanistic basis or a clear extension of the mathematical model, this hypothesis appears speculative even by the standards of the rest of the proposal. The claim of a multiscale organizational network is not supported by any analysis.
+- **Resolution test** Provide a mechanistic argument for how intracellular epichaperome states are transmitted to membrane-associated and extracellular assemblies. Specify how the mathematical framework is extended to the transcellular scale, including what quantities are coupled and through what physical or biochemical mechanisms.
 
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Completeness
-    - **Affected element** Entire manuscript
-    - **Evidence pointer** Location not provided
-    - **Issue** The manuscript lacks any figures, tables, or schematics. A theoretical framework of this complexity would benefit greatly from visual representations of the proposed matrix structure, the multiscale organization, and the predicted emergent behaviors.
-    - **Required correction** Include at least one schematic figure illustrating the proposed epichaperome matrix structure and its multiscale organization. Consider adding a figure showing predicted phase transitions or connectivity thresholds.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Empirical grounding
+- **Claim pointer** The abstract states that epichaperomes generate heterogeneous electrostatic landscapes through collective distribution of charged residues, phosphorylation-dependent charge accumulation, ATP-driven conformational dynamics, and high-order network connectivity.
+- **Evidence pointer** Abstract, Background and Results sections; location not provided
+- **Concern** The abstract presents these mechanisms as properties of epichaperomes, but no empirical evidence is cited or described. While the authors acknowledge the theory lacks direct experimental validation, the abstract does not indicate whether any of these proposed mechanisms have indirect support from existing literature on epichaperome composition, post-translational modifications, or ATP dependence.
+- **Why it matters** The plausibility of the theory depends in part on whether the proposed biophysical mechanisms are consistent with known properties of epichaperomes. Without any reference to existing empirical data, the reader cannot judge whether the model assumptions are reasonable or arbitrary.
+- **Resolution test** In the full manuscript, cite and discuss existing experimental evidence on epichaperome composition, charge properties, phosphorylation states, ATP dependence, and network connectivity. Clarify which model assumptions are empirically grounded and which are introduced de novo.
 
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The manuscript lacks any mathematical formulation, quantitative predictions, or experimental evidence. Without these, the proposed theory cannot be evaluated as a scientific framework.
+### Minor Comments
 
-- **Assessment against Nature-style criteria** 
-  - **Originality**: The conceptual synthesis is novel, but the lack of mathematical or empirical support prevents assessment of whether the ideas are truly original or merely a re-description of existing concepts in new terminology.
-  - **Scientific importance**: Potentially high if the framework can be formalized and tested, but currently unsubstantiated. The importance cannot be assessed without quantitative predictions or experimental validation.
-  - **Interdisciplinary readership**: The framework bridges multiple fields, which could attract a broad audience, but the current qualitative presentation is unlikely to engage biophysicists or mathematicians who would require formal models.
-  - **Technical soundness**: Not established. The manuscript claims mathematical development but provides no equations, simulations, or quantitative analysis. The technical foundation is absent.
-  - **Readability for nonspecialists**: Poor. The manuscript uses specialized jargon from multiple fields without explanation, making it inaccessible to most biologists.
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Readability
+- **Affected element** Abstract, Background section
+- **Evidence pointer** Abstract, Background section; location not provided
+- **Issue** The abstract uses dense, multi-disciplinary terminology without definitions or context. Terms such as "nonequilibrium biomolecular matrix," "emergent transport-regulatory properties," and "high-order network connectivity" are introduced without explanation, which will limit accessibility for readers outside the immediate field.
+- **Required correction** Define key terms at first use or provide a brief conceptual explanation of the biophysical concepts in plain language. Consider a schematic figure in the full manuscript to illustrate the proposed matrix structure and its properties.
 
-- **Recommendation posture** Currently not established from the provided evidence. The manuscript is a conceptual proposal without the mathematical, computational, or experimental support necessary to establish a scientific theory. Major revision is required, including the full mathematical formulation, quantitative predictions, and ideally some form of validation (computational or experimental). The authors should consider whether this work is better suited as a perspective or hypothesis article rather than a research paper.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Scope clarity
+- **Affected element** Abstract, Conclusions section
+- **Evidence pointer** Abstract, Conclusions section; location not provided
+- **Issue** The abstract lists testable predictions but does not specify what experimental approaches could test them. The statement that the theory generates testable predictions is vague without indicating the types of experiments or observations that would confirm or refute the framework.
+- **Required correction** In the full manuscript, provide a dedicated section on experimental predictions with specific, falsifiable statements and suggested experimental approaches, such as imaging of electrostatic landscapes, measurement of transport properties, or perturbation of specific phosphorylation sites.
+
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Terminology
+- **Affected element** Abstract, Results section
+- **Evidence pointer** Abstract, Results section; location not provided
+- **Issue** The term "Epichaperome Matrix Theory" is introduced as a named theory, but the abstract does not distinguish which components are novel theoretical contributions versus established concepts applied to a new system. The relationship between the proposed theory and existing models of cellular organization is not clarified.
+- **Required correction** In the full manuscript, include a section situating the proposed theory within existing frameworks of cellular organization, such as phase separation, membrane-less organelles, and protein interaction networks, and clearly state the novel contributions.
 
 ## Risk / unsupported claims
-- The claim of a "mathematical description" integrating multiple theoretical frameworks is unsupported, as no equations or mathematical formalism are provided.
-- The claim that "mathematical analysis predicts" specific emergent behaviors is unsupported, as no analysis is presented.
-- The Transcellular Epichaperome Continuum Hypothesis is unsupported by any evidence, experimental or theoretical.
-- All claims regarding electrostatic landscapes, percolating networks, synchronized dynamics, and stress-responsive communication pathways are unsupported in the absence of quantitative modeling or experimental data.
+- The claim that a mathematical description is developed is unsupported because no mathematics is presented in the abstract.
+- The claim that mathematical analysis predicts percolating transport networks, electrostatic coupling domains, synchronized conformational dynamics, and stress-responsive communication pathways is unsupported because no analysis or results are shown.
+- The claim that epichaperomes generate heterogeneous electrostatic landscapes through the listed mechanisms is unverifiable from the abstract alone.
+- The Transcellular Epichaperome Continuum Hypothesis is presented without mechanistic justification or any supporting analysis.
+- The claim that the framework provides a unified theoretical foundation linking stress biology, chaperone networks, systems biology, and biophysics is an assertion of scope rather than a demonstrated achievement.
+- All claims regarding emergent properties, critical thresholds, and multiscale organization are currently not assessable due to the absence of the full manuscript.

@@ -6,15 +6,15 @@
   "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
   "published_date": "2026-09-11",
   "window": {
-    "start": "2026-08-30",
-    "end": "2026-09-12"
+    "start": "2026-08-31",
+    "end": "2026-09-13"
   },
-  "score": 8,
-  "one_liner_zh": "提出一个统一框架MolDBG，通过结合位点感知表示学习，实现药物-靶标亲和力预测、结合位点识别和条件分子生成，并特别适用于包括无序蛋白在内的结构难解靶标，对无序蛋白介导的PPI机制建模有直接启发。",
+  "score": 7,
+  "one_liner_zh": "提出统一位点感知框架MolDBG，将亲和力预测、结合位点识别与条件分子生成结合，并宣称可推广至无序蛋白等动态靶标，但对象非IDP专一且互作机制建模深度有限。",
   "abstract": "Unifying drug-target affinity prediction and targeted molecular design within a single interpretable framework remains challenging. Many sequence-based affinity and design methods rely on global target representations without explicitly modeling binding regions, leading to site-level ambiguity in both screening and design. By contrast, structure-based methods require high-quality structural data and are poorly suited to dynamic targets. In this study, a new model named MolDBG is proposed as a unified site-aware framework that combines affinity prediction, binding-site identification, and affinity-conditioned molecular generation within a single architecture. With binding-site supervision, MolDBG prioritizes interaction-critical residues before learning drug-target representations, reducing false positives from misaligned binding sites and improving interpretability. MolDBG achieves competitive performance across all three tasks while enabling site-specific affinity prediction and interpretable binding-site discovery. The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins. Overall, these results demonstrate that MolDBG is a promising framework for molecular design and screening.",
-  "abstract_zh": "在单一可解释框架内统一药物-靶点亲和力预测与靶向分子设计仍具挑战。许多基于序列的亲和力与设计方法依赖全局靶点表征，未显式建模结合区域，导致筛选与设计中存在位点层面的模糊性。相比之下，基于结构的方法需要高质量结构数据，且难以适用于动态靶点。本研究提出名为MolDBG的新模型，作为一种统一的位点感知框架，在单一架构中整合了亲和力预测、结合位点识别及亲和力条件分子生成。通过结合位点监督，MolDBG在学习药物-靶点表征前优先关注相互作用关键残基，从而减少因结合位点错位导致的假阳性，并提升可解释性。MolDBG在所有三项任务中均取得具有竞争力的性能，同时实现位点特异性亲和力预测与可解释的结合位点发现。该框架可泛化至结构难以捉摸的靶点，包括隐蔽口袋与固有无序蛋白。总体而言，这些结果表明MolDBG是分子设计与筛选领域一个前景广阔的框架。",
-  "has_fulltext": false,
-  "fulltext_source": "abstract",
+  "abstract_zh": "在单一可解释框架内统一药物-靶点亲和力预测与靶向分子设计仍具挑战。许多基于序列的亲和力与设计方法依赖全局靶点表征，未显式建模结合区域，导致筛选与设计中存在位点层面的模糊性。相比之下，基于结构的方法需要高质量结构数据，且难以适用于动态靶点。本研究提出名为MolDBG的新模型，作为一种统一的位点感知框架，在单一架构中整合了亲和力预测、结合位点识别及亲和力条件分子生成。通过结合位点监督，MolDBG在学习药物-靶点表征前优先关注相互作用关键残基，从而减少因结合位点错配导致的假阳性，并提升可解释性。MolDBG在所有三项任务中均取得具有竞争力的性能，同时实现位点特异性亲和力预测与可解释的结合位点发现。该框架可泛化至结构难以捉摸的靶点，包括隐蔽口袋与固有无序蛋白。总体而言，这些结果表明MolDBG是分子设计与筛选领域一个前景广阔的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
   "fulltext_path": "fulltext.md",
   "paper_card_path": "paper-card.md",
   "review_path": "review.md",

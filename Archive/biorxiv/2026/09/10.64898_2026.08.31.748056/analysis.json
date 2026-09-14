@@ -6,15 +6,15 @@
   "journal": "bioRxiv",
   "published_date": "2026-09-03",
   "window": {
-    "start": "2026-08-30",
-    "end": "2026-09-12"
+    "start": "2026-08-31",
+    "end": "2026-09-13"
   },
   "score": 3,
   "one_liner_zh": "该文评估蛋白质语言模型嵌入对药物-靶标亲和力预测的影响，但对象为折叠蛋白与小分子药物，不涉及无序蛋白/IDR/相分离，且仅关注亲和力预测而非互作机制建模，与本课题关联度低。",
   "abstract": "Accurate identification of drug–target interactions is consequential for novel drug discovery and development. Deep learning methods for drug–target affinity (DTA) prediction have shown great promise in accelerating drug discovery and reducing development costs. Although graph neural networks have improved drug representation learning for DTA prediction tasks, many models still struggle to effectively and efficiently capture protein information, limiting overall prediction accuracy. In this work, we systematically evaluate the impact of pre-trained protein language models (PLMs) on the downstream task of predicting binding affinity between drugs and target proteins. We design multiple experiments across four different molecular representation backbones and assess the effect of incorporating PLM embeddings, comparing their performance to classical 1D convolution methods. We evaluate four families of PLMs which we integrate into PLM-GraphDTA, each built on distinct architectures and optimized for different tasks, including structure prediction, function prediction, and sequence unmasking. Additionally, we evaluate DeepGraphDTA, an architectural modification of the baseline convolution method designed to improve protein representation learning. The models are evaluated on two benchmark datasets, Davis and KIBA, using concordance index (CI) and mean squared error (MSE) as performance metrics. We further evaluate the generalization power of each model using cold-start train and test splits, and analyze the per-protein contribution to total CI. The results indicate simple architectural modifications to traditional convolution methods may be sufficient to bridge the gap to large pre-trained PLMs.",
-  "abstract_zh": "药物-靶点相互作用的准确识别对于新药发现与开发至关重要。用于药物-靶点亲和力（DTA）预测的深度学习方法在加速药物发现和降低开发成本方面显示出巨大潜力。尽管图神经网络已改善了DTA预测任务中的药物表示学习，但许多模型仍难以有效且高效地捕获蛋白质信息，从而限制了整体预测准确性。在本研究中，我们系统评估了预训练蛋白质语言模型（PLMs）对预测药物与靶点蛋白之间结合亲和力的下游任务的影响。我们设计了跨四种不同分子表示骨干网络的多个实验，并评估了整合PLM嵌入的效果，将其性能与经典一维卷积方法进行比较。我们评估了四个PLM家族，并将其整合到PLM-GraphDTA中，每个家族基于不同架构构建，并针对不同任务优化，包括结构预测、功能预测和序列掩码。此外，我们评估了DeepGraphDTA，这是基线卷积方法的一种架构修改，旨在改善蛋白质表示学习。模型在两个基准数据集Davis和KIBA上评估，使用一致性指数（CI）和均方误差（MSE）作为性能指标。我们进一步使用冷启动训练和测试分割评估每个模型的泛化能力，并分析每个蛋白质对总CI的贡献。结果表明，对传统卷积方法的简单架构修改可能足以弥合与大型预训练PLMs之间的差距。",
-  "has_fulltext": true,
-  "fulltext_source": "europepmc",
+  "abstract_zh": "药物-靶点相互作用的准确识别对于新药发现与开发至关重要。用于药物-靶点亲和力（DTA）预测的深度学习方法在加速药物发现和降低开发成本方面显示出巨大潜力。尽管图神经网络已改善了DTA预测任务中的药物表示学习，但许多模型仍难以有效且高效地捕获蛋白质信息，从而限制了整体预测准确性。在本研究中，我们系统评估了预训练蛋白质语言模型（PLMs）对预测药物与靶点蛋白之间结合亲和力的下游任务的影响。我们设计了跨四种不同分子表示骨干网络的多个实验，并评估了整合PLM嵌入的效果，将其性能与经典一维卷积方法进行比较。我们评估了四个PLM家族，将其整合到PLM-GraphDTA中，每个家族基于不同架构构建，并针对不同任务优化，包括结构预测、功能预测和序列掩蔽。此外，我们评估了DeepGraphDTA，这是基线卷积方法的一种架构修改，旨在改善蛋白质表示学习。模型在两个基准数据集Davis和KIBA上评估，使用一致性指数（CI）和均方误差（MSE）作为性能指标。我们进一步使用冷启动训练和测试分割评估每个模型的泛化能力，并分析每个蛋白质对总CI的贡献。结果表明，对传统卷积方法的简单架构修改可能足以弥合与大型预训练PLMs之间的差距。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
   "fulltext_path": "fulltext.md",
   "paper_card_path": "",
   "review_path": "",

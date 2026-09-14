@@ -1,97 +1,80 @@
 ## Review setup
-- **Input scope** Full manuscript (abstract, introduction, methods, results, discussion, conclusions, supplementary materials referenced)
-- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
-- **Shared manuscript claim summary** The authors test whether a residue-level coarse-grained (CG) model that reproduces equilibrium phase behavior of complex coacervates also preserves a transferable timescale for conformational dynamics. They find that time rescaling is not transferable between dense and dilute phases, across condensate compositions, or between different dynamical observables, and that the required rescaling correlates with the total non-bonded interaction energy of the protein chains.
-- **Visible evidence base** Abstract, Introduction, Models and Methods, Results and Discussion (Sections III.A–III.D), Conclusions, Supplementary Materials (Table S1, Figs. S1–S2)
-- **Missing materials affecting confidence** Supplementary figures S1 and S2 are referenced but not provided in the submitted material. The raw simulation trajectories, force field parameter files, and analysis scripts are not provided. Experimental data used for comparison are cited but not included.
+- **Input scope** Full manuscript (abstract and main text, including figures and tables, as provided in the bioRxiv preprint)
+- **Assessment boundary** Scientific content, methodology, data analysis, and interpretation as presented in the manuscript. No assessment of formatting, grammar, or editorial style beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors claim that residue-level coarse-grained (CG) simulations of biomolecular condensates can reproduce equilibrium properties but not dynamics with a universal time-rescaling factor. They demonstrate that a composition-specific time-rescaling factor captures the ionic-strength dependence of chain reconfiguration times within a given complex coacervate, but this factor is not transferable between phases or across condensate compositions. They further show that the required time rescaling correlates with interaction energy, suggesting missing frictional effects arise from protein-protein interactions.
+- **Visible evidence base** Full manuscript text, all figures (1-6), tables (1-2), and supplementary information (figures S1-S8, tables S1-S3) as provided in the bioRxiv preprint.
+- **Missing materials affecting confidence** No missing materials identified. The manuscript appears complete for the scope of the study.
 
 ## Reviewer
-- **Overall assessment** This manuscript presents a systematic and well-motivated investigation of the limitations of time rescaling in residue-level coarse-grained simulations of biomolecular condensates. The authors demonstrate that while the HPS CG model reproduces equilibrium properties (dense-phase concentrations, chain dimensions, FRET efficiencies) across four complex coacervate systems, the dynamical time rescaling required to match experimental reconfiguration times is system-dependent, environment-dependent, and potentially observable-dependent. The correlation between the time-rescaling factor and the total non-bonded interaction energy provides a physically plausible explanation. The work is timely and addresses an important gap in the field, as most CG condensate studies focus on equilibrium validation without critically examining dynamical fidelity. However, several technical aspects require clarification or additional analysis before the central claims can be fully established.
-- **Who would be interested in the results, and why** Researchers in computational biophysics, particularly those developing or using coarse-grained models for intrinsically disordered proteins and biomolecular condensates. The findings are also relevant to experimentalists using single-molecule FRET and fluorescence correlation spectroscopy to study condensate dynamics, as the work provides a framework for interpreting CG simulation timescales. The conceptual connection to polymer physics and generalized Langevin dynamics will interest theorists working on coarse-graining methodologies.
-- **Major strengths** 1. The study addresses a critical and underappreciated issue: whether equilibrium validation of CG models implies dynamical accuracy. 2. The experimental comparison is comprehensive, covering four condensate systems with distinct cationic partners, multiple ionic strengths, and two dynamical observables (reconfiguration time and diffusion coefficient). 3. The systematic variation of the Langevin friction coefficient over five orders of magnitude is a rigorous test of whether a single friction parameter can resolve the non-transferability. 4. The correlation between time-rescaling factors and interaction energies provides a physically interpretable, potentially predictive relationship.
-- **Major Concerns** R1-M1, R1-M2, R1-M3, R1-M4
-- **Minor Comments** R1-m1, R1-m2, R1-m3, R1-m4
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
-- **Assessment against Nature-style criteria** Originality: High. While the general idea that CG models require time rescaling is known, the systematic demonstration across multiple condensate systems and the correlation with interaction energy are novel. Scientific importance: High. The work directly challenges the common practice of applying a single global time-rescaling factor in CG condensate simulations and provides a framework for more rigorous dynamical interpretation. Interdisciplinary readership: Moderate. The manuscript is written for a specialized biophysics audience; the conceptual framework connecting to polymer physics and generalized Langevin dynamics broadens its appeal. Technical soundness: Moderate. The simulation methodology is appropriate, but several technical concerns (friction coefficient choice, diffusion analysis, dilute-phase statistics) require clarification. Readability for nonspecialists: Moderate. The introduction and conclusions are accessible, but the methods and results sections assume familiarity with CG simulation techniques and Langevin dynamics.
-- **Recommendation posture** Supportive if technical concerns are resolved
+- **Overall assessment** This manuscript addresses a critical and timely question in the field of biomolecular condensate modeling: the extent to which residue-level coarse-grained simulations can capture dynamics, beyond equilibrium properties. The study is well-designed, using a systematic set of complex coacervates formed by prothymosin α with four different cationic partners, and a combination of experimental and simulation data. The key finding—that time rescaling is not universal but correlates with interaction energy—is novel and has significant implications for the field. The manuscript is clearly written and the evidence is presented logically. However, several technical concerns regarding the robustness of the time-rescaling analysis and the interpretation of the correlation with interaction energy need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, soft matter physics, and cell biology who use or interpret coarse-grained simulations of intrinsically disordered proteins and biomolecular condensates. The results are directly relevant to anyone seeking to extract kinetic or material properties (e.g., diffusion coefficients, viscosity, relaxation times) from such simulations, as they provide a clear warning against assuming a universal time rescaling and offer a potential physical basis for the rescaling factor.
+- **Major strengths** 1. The study addresses a fundamental and practically important question that has been largely overlooked in the field. 2. The experimental system is well-chosen, with four distinct cationic partners providing a range of interaction strengths and dynamics. 3. The combination of experimental data (FRET, NMR, phase diagrams) and simulations is powerful and allows for direct validation. 4. The correlation between the time-rescaling factor and interaction energy is a compelling and physically plausible result that provides a path forward for kinetic calibration.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Methodology / Data Analysis
+    - **Claim pointer** "A composition-specific time-rescaling factor captures the ionic-strength dependence of chain reconfiguration times within a given complex coacervate."
+    - **Evidence pointer** Figure 4, Table 1
+    - **Concern** The determination of the time-rescaling factor relies on comparing simulated chain reconfiguration times (τ_r) to experimental values. The experimental τ_r values are derived from FRET measurements, which have inherent uncertainties. The manuscript does not provide a clear error analysis for the experimental τ_r values, nor does it propagate these uncertainties into the determination of the rescaling factor. Furthermore, the rescaling factor is presented as a single value for each condition, but the data in Figure 4 show significant scatter, and the fit quality appears variable across conditions.
+    - **Why it matters** The central claim of the paper rests on the existence and specificity of these time-rescaling factors. If the experimental uncertainties are large or the rescaling factors are not well-constrained, the claim that they are "composition-specific" and "capture the ionic-strength dependence" is weakened. The reader cannot assess the statistical significance of the differences between rescaling factors for different coacervates.
+    - **Resolution test** Provide a detailed error analysis for the experimental τ_r values (e.g., standard deviations or confidence intervals from bootstrapping). Propagate these errors to the rescaling factors and present them with associated uncertainties (e.g., as error bars in Figure 4 or in Table 1). Perform a statistical test (e.g., ANOVA or pairwise t-tests) to demonstrate that the rescaling factors for different coacervates are significantly different from each other, and that the ionic-strength dependence within a coacervate is significant.
 
-### Major Concerns
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretation / Causality
+    - **Claim pointer** "the required time rescaling strongly correlates with the interaction energy of the protein chains, suggesting that the missing frictional effects arise from protein-protein interactions rather than solely from protein-solvent interactions, reminiscent of internal friction."
+    - **Evidence pointer** Figure 6
+    - **Concern** The correlation shown in Figure 6 is between the time-rescaling factor and the average interaction energy per chain from the simulations. This is a correlation, not a causal relationship. The interaction energy itself is a simulation output, and it is possible that both the rescaling factor and the interaction energy are correlated with a third, unmeasured variable (e.g., chain density, water content in the condensate, or the specific nature of the cationic side chains). The interpretation that the missing friction is "reminiscent of internal friction" is speculative and not directly supported by the data. Internal friction typically refers to friction within a single polymer chain due to dihedral rotations or side-chain packing, whereas the interaction energy here is inter-chain.
+    - **Why it matters** The paper's proposed physical mechanism for the non-universal time rescaling is a key conceptual advance. If the correlation is spurious or the interpretation is incorrect, the paper's main conclusion is weakened. The field needs a clear, testable hypothesis, not just a correlation.
+    - **Resolution test** 1. Perform a partial correlation analysis to control for potential confounding variables (e.g., dense-phase concentration, chain length, or solvent accessible surface area). 2. Test the "internal friction" hypothesis more directly. For example, does the rescaling factor correlate with the number or strength of inter-chain contacts (e.g., from a contact map analysis) rather than the total interaction energy? 3. Discuss alternative interpretations, such as the role of hydrodynamic interactions (which are absent in the CG model) or the effect of the implicit solvent model on the effective viscosity.
 
-- **Concern ID** R1-M1
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Methodology / Data analysis
-- **Claim pointer** The authors claim that the time-rescaling factor for chain reconfiguration is not transferable between dense and dilute phases, across condensate compositions, and may be observable-dependent.
-- **Evidence pointer** Section III.D, Figures 4 and 5
-- **Concern** The time-rescaling factors are calculated using a single Langevin friction coefficient of γ = 0.2 ps⁻¹, which the authors acknowledge is far from the physically motivated Stokes estimate of ~30 ps⁻¹. While the authors test the dependence on γ (Figure 5), the production simulations use γ = 0.2 ps⁻¹. The choice of this specific value is justified only by common usage in the field ("to accelerate sampling and improve sampling efficiency"). The authors show that varying γ does not eliminate system-dependent differences in time rescaling, but the absolute values of the rescaling factors and their ratios depend on γ. The claim of non-transferability is robust, but the quantitative rescaling factors reported (30, 170, 300 for monomer, dimer, dense phase) are specific to this friction coefficient and may not be directly comparable to other CG studies using different γ values.
-- **Why it matters** The quantitative rescaling factors are the primary output of the dynamical analysis. If these values are artifacts of the chosen friction coefficient, their physical interpretation (e.g., the correlation with interaction energy in Figure 5f) may be compromised. The field needs guidance on whether rescaling factors from different CG studies are comparable.
-- **Resolution test** The authors should provide a clear statement that the rescaling factors are conditional on γ = 0.2 ps⁻¹. They should also show, perhaps in a supplementary figure, how the rescaling factors for all four condensates and the dilute-phase systems vary with γ, not just the H1–ProTα system shown in Figure 5d–e. This would demonstrate whether the relative ordering of rescaling factors (e.g., protamine > H1) is robust across friction coefficients.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Methodology / Generalizability
+    - **Claim pointer** "These results show that agreement with measured equilibrium observables does not imply a universally transferable timescale for conformational dynamics in residue-level coarse-grained simulations."
+    - **Evidence pointer** Figures 2, 3, 4, 5
+    - **Concern** The study is limited to a single protein (prothymosin α) and its complexes with four cationic partners. While this is a well-chosen system, it is a specific class of complex coacervates. The claim of "no universally transferable timescale" is strong and may not generalize to other types of condensates (e.g., those formed by folded domains, RNA-binding proteins with prion-like domains, or systems with different solvent conditions). The authors acknowledge this limitation in the discussion, but the abstract and title present the finding as a general principle.
+    - **Why it matters** The paper's impact and the strength of its central message depend on its generalizability. If the finding is specific to this particular system or class of coacervates, it is still valuable but less broadly significant. The current framing may overstate the generality of the conclusion.
+    - **Resolution test** 1. Explicitly state the scope of the claim in the abstract and title (e.g., "for this class of complex coacervates" or "in residue-level CG simulations of IDP-based condensates"). 2. Discuss the conditions under which the finding might or might not hold (e.g., for condensates with very different densities, or for models with explicit solvent). 3. If possible, provide preliminary data or a clear prediction for a different system (e.g., a condensate formed by a different IDP) to test the generality.
 
-- **Concern ID** R1-M2
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Data analysis / Statistical rigor
-- **Claim pointer** The authors claim that the time-rescaling factors inferred from diffusion coefficients are approximately 1.5- to 5-fold smaller than those from reconfiguration times, suggesting possible observable dependence.
-- **Evidence pointer** Section III.D, Figure S2 (not provided)
-- **Concern** The diffusion coefficient analysis is described only briefly, and the key evidence (Figure S2) is not provided in the submitted material. The authors acknowledge substantial statistical and systematic uncertainties in the diffusion estimates, including chain-to-chain variation, finite-size effects, and slab geometry artifacts. Without seeing the actual data, it is impossible to assess whether the observed discrepancy between rescaling factors from reconfiguration and diffusion is statistically significant or within the noise. The authors themselves state that "the present data do not allow us to unequivocally attribute the discrepancy to the intrinsic observable dependence." This claim is therefore currently unsupported.
-- **Why it matters** The claim of observable-dependent time rescaling is a significant finding with implications for how CG simulations should be calibrated. If this claim is not robust, the paper's conclusions should be tempered accordingly.
-- **Resolution test** Provide Figure S2 and a more detailed analysis of the diffusion coefficient uncertainties. The authors should perform a statistical test (e.g., a bootstrap or jackknife analysis across chains) to determine whether the rescaling factors from reconfiguration and diffusion are significantly different for each condensate. If the uncertainties are too large to draw conclusions, this should be stated explicitly and the claim of observable dependence should be downgraded to a speculation.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity / Presentation
+    - **Affected element** Figure 4
+    - **Evidence pointer** Figure 4
+    - **Issue** The color scheme in Figure 4 is difficult to distinguish for some readers, particularly the shades of blue and green used for different ionic strengths.
+    - **Required correction** Use a more distinct color palette (e.g., a sequential or diverging colormap) or different line styles (dashed, dotted) to differentiate the ionic strength conditions.
 
-- **Concern ID** R1-M3
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Methodology / Validation
-- **Claim pointer** The authors claim that the CG simulations reproduce experimentally measured FRET efficiencies for ProTα in the dense phase.
-- **Evidence pointer** Section III.C, Figure 3c–f
-- **Concern** The dense-phase FRET efficiencies are calculated using an implicit-dye approximation (scaling the Cα distance by a factor based on sequence separation). The authors validate this approximation with a single explicit-dye simulation for the H1–ProTα condensate at one ionic strength (Figure 3c). However, the implicit-dye approximation is used for all other dense-phase systems and ionic strengths. The validation is insufficient: (1) only one condensate composition is tested; (2) only one ionic strength is tested; (3) the agreement between implicit and explicit methods is shown as a single data point, not a statistical comparison. The implicit-dye approximation may introduce systematic errors that vary with condensate composition or ionic strength, potentially affecting the comparison with experimental FRET data.
-- **Why it matters** The FRET efficiency comparison is a key validation of the CG model's equilibrium conformational ensembles. If the implicit-dye approximation introduces systematic errors, the conclusion that the CG model reproduces experimental chain dimensions in the dense phase may be weakened.
-- **Resolution test** Perform explicit-dye simulations for at least one additional condensate (e.g., protamine–ProTα) at one ionic strength to demonstrate that the implicit approximation holds across compositions. Alternatively, provide a more rigorous justification for the scaling factor used in the implicit approximation, including error estimates from the explicit-dye simulation.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Methodology / Reporting
+    - **Affected element** Methods section
+    - **Evidence pointer** "Simulation Methods" section
+    - **Issue** The description of the coarse-grained model (e.g., force field parameters, water model, salt treatment) is somewhat brief. For reproducibility, more details are needed, particularly regarding the treatment of long-range electrostatics and the specific implementation of the implicit solvent model.
+    - **Required correction** Provide a more detailed description of the CG model, including a reference to the specific force field parameters used, the cutoff for non-bonded interactions, and the method for handling long-range electrostatics (e.g., Ewald summation or reaction field). If the model is a standard one (e.g., from a previous publication), state this explicitly and provide the key parameters in the SI.
 
-- **Concern ID** R1-M4
-- **Severity** Major
-- **Blocking** No
-- **Axis** Interpretation / Generalizability
-- **Claim pointer** The authors claim that the correlation between the time-rescaling factor and the total non-bonded interaction energy (Figure 5f) suggests that missing frictional effects arise from protein-protein interactions rather than solely from protein-solvent interactions.
-- **Evidence pointer** Section III.D, Figure 5f
-- **Concern** The correlation in Figure 5f is based on only six data points (monomer, dimer, and four condensates). The approximately linear relationship on a log-linear scale is suggestive but not statistically robust. The authors interpret this correlation within a Kramers-like barrier-crossing picture, but they acknowledge that ⟨E_int⟩ is an equilibrium interaction energy, not an activation free energy. The mechanistic link between the total interaction energy and the effective friction from missing degrees of freedom is not established. The correlation could be coincidental or driven by a third variable (e.g., chain density, which correlates with both interaction energy and dynamics).
-- **Why it matters** The correlation is presented as a key finding that provides a physical explanation for the system-dependent time rescaling. If the correlation is weak or confounded, the mechanistic interpretation is speculative.
-- **Resolution test** The authors should (1) report the correlation coefficient and p-value for the relationship in Figure 5f; (2) test whether the correlation persists when controlling for dense-phase concentration or chain density; (3) discuss alternative interpretations, such as the possibility that the correlation reflects the density-dependence of friction rather than a direct energetic effect.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Interpretation / Discussion
+    - **Affected element** Discussion section
+    - **Evidence pointer** Discussion, paragraph 3
+    - **Issue** The discussion of the practical implications for the field is somewhat brief. The authors state that "thermodynamic validation" and "kinetic calibration" are needed, but do not provide concrete guidance on how to perform such calibration in practice.
+    - **Required correction** Expand the discussion to provide more practical recommendations. For example, suggest that for a new condensate system, one should first validate equilibrium properties (e.g., phase diagram, chain dimensions) and then measure a single experimental dynamic observable (e.g., a diffusion coefficient or relaxation time) to calibrate the time rescaling. Discuss the limitations of this approach (e.g., the observable-dependence of the rescaling factor).
 
-### Minor Comments
+- **Technical failings that need to be addressed before the case is established** R1-M1 (error analysis for time-rescaling factors) is a blocking concern. R1-M2 (causality of the correlation) and R1-M3 (generalizability) are major concerns that need to be addressed to strengthen the case, but are not necessarily blocking.
 
-- **Concern ID** R1-m1
-- **Severity** Minor
-- **Axis** Clarity / Presentation
-- **Affected element** Section III.D, Figure 4a
-- **Evidence pointer** Location not provided
-- **Issue** The time-rescaling factors for monomeric ProTα (30), H1–ProTα dimer (170), and dense phase (300) are reported in the text but are not labeled directly on Figure 4a. The figure shows the reconfiguration times, not the rescaling factors.
-- **Required correction** Add the rescaling factor values to the figure or figure legend, or provide a separate panel showing the rescaling factors explicitly.
+- **Assessment against Nature-style criteria**
+    - **Originality**: High. The question of time-rescaling universality in CG simulations of condensates is novel and has not been systematically addressed before. The correlation with interaction energy is a new and potentially important finding.
+    - **Scientific importance**: High. The results have direct implications for the interpretation of a large and growing body of simulation work on biomolecular condensates. They provide a clear warning and a potential path forward for kinetic calibration.
+    - **Interdisciplinary readership**: Moderate to High. The work is of primary interest to computational biophysicists and soft matter physicists, but the conceptual message about the limits of CG models and the need for kinetic calibration is also relevant to cell biologists and experimentalists studying condensates.
+    - **Technical soundness**: Good, but with significant concerns. The simulation methodology is appropriate, and the comparison to experiments is a strength. However, the error analysis for the central claim (R1-M1) is insufficient, and the causal interpretation of the correlation (R1-M2) is not fully supported.
+    - **Readability for nonspecialists**: Good. The abstract and introduction are clear and accessible. The main text is well-structured, and the figures are generally informative. The minor comments about figure clarity and discussion depth would further improve readability.
 
-- **Concern ID** R1-m2
-- **Severity** Minor
-- **Axis** Methodology / Reporting
-- **Affected element** Section II (Models and Methods)
-- **Evidence pointer** Location not provided
-- **Issue** The method for calculating the chain reconfiguration time (τ_r) from the distance correlation function is described only by reference to equations 7-9, but these equations are not explicitly shown in the manuscript. The reader must infer the exact definition from the text.
-- **Required correction** Include the explicit equations for the distance correlation function and the fitting procedure used to extract τ_r, either in the main text or in a supplementary methods section.
-
-- **Concern ID** R1-m3
-- **Severity** Minor
-- **Axis** Data presentation
-- **Affected element** Section III.B, Figure 2
-- **Evidence pointer** Location not provided
-- **Issue** The dilute-phase concentrations are reported with large uncertainties, and the authors state that the uncertainty ranges "generally encompassed the corresponding experimental dilute-phase concentrations." However, the figure does not show the experimental dilute-phase concentrations for comparison, only the simulated values.
-- **Required correction** Add the experimental dilute-phase concentration data to Figure 2c–f, or provide a supplementary table comparing simulated and experimental values.
-
-- **Concern ID** R1-m4
-- **Severity** Minor
-- **Axis** Clarity / Terminology
-- **Affected element** Section IV (Conclusions)
-- **Evidence pointer** Location not provided
-- **Issue** The phrase "analssogous coarse-graining" appears to be a typographical error.
-- **Required correction** Correct to "analogous coarse-graining."
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important and timely question, and the core findings are likely to be robust. However, the blocking concern regarding the error analysis for the time-rescaling factors (R1-M1) must be addressed to establish the central claim. The interpretation of the correlation with interaction energy (R1-M2) also needs to be strengthened. If these concerns are satisfactorily resolved, the manuscript would be a strong contribution to the field.
 
 ## Risk / unsupported claims
-- The claim of observable-dependent time rescaling (reconfiguration vs. diffusion) is unsupported because the key evidence (Figure S2) is not provided and the authors acknowledge large uncertainties.
-- The claim that the correlation between time-rescaling factor and interaction energy (Figure 5f) implies that missing frictional effects arise from protein-protein interactions is plausible but not rigorously established; alternative interpretations (e.g., density-dependent friction) are not ruled out.
-- The claim that the CG simulations reproduce dilute-phase concentrations is weakly supported due to large statistical uncertainties; the statement that uncertainty ranges "generally encompassed" experimental values is qualitative.
+- The claim that the missing frictional effects are "reminiscent of internal friction" is not directly supported by the data and is a speculative interpretation of a correlation. The data only show a correlation with inter-chain interaction energy, not with any direct measure of intra-chain friction. This claim should be presented as a hypothesis, not a conclusion.

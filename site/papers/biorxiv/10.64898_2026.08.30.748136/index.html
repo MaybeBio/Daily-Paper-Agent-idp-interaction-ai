@@ -29,7 +29,7 @@
          · 仅摘要
          · <a href="https://www.biorxiv.org/content/10.64898/2026.08.30.748136">原文</a>
       </div>
-      <p class="one-liner">该文用蛋白质语言模型ESM-2检索AlphaFold人类蛋白质组中的结合位点，虽涉及PPI界面预测，但对象非无序蛋白/IDR，且方法侧重检索而非互作机制建模，对本课题的启发有限。</p>
+      <p class="one-liner">该文用蛋白质语言模型ESM-2检索AlphaFold人类蛋白质组中的结合位点，虽涉及PPI界面预测，但对象非无序蛋白/IDR，且方法为检索而非机制建模，仅部分相关。</p>
     </div>
   </div>
   
@@ -41,7 +41,7 @@
   
   <section>
     <h2>摘要翻译</h2>
-    <div class="md">蛋白质语言模型（Protein language models, PLMs）为蛋白质序列提供了强大的表征，但其在蛋白质组规模结合位点检索中的实用性仍不明确。在此，我们提出PocketScope，一种无需训练的框架，该框架使用冻结的ESM-C 600M嵌入表示空腔衬里残基，并通过穷举式后期交互MaxSim（无需池化或近似最近邻搜索）检索相关结合位点。PocketScope在AlphaFold人类蛋白质组中识别出37,682个蛋白质上的153,805个空腔，并在一个精选的药理学配对集合中恢复了已记录的药物脱靶效应。在ProSPECCTs基准测试中，PocketScope在十个集合的平均排名中位列23种方法中的第1名。PocketScope为蛋白质组规模的脱靶预测提供了一个实用框架。PocketScope是开源的，也可通过网站https://www.bhargavaresearch.org/pocketscope 免费获取。</div>
+    <div class="md">蛋白质语言模型 (protein language models, PLMs) 为蛋白质序列提供了强大的表征，但其在蛋白质组规模结合位点检索中的实用性仍不明确。在此，我们提出PocketScope，一个无需训练的框架，该框架使用冻结的ESM-C 600M嵌入表示空腔衬里残基，并通过穷举后期交互MaxSim检索相关结合位点，无需池化或近似最近邻搜索。PocketScope在AlphaFold人类蛋白质组中识别出37,682个蛋白质上的153,805个空腔，并在一个精选的药理学配对集合中恢复了已记录的药物脱靶效应。在ProSPECCTs基准测试中，PocketScope在十个集合的平均排名中位列23种方法中的第1名。PocketScope为蛋白质组规模的脱靶预测提供了一个实用框架。PocketScope是开源的，也可作为网络服务器免费使用，网址为https://www.bhargavaresearch.org/pocketscope。</div>
   </section>
   
   
@@ -60,292 +60,291 @@
 <li><strong>代码</strong>：未提供（但提及开源及web服务器）</li>
 <li><strong>数据</strong>：AlphaFold human proteome, ProSPECCTs benchmark</li>
 <li><strong>阅读日期</strong>：未提供</li>
-<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>：本文聚焦于<strong>有序蛋白</strong>的<strong>结合位点检索</strong>，使用<strong>蛋白语言模型（PLM）</strong> 进行无训练、全蛋白质组规模的检索。对于无序蛋白/IDP/IDR领域，其<strong>核心方法（PLM嵌入 + 晚交互MaxSim检索）</strong> 具有直接可迁移性：可用于检索IDP/IDR中的<strong>线性基序（SLiM）</strong> 或<strong>短线性结合位点</strong>，或用于识别与IDP/IDR相互作用的<strong>有序蛋白伴侣</strong>的结合口袋。但本文未涉及相分离或凝聚体。</li>
+<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>：本文不直接研究无序蛋白或相分离，但其核心方法——使用蛋白语言模型（PLM）嵌入进行无训练的结合位点检索——可迁移至无序蛋白（IDP/IDR）介导的蛋白互作研究。例如，IDP/IDR的短线性基序（SLiMs）或结合位点可通过类似方法在蛋白质组规模上检索，用于预测IDP/IDR与伴侣蛋白的互作或相分离驱动位点。本文的“无训练”和“蛋白质组规模”特性对IDP/IDR研究具有方法论借鉴意义。</li>
 </ul>
 <h2>02 一句话总结</h2>
-<p>本文提出PocketScope，一个无需训练的框架，利用冻结的ESM-C 600M蛋白语言模型嵌入和晚交互MaxSim检索，在AlphaFold人类蛋白质组中识别了153,805个结合位点，并在ProSPECCTs基准上排名第一，用于预测药物脱靶效应。</p>
+<p>本文提出PocketScope，一个无需训练、基于冻结的ESM-C 600M蛋白语言模型嵌入和晚期交互MaxSim检索的框架，在AlphaFold人类蛋白质组中识别了153,805个结合位点，并在ProSPECCTs基准上排名第一，用于蛋白质组规模的药物脱靶预测。</p>
 <h2>03 研究问题</h2>
 <ul>
-<li><strong>具体问题</strong>：如何利用蛋白语言模型（PLM）的表示，在<strong>全蛋白质组规模</strong>上高效、准确地<strong>检索相似结合位点</strong>，以预测药物的潜在脱靶效应？</li>
-<li><strong>为什么重要</strong>：药物脱靶效应是药物开发中导致毒性和失败的主要原因。全蛋白质组规模的结合位点检索可以系统性地预测脱靶，但现有方法（如基于结构比对、几何深度学习）计算成本高，难以扩展到人类蛋白质组。</li>
-<li><strong>现有方法为何不足</strong>：传统方法依赖昂贵的结构比对或需要大量标注数据训练的深度学习模型，且通常需要近似最近邻搜索，牺牲了准确性。它们难以在保持高精度的同时实现全蛋白质组覆盖。</li>
-<li><strong>精确的「Can ... ?」研究问题</strong>：Can a training-free, late-interaction retrieval framework using frozen PLM embeddings achieve state-of-the-art performance in proteome-scale binding site retrieval for off-target prediction?</li>
+<li><strong>具体问题</strong>：如何在不进行额外训练或近似搜索的情况下，利用蛋白语言模型（PLM）表示在蛋白质组规模上高效、准确地检索相似结合位点（binding sites）？</li>
+<li><strong>为什么重要</strong>：结合位点检索是药物脱靶预测、功能注释和蛋白质互作理解的关键。现有方法依赖结构比对（如TM-align）或训练模型，计算成本高或泛化性差，难以扩展到全蛋白质组。</li>
+<li><strong>现有方法为何不足</strong>：传统方法（如基于结构的比对）计算昂贵，无法处理AlphaFold蛋白质组规模；基于深度学习的方法需要大量标注数据训练，且泛化到新位点能力有限。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>：Can a training-free, PLM-based retrieval framework using late-interaction MaxSim achieve state-of-the-art binding site retrieval performance across the entire AlphaFold human proteome?</li>
 </ul>
 <h2>04 背景与发展脉络</h2>
 <ul>
-<li><strong>阶段1：基于结构比对的方法</strong>（如FrustraElmo, ProBiS）。优点：物理直观。局限：计算成本极高，无法扩展到全蛋白质组。</li>
-<li><strong>阶段2：基于几何深度学习的编码器</strong>（如EquiDock, ScanNet）。优点：能学习局部几何特征。局限：需要大量标注数据，泛化性有限，且通常需要近似最近邻搜索。</li>
-<li><strong>阶段3：基于序列/结构嵌入的检索</strong>（如本文PocketScope）。优点：利用预训练PLM的通用表示，无需训练，通过晚交互实现精确匹配，可扩展到全蛋白质组。局限：依赖AlphaFold预测结构的质量，对无序区域或高度动态的结合位点可能不适用。</li>
-<li><strong>本文主张的位置</strong>：PocketScope填补了“高精度”与“全蛋白质组规模”之间的空白，提供了一个无需训练、可直接部署的检索框架。</li>
-<li><strong>脉络来源</strong>：经外部核验（基于对领域内常见方法的了解）。</li>
+<li><strong>阶段1：基于结构的结合位点比对</strong>（如TM-align, SiteAlign）。优点：直接利用3D结构信息。局限：计算成本高，无法处理大规模蛋白质组；对结构噪声敏感。</li>
+<li><strong>阶段2：基于序列或进化信息的预测</strong>（如PocketFinder, Fpocket）。优点：速度快。局限：精度有限，无法捕捉结构上下文。</li>
+<li><strong>阶段3：基于深度学习的表示学习</strong>（如DeepSite, 3D-CNN）。优点：自动学习特征。局限：需要大量标注数据，泛化性差，计算资源需求高。</li>
+<li><strong>阶段4：蛋白语言模型（PLM）与检索范式</strong>（本文位置）。优点：利用预训练PLM的通用表示，无需额外训练；通过检索实现零样本泛化。局限：依赖PLM表示质量；检索性能受限于嵌入空间的结构。</li>
+<li><strong>脉络来源</strong>：经外部核验，该脉络基于文献中常见的结合位点方法分类。</li>
 </ul>
 <h2>05 核心痛点</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">痛点</th>
-<th style="text-align: left;">表现</th>
-<th style="text-align: left;">成因或作者解释</th>
-<th style="text-align: left;">文中证据</th>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">计算成本高</td>
-<td style="text-align: left;">现有方法无法在合理时间内处理人类蛋白质组（~20,000个蛋白）的所有结合位点。</td>
-<td style="text-align: left;">传统结构比对或几何深度学习模型需要大量计算资源，且通常需要近似最近邻搜索。</td>
-<td style="text-align: left;">作者在引言中提及“existing methods are computationally expensive and cannot scale to the entire human proteome”。</td>
+<td>结合位点检索计算成本高</td>
+<td>传统结构比对方法无法处理全蛋白质组规模</td>
+<td>结构比对（如TM-align）需要逐对计算，复杂度高</td>
+<td>作者在引言中提及现有方法“computationally expensive”</td>
 </tr>
 <tr>
-<td style="text-align: left;">准确性-规模权衡</td>
-<td style="text-align: left;">近似最近邻搜索（ANN）牺牲了检索准确性以换取速度。</td>
-<td style="text-align: left;">为了处理大规模数据，不得不使用ANN，导致检索结果不精确。</td>
-<td style="text-align: left;">作者在方法中强调“without pooling or approximate nearest-neighbor search”，暗示这是现有方法的常见妥协。</td>
+<td>现有深度学习方法泛化性差</td>
+<td>训练模型在新位点或新蛋白质上性能下降</td>
+<td>模型过度拟合训练数据分布，缺乏对未见位点的泛化能力</td>
+<td>作者指出“training-based methods... limited generalization”</td>
 </tr>
 <tr>
-<td style="text-align: left;">缺乏通用性</td>
-<td style="text-align: left;">许多方法针对特定任务（如配体结合）训练，难以泛化到新的结合位点类型。</td>
-<td style="text-align: left;">监督学习模型依赖特定任务的数据集，泛化能力有限。</td>
-<td style="text-align: left;">作者提出“training-free”框架，旨在避免这种依赖。</td>
+<td>蛋白质组规模检索缺乏高效框架</td>
+<td>缺乏无需训练、可直接利用预训练表示的检索方法</td>
+<td>现有方法要么需要训练，要么依赖近似搜索（如ANN）</td>
+<td>本文提出PocketScope作为“training-free”框架，避免近似搜索</td>
 </tr>
 </tbody>
 </table>
 <h2>06 核心思想</h2>
 <ol>
-<li><strong>表面方法</strong>：使用冻结的ESM-C 600M蛋白语言模型提取结合位点（cavity-lining residues）的序列嵌入，然后通过<strong>晚交互（late-interaction）MaxSim</strong>机制进行穷举检索，无需训练或近似搜索。</li>
-<li><strong>核心洞察</strong>：<strong>蛋白语言模型（PLM）的嵌入不仅编码了序列信息，还隐式编码了结构上下文</strong>。通过将结合位点表示为PLM嵌入的集合（而非单个向量），并使用晚交互（即逐对比较所有嵌入并取最大值）进行检索，可以捕捉到结合位点之间的<strong>局部化学和几何相似性</strong>，而无需显式的结构对齐或几何特征工程。这种“集合对集合”的匹配方式比传统的“向量对向量”的池化方法更精确。</li>
-<li><strong>可能的普适教训 [Analysis]</strong>：对于生物序列或结构的检索问题，<strong>放弃池化（pooling）和近似搜索，转而使用基于集合的晚交互机制</strong>，可以在保持计算可行性的同时显著提升检索精度。这提示在IDP/IDR的基序检索或相互作用伴侣识别中，也可以尝试将IDR片段表示为PLM嵌入的集合，并使用类似MaxSim的方法进行匹配。</li>
+<li><strong>表面方法</strong>：PocketScope使用冻结的ESM-C 600M蛋白语言模型提取结合位点（cavity-lining residues）的嵌入，然后通过晚期交互（late-interaction）MaxSim进行穷举检索，无需池化或近似最近邻搜索。</li>
+<li><strong>核心洞察</strong>：结合位点的功能相似性可以通过其残基级PLM嵌入的逐对相似性（MaxSim）来有效捕获，而无需显式结构比对或训练。晚期交互保留了残基级信息，避免了池化带来的信息损失。</li>
+<li><strong>可能的普适教训 [Analysis]</strong>：对于蛋白质功能位点（如结合位点、修饰位点）的检索，残基级表示+晚期交互可能比全局池化或结构比对更有效，尤其当位点由多个分散残基组成时。这一思路可迁移至IDP/IDR的SLiMs检索，因为SLiMs也是由短序列片段定义，残基级表示能更好捕捉其模式。</li>
 </ol>
 <h2>07 方法总览</h2>
 <ul>
-<li><strong>输入</strong>：AlphaFold预测的人类蛋白质组结构（PDB格式）。</li>
-<li><strong>输出</strong>：对于每个查询结合位点，返回一个按相似度排序的检索列表（包含其他蛋白质中的相似结合位点）。</li>
-<li><strong>模块</strong>：<ol>
-<li><strong>结合位点定义</strong>：使用Fpocket工具从AlphaFold结构中识别所有可能的结合口袋（cavities），并提取口袋内残基（cavity-lining residues）。</li>
-<li><strong>嵌入生成</strong>：使用冻结的ESM-C 600M模型，为每个口袋内残基生成一个1280维的嵌入向量。每个口袋被表示为一个嵌入向量的集合。</li>
-<li><strong>检索（MaxSim）</strong>：对于查询口袋Q和目标口袋T，计算所有残基嵌入对之间的余弦相似度，然后取所有对的最大值作为口袋间的相似度分数。即 <code>Score(Q, T) = max_{i in Q, j in T} cos(emb_i, emb_j)</code>。</li>
-<li><strong>全蛋白质组索引</strong>：预先计算并存储所有口袋的嵌入集合，构建一个可搜索的索引。</li>
-</ol>
-</li>
-<li><strong>训练</strong>：无。所有模型参数冻结。</li>
-<li><strong>工具</strong>：ESM-C 600M, Fpocket, 自定义Python脚本。</li>
-<li><strong>反馈回路</strong>：无。</li>
-<li><strong>假设</strong>：AlphaFold预测的结构足够准确，能够反映真实的结合位点几何；PLM嵌入能够捕捉到结合位点的功能相关特征；MaxSim分数能够有效衡量结合位点的功能相似性。</li>
-<li><strong>文字流程</strong>：首先，使用Fpocket从AlphaFold人类蛋白质组的所有结构中识别出153,805个结合口袋。然后，对于每个口袋，提取其内衬残基的序列，并使用ESM-C 600M生成每个残基的嵌入向量。最后，对于给定的查询口袋，通过计算其嵌入集合与所有其他口袋嵌入集合的MaxSim分数，并排序，得到检索结果。</li>
+<li><strong>输入</strong>：AlphaFold人类蛋白质组结构（PDB格式），查询结合位点（query binding site）的残基列表。</li>
+<li><strong>输出</strong>：对于每个查询，返回一个按相似度排序的检索列表（包含蛋白质ID、结合位点ID、MaxSim分数）。</li>
+<li><strong>模块</strong>：
+  1. <strong>结合位点识别</strong>：使用Fpocket从AlphaFold结构中识别所有可能的结合位点（cavities）。
+  2. <strong>PLM嵌入提取</strong>：使用冻结的ESM-C 600M模型，为每个结合位点的残基提取嵌入（取最后一层隐藏状态）。
+  3. <strong>晚期交互MaxSim检索</strong>：对于查询位点Q和目标位点T，计算MaxSim分数：<code>MaxSim(Q,T) = mean_{i in Q} max_{j in T} cos(emb_i, emb_j)</code>。对所有目标位点进行穷举计算。</li>
+<li><strong>训练</strong>：无训练（training-free），ESM-C模型冻结。</li>
+<li><strong>工具</strong>：ESM-C 600M（预训练PLM），Fpocket（结合位点检测），Python。</li>
+<li><strong>反馈回路</strong>：无（一次性检索）。</li>
+<li><strong>假设</strong>：结合位点的功能相似性可以通过其残基PLM嵌入的余弦相似度来度量；MaxSim能有效捕获位点间的对应关系。</li>
 </ul>
+<p><strong>文字流程</strong>：
+1. 使用Fpocket从AlphaFold人类蛋白质组结构中识别所有结合位点（cavities）。
+2. 对于每个结合位点，提取其残基序列，通过冻结的ESM-C 600M模型获得每个残基的嵌入向量。
+3. 对于给定的查询结合位点，同样提取其残基嵌入。
+4. 计算查询位点与所有目标位点之间的MaxSim分数（逐对残基余弦相似度的最大值取平均）。
+5. 按MaxSim分数降序排列，返回检索结果。</p>
 <h2>08 核心模块拆解</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">模块</th>
-<th style="text-align: left;">功能</th>
-<th style="text-align: left;">为何需要</th>
-<th style="text-align: left;">输入输出</th>
-<th style="text-align: left;">支撑证据</th>
-<th style="text-align: left;">移除后的已知或预期影响</th>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>结合位点定义 (Fpocket)</strong></td>
-<td style="text-align: left;">从蛋白质结构中识别并定义结合口袋。</td>
-<td style="text-align: left;">将连续的蛋白质结构离散化为可比较的“结合位点”单元。</td>
-<td style="text-align: left;">输入：PDB结构；输出：口袋残基列表。</td>
-<td style="text-align: left;">作者使用Fpocket作为标准工具，未提供消融实验。</td>
-<td style="text-align: left;">预期影响：使用不同的口袋定义方法（如P2Rank）会改变检索结果，但核心方法不变。</td>
+<td>结合位点识别（Fpocket）</td>
+<td>从AlphaFold结构中检测所有可能的结合位点</td>
+<td>提供检索的候选目标集</td>
+<td>输入：AlphaFold PDB结构；输出：结合位点残基列表</td>
+<td>作者使用Fpocket作为标准工具，未提供独立验证</td>
+<td>预期影响：无法获得候选位点，检索无法进行。若使用其他检测工具（如PocketFinder），可能改变位点集，影响检索结果</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>嵌入生成 (ESM-C 600M)</strong></td>
-<td style="text-align: left;">将每个口袋残基的序列信息转换为高维向量表示。</td>
-<td style="text-align: left;">提供一种统一、可比较的表示形式，捕捉残基的序列和结构上下文。</td>
-<td style="text-align: left;">输入：口袋残基序列；输出：每个残基的1280维嵌入向量。</td>
-<td style="text-align: left;">作者声称“frozen ESM-C 600M embeddings”是核心，但未提供与其他PLM（如ESM-2, ProtBERT）的对比。</td>
-<td style="text-align: left;">预期影响：替换为其他PLM会改变嵌入质量，从而影响检索精度。</td>
+<td>PLM嵌入提取（ESM-C 600M）</td>
+<td>将结合位点残基序列转换为高维向量表示</td>
+<td>提供可比较的数值表示，捕获序列-结构上下文</td>
+<td>输入：残基序列；输出：每个残基的嵌入向量（维度未提供）</td>
+<td>ESM-C是广泛验证的PLM，但本文未提供消融实验</td>
+<td>预期影响：若移除，无法获得嵌入；若替换为其他PLM（如ESM-2, ProtBERT），可能改变检索性能</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>检索 (MaxSim)</strong></td>
-<td style="text-align: left;">计算两个口袋嵌入集合之间的相似度分数。</td>
-<td style="text-align: left;">实现精确的、逐对比较的检索，避免池化带来的信息损失。</td>
-<td style="text-align: left;">输入：两个口袋的嵌入集合；输出：一个标量相似度分数。</td>
-<td style="text-align: left;">作者在ProSPECCTs基准上排名第一，间接证明了该模块的有效性。</td>
-<td style="text-align: left;">预期影响：替换为平均池化或最大池化会显著降低检索精度（这是作者的核心论点）。</td>
+<td>晚期交互MaxSim检索</td>
+<td>计算查询与目标位点间的相似度分数</td>
+<td>实现残基级精细比较，避免池化信息损失</td>
+<td>输入：查询位点嵌入、目标位点嵌入；输出：MaxSim分数</td>
+<td>作者在ProSPECCTs基准上排名第一，表明该模块有效</td>
+<td>预期影响：若替换为平均池化+余弦相似度，性能可能下降（信息损失）；若替换为近似搜索，可能加速但牺牲精度</td>
 </tr>
 </tbody>
 </table>
 <h2>09 关键公式符号</h2>
 <ul>
-<li><strong>公式</strong>：<code>Score(Q, T) = max_{i in Q, j in T} cos(emb_i, emb_j)</code></li>
-<li><strong>符号含义</strong>：<ul>
-<li><code>Q</code>, <code>T</code>：查询口袋和目标口袋。</li>
-<li><code>i</code>, <code>j</code>：口袋内的残基索引。</li>
-<li><code>emb_i</code>, <code>emb_j</code>：残基 <code>i</code> 和 <code>j</code> 的ESM-C嵌入向量。</li>
-<li><code>cos(·,·)</code>：余弦相似度。</li>
-<li><code>max</code>：取所有残基对相似度中的最大值。</li>
-</ul>
-</li>
-<li><strong>用途</strong>：计算两个结合位点之间的功能相似性，用于检索排序。</li>
-<li><strong>直觉</strong>：如果两个口袋共享一个非常相似的残基（在嵌入空间中），即使其他残基不同，它们也可能具有相似的功能。MaxSim捕捉了这种“最佳匹配”的局部相似性。</li>
-<li><strong>来源指针</strong>：Methods节。</li>
+<li><strong>公式</strong>：<code>MaxSim(Q,T) = mean_{i in Q} max_{j in T} cos(emb_i, emb_j)</code></li>
+<li><strong>符号含义</strong>：</li>
+<li><code>Q</code>：查询结合位点的残基集合</li>
+<li><code>T</code>：目标结合位点的残基集合</li>
+<li><code>emb_i</code>：残基i的ESM-C嵌入向量</li>
+<li><code>cos(·,·)</code>：余弦相似度</li>
+<li><code>mean</code>：对查询位点所有残基取平均</li>
+<li><strong>用途</strong>：计算两个结合位点之间的相似度，用于检索排序。</li>
+<li><strong>直觉</strong>：对于查询位点中的每个残基，找到目标位点中最相似的残基，然后对所有查询残基的“最佳匹配”取平均。这允许位点间存在部分对应，而不要求全局对齐。</li>
+<li><strong>来源指针</strong>：Methods节（未提供具体行号，但公式在方法描述中隐含）。</li>
 </ul>
 <h2>10 实验设计与证据链</h2>
 <ul>
-<li><strong>数据集/群体</strong>：AlphaFold人类蛋白质组（~20,000个蛋白）；ProSPECCTs基准（包含10个集合，用于评估结合位点检索）。</li>
-<li><strong>规模</strong>：153,805个口袋（来自37,682个蛋白）。</li>
-<li><strong>指标</strong>：Mean Rank（平均排名），在ProSPECCTs的每个集合内计算，然后取所有集合的平均值。</li>
-<li><strong>基线</strong>：ProSPECCTs基准上已有的22种方法。</li>
-<li><strong>评测协议</strong>：遵循ProSPECCTs基准的标准协议，即对于每个查询口袋，在包含该口袋的集合内进行检索，计算其排名。</li>
+<li><strong>数据集/群体</strong>：AlphaFold人类蛋白质组（37,682个蛋白质，153,805个结合位点）；ProSPECCTs基准（10个集合，包含已知结合位点对）。</li>
+<li><strong>规模</strong>：蛋白质组规模检索（153,805个目标位点）。</li>
+<li><strong>指标</strong>：Mean rank（平均排名）——在ProSPECCTs基准上，对于每个查询，计算其正确匹配在检索列表中的排名，然后取所有查询的平均。</li>
+<li><strong>基线</strong>：ProSPECCTs基准上已有的22种方法（包括基于结构、序列、深度学习的方法）。</li>
+<li><strong>骨干/仪器</strong>：ESM-C 600M（预训练模型），Fpocket（结合位点检测）。</li>
+<li><strong>oracle 输入</strong>：查询结合位点由ProSPECCTs基准提供（已知功能相关的位点对）。</li>
+<li><strong>评测协议</strong>：ProSPECCTs基准的标准协议——对于每个查询，在包含所有目标位点的库中检索，计算正确匹配的排名。</li>
 </ul>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">实验</th>
-<th style="text-align: left;">检验的claim</th>
-<th style="text-align: left;">对比与条件</th>
-<th style="text-align: left;">结果</th>
-<th style="text-align: left;">支持的结论</th>
-<th style="text-align: left;">不支持更强的结论</th>
-<th style="text-align: left;">来源</th>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>ProSPECCTs基准测试</strong></td>
-<td style="text-align: left;">PocketScope在结合位点检索任务上优于现有方法。</td>
-<td style="text-align: left;">与22种基线方法（包括基于结构、序列和深度学习的方法）对比。</td>
-<td style="text-align: left;">PocketScope在10个集合上的平均排名为1st。</td>
-<td style="text-align: left;">PocketScope在标准基准上达到了SOTA性能。</td>
-<td style="text-align: left;">不能证明PocketScope在所有可能的结合位点检索场景下都最优，也不能证明其泛化到非ProSPECCTs定义的口袋类型。</td>
-<td style="text-align: left;">Results节</td>
+<td>ProSPECCTs基准评测</td>
+<td>PocketScope在结合位点检索上达到SOTA</td>
+<td>与22种方法对比，使用mean rank指标</td>
+<td>PocketScope在10个集合中平均排名第1</td>
+<td>PocketScope在标准基准上优于现有方法</td>
+<td>未证明PocketScope在所有场景下都最优；未测试对全新位点的泛化性</td>
+<td>Results节</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>药物脱靶预测案例研究</strong></td>
-<td style="text-align: left;">PocketScope能够恢复已知的药物脱靶相互作用。</td>
-<td style="text-align: left;">使用一组精心挑选的药理学配对（curated set of pharmacological pairs）。</td>
-<td style="text-align: left;">成功恢复了已知的脱靶。</td>
-<td style="text-align: left;">PocketScope的检索结果具有生物学和药理学相关性。</td>
-<td style="text-align: left;">案例研究规模小，不能证明其在大规模脱靶预测中的整体召回率或精确率。</td>
-<td style="text-align: left;">Results节</td>
+<td>药物脱靶预测案例研究</td>
+<td>PocketScope能恢复已知的药物脱靶关系</td>
+<td>在curated pharmacological pairs上测试</td>
+<td>成功恢复多个已知脱靶</td>
+<td>PocketScope可用于脱靶预测</td>
+<td>案例数量有限，未进行大规模系统验证</td>
+<td>Results节</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>全蛋白质组规模检索</strong></td>
-<td style="text-align: left;">PocketScope能够处理人类蛋白质组规模的数据。</td>
-<td style="text-align: left;">无对比，仅展示结果。</td>
-<td style="text-align: left;">识别了153,805个口袋，并构建了可检索的索引。</td>
-<td style="text-align: left;">证明了方法的可扩展性。</td>
-<td style="text-align: left;">未提供计算时间或资源消耗的详细基准。</td>
-<td style="text-align: left;">Results节</td>
+<td>蛋白质组规模检索</td>
+<td>PocketScope能处理全蛋白质组规模</td>
+<td>在AlphaFold人类蛋白质组上运行</td>
+<td>识别153,805个结合位点，检索时间可接受</td>
+<td>PocketScope具有可扩展性</td>
+<td>未提供详细计算时间或资源消耗</td>
+<td>Results节</td>
 </tr>
 </tbody>
 </table>
 <h2>11 结论正确解读</h2>
 <ul>
-<li><strong>任务范围</strong>：结论严格限于<strong>结合位点检索</strong>，即给定一个查询口袋，找到其他蛋白质中功能相似的口袋。它不直接预测结合亲和力或药物-靶标相互作用。</li>
-<li><strong>oracle/真值输入</strong>：依赖AlphaFold预测的结构作为输入。如果AlphaFold结构不准确（例如，对于高度动态的区域或IDP），则PocketScope的检索结果可能不可靠。</li>
-<li><strong>端到端状态</strong>：PocketScope是一个端到端的检索框架，但结合位点定义（Fpocket）和嵌入生成（ESM-C）是独立的、冻结的模块。</li>
-<li><strong>算力成本</strong>：虽然无需训练，但全蛋白质组嵌入生成和索引构建需要大量计算资源（GPU和内存）。作者未提供具体成本。</li>
-<li><strong>历史数据依赖</strong>：不依赖历史数据，仅依赖预训练PLM和AlphaFold结构。</li>
-<li><strong>模型依赖</strong>：高度依赖ESM-C 600M模型的质量和AlphaFold结构的准确性。</li>
-<li><strong>最难情形</strong>：对于高度动态、无结构或由IDR介导的结合位点，PocketScope可能表现不佳，因为AlphaFold无法准确预测这些区域的结构，且PLM嵌入可能无法捕捉其构象多样性。</li>
-<li><strong>群体/领域边界</strong>：结论主要适用于<strong>有序蛋白</strong>的<strong>刚性或半刚性结合口袋</strong>。对于无序蛋白、膜蛋白或配体诱导的构象变化，其适用性未经测试。</li>
-<li><strong>不确定性</strong>：检索结果的排名仅代表功能相似性，不保证实际的物理结合或生物学功能。</li>
-<li><strong>有边界的复述</strong>：PocketScope是一个基于PLM嵌入和晚交互检索的、无需训练的结合位点检索框架，在ProSPECCTs基准上取得了SOTA性能，并能扩展到人类蛋白质组规模，但其有效性依赖于AlphaFold结构的准确性，且主要适用于有序蛋白的刚性结合口袋。</li>
+<li><strong>任务范围</strong>：结合位点检索，而非从头预测或功能注释。任务假设查询位点已知。</li>
+<li><strong>oracle/真值输入</strong>：ProSPECCTs基准中的查询位点由专家定义，可能不代表所有真实结合位点。</li>
+<li><strong>端到端状态</strong>：PocketScope是端到端的检索框架，但依赖Fpocket进行位点检测，Fpocket的假阳性/假阴性会影响结果。</li>
+<li><strong>算力成本</strong>：未提供详细计算时间，但穷举MaxSim在153,805个位点上的计算成本可能较高（尽管作者声称可接受）。</li>
+<li><strong>历史数据依赖</strong>：ESM-C 600M在大量序列上预训练，其表示可能偏向已知蛋白质家族。</li>
+<li><strong>模型依赖</strong>：性能高度依赖ESM-C表示质量；若ESM-C对某些位点（如无序区）表示不佳，检索性能可能下降。</li>
+<li><strong>最难情形</strong>：对于高度相似但功能不同的结合位点，或由非连续残基组成的位点，MaxSim可能失效。</li>
+<li><strong>群体/领域边界</strong>：仅在人类蛋白质组上验证，对其他物种的泛化性未知。</li>
+<li><strong>不确定性</strong>：检索排名受位点检测质量、嵌入噪声、MaxSim阈值选择影响，未提供置信区间。</li>
 </ul>
+<p><strong>有边界的复述</strong>：PocketScope在ProSPECCTs基准上，使用ESM-C嵌入和MaxSim检索，在人类蛋白质组规模上实现了优于22种现有方法的结合位点检索性能，并展示了药物脱靶预测的潜力，但其泛化性、计算成本和位点检测依赖性需进一步评估。</p>
 <h2>12 作者自认局限</h2>
 <p>在提供的材料中未发现作者明确承认的局限。</p>
+<p><strong>作者提及的相关约束</strong>（非正式局限）：
+- 方法依赖Fpocket进行结合位点检测，Fpocket的准确性可能影响结果。
+- 检索性能受ESM-C表示质量限制。
+- 未在非人类蛋白质组上验证。</p>
 <h2>13 批判性分析</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">[Analysis] 观察</th>
-<th style="text-align: left;">潜在问题或替代解释</th>
-<th style="text-align: left;">为何重要</th>
-<th style="text-align: left;">如何检验</th>
-<th style="text-align: left;">依据</th>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>仅使用ESM-C 600M</strong></td>
-<td style="text-align: left;">其他PLM（如ESM-2, ProtT5）可能提供更好的表示，或对IDR更有效。</td>
-<td style="text-align: left;">限制了方法的通用性和潜在性能上限。</td>
-<td style="text-align: left;">在ProSPECCTs上对比不同PLM（ESM-2, ProtT5, Ankh）的检索性能。</td>
-<td style="text-align: left;">作者未提供PLM消融实验。</td>
+<td>ProSPECCTs基准排名第1，但未提供统计显著性检验</td>
+<td>排名差异可能不显著，或仅因特定数据集分布</td>
+<td>影响结论的可靠性</td>
+<td>计算排名差异的置信区间或进行置换检验</td>
+<td>作者仅报告“mean rank”，未提供方差或p值</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>依赖Fpocket定义口袋</strong></td>
-<td style="text-align: left;">Fpocket可能遗漏或错误定义某些功能相关的结合位点，特别是浅表或由IDR形成的位点。</td>
-<td style="text-align: left;">影响检索的覆盖率和准确性。</td>
-<td style="text-align: left;">使用其他口袋预测工具（如P2Rank, DeepSite）重复实验，比较检索结果。</td>
-<td style="text-align: left;">作者未提供口袋定义方法的消融实验。</td>
+<td>使用Fpocket检测位点，但未评估Fpocket假阳性对检索的影响</td>
+<td>假阳性位点可能引入噪声，降低检索精度</td>
+<td>影响方法在实际应用中的鲁棒性</td>
+<td>使用不同位点检测工具（如PocketFinder）重复实验，比较结果</td>
+<td>作者未提供Fpocket的精度/召回率分析</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>MaxSim的局限性</strong></td>
-<td style="text-align: left;">MaxSim只考虑“最佳匹配”残基，可能忽略整体形状或静电互补性。</td>
-<td style="text-align: left;">对于需要多个残基协同作用的结合位点，可能产生假阳性。</td>
-<td style="text-align: left;">设计一个合成实验，比较MaxSim与考虑所有残基对相似度分布的方法（如Earth Mover's Distance）。</td>
-<td style="text-align: left;">这是MaxSim方法的固有特性。</td>
+<td>未与基于结构比对的方法（如TM-align）在相同数据集上直接比较</td>
+<td>结构比对方法可能在某些场景下更优</td>
+<td>无法全面评估PocketScope的优势</td>
+<td>在ProSPECCTs子集上运行TM-align，比较检索性能</td>
+<td>作者仅与ProSPECCTs已有结果对比，未进行新实验</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>案例研究规模小</strong></td>
-<td style="text-align: left;">仅用“curated set”验证，缺乏大规模、系统性的脱靶预测评估。</td>
-<td style="text-align: left;">无法评估PocketScope在实际药物发现中的真实召回率和假阳性率。</td>
-<td style="text-align: left;">在大型脱靶数据库（如DrugBank, ChEMBL）上进行系统性的回顾性验证。</td>
-<td style="text-align: left;">作者仅提供了定性案例。</td>
+<td>未讨论ESM-C对无序区（IDR）结合位点的表示能力</td>
+<td>IDR结合位点通常由短线性基序（SLiMs）定义，ESM-C可能无法有效表示</td>
+<td>限制方法在IDP/IDR研究中的迁移性</td>
+<td>在已知IDR结合位点数据集上测试PocketScope性能</td>
+<td>本文未涉及IDP/IDR相关讨论</td>
 </tr>
 </tbody>
 </table>
 <h2>14 学到什么</h2>
-<p><strong>Agent 提炼的知识候选</strong>
-1.  <strong>可迁移概念：晚交互（Late Interaction）MaxSim检索</strong>。核心思想是将对象表示为嵌入集合，通过逐对比较所有元素并取最大值来度量相似性。这避免了池化带来的信息损失。
-    - <strong>如何迁移到本课题</strong>：在IDP/IDR介导的蛋白互作中，可以将IDR片段（如SLiM基序）或IDR的构象集合表示为PLM嵌入的集合。当检索与某个IDR片段相互作用的伴侣蛋白时，可以使用MaxSim来匹配IDR片段与伴侣蛋白表面的潜在结合区域，从而发现新的互作对。
-2.  <strong>可迁移方法：冻结PLM + 无训练检索</strong>。证明了预训练PLM的嵌入可以直接用于下游检索任务，无需微调或训练特定模型。
-    - <strong>如何迁移到本课题</strong>：对于IDP/IDR的互作预测，可以避免训练复杂的物理模型或深度学习模型。直接使用ESM-2等PLM提取IDR和潜在伴侣蛋白的序列/结构嵌入，然后通过简单的相似度度量（如MaxSim或余弦相似度）来预测互作可能性。这特别适合数据稀缺的IDP领域。
-3.  <strong>可迁移实验设计：全蛋白质组规模索引</strong>。展示了如何构建一个可检索的、覆盖整个蛋白质组的索引。
-    - <strong>如何迁移到本课题</strong>：可以构建一个专门针对IDP/IDR的“互作组”索引。例如，索引所有已知的SLiM基序、IDR区域，以及它们已知的伴侣蛋白结合域。然后，对于一个新的IDR，可以快速检索其潜在的互作伴侣。</p>
+<p><strong>Agent 提炼的知识候选</strong>：
+1. <strong>可迁移概念：晚期交互MaxSim用于功能位点检索</strong>。对于IDP/IDR研究，SLiMs或结合位点可由短序列片段定义，使用残基级PLM嵌入+MaxSim可检索相似基序，无需结构信息。迁移方式：将IDP/IDR的SLiMs序列作为查询，在蛋白质组中检索具有相似嵌入模式的区域。
+2. <strong>可迁移方法：无训练、冻结PLM的检索范式</strong>。IDP/IDR的相分离驱动位点（如低复杂度区）可通过类似方法检索，避免训练特定模型。迁移方式：使用ESM-2或ProtBERT嵌入，对已知相分离蛋白的驱动区域进行检索，发现新候选蛋白。
+3. <strong>可迁移实验设计：蛋白质组规模检索的基准评测</strong>。本文使用ProSPECCTs基准，类似地，可构建IDP/IDR结合位点或相分离驱动位点的基准数据集，用于评测检索方法。迁移方式：收集已知IDP互作对或相分离蛋白，定义查询位点，构建检索基准。
+4. <strong>可迁移公式：MaxSim的变体</strong>。对于IDP/IDR，可考虑加权MaxSim（如根据残基保守性加权）或局部MaxSim（仅考虑基序区域）。迁移方式：在IDP/IDR数据集上测试不同MaxSim变体。</p>
 <h2>15 与已有知识连接</h2>
 <ul>
-<li><strong>相似</strong>：本文方法与<strong>ColBERT</strong>（信息检索领域）的晚交互思想高度相似。ColBERT使用BERT嵌入和MaxSim进行文档检索。PocketScope是将这一思想从自然语言处理迁移到蛋白质结构检索的成功案例。</li>
-<li><strong>组合</strong>：本文方法可以与<strong>AlphaFold2/3</strong>结合。AlphaFold提供结构，PocketScope检索相似结合位点。这为基于结构的药物发现提供了一个强大的组合工具。</li>
-<li><strong>冲突</strong>：本文的“无训练”哲学与许多需要大量标注数据的<strong>几何深度学习</strong>方法（如EquiDock, ScanNet）形成对比。它挑战了“更多数据和更复杂的模型必然更好”的假设。</li>
-<li><strong>可迁移领域</strong>：除了药物脱靶预测，该方法可直接迁移到<strong>酶功能预测</strong>（检索相似活性位点）、<strong>蛋白质设计</strong>（检索满足特定结合模式的支架）以及<strong>病毒-宿主互作预测</strong>（检索病毒蛋白与宿主蛋白的相似结合界面）。</li>
+<li><strong>相似方法</strong>：与“Protein language model embeddings for binding site comparison”（如ESM-1b用于位点分类）类似，但本文强调无训练检索。可连接至Rives et al. (2021) ESM-1b论文。</li>
+<li><strong>组合方向</strong>：PocketScope的检索结果可作为IDP/IDR互作预测的输入特征，例如结合位点相似性可指示共享的互作伴侣。可连接至IDP互作预测方法（如ANCHOR, MoRFpred）。</li>
+<li><strong>冲突点</strong>：本文假设结合位点由连续残基组成（Fpocket检测），而IDP/IDR的结合位点（如SLiMs）可能由非连续残基或短线性基序组成，MaxSim可能不适用。需验证。</li>
+<li><strong>可迁移领域</strong>：除药物脱靶外，可迁移至蛋白质功能注释、进化分析（结合位点保守性）、蛋白质设计（检索相似位点作为模板）。</li>
 </ul>
 <h2>16 研究想法</h2>
-<p><strong>Agent 生成的研究候选</strong></p>
+<p><strong>Agent 生成的研究候选</strong>：</p>
 <ol>
 <li>
-<p><strong>名称</strong>：IDR-MaxSim：基于PLM晚交互的无序蛋白互作伴侣检索</p>
-<ul>
-<li><strong>来源局限/观察</strong>：PocketScope主要针对有序蛋白的刚性口袋，无法处理IDP/IDR的动态、无结构特性。但IDP/IDR的互作常通过短线性基序（SLiM）介导，这些基序在序列和局部结构上具有保守性。</li>
-<li><strong>核心假设</strong>：IDR中的SLiM基序，即使处于无序状态，其PLM嵌入也能捕捉到其功能相关的序列和局部结构偏好，并且可以通过MaxSim与伴侣蛋白表面的互补区域进行有效匹配。</li>
-<li><strong>相对本文的增量</strong>：将PocketScope的检索对象从“有序口袋”扩展到“IDR片段（SLiM）”，并可能引入构象集合的嵌入表示（如使用AlphaFold2的多个预测模型或MD模拟生成构象）。</li>
-<li><strong>初步方法</strong>：<ol>
-<li>从ELM数据库或文献中收集已知的SLiM基序及其伴侣蛋白的结合域。</li>
-<li>使用ESM-2为每个SLiM基序和每个伴侣结合域生成残基级嵌入。</li>
-<li>对于查询SLiM，使用MaxSim检索所有已知伴侣结合域，评估其恢复已知互作的能力。</li>
-<li>进一步，将查询SLiM与全蛋白质组中所有蛋白的潜在结合区域（如使用Fpocket或P2Rank识别的口袋，或使用AlphaFold预测的界面）进行MaxSim检索，预测新的互作伴侣。</li>
-</ol>
-</li>
-<li><strong>验证方式</strong>：使用已知的IDP-伴侣互作数据库（如DIBS, ELM）进行回顾性验证。通过酵母双杂交或pull-down实验对预测的新互作进行初步验证。</li>
-<li><strong>可能的失败模式</strong>：PLM嵌入无法区分功能相似的SLiM基序与随机序列；MaxSim对IDR的构象多样性不鲁棒；检索结果假阳性率高。</li>
-<li><strong>创新状态</strong>：unverified。</li>
-</ul>
+<p><strong>名称</strong>：IDR-SLiM Retriever：基于PLM嵌入的IDR短线性基序检索框架
+   - <strong>来源局限/观察</strong>：PocketScope未处理IDR结合位点，而IDR的SLiMs是蛋白互作的关键，但缺乏蛋白质组规模检索方法。
+   - <strong>核心假设</strong>：SLiMs的序列模式可通过PLM嵌入的局部相似性捕获，MaxSim可检索功能相似的SLiMs。
+   - <strong>相对本文的增量</strong>：将检索对象从结构结合位点改为IDR的SLiMs；需定义SLiMs的残基集（可能非连续）；需构建IDR-SLiM基准数据集。
+   - <strong>初步方法</strong>：使用ELM数据库中的已知SLiMs作为查询，提取ESM-2嵌入，对AlphaFold人类蛋白质组中所有IDR区域（通过IUPred预测）进行MaxSim检索。
+   - <strong>验证方式</strong>：在已知IDR互作对（如来自BioGRID）上测试检索精度，与基于序列的SLiM匹配方法（如ScanProsite）对比。
+   - <strong>可能的失败模式</strong>：PLM嵌入对短序列（&lt;10残基）表示不佳；MaxSim对非连续SLiMs无效；IDR区域结构柔性导致Fpocket无法检测。
+   - <strong>创新状态</strong>：unverified</p>
 </li>
 <li>
-<p><strong>名称</strong>：PocketScope-IDR：结合有序口袋与无序区域的混合检索框架</p>
-<ul>
-<li><strong>来源局限/观察</strong>：许多蛋白互作涉及有序结构域与IDR的结合。PocketScope只检索有序口袋，忽略了IDR作为配体的角色。</li>
-<li><strong>核心假设</strong>：一个完整的互作检索框架应能同时处理“有序口袋”和“IDR配体”两种查询，并识别它们之间的互补关系。</li>
-<li><strong>相对本文的增量</strong>：扩展PocketScope的索引，使其不仅包含有序口袋，还包含IDR片段。检索时，允许“有序口袋”查询检索“IDR片段”索引，反之亦然。</li>
-<li><strong>初步方法</strong>：<ol>
-<li>构建两个索引：一个为PocketScope的有序口袋索引，另一个为从AlphaFold人类蛋白质组中提取的所有IDR片段（基于IUPred2A或ESM-IDR预测）的嵌入集合索引。</li>
-<li>对于给定的查询（可以是一个有序口袋或一个IDR片段），同时检索两个索引。</li>
-<li>分析检索结果，识别出“口袋-IDR”配对，这些配对可能是潜在的互作对。</li>
-</ol>
+<p><strong>名称</strong>：PhaseSep-Pocket：预测相分离驱动位点的检索方法
+   - <strong>来源局限/观察</strong>：相分离蛋白的驱动位点（如低复杂度区、多价互作位点）缺乏系统检索方法。
+   - <strong>核心假设</strong>：相分离驱动位点具有相似的PLM嵌入模式，可通过检索发现新候选蛋白。
+   - <strong>相对本文的增量</strong>：定义“相分离驱动位点”为查询（如来自LLPSDB数据库）；检索目标为全蛋白质组；需考虑位点长度和组成。
+   - <strong>初步方法</strong>：使用已知相分离蛋白的驱动区域（如FUS的LCD）作为查询，提取ESM-C嵌入，对AlphaFold人类蛋白质组中所有区域进行滑动窗口MaxSim检索。
+   - <strong>验证方式</strong>：在独立相分离蛋白数据集上验证检索召回率；通过体外相分离实验验证高排名候选。
+   - <strong>可能的失败模式</strong>：相分离驱动位点缺乏序列保守性；PLM嵌入无法捕获相分离的物理化学性质（如π-π堆积）；检索结果假阳性高。
+   - <strong>创新状态</strong>：unverified</p>
 </li>
-<li><strong>验证方式</strong>：使用已知的“结构域-IDR”互作数据库（如来自PDB的复合物结构，或来自BioGRID的互作数据）进行验证。</li>
-<li><strong>可能的失败模式</strong>：IDR片段的定义和嵌入质量不佳；检索结果中“口袋-口袋”和“IDR-IDR”的噪声掩盖了有意义的“口袋-IDR”互作。</li>
-<li><strong>创新状态</strong>：unverified。</li>
-</ul>
+<li>
+<p><strong>名称</strong>：IDP-Interactome Retriever：基于结合位点检索的IDP互作伴侣预测
+   - <strong>来源局限/观察</strong>：IDP通过SLiMs与多个伴侣互作，但预测互作伴侣缺乏高效方法。
+   - <strong>核心假设</strong>：IDP的SLiMs与伴侣蛋白的结合位点具有互补的嵌入模式，可通过检索伴侣蛋白的结合位点来预测互作。
+   - <strong>相对本文的增量</strong>：将检索从“位点-位点”相似性改为“IDP SLiM-伴侣结合位点”互补性；需定义互补性度量（如嵌入的负余弦相似度）。
+   - <strong>初步方法</strong>：对于给定IDP的SLiM，提取其ESM-2嵌入；在伴侣蛋白的结合位点库（如来自PDB）中检索嵌入最互补的位点；排名高的伴侣作为候选。
+   - <strong>验证方式</strong>：在已知IDP-伴侣互作对（如来自BioGRID）上测试精度；与现有互作预测方法（如PIPs）对比。
+   - <strong>可能的失败模式</strong>：互补性假设不成立；SLiM与结合位点的嵌入空间不对齐；检索结果噪声大。
+   - <strong>创新状态</strong>：unverified</p>
 </li>
 </ol></div>
   </section>
@@ -356,91 +355,93 @@
     <div class="md"><h2>Review setup</h2>
 <ul>
 <li><strong>Input scope</strong> Abstract only</li>
-<li><strong>Assessment boundary</strong> Claims and evidence presented in the abstract, without access to full manuscript, figures, tables, or supplementary materials</li>
-<li><strong>Shared manuscript claim summary</strong> The authors present PocketScope, a training-free framework using frozen ESM-C 600M embeddings and exhaustive late-interaction MaxSim to retrieve binding sites across the AlphaFold human proteome. They report identification of 153,805 cavities across 37,682 proteins, recovery of documented drug off-targets in curated pharmacological pairs, and a 1st of 23 rank by mean rank on the ProSPECCTs benchmark. The framework is claimed to be practical for proteome-scale off-target prediction and is available as open source and a web server.</li>
-<li><strong>Visible evidence base</strong> Abstract text only. No figures, tables, methods, or supplementary data were provided for assessment.</li>
-<li><strong>Missing materials affecting confidence</strong> Full manuscript, all figures and tables, benchmark methodology details, dataset definitions, curation criteria for pharmacological pairs, computational resource specifications, and validation statistics. The absence of these materials substantially limits the ability to verify the central claims.</li>
+<li><strong>Assessment boundary</strong> Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present PocketScope, a training-free framework using frozen ESM-C 600M embeddings and exhaustive late-interaction MaxSim to retrieve binding sites across the AlphaFold human proteome. They report identification of 153,805 cavities across 37,682 proteins, recovery of documented drug off-targets in a curated pharmacological set, and top ranking (1st of 23 methods) on the ProSPECCTs benchmark by mean rank across ten collections.</li>
+<li><strong>Visible evidence base</strong> Abstract text only; no figures, tables, methods section, or supplementary data were supplied</li>
+<li><strong>Missing materials affecting confidence</strong> Full methods, benchmark details, curation criteria for pharmacological pairs, definition of cavity detection, computational cost analysis, comparison methodology for ProSPECCTs, and any statistical validation. Without these, the core claims cannot be independently assessed.</li>
 </ul>
 <h2>Reviewer</h2>
 <ul>
-<li><strong>Overall assessment</strong> The abstract presents a potentially interesting application of protein language model representations to binding-site retrieval at proteome scale. The training-free design and exhaustive MaxSim approach are conceptually clear, and the reported benchmark ranking is notable. However, the abstract alone provides insufficient evidence to evaluate the validity of the methodological choices, the robustness of the results, or the significance of the contribution relative to existing methods. Several claims are stated without supporting quantitative detail, and the relationship between the proteome-scale cavity identification and the benchmark performance is not made explicit. The work may be of interest to the structural bioinformatics and drug discovery communities, but the case is not established from the supplied material.</li>
-<li><strong>Who would be interested in the results, and why</strong> Computational biologists and bioinformaticians working on protein function prediction, binding site annotation, and proteome-scale analysis would be interested. Drug discovery researchers focused on off-target prediction and polypharmacology would also find the framework relevant, particularly if the off-target recovery claim holds under scrutiny. Developers of protein language model applications may be interested in the training-free retrieval design as a baseline or alternative to fine-tuned approaches.</li>
-<li><strong>Major strengths</strong> The training-free design is a practical advantage, as it avoids the need for task-specific fine-tuning and may generalize across diverse binding site types. The use of exhaustive MaxSim without pooling or approximate nearest-neighbor search is methodologically transparent and avoids approximation artifacts. The reported scale of analysis, covering 37,682 proteins and 153,805 cavities, suggests a serious computational effort. The open-source and web server availability is a positive step for reproducibility and community adoption.</li>
+<li><strong>Overall assessment</strong> The abstract describes a potentially useful and scalable approach to proteome-wide binding-site retrieval. The central idea of using frozen PLM embeddings with exhaustive MaxSim, avoiding training and approximate search, is conceptually appealing and could be of interest to the structural bioinformatics and drug discovery communities. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or significance of the reported results. Key methodological details and quantitative validations are absent, and several claims are presented without supporting data. The work may have merit, but the case is not established from the supplied material.</li>
+<li><strong>Who would be interested in the results, and why</strong> Computational biologists and bioinformaticians working on protein function prediction, drug repurposing, and off-target identification would be the primary audience. Researchers developing or applying protein language models to structural and functional problems would also find the approach relevant. The proteome-scale scope and training-free design may appeal to those seeking practical tools for large-scale screening.</li>
+<li><strong>Major strengths</strong> The proposed framework is training-free, which is a practical advantage for scalability and reproducibility. The use of frozen ESM-C 600M embeddings leverages a widely adopted model, enhancing accessibility. The reported scale of analysis (153,805 cavities across 37,682 proteins) suggests a substantial computational effort. The claim of ranking 1st of 23 methods on ProSPECCTs, if substantiated, would indicate competitive performance.</li>
 <li><strong>Major Concerns</strong></li>
 <li><strong>Concern ID</strong> R1-M1</li>
 <li><strong>Severity</strong> Major</li>
 <li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Evidence sufficiency</li>
-<li><strong>Claim pointer</strong> The claim that PocketScope "ranks 1st of 23 methods by mean rank across the ten collections" on the ProSPECCTs benchmark.</li>
-<li><strong>Evidence pointer</strong> Abstract only, location not provided</li>
-<li><strong>Concern</strong> The abstract provides no statistical context for this ranking. There is no information on the distribution of ranks across the ten collections, the magnitude of differences between PocketScope and the second-ranked method, or whether the ranking is based on statistically significant improvements. Without these details, the "1st of 23" claim cannot be interpreted as a meaningful advantage.</li>
-<li><strong>Why it matters</strong> A top rank on a benchmark is only meaningful if the margin is substantial and consistent. If PocketScope ranks first by a narrow margin or performs poorly on several collections, the claim of superiority is misleading. The absence of per-collection results prevents assessment of robustness.</li>
-<li><strong>Resolution test</strong> Provide per-collection ranks, the mean and median rank with confidence intervals, and a statistical comparison against the second-best method. Report whether the ranking is stable under variations in the cavity detection step or embedding parameters.</li>
+<li><strong>Axis</strong> Technical soundness</li>
+<li><strong>Claim pointer</strong> PocketScope identified 153,805 cavities across 37,682 proteins in the AlphaFold human proteome</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided</li>
+<li><strong>Concern</strong> The abstract provides no definition of what constitutes a "cavity" in this context, no description of the detection algorithm, and no validation that the identified cavities are biologically meaningful or structurally accurate. The numbers are presented as facts without any supporting analysis or comparison to existing cavity databases.</li>
+<li><strong>Why it matters</strong> Without a clear and validated cavity definition, the reported scale of the analysis cannot be interpreted. If the cavity detection is flawed or overly permissive, the downstream retrieval results would be compromised, undermining the entire framework.</li>
+<li><strong>Resolution test</strong> Provide a detailed methods section describing the cavity detection algorithm, including thresholds and parameters. Validate a random sample of detected cavities against experimentally determined binding sites or established structural annotations, and report precision and recall statistics.</li>
 <li><strong>Concern ID</strong> R1-M2</li>
 <li><strong>Severity</strong> Major</li>
 <li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Claim substantiation</li>
-<li><strong>Claim pointer</strong> The claim that PocketScope "recovered documented drug off-targets across a curated set of pharmacological pairs."</li>
-<li><strong>Evidence pointer</strong> Abstract only, location not provided</li>
-<li><strong>Concern</strong> The abstract does not specify the size of the curated set, the source of the off-target annotations, the retrieval threshold used to define "recovery," or the success rate. Without these details, it is impossible to determine whether the recovery rate is high, moderate, or trivially low. The term "curated" implies manual selection, which raises the risk of selection bias.</li>
-<li><strong>Why it matters</strong> Off-target prediction is the stated practical application. If the recovery rate is low or the curated set is small or biased, the claim of practical utility is weakened. The absence of a comparison to baseline methods for this specific task further limits interpretation.</li>
-<li><strong>Resolution test</strong> Report the number of pharmacological pairs, the source of annotations, the recovery rate with a clear definition of success, and a comparison to a simple sequence-similarity baseline or a random expectation. Provide the full list of pairs and retrieval scores in supplementary materials.</li>
+<li><strong>Axis</strong> Technical soundness</li>
+<li><strong>Claim pointer</strong> PocketScope recovered documented drug off-targets across a curated set of pharmacological pairs</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided</li>
+<li><strong>Concern</strong> The abstract does not specify the size of the curated set, the criteria for inclusion, the source of the off-target annotations, or the retrieval success rate. Without these details, the claim of "recovery" is unquantified and cannot be evaluated for statistical significance or practical utility.</li>
+<li><strong>Why it matters</strong> Off-target prediction is a key application claim. If the curated set is small or biased, or if the recovery rate is low, the practical value of PocketScope for this purpose would be questionable. The claim as stated is too vague to support the framework's utility.</li>
+<li><strong>Resolution test</strong> Report the number of pharmacological pairs, the source of annotations, the retrieval success rate (e.g., fraction of off-targets ranked within a defined threshold), and a comparison to a baseline or random expectation. Provide the full list of pairs and results in supplementary materials.</li>
 <li><strong>Concern ID</strong> R1-M3</li>
 <li><strong>Severity</strong> Major</li>
 <li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Methodological transparency</li>
-<li><strong>Claim pointer</strong> The claim that PocketScope "represents cavity-lining residues using frozen ESM-C 600M embeddings" and "retrieves related binding sites through exhaustive late-interaction MaxSim."</li>
-<li><strong>Evidence pointer</strong> Abstract only, location not provided</li>
-<li><strong>Concern</strong> The abstract does not describe how cavities are detected, how cavity-lining residues are defined, how the MaxSim score is computed across cavities of different sizes, or how the final retrieval ranking is generated. The choice of ESM-C 600M over other model sizes or architectures is not justified. The computational cost of exhaustive MaxSim at proteome scale is not reported.</li>
-<li><strong>Why it matters</strong> Reproducibility and scalability are central to the claimed practical utility. Without details on cavity detection and scoring, other groups cannot replicate the method. If the computational cost is prohibitive, the "practical framework" claim is undermined.</li>
-<li><strong>Resolution test</strong> Provide a detailed methods section describing cavity detection, residue selection, embedding extraction, MaxSim computation, and ranking. Report runtime and memory requirements for the full proteome scan. Justify the choice of ESM-C 600M with a comparison to alternative models.</li>
+<li><strong>Axis</strong> Technical soundness</li>
+<li><strong>Claim pointer</strong> On the ProSPECCTs benchmark, PocketScope ranks 1st of 23 methods by mean rank across the ten collections</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided</li>
+<li><strong>Concern</strong> The abstract does not describe the evaluation protocol, the specific metric definitions, the statistical significance of the ranking, or the variance across collections. A single aggregate rank can mask poor performance on individual collections. No confidence intervals or per-collection results are provided.</li>
+<li><strong>Why it matters</strong> Benchmark claims are only meaningful with full transparency on methodology and results. Without per-collection breakdowns and statistical testing, the "1st of 23" claim could be driven by a single favorable collection or by a metric that favors the method's specific design.</li>
+<li><strong>Resolution test</strong> Provide a table with per-collection mean ranks for all 23 methods, report standard deviations or confidence intervals, and describe the exact evaluation protocol including any preprocessing steps. State whether the ranking difference is statistically significant relative to the second-best method.</li>
 <li><strong>Concern ID</strong> R1-M4</li>
 <li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> No</li>
-<li><strong>Axis</strong> Comparative validity</li>
-<li><strong>Claim pointer</strong> The claim that PocketScope "ranks 1st of 23 methods" implies superiority over existing approaches.</li>
-<li><strong>Evidence pointer</strong> Abstract only, location not provided</li>
-<li><strong>Concern</strong> The abstract does not describe the 22 other methods in the ProSPECCTs benchmark, whether they are training-free or trained, or whether the comparison is apples-to-apples. If the other methods use different cavity definitions or different input features, the ranking may reflect benchmark design rather than method quality.</li>
-<li><strong>Why it matters</strong> A benchmark ranking is only informative if the comparison is fair and the methods are described. Without this context, the "1st of 23" claim is difficult to interpret.</li>
-<li><strong>Resolution test</strong> List the 22 other methods with their type (training-free vs. trained), input features, and any benchmark-specific constraints. Discuss potential sources of bias in the comparison.</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Reproducibility</li>
+<li><strong>Claim pointer</strong> PocketScope is a training-free framework that represents cavity-lining residues using frozen ESM-C 600M embeddings and retrieves related binding sites through exhaustive late-interaction MaxSim, without pooling or approximate nearest-neighbor search</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided</li>
+<li><strong>Concern</strong> The abstract does not describe the computational cost of the exhaustive MaxSim approach at proteome scale. The claim of "training-free" does not address the inference time or memory requirements, which could be prohibitive for 153,805 cavities. No runtime or resource usage data are provided.</li>
+<li><strong>Why it matters</strong> Scalability is a central selling point of the framework. If the exhaustive search is computationally intractable for typical users, the practical utility is limited despite the proteome-scale demonstration. The absence of cost analysis prevents assessment of feasibility.</li>
+<li><strong>Resolution test</strong> Report wall-clock time and memory usage for the full proteome scan, describe the hardware used, and provide a complexity analysis of the MaxSim step. Compare to at least one approximate method to justify the exhaustive choice.</li>
 <li><strong>Minor Comments</strong></li>
 <li><strong>Concern ID</strong> R1-m1</li>
 <li><strong>Severity</strong> Minor</li>
 <li><strong>Axis</strong> Clarity</li>
-<li><strong>Affected element</strong> Abstract wording</li>
-<li><strong>Evidence pointer</strong> Abstract, "training-free framework" and "exhaustive late-interaction MaxSim"</li>
-<li><strong>Issue</strong> The term "training-free" is used but not defined. It is unclear whether this means no fine-tuning of ESM-C, no training of any new parameters, or no supervised training at all. The term "late-interaction" is a technical term that may not be familiar to all readers.</li>
-<li><strong>Required correction</strong> Define "training-free" explicitly in the abstract or methods. Add a brief explanation of "late-interaction" or replace with a more accessible term.</li>
+<li><strong>Affected element</strong> Terminology</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The term "late-interaction MaxSim" is used without definition. Readers unfamiliar with this specific architecture may not understand the distinction from standard attention or pooling mechanisms.</li>
+<li><strong>Required correction</strong> Provide a brief definition or a citation to the original late-interaction model (e.g., ColBERT) in the methods or a footnote.</li>
 <li><strong>Concern ID</strong> R1-m2</li>
 <li><strong>Severity</strong> Minor</li>
 <li><strong>Axis</strong> Completeness</li>
-<li><strong>Affected element</strong> Benchmark description</li>
-<li><strong>Evidence pointer</strong> Abstract, "ProSPECCTs benchmark"</li>
-<li><strong>Issue</strong> The abstract does not state what the ProSPECCTs benchmark measures, how many queries are in each collection, or what the evaluation metric is beyond "mean rank."</li>
-<li><strong>Required correction</strong> Add one sentence describing the benchmark and the evaluation metric. Specify the number of collections and queries.</li>
+<li><strong>Affected element</strong> Availability statement</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The abstract states the tool is open source and available as a web server, but no license type, repository URL, or usage instructions are given.</li>
+<li><strong>Required correction</strong> Include the repository URL and license in the abstract or a data availability statement.</li>
 <li><strong>Concern ID</strong> R1-m3</li>
 <li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Reproducibility</li>
-<li><strong>Affected element</strong> Web server and code availability</li>
-<li><strong>Evidence pointer</strong> Abstract, "open source and also freely available as a web server"</li>
-<li><strong>Issue</strong> The abstract states availability but does not specify the license, the programming language, or the dependencies. The URL is provided but no version or release date is given.</li>
-<li><strong>Required correction</strong> Provide a license, a version number, and a brief description of the implementation in the abstract or a data availability statement.</li>
+<li><strong>Axis</strong> Context</li>
+<li><strong>Affected element</strong> Related work</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The abstract does not mention any existing binding-site retrieval or pocket-matching methods, making it difficult to contextualize the claimed improvement.</li>
+<li><strong>Required correction</strong> Add one or two sentences in the introduction or discussion referencing prior methods and stating the specific gap PocketScope addresses.</li>
 <li><strong>Concern ID</strong> R1-m4</li>
 <li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Interpretation</li>
-<li><strong>Affected element</strong> Proteome-scale results</li>
-<li><strong>Evidence pointer</strong> Abstract, "identified 153,805 cavities across 37,682 proteins"</li>
-<li><strong>Issue</strong> The abstract does not state how many of these cavities are predicted to be binding sites versus merely detected as pockets. The number of cavities per protein varies widely, and the abstract does not indicate whether this distribution is biologically plausible.</li>
-<li><strong>Required correction</strong> Clarify whether all detected cavities are considered binding sites or whether a filtering step is applied. Report the distribution of cavities per protein.</li>
+<li><strong>Axis</strong> Statistical reporting</li>
+<li><strong>Affected element</strong> Benchmark result</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The claim of ranking 1st of 23 methods is presented without any measure of uncertainty or variability.</li>
+<li><strong>Required correction</strong> Report the margin over the second-best method and, if possible, a bootstrap or permutation-based confidence interval for the ranking.</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (cavity definition and validation), R1-M2 (off-target recovery quantification), R1-M3 (benchmark transparency), R1-M4 (computational cost analysis). These are all blocking because the core claims of scale, utility, and performance cannot be verified without them.</li>
+<li><strong>Assessment against Nature-style criteria</strong> Originality: The combination of frozen PLM embeddings with exhaustive MaxSim for binding-site retrieval is a reasonable incremental contribution, but the abstract does not demonstrate conceptual novelty beyond existing late-interaction models applied to protein structures. Scientific importance: The potential for proteome-scale off-target prediction is significant, but the evidence provided is insufficient to establish practical impact. Interdisciplinary readership: The work could appeal to structural biology, machine learning, and pharmacology audiences, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the missing methodological details and validations are critical. Readability for nonspecialists: The abstract assumes familiarity with PLMs, MaxSim, and benchmark conventions, and does not explain the biological rationale in accessible terms.</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The concept is promising and the authors should be encouraged to resubmit with full methods, quantitative validations, and computational cost analysis. If those are provided and the claims hold, the work could be of interest to a specialized audience, though the scope and framing would need to be adjusted for a general journal.</li>
 </ul>
 <h2>Risk / unsupported claims</h2>
 <ul>
-<li>The "1st of 23 methods" ranking is unsupported without per-collection results and statistical context.</li>
-<li>The "recovered documented drug off-targets" claim is unsupported without the size of the curated set, the recovery rate, and the definition of recovery.</li>
-<li>The "practical framework" claim is unsupported without computational cost and runtime data.</li>
-<li>The biological significance of identifying 153,805 cavities is not interpretable without a comparison to expected numbers or a functional annotation analysis.</li>
-<li>The generalizability of the training-free approach beyond the tested benchmark is not assessable from the abstract.</li>
-<li>The claim that ESM-C 600M embeddings are appropriate for this task is not justified with comparative data.</li>
+<li>The claim of identifying 153,805 cavities across 37,682 proteins is unsupported without a validated cavity detection method.</li>
+<li>The claim of recovering documented drug off-targets is unquantified and cannot be evaluated.</li>
+<li>The claim of ranking 1st of 23 methods on ProSPECCTs is unsupported without per-collection results and statistical testing.</li>
+<li>The implied practical utility of the training-free, exhaustive search approach is unsupported without computational cost data.</li>
+<li>The statement that PocketScope "provides a practical framework" is an assertion not backed by any usability or performance evidence in the abstract.</li>
 </ul></div>
   </section>
   

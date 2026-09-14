@@ -1,80 +1,62 @@
 ## Review setup
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
-- **Shared manuscript claim summary** The authors present a computational pipeline (LIR-DP) integrating sequence pattern matching, IUPred3 disorder prediction, and AlphaFold3 modeling to identify putative LC3-interacting region (LIR) motifs in proteins from highly virulent viruses (HVVs). They report 43 putative LIRs across 166 proteins from 22 HVVs, with 18 predicted functional. Experimental validation (in vitro and in cellulo) is claimed for LIRs from Marburg virus nucleoprotein, Nipah virus phosphoprotein, Ebola virus VP35, and Rift Valley fever virus NSs, with the aromatic residue at position one shown to be critical for binding.
-- **Visible evidence base** Abstract text only; no experimental data, statistical analyses, sequence alignments, structural models, or validation details are available
-- **Missing materials affecting confidence** Full methods, all figures and tables, experimental protocols, binding assay data, statistical details, AlphaFold3 modeling parameters, IUPred3 thresholds, and any negative or control results
+- **Input scope** Full manuscript
+- **Assessment boundary** The manuscript as described in the provided text, including title, author list, journal, date, DOI, URL, and the full body text.
+- **Shared manuscript claim summary** The authors present a computational pipeline (LIR-DP) that integrates sequence pattern matching, disorder prediction (IUPred3), and structural modeling (AlphaFold3) to identify LC3-interacting region (LIR) motifs in proteins from highly virulent viruses (HVVs). They report the identification of 43 putative LIR motifs across 166 proteins from 22 HVVs, with 18 predicted to be functional. Experimental validation (in vitro and in cellulo) confirms binding for LIRs from Marburg virus nucleoprotein, Nipah virus phosphoprotein, Ebola virus VP35, and Rift Valley fever virus NSs protein. The authors claim the pipeline is a useful tool for understanding how HVVs modulate the autophagy pathway.
+- **Visible evidence base** The provided text is a complete abstract/summary of the manuscript. It includes the title, author list, journal, date, DOI, URL, and the full body text.
+- **Missing materials affecting confidence** The full manuscript, including all figures, tables, supplementary materials, detailed methods, and raw data, is not provided. This significantly limits the ability to assess the technical soundness, reproducibility, and robustness of the claims.
 
 ## Reviewer
-- **Overall assessment** The abstract describes a potentially useful integrative pipeline for identifying LIR motifs in viral proteins, addressing a genuine gap in the field. The combination of sequence pattern matching, disorder prediction, and structural modeling is logical, and the inclusion of experimental validation for selected candidates strengthens the premise. However, the abstract alone provides insufficient detail to assess the technical rigor, false-positive rates, or biological significance of the findings. The claim that 18 of 43 LIRs would be functional is not supported by any visible evidence, and the experimental validation appears limited to four candidates. The broader utility of the pipeline for understanding viral modulation of autophagy is plausible but not established from the supplied material.
-- **Who would be interested in the results, and why** Virologists studying host-pathogen interactions, particularly those focused on hemorrhagic fever viruses and Nipah virus; autophagy researchers interested in LIR motif biology and Atg8/LC3 family interactions; computational biologists developing SLiM prediction tools; and researchers working on antiviral therapeutic targets involving host autophagy pathways.
-- **Major strengths** The abstract addresses a clear gap in the field, as functional LIR motifs in viral proteins remain under-characterized. The pipeline integrates complementary computational approaches (sequence, disorder, structure) which is methodologically sensible. The inclusion of experimental validation for multiple viral proteins across different virus families adds credibility. The identification of the aromatic residue at position one as critical for binding provides mechanistic insight.
-- **Major Concerns** None identified from the supplied material beyond those listed below, given the abstract-only scope.
-- **Minor Comments** None identified from the supplied material beyond those listed below, given the abstract-only scope.
-- **Technical failings that need to be addressed before the case is established** The abstract does not provide sufficient evidence to evaluate the pipeline's sensitivity, specificity, or false-discovery rate. The prediction of 18 functional LIRs out of 43 putative motifs is presented without any supporting metrics. The experimental validation is described only qualitatively, with no binding affinities, replicates, or statistical comparisons. The claim that the aromatic residue is critical is made without showing mutagenesis data or quantitative binding results.
-- **Assessment against Nature-style criteria** Originality: moderate to high, as the integrative approach is novel in this specific application. Scientific importance: potentially high if the pipeline proves reliable, given the pandemic threat posed by HFVs and the under-explored role of viral LIRs in autophagy modulation. Interdisciplinary readership: the work bridges virology, cell biology, and computational biology, which could attract a broad audience. Technical soundness: not assessable from the abstract alone; the lack of methodological detail and validation metrics prevents evaluation. Readability for nonspecialists: the abstract is generally clear, though terms such as SLiM and IUPred3 may require familiarity with the field.
-- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach and preliminary validation, but the absence of methods, data, and statistical details means the core claims cannot be evaluated. A full manuscript with comprehensive results would be required to assess whether the pipeline performs as claimed.
-
-### Major Concerns
-
-- **Concern ID** R1-M1
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Technical soundness
-- **Claim pointer** The pipeline identified 43 putative LIR motifs in 166 proteins from 22 HVVs and predicted that 18 of these LIRs would be functional.
-- **Evidence pointer** Abstract, location not provided
-- **Concern** The abstract provides no information on how the 43 putative LIRs were scored, what thresholds were applied for IUPred3 disorder prediction, how AlphaFold3 models were used to filter candidates, or what criteria defined a "functional" prediction. The ratio of 18 functional out of 43 putative motifs implies a predictive model, but no performance metrics (sensitivity, specificity, precision, recall) or validation against known LIRs are presented.
-- **Why it matters** Without these details, the pipeline's reliability cannot be assessed. If the false-positive rate is high, the 43 putative LIRs may largely represent noise, undermining the central claim of the tool's utility. Conversely, if the threshold is overly stringent, the pipeline may miss true LIRs, limiting its practical value.
-- **Resolution test** Provide a detailed description of the pipeline parameters, a benchmark against a curated set of known LIR motifs (positive and negative controls), and report precision-recall or ROC-type analyses. Show the distribution of scores for predicted functional versus non-functional LIRs.
-
-- **Concern ID** R1-M2
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Evidence quality
-- **Claim pointer** In vitro and in cellulo laboratory experiments demonstrated that LIRs from Marburg virus nucleoprotein, Nipah virus phosphoprotein, Ebola virus VP35, and Rift Valley fever virus NSs bind to Atg8/LC3 family proteins.
-- **Evidence pointer** Abstract, location not provided
-- **Concern** The abstract states that binding was demonstrated but provides no experimental details. It is unclear which Atg8/LC3 family members were tested, what binding assays were used (e.g., pull-down, co-immunoprecipitation, surface plasmon resonance, isothermal titration calorimetry), what concentrations were used, or whether binding was quantified. No negative controls or specificity tests against non-LIR peptides are mentioned.
-- **Why it matters** Binding claims require quantitative or at least semi-quantitative evidence to be convincing. Without knowing the assay type, affinity range, or specificity, the reader cannot determine whether the observed interactions are biologically meaningful or merely weak, non-specific associations common with short linear motifs.
-- **Resolution test** Present representative binding data for each of the four LIRs, including dose-response curves or affinity measurements, appropriate negative controls (e.g., mutated LIRs or unrelated peptides), and statistical analysis comparing binding to controls.
-
-- **Concern ID** R1-M3
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Claim support
-- **Claim pointer** The aromatic amino acid in the first position of each LIR motif was found to be critical for these interactions.
-- **Evidence pointer** Abstract, location not provided
-- **Concern** The abstract asserts that the aromatic residue at position one is critical, but no mutagenesis data are shown. It is not stated whether single-point mutations were made, whether all four LIRs were tested, or what the magnitude of the effect was (complete loss versus partial reduction in binding).
-- **Why it matters** This claim is mechanistically important because it suggests a conserved binding mode across diverse viral proteins. If the evidence is incomplete or the effect is modest, the conclusion may be overstated. The claim also implies a general principle that could guide future predictions, so it must be rigorously supported.
-- **Resolution test** Provide mutagenesis data for all four validated LIRs, showing binding of wild-type versus aromatic-to-alanine (or equivalent) mutants, with quantitative readouts and statistical significance. Ideally, include a structural rationale from AlphaFold3 models showing the aromatic residue in the canonical LIR binding pocket of LC3.
-
-### Minor Comments
-
-- **Concern ID** R1-m1
-- **Severity** Minor
-- **Axis** Clarity
-- **Affected element** Definition of HVV set
-- **Evidence pointer** Abstract, location not provided
-- **Issue** The abstract states that 166 proteins from 22 HVVs were analyzed but does not specify which viruses are included beyond the examples of Nipah virus and the hemorrhagic fever viruses mentioned.
-- **Required correction** List the 22 viruses included in the analysis, either in the abstract or in a supplementary table, so readers can assess the breadth and relevance of the dataset.
-
-- **Concern ID** R1-m2
-- **Severity** Minor
-- **Axis** Reproducibility
-- **Affected element** Pipeline availability
-- **Evidence pointer** Abstract, location not provided
-- **Issue** The LIR-DP pipeline is described as newly developed, but no mention is made of code availability, web server access, or deposition of the pipeline scripts.
-- **Required correction** State where the pipeline code or a web-based implementation can be accessed, or indicate that it will be made available upon publication, to facilitate adoption by other researchers.
-
-- **Concern ID** R1-m3
-- **Severity** Minor
-- **Axis** Interpretation
-- **Affected element** Functional significance of predicted LIRs
-- **Evidence pointer** Abstract, location not provided
-- **Issue** The abstract suggests that the identified LIRs may play a role in hijacking or evading autophagy, but no functional assays (e.g., autophagy flux measurements, viral replication assays with LIR-mutant viruses) are described.
-- **Required correction** Clarify whether functional validation in the context of viral infection is planned or included in the full manuscript, or temper the claim to reflect that the study identifies candidate motifs requiring further functional testing.
-
-## Risk / unsupported claims
-- The prediction that 18 of 43 LIRs would be functional is unsupported by any visible metrics or validation data.
-- The claim that the aromatic residue at position one is critical for binding is unsupported without mutagenesis data.
-- The statement that the pipeline provides "evidence for its utility" is not assessable from the abstract alone, as no benchmarking or comparison to existing LIR prediction tools is presented.
-- The biological relevance of the identified LIRs for viral modulation of autophagy during infection is speculative, as no infection-based functional data are described.
+- **Overall assessment** The manuscript addresses a relevant and timely topic—the molecular mechanisms by which highly virulent viruses hijack host autophagy pathways. The development of a computational pipeline to identify LIR motifs is a logical and potentially valuable approach. However, the provided evidence is insufficient to fully evaluate the pipeline's novelty, accuracy, and the strength of the experimental validation. The core claims are plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Virologists, cell biologists studying autophagy, and researchers in host-pathogen interactions would be interested. The work could provide a systematic method to identify potential viral proteins that interact with the host autophagy machinery, offering new targets for antiviral drug development.
+- **Major strengths** The integration of multiple computational tools (sequence pattern matching, disorder prediction, and structural modeling) into a single pipeline is a logical and potentially powerful approach. The inclusion of experimental validation for a subset of predictions strengthens the study's credibility. The focus on highly virulent viruses with pandemic potential is of high public health relevance.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Reproducibility
+    - **Claim pointer** The LIR-DP pipeline integrates sequence pattern matching, IUPred3, and AlphaFold3 to identify functional LIR motifs.
+    - **Evidence pointer** Location not provided (full methods not available)
+    - **Concern** The description of the pipeline is too vague. The specific sequence pattern used for LIR motif matching (e.g., the exact consensus sequence or position weight matrix) is not provided. The criteria for integrating disorder prediction and AlphaFold3 modeling (e.g., thresholds for disorder score, confidence metrics for AlphaFold3 predictions) are not stated. Without these details, the pipeline cannot be reproduced or critically evaluated.
+    - **Why it matters** Reproducibility is a cornerstone of scientific research. A computational pipeline is only useful if its parameters and logic are transparent. The lack of detail prevents other researchers from applying the method to their own datasets or assessing its potential biases.
+    - **Resolution test** The authors must provide a complete, step-by-step description of the LIR-DP pipeline, including all input parameters, thresholds, and decision rules. This should be presented in a dedicated Methods section or as a detailed supplementary protocol.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence strength / Validation
+    - **Claim pointer** 18 of the 43 putative LIRs are predicted to be functional, and LIRs from four viral proteins bind to Atg8/LC3 family proteins.
+    - **Evidence pointer** Location not provided (full results and figures not available)
+    - **Concern** The evidence for the functional prediction and experimental validation is presented only as summary statements. The criteria for predicting a LIR as "functional" are not defined. The experimental data (e.g., binding affinities, controls, statistical analysis) are not shown. The number of replicates, the specific Atg8/LC3 family members tested, and the methods used (e.g., pull-down, co-immunoprecipitation, surface plasmon resonance) are not described.
+    - **Why it matters** The central claim of the paper is that the pipeline can identify *functional* LIRs. Without a clear definition of "functional" and without detailed experimental evidence, the claim is unsubstantiated. The reader cannot assess the quality or reliability of the binding data.
+    - **Resolution test** The authors must provide the full experimental data, including representative blots, quantification, statistical analysis, and a clear description of the methods. They must also define the criteria used to classify a LIR as "functional" (e.g., binding affinity threshold, specific interaction with a particular LC3 family member).
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Scientific importance / Novelty
+    - **Claim pointer** The LIR-DP provides valuable insight into the mechanism by which HVVs modulate the autophagy pathway.
+    - **Evidence pointer** Location not provided (full results and discussion not available)
+    - **Concern** The manuscript does not demonstrate that the identified LIRs are actually functional *during viral infection*. The experimental validation is limited to in vitro binding assays. There is no evidence that these LIRs are required for viral replication, that they are accessible in the context of the full-length viral protein, or that they are used by the virus to modulate autophagy in a cellular context.
+    - **Why it matters** The ultimate value of the pipeline is its ability to provide biological insight. Showing that a peptide binds to LC3 in vitro is a necessary but insufficient step. The claim of providing "valuable insight into the mechanism" is premature without functional validation in a relevant infection model.
+    - **Resolution test** The authors should either provide data showing that mutation of the LIR motif in the full-length viral protein affects viral replication or autophagy modulation in infected cells, or they should significantly temper their claims about the biological insight provided by the pipeline.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction/Background
+    - **Evidence pointer** Location not provided
+    - **Issue** The abstract assumes the reader is familiar with the details of the autophagy pathway and LIR motifs. A brief, clear definition of LIR motifs and their role in autophagy would improve accessibility for a broader audience.
+    - **Required correction** Add a sentence defining LIR motifs (e.g., "LIR motifs are short, linear sequences, typically with a core [W/F/Y]-X-X-[L/I/V] pattern, that mediate binding to Atg8/LC3 family proteins on autophagosomes.")
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity of claims
+    - **Affected element** Results/Conclusion
+    - **Evidence pointer** Location not provided
+    - **Issue** The statement "The aromatic amino acid in the first position of each LIR motif was found to be critical for these interactions" is presented as a finding. This is a well-established feature of canonical LIR motifs. The authors should acknowledge this prior knowledge and frame their result as a confirmation rather than a novel discovery.
+    - **Required correction** Rephrase to: "Consistent with the known properties of canonical LIR motifs, we found that the aromatic residue at the first position of each identified LIR was critical for binding to Atg8/LC3 family proteins."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3.
+- **Assessment against Nature-style criteria**
+    - **Originality** The concept of a pipeline integrating multiple computational tools for LIR discovery is not entirely novel, as similar approaches exist for other SLiMs. The specific combination of tools and the focus on HVVs provides some originality, but the core idea is incremental.
+    - **Scientific importance** The topic is of high importance due to the pandemic potential of HVVs and the central role of autophagy in viral infection. However, the current evidence does not demonstrate that the pipeline provides new, mechanistically important insights beyond what is already known.
+    - **Interdisciplinary readership** The work is primarily of interest to virologists and cell biologists. The computational aspect is not sufficiently novel or generalizable to attract a broad computational biology audience.
+    - **Technical soundness** Cannot be assessed from the provided material. The lack of methodological detail and experimental data prevents evaluation of the pipeline's accuracy and the reliability of the validation.
+    - **Readability for nonspecialists** The abstract is concise but assumes significant background knowledge. It is not written for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a potentially interesting core idea, but the lack of methodological detail and the absence of key experimental data prevent a proper evaluation. The authors must provide the full manuscript, including detailed methods and all supporting data, to allow for a thorough review.

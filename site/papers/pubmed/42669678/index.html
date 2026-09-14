@@ -29,7 +29,7 @@
          · 全文(pmc)
          · <a href="https://pubmed.ncbi.nlm.nih.gov/42669678/">原文</a>
       </div>
-      <p class="one-liner">该文提出LLPSense，一个整合蛋白质语言模型嵌入与环境参数的机器学习框架，用于预测和调控条件依赖的蛋白质相分离，直接以无序蛋白/相分离为对象，研究PPI相关的相分离机制，并采用AI方法，高度契合本课题。</p>
+      <p class="one-liner">该文提出LLPSense，一个整合蛋白质语言模型与环境参数的机器学习框架，用于预测和调控条件依赖的蛋白质相分离，直接以无序蛋白/相分离为对象，研究PPI相关相分离机制，并采用AI方法，高度契合课题。</p>
     </div>
   </div>
   
@@ -41,7 +41,7 @@
   
   <section>
     <h2>摘要翻译</h2>
-    <div class="md">蛋白质相分离（phase separation）是组织无膜细胞器的基本过程，并与病理状态相关。重要的是，这一过程是动态的，并依赖于浓度、温度和溶剂组成等条件。然而，当前的机器学习模型仅从氨基酸序列推断相分离倾向，未能捕捉这些依赖于情境的行为。在此，我们展示LLPSense，一种将蛋白质语言模型嵌入与环境参数相结合的机器学习框架，实现了准确且情境感知的相分离预测。多项实验验证确认了LLPSense的预测能力和实用性。该模型揭示了SGTA中复杂的、温度依赖的重入行为，此前未被识别为相分离蛋白。此外，LLPSense准确预测了与帕金森病相关的α-突触核蛋白中增强或抑制相分离的突变。除了预测准确性外，模型引导的诱变能够调节相行为。总体而言，LLPSense建立了一个稳健的计算框架，用于探究相景观，促进机制性疾病研究和可编程凝聚体设计。</div>
+    <div class="md">蛋白质相分离（phase separation）是组织无膜细胞器的基本过程，并与病理状态相关。重要的是，这一过程是动态的，依赖于浓度、温度和溶剂组成等条件。然而，当前的机器学习模型仅从氨基酸序列推断相分离倾向，未能捕捉这些情境依赖行为。在此，我们展示LLPSense，一种将蛋白质语言模型嵌入与环境参数整合的机器学习框架，实现了准确且条件感知的相分离预测。多项实验验证确认了LLPSense的预测能力和实用性。该模型揭示了SGTA中复杂的、温度依赖的重入行为，此前未被识别为相分离蛋白。此外，LLPSense准确预测了与帕金森病相关的α-突触核蛋白中增强或抑制相分离的突变。超越预测准确性，模型引导的诱变能够调节相行为。总体而言，LLPSense建立了一个稳健的计算框架，用于探究相景观，促进机制性疾病研究和可编程凝聚体设计。</div>
   </section>
   
   
@@ -49,366 +49,562 @@
     <h2>Paper Card</h2>
     <div class="md"><h2>01 基本信息</h2>
 <ul>
-<li><strong>标题</strong>: A machine learning framework for predicting and modulating condition-dependent protein phase separation</li>
-<li><strong>作者与单位</strong>: Bae, Jangwon; Kang, Minjun; Lee, Donghyuk; Yoon, Kuk-Jin; Jung, Yongwon (单位未在摘要中提供)</li>
-<li><strong>期刊/预印本平台</strong>: Nature Communications</li>
-<li><strong>年份</strong>: 2026</li>
-<li><strong>论文类型</strong>: 研究论文</li>
-<li><strong>领域</strong>: 计算生物学、机器学习、蛋白质相分离</li>
-<li><strong>关键词</strong>: 相分离、机器学习、蛋白质语言模型、条件依赖、突变设计</li>
-<li><strong>DOI/arXiv 号</strong>: 10.1038/s41467-026-76248-2</li>
-<li><strong>代码</strong>: 未提供</li>
-<li><strong>数据</strong>: 公开可用（见Data Availability节）</li>
-<li><strong>阅读日期</strong>: 2026-09-01</li>
-<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>: 本文是首个将蛋白质语言模型（pLM）嵌入与实验条件参数（温度、盐浓度、pH等）整合，实现条件感知的相分离预测的框架。它超越了仅基于序列的静态预测（如PSPire、PSPHunter），并改进了早期条件感知模型Droppler的性能。对于IDP/IDR介导的相分离研究，该方法提供了可迁移的“序列+条件”联合建模思路，并展示了通过模型指导突变来调控相行为（如LCST到UCST转换）的能力。</li>
+<li><strong>标题</strong>：A machine learning framework for predicting and modulating condition-dependent protein phase separation</li>
+<li><strong>作者</strong>：Bae, Jangwon; Kang, Minjun; Lee, Donghyuk; Yoon, Kuk-Jin; Jung, Yongwon</li>
+<li><strong>单位</strong>：未提供（根据通讯作者信息推测为韩国机构，具体未在材料中提供）</li>
+<li><strong>期刊/预印本平台</strong>：Nature Communications</li>
+<li><strong>年份</strong>：2026</li>
+<li><strong>论文类型</strong>：研究论文（Research Article）</li>
+<li><strong>领域</strong>：计算生物学；蛋白质相分离；机器学习</li>
+<li><strong>关键词</strong>：protein phase separation, machine learning, protein language model, condition-dependent, LLPS prediction, mutagenesis</li>
+<li><strong>DOI/arXiv 号</strong>：10.1038/s41467-026-76248-2</li>
+<li><strong>代码</strong>：未提供</li>
+<li><strong>数据</strong>：LLPSDB v2（公开数据库）；PSPire 数据集；UniProt 人类蛋白质组；所有 curated 数据集和预处理脚本已公开（见 Data Availability）</li>
+<li><strong>阅读日期</strong>：2026-06-02</li>
+<li><strong>在该课题方向中的位置</strong>：本文是「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中首个将<strong>环境条件参数</strong>（温度、盐浓度、pH、crowding agent 等）显式纳入相分离预测的机器学习框架。与仅基于序列的预测器（如 PSPire、catGRANULE 2.0）相比，LLPSense 实现了从静态二分类到条件感知动态预测的范式升级，并展示了通过突变设计调控相行为（LCST→UCST 重编程）的闭环工作流。</li>
 </ul>
+<hr />
 <h2>02 一句话总结</h2>
-<p>本文提出LLPSense，一个整合蛋白质语言模型（ProtT5）嵌入与13种环境参数的XGBoost框架，实现了条件依赖的蛋白质相分离概率的准确预测，并通过实验验证了其在发现新相分离蛋白（SGTA）、预测α-突触核蛋白突变效应以及重编程UBQLN4相行为（LCST→UCST）中的实用性。</p>
+<p>本文提出 LLPSense——一个将 ProtT5 蛋白质语言模型嵌入与 13 个环境条件参数（浓度、温度、pH、盐、crowding agent 等）整合的 XGBoost 框架，用于条件感知的相分离概率预测，并通过体外实验验证了其在发现新型相分离蛋白（SGTA）、α-synuclein 突变效应预测以及 UBQLN4 相行为重编程（LCST→UCST）中的实用性。</p>
+<hr />
 <h2>03 研究问题</h2>
 <ul>
-<li><strong>具体问题</strong>: 如何准确预测蛋白质在多种物理化学条件（如浓度、温度、pH、盐浓度、拥挤剂）下的相分离行为，并利用该预测指导突变以调控相行为？</li>
-<li><strong>为什么重要</strong>: 蛋白质相分离是动态、条件依赖的过程，与疾病（如神经退行性疾病）密切相关。现有序列预测模型将相分离视为静态属性，无法捕捉条件变化，限制了其在疾病机制研究和可编程凝聚体设计中的应用。</li>
-<li><strong>现有方法为何不足</strong>: 序列模型（如PSPire）仅基于序列特征，无法区分同一蛋白在不同条件下的行为差异；早期条件模型Droppler性能有限（AUROC 0.64），且受限于小规模数据集。</li>
-<li><strong>精确的「Can ... ?」研究问题</strong>: Can a machine learning model that integrates protein language model embeddings with environmental parameters accurately predict and enable modulation of condition-dependent protein phase separation?</li>
+<li><strong>具体问题</strong>：蛋白质相分离是条件依赖的动态过程，但现有机器学习模型仅从氨基酸序列推断相分离倾向，无法捕捉同一蛋白在不同环境条件下的相行为差异。能否构建一个将序列信息与环境条件联合建模的预测框架？</li>
+<li><strong>为什么重要</strong>：相分离在无膜细胞器组织和神经退行性疾病中起核心作用。条件依赖性是相分离的本质特征（如温度、盐浓度、pH 变化可开关相分离），忽略条件信息导致：(1) 无法预测同一蛋白在不同条件下的相反行为；(2) 无法区分增强/抑制相分离的突变；(3) 无法指导条件响应型凝聚体的设计。</li>
+<li><strong>现有方法不足</strong>：</li>
+<li>序列预测器（PSPire、catGRANULE 2.0 等）仅输出静态二分类，无环境条件输入维度；</li>
+<li>Droppler 虽尝试条件建模，但预测性能有限（AUROC 0.64），且未展示突变级分辨率或实验验证闭环；</li>
+<li>传统序列特征（氨基酸组成、电荷分布等）缺乏对高阶序列-结构-环境耦合关系的表征能力。</li>
+<li><strong>精确研究问题</strong>："Can a machine learning framework that integrates protein language model embeddings with environmental parameters achieve accurate, condition-aware prediction of protein phase separation, and can it guide experimental modulation of phase behavior?"</li>
 </ul>
+<hr />
 <h2>04 背景与发展脉络</h2>
-<ul>
-<li><strong>阶段1: 序列特征工程模型</strong> (如catGRANULE, DeePhase)</li>
-<li>优点: 基于手工特征（电荷、疏水性等），可解释性较好。</li>
-<li>局限: 依赖特征工程，泛化能力有限，无法捕捉IDR缺失蛋白的相分离。</li>
-<li><strong>阶段2: 序列深度学习模型</strong> (如PSPire, PSPHunter)</li>
-<li>优点: 使用深度学习或集成方法，预测精度高，能识别无IDR的相分离蛋白。</li>
-<li>局限: 仅做静态二分类，无法处理条件依赖性。</li>
-<li><strong>阶段3: 条件感知模型</strong> (如Droppler)</li>
-<li>优点: 首次尝试整合条件变量。</li>
-<li>局限: 性能有限（AUROC 0.64），数据规模小。</li>
-<li><strong>本文主张的位置</strong>: LLPSense通过使用预训练蛋白质语言模型（ProtT5）提取高质量序列嵌入，并结合大规模、严格筛选的条件数据集，显著提升了条件感知预测的性能（AUROC 0.77），并展示了从发现到设计的端到端实用性。</li>
-<li><strong>注</strong>: 此脉络基于本文引言，经外部核验（如PSPire、Droppler文献）确认。</li>
-</ul>
+<blockquote>
+<p>注：以下脉络基于本文框架及文中引用的文献，部分经外部核验（标注）。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>代表性方法</th>
+<th>优点</th>
+<th>局限</th>
+<th>本文位置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>早期序列特征预测</strong></td>
+<td>catGRANULE（2015）⁶</td>
+<td>基于氨基酸组成、结构域特征，可解释</td>
+<td>仅二分类，无环境条件维度</td>
+<td>本文对比基线</td>
+</tr>
+<tr>
+<td><strong>序列二分类 ML</strong></td>
+<td>PSPire（2022）¹¹</td>
+<td>高精度，可识别无 IDR 的相分离蛋白</td>
+<td>静态预测，无法区分条件依赖行为</td>
+<td>本文序列模型对比基准</td>
+</tr>
+<tr>
+<td><strong>关键残基识别</strong></td>
+<td>PSPHunter（2023）¹²</td>
+<td>可定位驱动相分离的关键残基</td>
+<td>仍为序列静态预测</td>
+<td>本文在 α-synuclein 突变分析中体现互补性</td>
+</tr>
+<tr>
+<td><strong>突变效应预测</strong></td>
+<td>catGRANULE 2.0（2024）¹³</td>
+<td>首次尝试预测增强相分离的突变</td>
+<td>仅单向（增强），无环境条件维度</td>
+<td>本文对比对象（Supplementary Fig. 13）</td>
+</tr>
+<tr>
+<td><strong>条件感知预测</strong></td>
+<td>Droppler（2023）¹⁶</td>
+<td>首次引入条件变量</td>
+<td>性能有限（AUROC 0.64），架构未优化</td>
+<td>本文主要对比基线</td>
+</tr>
+<tr>
+<td><strong>本文：条件感知 + 语言模型</strong></td>
+<td><strong>LLPSense</strong></td>
+<td>整合 ProtT5 嵌入 + 13 条件变量；AUROC 0.77；突变级分辨率；实验验证闭环</td>
+<td>高盐条件预测精度有限（作者自认）</td>
+<td><strong>本文</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>本文主张的位置</strong>：在「序列 → 条件 → 相行为」映射中，首次将预训练蛋白质语言模型的高维嵌入与显式环境条件参数联合建模，实现从静态分类到动态预测的范式跃迁，并展示从预测到设计（mutagenesis）的完整闭环。</p>
+<hr />
 <h2>05 核心痛点</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">痛点</th>
-<th style="text-align: left;">表现</th>
-<th style="text-align: left;">成因或作者解释</th>
-<th style="text-align: left;">文中证据</th>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">负数据集不准确</td>
-<td style="text-align: left;">被归类为“非相分离”的蛋白中，16.4%被LLPSense预测为相分离候选，且部分已有文献支持。</td>
-<td style="text-align: left;">缺乏“绝对不进行相分离”的蛋白列表；相分离能力是条件依赖的，而非固有属性。</td>
-<td style="text-align: left;">Results节“Identification of potential phase-separating proteins...”，图2a。</td>
+<td><strong>条件依赖缺失</strong></td>
+<td>同一蛋白在不同温度/盐浓度下相行为不同，但现有模型仅输出单一静态预测</td>
+<td>训练数据仅含序列-标签对，无环境条件标注；模型架构无条件输入通道</td>
+<td>引言：现有方法"fail to capture context-dependent behaviors"</td>
 </tr>
 <tr>
-<td style="text-align: left;">序列模型无法区分突变效应</td>
-<td style="text-align: left;">序列模型（LLPSeq）将90.2%的α-突触核蛋白点突变预测为抑制相分离，而LLPSense能识别出24.0%的增强突变。</td>
-<td style="text-align: left;">序列模型将所有正样本视为均匀的“相分离能力”，缺乏条件提供的动态范围来区分细微差异。</td>
-<td style="text-align: left;">Results节“Condition-aware mutational screening...”，图5a, b。</td>
+<td><strong>负样本不可靠</strong></td>
+<td>被标记为"非相分离"的蛋白可能在特定条件下发生相分离</td>
+<td>负样本构建依赖特定实验条件下的观察，条件未记录</td>
+<td>Results：16.4% 的"非相分离"蛋白被 LLPSense 预测为潜在相分离候选</td>
 </tr>
 <tr>
-<td style="text-align: left;">条件模型在高盐区域预测不准</td>
-<td style="text-align: left;">RAD23A在&gt;300mM NaCl时，实验显示相分离增强，但LLPSense预测下降。</td>
-<td style="text-align: left;">当前数据库在高NaCl条件下数据稀疏，模型在该区域可靠性有限。</td>
-<td style="text-align: left;">Results节“Validation of LLPSense...”，图3a及补充图8b。</td>
+<td><strong>突变效应分辨率不足</strong></td>
+<td>现有模型无法区分增强 vs 抑制相分离的突变</td>
+<td>静态二分类缺乏条件维度，无法捕捉突变对条件敏感性的影响</td>
+<td>Results 图 4：LLPSense 实现单残基分辨率双向预测</td>
 </tr>
 <tr>
-<td style="text-align: left;">无法区分凝聚体物质状态</td>
-<td style="text-align: left;">LLPSense预测SEMG2和SGTA形成凝聚体，但实验观察到凝胶状而非液滴状。</td>
-<td style="text-align: left;">训练数据未区分液-液相分离、凝胶化、聚集等不同状态，它们被视为一个连续谱。</td>
-<td style="text-align: left;">Results节“Identification of potential phase-separating proteins...”，图2g。</td>
+<td><strong>高盐条件预测偏差</strong></td>
+<td>RAD23A 在 &gt;300 mM NaCl 时实验 turbidity 持续上升，但模型预测下降</td>
+<td>训练数据中高盐条件样本稀疏</td>
+<td>Results 图 3a：作者明确归因于"data scarcity for high-NaCl conditions"</td>
+</tr>
+<tr>
+<td><strong>相行为类型判别缺失</strong></td>
+<td>模型无法区分液-液相分离、凝胶化、聚集等不同相行为类型</td>
+<td>训练标签为二分类（相分离/非相分离），未区分相态</td>
+<td>Discussion：作者指出"does not yet discriminate among distinct material states"</td>
 </tr>
 </tbody>
 </table>
+<hr />
 <h2>06 核心思想</h2>
-<ol>
-<li><strong>表面方法</strong>: 将蛋白质语言模型（ProtT5）的序列嵌入与13种归一化的环境参数（浓度、温度、pH、盐、拥挤剂等）拼接，作为XGBoost分类器的输入，预测给定条件下的相分离概率。</li>
-<li><strong>核心洞察</strong>: 蛋白质的相分离能力不是其固有属性，而是序列与环境的函数。通过将高维、无偏的序列表示（pLM嵌入）与显式的环境变量结合，模型能够学习到序列-条件之间的复杂交互作用，从而超越静态预测，实现条件感知的、双向的（增强/抑制）突变效应预测。</li>
-<li><strong>可能的普适教训 [Analysis]</strong>: 对于任何依赖于环境条件的生物物理过程（如蛋白-蛋白互作、构象变化），将“对象表示”（如序列嵌入）与“条件表示”（如pH、温度）联合建模，是提升预测模型泛化能力和实用性的关键策略。这比仅依赖对象特征或仅依赖条件特征更有效。</li>
-</ol>
+<h3>1) 表面方法</h3>
+<p>LLPSense 是一个两阶段机器学习框架：
+- <strong>特征提取</strong>：使用 ProtT5（预训练蛋白质语言模型）对氨基酸序列进行编码，经平均池化获得 1024 维序列嵌入；
+- <strong>条件整合</strong>：将 13 个环境条件变量（蛋白浓度、温度、pH、6 类 crowding agent 浓度、3 种盐浓度、甘油百分比）归一化后与序列嵌入拼接；
+- <strong>分类器</strong>：XGBoost（梯度提升决策树）二分类器，输出相分离概率。</p>
+<h3>2) 核心洞察</h3>
+<ul>
+<li><strong>条件即特征</strong>：相分离不是序列的固有属性，而是序列×环境的函数。将环境条件作为显式输入特征，使模型从"这个蛋白是否相分离"转变为"这个蛋白在什么条件下相分离"。</li>
+<li><strong>语言模型嵌入超越手工特征</strong>：ProtT5 嵌入无需人工设计特征（如电荷、疏水性），自动捕获与相分离相关的序列模式，包括无 IDR 的结构化蛋白。</li>
+<li><strong>双向突变预测</strong>：通过计算 ΔProbability（突变体−野生型），模型天然支持增强/抑制双向预测，克服了 catGRANULE 2.0 仅预测增强突变的局限。</li>
+<li><strong>相行为可编程性</strong>：通过迭代突变筛选（每轮选择 ΔProbability 斜率最大的 10 个突变），可以系统性地重编程蛋白的相行为类型（LCST→UCST）。</li>
+</ul>
+<h3>3) 可能的普适教训 [Analysis]</h3>
+<ul>
+<li><strong>条件维度是生物物理预测的通用增强</strong>：任何依赖环境条件的生物物理过程（如结合亲和力、构象变化）都可借鉴"序列嵌入 + 条件参数"的联合建模策略。</li>
+<li><strong>负样本的重新审视</strong>：本文揭示"非相分离"蛋白中 16.4% 在特定条件下可相分离，提示所有基于静态标签训练的预测器都可能存在系统性负样本偏差。</li>
+<li><strong>预测-实验闭环是模型验证的金标准</strong>：本文通过 SGTA、α-synuclein、UBQLN4 三个案例展示了从计算预测到体外验证的完整闭环，这种范式值得在 IDP/IDR 研究中推广。</li>
+</ul>
+<hr />
 <h2>07 方法总览</h2>
 <ul>
-<li><strong>输入</strong>: 蛋白质氨基酸序列 + 13个环境参数（蛋白浓度、温度、pH、6类拥挤剂浓度、3种盐浓度、甘油百分比）。</li>
-<li><strong>输出</strong>: 给定条件下的相分离概率（0-1）。</li>
-<li><strong>模块</strong>:<ol>
-<li><strong>序列嵌入模块</strong>: 使用预训练蛋白质语言模型ProtT5将序列编码为N×1024矩阵，再通过平均池化得到1024维向量。</li>
-<li><strong>条件编码模块</strong>: 将13个环境参数归一化到[0,1]。</li>
-<li><strong>融合与分类模块</strong>: 将1024维序列向量与13维条件向量拼接，输入XGBoost分类器。</li>
-</ol>
-</li>
-<li><strong>训练</strong>: 使用从LLPSDB v2筛选和扩充的数据集，采用5折基于序列聚类的交叉验证（MMseqs2，&lt;20%同源性）进行超参数优化（Optuna）。</li>
-<li><strong>工具</strong>: ProtT5, XGBoost, Optuna, MMseqs2。</li>
-<li><strong>反馈回路</strong>: 无显式反馈回路。</li>
-<li><strong>假设</strong>: 1) ProtT5嵌入能有效捕捉与相分离相关的序列特征。2) 选定的13个环境参数是影响体外相分离的主要因素。3) 通过区间划分策略扩充的数据点能有效代表连续相图。</li>
-<li><strong>流程</strong>: 输入序列 → ProtT5提取嵌入 → 平均池化 → 1024维向量 → 与13维归一化条件向量拼接 → XGBoost分类器 → 输出相分离概率。</li>
+<li><strong>输入</strong>：</li>
+<li>蛋白质氨基酸序列（用于 ProtT5 嵌入提取）</li>
+<li>13 个环境条件变量：蛋白浓度、温度、pH、6 类 crowding agent（PEG 300-1k、PEG 3k-6k、PEG 8k-20k、ficoll、dextran ≤40kDa、dextran ≥70kDa）浓度、3 种盐（NaCl、KCl、MgCl₂）浓度、甘油百分比</li>
+<li><strong>输出</strong>：相分离概率（0-1 连续值）</li>
+<li><strong>核心模块</strong>：
+  1. <strong>ProtT5 嵌入模块</strong>：序列 → 1024 维平均池化嵌入
+  2. <strong>条件编码模块</strong>：13 维条件向量归一化至 [0,1]
+  3. <strong>特征融合</strong>：1024 + 13 = 1037 维联合特征
+  4. <strong>XGBoost 分类器</strong>：二分类（相分离/非相分离），输出概率</li>
+<li><strong>训练</strong>：</li>
+<li>数据来源：LLPSDB v2（过滤为单蛋白条目）</li>
+<li>验证策略：5 折 cluster-based 交叉验证（MMseqs2 聚类，序列同一性 &lt;20%）</li>
+<li>超参数优化：Optuna 框架</li>
+<li><strong>推理</strong>：单次前向传播约 34 ms/蛋白-条件对，GPU 内存 &lt;8 GB</li>
+<li><strong>反馈回路</strong>：预测 → 实验验证 → 数据积累 → 模型迭代（作者在 Discussion 中提出）</li>
+<li><strong>假设</strong>：</li>
+<li>ProtT5 嵌入能捕获与相分离相关的序列特征</li>
+<li>13 个条件变量足以近似实验相图的主要维度</li>
+<li>训练数据中条件标注的准确性（依赖 LLPSDB v2 的文献数据质量）</li>
 </ul>
+<hr />
 <h2>08 核心模块拆解</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">模块</th>
-<th style="text-align: left;">功能</th>
-<th style="text-align: left;">为何需要</th>
-<th style="text-align: left;">输入输出</th>
-<th style="text-align: left;">支撑证据</th>
-<th style="text-align: left;">移除后的已知或预期影响</th>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>ProtT5序列嵌入</strong></td>
-<td style="text-align: left;">将氨基酸序列转换为高维、无偏的数值表示。</td>
-<td style="text-align: left;">替代手工特征工程，提供更通用、更有效的序列表示，尤其对无IDR蛋白有效。</td>
-<td style="text-align: left;">输入: 序列；输出: 1024维向量。</td>
-<td style="text-align: left;">图1b-e: LLPSeq（基于ProtT5）在AUPRC上优于PSPire和基于55个手工特征的基线模型。</td>
-<td style="text-align: left;">预期性能显著下降，尤其对无IDR蛋白。作者通过“Droppler+ProtT5”实验（图1f）证实，仅替换嵌入而不改架构，性能仍低于LLPSense。</td>
+<td><strong>ProtT5 嵌入提取</strong></td>
+<td>将氨基酸序列编码为 1024 维稠密向量</td>
+<td>捕获序列中与相分离相关的隐式模式，无需手工特征工程</td>
+<td>输入：氨基酸序列；输出：1024 维向量</td>
+<td>Results 图 1b-e：LLPSeq 在 ID/noID 测试集上 AUROC 与 PSPire 相当，AUPRC 超越</td>
+<td>[预期] 替换为手工特征（55 维）后性能显著下降（Results 图 1d-e 中 baseline 对比）</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>条件变量编码</strong></td>
-<td style="text-align: left;">将13个环境参数归一化并整合。</td>
-<td style="text-align: left;">使模型能感知环境变化，实现条件依赖预测。</td>
-<td style="text-align: left;">输入: 13个原始参数；输出: 13维归一化向量。</td>
-<td style="text-align: left;">图1f-h: LLPSense在条件预测任务上AUROC 0.77，远超序列模型和Droppler。</td>
-<td style="text-align: left;">模型退化为序列模型（如LLPSeq），无法预测条件变化，失去双向突变预测能力。</td>
+<td><strong>条件变量编码</strong></td>
+<td>将 13 个环境参数归一化并拼接</td>
+<td>使模型具备条件感知能力，区分同一序列在不同条件下的相行为</td>
+<td>输入：13 维原始条件值；输出：13 维归一化向量</td>
+<td>Results 图 3：RAD23A 盐浓度依赖预测与实验趋势部分吻合</td>
+<td>[预期] 移除后退化为序列静态预测器（即 LLPSeq），无法区分条件依赖行为</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>XGBoost分类器</strong></td>
-<td style="text-align: left;">基于融合特征进行相分离概率预测。</td>
-<td style="text-align: left;">树模型在相分离预测任务上被证明优于神经网络（引用文献12）。</td>
-<td style="text-align: left;">输入: 1037维融合向量；输出: 概率值。</td>
-<td style="text-align: left;">图1f: LLPSense优于Droppler（NN）和Droppler+ProtT5。补充表1: 优于朴素贝叶斯和SVM。</td>
-<td style="text-align: left;">预期性能下降。作者通过比较不同分类器（补充表1）证实XGBoost最优。</td>
+<td><strong>XGBoost 分类器</strong></td>
+<td>基于联合特征进行二分类概率预测</td>
+<td>树模型在表格数据上表现优异，可处理特征交互</td>
+<td>输入：1037 维联合特征；输出：相分离概率</td>
+<td>Results 图 1f-h：AUROC 0.77，优于 Droppler（0.64）</td>
+<td>[预期] 替换为神经网络（如 Droppler 架构）性能下降（图 1f 对比）</td>
+</tr>
+<tr>
+<td><strong>Cluster-based 交叉验证</strong></td>
+<td>按序列相似性聚类后划分训练/验证集</td>
+<td>防止同源序列泄漏导致性能高估</td>
+<td>输入：训练蛋白序列集；输出：5 折划分</td>
+<td>Methods：MMseqs2 聚类，&lt;20% 同一性</td>
+<td>[预期] 使用随机划分会高估泛化性能</td>
+</tr>
+<tr>
+<td><strong>ΔProbability 突变分析</strong></td>
+<td>计算突变体与野生型的概率差</td>
+<td>实现双向突变效应预测（增强/抑制）</td>
+<td>输入：WT 与突变体序列+相同条件；输出：ΔProbability</td>
+<td>Results 图 4d-f：预测排序与实验 turbidity 高度一致</td>
+<td>[预期] 移除后无法指导突变设计</td>
+</tr>
+<tr>
+<td><strong>迭代突变筛选</strong></td>
+<td>每轮选择 ΔProbability 斜率最大的 10 个突变累积</td>
+<td>实现相行为类型重编程（LCST→UCST）</td>
+<td>输入：当前突变体集合；输出：下一轮候选突变</td>
+<td>Results 图 6：UBQLN4-UCST 成功反转温度依赖性</td>
+<td>[预期] 单轮筛选不足以实现相行为反转</td>
 </tr>
 </tbody>
 </table>
+<hr />
 <h2>09 关键公式符号</h2>
-<p>不适用。本文未提供核心数学公式，模型为基于XGBoost的集成学习，其决策过程由多棵决策树集成，无单一显式公式。</p>
+<p>本文未提供显式数学公式。核心计算流程可形式化描述如下：</p>
+<p><strong>特征构建</strong>：
+- 序列嵌入：( \mathbf{e} = \text{MeanPool}(\text{ProtT5}(S)) \in \mathbb{R}^{1024} )
+- 条件向量：( \mathbf{c} = [c_{\text{conc}}, c_{\text{temp}}, c_{\text{pH}}, c_{\text{crowd}}, c_{\text{NaCl}}, c_{\text{KCl}}, c_{\text{MgCl}<em>2}, c</em>{\text{glycerol}}] \in \mathbb{R}^{13} )
+- 联合特征：( \mathbf{x} = [\mathbf{e}; \mathbf{c}] \in \mathbb{R}^{1037} )</p>
+<p><strong>预测</strong>：
+- ( P(\text{phase separation} | \mathbf{x}) = \sigma(f_{\text{XGBoost}}(\mathbf{x})) )，其中 σ 为 sigmoid 函数</p>
+<p><strong>突变效应</strong>：
+- ( \Delta P_i = P(\text{mutant}_i) - P(\text{WT}) )，在相同条件下计算</p>
+<p><strong>温度依赖性斜率</strong>（用于 LCST/UCST 判别）：
+- ( \text{slope} = \frac{\Delta P}{\Delta T} )，通过线性回归拟合温度-概率曲线</p>
+<hr />
 <h2>10 实验设计与证据链</h2>
-<ul>
-<li><strong>数据集/群体</strong>: </li>
-<li><strong>LLPSeq训练</strong>: PSPire数据集（人类蛋白，分ID-PSP, noID-PSP, non-PSP）。</li>
-<li><strong>LLPSense训练</strong>: 从LLPSDB v2筛选的单蛋白条目，经区间划分扩充。</li>
-<li><strong>验证集</strong>: α-突触核蛋白突变体、UBQLN4变体、SGTA、RAD23A、LAF-SUMO等。</li>
-<li><strong>规模</strong>: LLPSense训练集未明确给出总条目数，但提到LLPSDB v2经筛选和扩充。α-突触核蛋白突变体库包含2660个点突变。</li>
-<li><strong>指标</strong>: AUROC, AUPRC, 浊度(A350), ΔTurbidity。</li>
-<li><strong>基线</strong>: PSPire, Droppler, Droppler+ProtT5, LLPSeq, catGRANULE 2.0。</li>
-<li><strong>评测协议</strong>: 5折基于序列聚类的交叉验证（MMseqs2, &lt;20%同源性）。实验验证通过体外浊度测量和显微镜观察。</li>
-</ul>
+<h3>数据集与资源</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">实验</th>
-<th style="text-align: left;">检验的claim</th>
-<th style="text-align: left;">对比与条件</th>
-<th style="text-align: left;">结果</th>
-<th style="text-align: left;">支持的结论</th>
-<th style="text-align: left;">不支持更强的结论</th>
-<th style="text-align: left;">来源</th>
+<th>数据集</th>
+<th>规模/内容</th>
+<th>用途</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>LLPSeq性能评估</strong></td>
-<td style="text-align: left;">pLM嵌入优于手工特征和PSpire。</td>
-<td style="text-align: left;">在PSPire数据集上，与PSpire和基于55个特征的基线模型比较AUROC/AUPRC。</td>
-<td style="text-align: left;">LLPSeq在ID和noID集上AUPRC均优于PSpire和基线。</td>
-<td style="text-align: left;">ProtT5嵌入提供了更有效的序列表示。</td>
-<td style="text-align: left;">未证明LLPSeq在所有指标上均优于PSpire（AUROC相当）。</td>
-<td style="text-align: left;">图1b-e</td>
+<td>PSPire 数据集</td>
+<td>人类蛋白，分 ID-PSPs、noID-PSPs、non-PSPs 三类</td>
+<td>LLPSeq 训练与评估</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>LLPSense条件预测性能</strong></td>
-<td style="text-align: left;">整合条件变量后，性能优于Droppler。</td>
-<td style="text-align: left;">在条件预测任务上，与Droppler和Droppler+ProtT5比较AUROC/AUPRC。</td>
-<td style="text-align: left;">LLPSense AUROC 0.77，显著高于Droppler的0.64。</td>
-<td style="text-align: left;">整合pLM嵌入和条件变量的策略有效。</td>
-<td style="text-align: left;">未证明在极端或稀疏数据条件下性能稳定。</td>
-<td style="text-align: left;">图1f-h</td>
+<td>LLPSDB v2（过滤后）</td>
+<td>单蛋白条目，含条件标注</td>
+<td>LLPSense 训练与评估</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>SGTA相分离验证</strong></td>
-<td style="text-align: left;">LLPSense能发现被错误分类的相分离蛋白并预测其复杂行为。</td>
-<td style="text-align: left;">预测SGTA在非PSP集中，并预测其具有UCST/LCST混合的reentrant行为。实验测量浊度和显微镜。</td>
-<td style="text-align: left;">实验证实SGTA在PEG存在下相分离，且浊度在低温和高温均升高，符合预测。</td>
-<td style="text-align: left;">LLPSense能发现新相分离蛋白并捕捉复杂条件依赖行为。</td>
-<td style="text-align: left;">未证明SGTA在无PEG条件下也能相分离。</td>
-<td style="text-align: left;">图2c-f</td>
+<td>人类蛋白质组（UniProt Swiss-Prot）</td>
+<td>&lt;4000 残基的蛋白</td>
+<td>全蛋白质组筛选</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>α-突触核蛋白突变预测</strong></td>
-<td style="text-align: left;">LLPSense能双向、高分辨率预测突变效应。</td>
-<td style="text-align: left;">预测所有点突变，选择E28M（增强）和V77D（抑制）进行实验验证。与LLPSeq和catGRANULE 2.0比较。</td>
-<td style="text-align: left;">实验ΔTurbidity排序与LLPSense预测高度一致。LLPSense识别出24%增强突变，而LLPSeq仅识别9.8%。</td>
-<td style="text-align: left;">LLPSense提供了更精细、双向的突变效应预测。</td>
-<td style="text-align: left;">未测试所有预测突变，仅验证了最强效应突变。</td>
-<td style="text-align: left;">图4, 5</td>
+<td>α-synuclein 突变库</td>
+<td>140 残基 × 19 替换 = 2,660 突变体</td>
+<td>突变效应预测</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>UBQLN4相行为重编程</strong></td>
-<td style="text-align: left;">LLPSense能指导突变设计，改变相行为类型（LCST→UCST）。</td>
-<td style="text-align: left;">迭代选择使ΔProbability斜率最负的突变，构建UBQLN4-UCST。实验测量温度依赖的浊度。</td>
-<td style="text-align: left;">UBQLN4-UCST在低温下浊度更高，实现了从LCST到UCST的转换。</td>
-<td style="text-align: left;">LLPSense可作为设计工具，通过序列修改调控条件依赖的相行为。</td>
-<td style="text-align: left;">未验证该设计策略对其他蛋白的普适性。</td>
-<td style="text-align: left;">图6</td>
+<td>UBQLN4 突变体</td>
+<td>3 轮迭代 × 10 突变 = 30 累积突变</td>
+<td>相行为重编程</td>
 </tr>
 </tbody>
 </table>
-<h2>11 结论正确解读</h2>
+<h3>指标</h3>
 <ul>
-<li><strong>任务范围</strong>: 预测体外纯化蛋白在特定条件下的相分离概率。未涉及细胞内环境、其他分子（如RNA）的影响。</li>
-<li><strong>oracle/真值输入</strong>: 训练数据来自LLPSDB v2，其真值标签（是否相分离）依赖于实验者的判断和实验条件，可能存在不一致性。</li>
-<li><strong>端到端状态</strong>: 是端到端的预测框架，从序列和条件直接输出概率。</li>
-<li><strong>算力成本</strong>: 低。ProtT5嵌入约131ms/蛋白，推理约34ms/条件对，&lt;8GB VRAM。</li>
-<li><strong>历史数据依赖</strong>: 高度依赖LLPSDB v2的数据质量和覆盖范围。高盐、极端pH等稀疏区域预测不可靠。</li>
-<li><strong>模型依赖</strong>: 依赖ProtT5和XGBoost。未来更优的pLM或分类器可能提升性能。</li>
-<li><strong>最难情形</strong>: 预测高盐浓度下的行为（如RAD23A案例）、区分液-液相分离与凝胶化/聚集。</li>
-<li><strong>群体/领域边界</strong>: 模型基于体外数据训练，直接应用于细胞环境需谨慎。主要适用于单组分蛋白体系。</li>
-<li><strong>不确定性</strong>: 预测概率是相对值，并非绝对相分离分数。对于训练集外的蛋白或条件，不确定性增加。</li>
-<li><strong>有边界的复述</strong>: LLPSense是一个基于ProtT5和XGBoost的机器学习框架，能够准确预测纯化蛋白在13种常见体外条件下的相分离概率，并可用于发现新相分离蛋白、预测突变效应和指导相行为设计，但其性能受限于训练数据覆盖范围，且无法区分凝聚体的具体物质状态。</li>
+<li>AUROC（主指标）</li>
+<li>AUPRC（主指标）</li>
+<li>实验验证：turbidity (A350)、显微镜观察</li>
 </ul>
+<h3>实验列表</h3>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的 Claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LLPSeq 序列二分类</td>
+<td>pLM 嵌入可有效预测相分离</td>
+<td>对比 PSPire 和 55 维手工特征 baseline，ID/noID 测试集</td>
+<td>AUROC 与 PSPire 相当，AUPRC 超越</td>
+<td>pLM 嵌入 ≥ 手工特征</td>
+<td>不能证明 pLM 嵌入优于所有可能的手工特征</td>
+<td>Results 图 1b-e</td>
+</tr>
+<tr>
+<td>LLPSense 条件感知预测</td>
+<td>整合条件变量可提升预测精度</td>
+<td>对比 Droppler 和 Droppler+ProtT5，5 折 cluster CV</td>
+<td>AUROC 0.77 vs 0.64</td>
+<td>条件感知 + pLM 嵌入优于现有方法</td>
+<td>不能证明在未见过的蛋白家族上同样有效</td>
+<td>Results 图 1f-h</td>
+</tr>
+<tr>
+<td>阴性数据集重筛</td>
+<td>16.4% 的"非相分离"蛋白实际可相分离</td>
+<td>10,252 个 non-PSP 蛋白，温度 10-50°C 扫描</td>
+<td>1,681 个蛋白预测概率 &gt;0.5</td>
+<td>现有负数据集存在系统性偏差</td>
+<td>预测阳性不等同于实验验证阳性</td>
+<td>Results 图 2a</td>
+</tr>
+<tr>
+<td>SGTA 实验验证</td>
+<td>LLPSense 可发现新型相分离蛋白</td>
+<td>重组表达，PEG8000 浓度梯度，25°C</td>
+<td>turbidity 随 PEG 浓度增加；温度依赖 reentrant 行为</td>
+<td>SGTA 是条件依赖的相分离蛋白</td>
+<td>未验证 reentrant 行为的分子机制</td>
+<td>Results 图 2d-f</td>
+</tr>
+<tr>
+<td>α-synuclein 突变预测</td>
+<td>条件感知框架可双向预测突变效应</td>
+<td>2,660 突变体 vs 文献报道的 8 个致病突变</td>
+<td>预测排序与实验高度一致</td>
+<td>模型可区分增强/抑制突变</td>
+<td>未进行新突变的独立实验验证</td>
+<td>Results 图 4-5</td>
+</tr>
+<tr>
+<td>UBQLN4 相行为重编程</td>
+<td>迭代突变可反转 LCST→UCST</td>
+<td>3 轮 × 10 突变，实验验证</td>
+<td>UBQLN4-UCST 在低温 turbidity 高、高温低</td>
+<td>模型可指导相行为设计</td>
+<td>未验证突变体的生物学功能</td>
+<td>Results 图 6</td>
+</tr>
+<tr>
+<td>全蛋白质组条件扫描</td>
+<td>模型可绘制全局相分离条件依赖图谱</td>
+<td>人类蛋白质组 × 温度/盐/crowding 扫描</td>
+<td>盐浓度升高普遍降低相分离概率；crowding 普遍促进</td>
+<td>模型复现已知物理化学规律</td>
+<td>预测为计算推断，未逐一实验验证</td>
+<td>Results 图 S15-17</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>11 关键结论</h2>
+<ol>
+<li><strong>条件感知预测可行</strong>：LLPSense 在 cluster-based 5 折交叉验证中达到 AUROC 0.77 / AUPRC 0.74，显著优于 Droppler（AUROC 0.64），证明将环境条件参数纳入相分离预测可大幅提升精度。</li>
+<li><strong>pLM 嵌入优于手工特征</strong>：仅用 ProtT5 嵌入（无手工特征）的 LLPSeq 在 AUPRC 上超越 PSPir​​e 和 55 维特征 baseline，尤其在 noID（无 IDR 相分离蛋白）测试集上优势明显。</li>
+<li><strong>负数据集存在系统性偏差</strong>：16.4% 的"非相分离"蛋白在特定条件下被预测为相分离，其中包含已被文献验证的相分离蛋白（SS18、FOXP2、Atrophin-1），说明现有负标签不可靠。</li>
+<li><strong>突变效应可双向预测</strong>：α-synuclein 的 2,660 个单点突变预测中，模型正确识别了增强（E46K、A83Q）和抑制（A53E、G51D）突变，与文献报道一致。</li>
+<li><strong>相行为可编程</strong>：通过 3 轮迭代突变筛选（30 个累积突变），UBQLN4 从 LCST 型成功反转为 UCST 型，实验验证了计算设计的有效性。</li>
+<li><strong>模型复现已知物理化学规律</strong>：全蛋白质组分析显示 crowding agent 普遍促进相分离、高盐普遍抑制，与排除体积效应和静电屏蔽理论一致。</li>
+</ol>
+<hr />
 <h2>12 作者自认局限</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">局限</th>
-<th style="text-align: left;">具体表现</th>
-<th style="text-align: left;">作者提出的未来方向</th>
-<th style="text-align: left;">来源</th>
+<th>局限</th>
+<th>具体表现</th>
+<th>作者提出的未来方向</th>
+<th>来源</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">高盐条件下预测不准</td>
-<td style="text-align: left;">RAD23A在&gt;300mM NaCl时，预测与实验不符。</td>
-<td style="text-align: left;">积累更多高质量实验数据，特别是高盐条件下的数据。</td>
-<td style="text-align: left;">Results节“Validation of LLPSense...”，图3a。</td>
+<td>高盐条件预测精度有限</td>
+<td>RAD23A 在 &gt;300 mM NaCl 时实验 turbidity 持续上升，但模型预测下降</td>
+<td>积累更多高盐条件下的实验数据</td>
+<td>Results 图 3a；Discussion</td>
 </tr>
 <tr>
-<td style="text-align: left;">无法区分凝聚体物质状态</td>
-<td style="text-align: left;">预测SEMG2和SGTA形成凝聚体，但实验观察到凝胶状而非液滴状。</td>
-<td style="text-align: left;">未来数据细化需考虑液-凝胶-固体的完整谱系。</td>
-<td style="text-align: left;">Results节“Identification of potential phase-separating proteins...”。</td>
+<td>无法区分相态类型</td>
+<td>模型不能区分液-液相分离、凝胶化、聚集等不同相态</td>
+<td>扩展训练标签以涵盖相态类型</td>
+<td>Discussion</td>
 </tr>
 <tr>
-<td style="text-align: left;">条件感知AI仍有改进空间</td>
-<td style="text-align: left;">整体性能（AUROC 0.77）仍有提升空间。</td>
-<td style="text-align: left;">整合更先进的pLM（如下一代模型）和结构特征（如AlphaFold 3）。</td>
-<td style="text-align: left;">Discussion节。</td>
+<td>条件覆盖不完整</td>
+<td>13 个条件变量未涵盖所有可能的实验条件（如共溶质类型、翻译后修饰）</td>
+<td>纳入更多条件维度</td>
+<td>Discussion</td>
 </tr>
 <tr>
-<td style="text-align: left;">假阳性膨胀风险</td>
-<td style="text-align: left;">在普遍有利于相分离的条件下，预测概率可能系统性偏高。</td>
-<td style="text-align: left;">后续研究需解决序列特异性并处理假阳性膨胀。</td>
-<td style="text-align: left;">Discussion节。</td>
+<td>训练数据偏差</td>
+<td>依赖 LLPSDB v2 的文献数据，存在实验条件异质性和报道偏差</td>
+<td>建立标准化、条件标注更完整的数据库</td>
+<td>Discussion</td>
+</tr>
+<tr>
+<td>预测可能高估</td>
+<td>在广泛有利于相分离的条件下，可能存在假阳性膨胀</td>
+<td>开发相态判别和置信度校准方法</td>
+<td>Discussion</td>
+</tr>
+<tr>
+<td>未验证生物学功能</td>
+<td>突变体（如 UBQLN4-UCST）的相行为改变未在细胞或体内验证</td>
+<td>开展细胞层面的功能验证</td>
+<td>Discussion</td>
 </tr>
 </tbody>
 </table>
-<p><strong>作者提及的相关约束</strong>:
-- 负数据集的不准确性是普遍问题，非LLPSense独有。
-- 模型对训练数据中稀疏的条件区域（如高NaCl）可靠性有限。
-- 当前版本未区分液-液相分离与凝胶化/聚集，这些被视为连续谱。</p>
-<h2>13 批判性分析</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">[Analysis] 观察</th>
-<th style="text-align: left;">潜在问题或替代解释</th>
-<th style="text-align: left;">为何重要</th>
-<th style="text-align: left;">如何检验</th>
-<th style="text-align: left;">依据</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">区间划分策略可能引入数据偏差</td>
-<td style="text-align: left;">将实验报告的范围均匀采样，可能人为地创造了训练数据中不存在的“中间状态”，导致模型学习到平滑但非真实的相图。</td>
-<td style="text-align: left;">影响模型对真实相图边界的预测准确性。</td>
-<td style="text-align: left;">在独立、高分辨率的实验相图数据上测试LLPSense的预测，比较其与真实相图边界的吻合度。</td>
-<td style="text-align: left;">Methods节“Sampling of experimental condition data”。</td>
-</tr>
-<tr>
-<td style="text-align: left;">仅验证了最强效应突变</td>
-<td style="text-align: left;">对α-突触核蛋白，仅实验验证了预测效应最强的E28M和V77D。模型对大量中等效应突变的预测准确性未知。</td>
-<td style="text-align: left;">限制了模型在精细突变扫描中的可靠性声明。</td>
-<td style="text-align: left;">随机选择10-20个预测为中等效应（ΔProbability在0.1-0.3之间）的突变进行实验验证。</td>
-<td style="text-align: left;">Results节“In silico mapping...”，图4。</td>
-</tr>
-<tr>
-<td style="text-align: left;">UBQLN4重编程的普适性未验证</td>
-<td style="text-align: left;">仅在UBQLN4一个蛋白上展示了LCST→UCST的重编程。该方法是否适用于其他LCST蛋白或更复杂的相行为转换未知。</td>
-<td style="text-align: left;">限制了“模型指导设计”这一核心声明的泛化能力。</td>
-<td style="text-align: left;">选择2-3个其他已知LCST蛋白（如ELP），应用相同策略尝试重编程其相行为。</td>
-<td style="text-align: left;">Results节“LLPSense-guided mutations...”，图6。</td>
-</tr>
-<tr>
-<td style="text-align: left;">与catGRANULE 2.0的比较不全面</td>
-<td style="text-align: left;">仅比较了α-突触核蛋白的少数突变。catGRANULE 2.0在其他蛋白或突变上的表现未知。</td>
-<td style="text-align: left;">可能高估了LLPSense相对于现有方法的优势。</td>
-<td style="text-align: left;">在多个不同蛋白的突变数据集上，系统比较LLPSense与catGRANULE 2.0的预测性能。</td>
-<td style="text-align: left;">Results节“Condition-aware mutational screening...”，补充图13。</td>
-</tr>
-</tbody>
-</table>
-<h2>14 学到什么</h2>
-<p><strong>Agent 提炼的知识候选</strong>:
-1.  <strong>概念: 条件感知的蛋白行为预测</strong>。将“对象表示”（序列嵌入）与“环境表示”（条件参数）联合建模，是处理动态生物物理过程（如IDP/IDR介导的相分离、构象变化、蛋白-蛋白互作）的有效范式。
-    - <strong>如何迁移到本课题</strong>: 对于IDP/IDR介导的蛋白互作，可以构建一个模型，输入为IDP/IDR的序列嵌入 + 互作伙伴的序列嵌入 + 环境条件（如pH、盐浓度、温度），输出为互作强度或结合概率。
-2.  <strong>方法: 基于pLM的序列表示</strong>。使用预训练蛋白质语言模型（如ProtT5, ESM-2）的嵌入作为序列特征，可以避免繁琐的手工特征工程，并捕捉到与相分离/互作相关的深层序列模式。
-    - <strong>如何迁移到本课题</strong>: 在预测IDP/IDR与特定伙伴的互作时，直接使用pLM嵌入作为IDP和伙伴的特征，替代传统的基于氨基酸组成的特征（如电荷、疏水性）。
-3.  <strong>实验设计: 迭代模型指导的突变设计</strong>。通过计算突变对条件依赖行为的“影响斜率”（如ΔProbability vs. 温度），可以系统性地筛选和组合突变，以重编程蛋白的相行为。
-    - <strong>如何迁移到本课题</strong>: 对于IDP/IDR，可以计算突变对其与伙伴互作强度随pH或温度变化的“影响斜率”，从而设计出具有特定响应特性的互作模块。
-4.  <strong>公式/指标: ΔProbability斜率</strong>。通过计算突变体与野生型在条件变化下的概率差值的斜率，量化突变对条件敏感性的影响。
-    - <strong>如何迁移到本课题</strong>: 在IDP/IDR互作中，可以定义“ΔBinding斜率”，即突变体与野生型结合概率随盐浓度变化的差值斜率，用于筛选改变互作盐敏感性的突变。</p>
-<h2>15 与已有知识连接</h2>
-<ul>
-<li><strong>相似</strong>: 与Droppler (Ruff et al., 2021) 目标一致，但LLPSense通过使用pLM嵌入和更大数据集显著提升了性能。与PSPire (Chen et al., 2022) 相比，LLPSense增加了条件维度。</li>
-<li><strong>组合</strong>: 本文的“序列+条件”建模思路可与AlphaFold 3的结构预测结合（作者在Discussion中提及），用于预测结构信息如何影响条件依赖的相分离。</li>
-<li><strong>冲突</strong>: 本文指出序列模型（如LLPSeq）在突变预测中存在“饱和”问题，即对高概率蛋白的突变效应不敏感。这与一些序列模型声称能预测突变效应的说法形成对比，提示条件信息对于精细突变分析是必要的。</li>
-<li><strong>可迁移领域</strong>: 该框架可直接迁移到其他条件依赖的生物分子凝聚过程，如RNA-蛋白相分离、DNA-蛋白凝聚。也可迁移到预测酶活性随pH/温度的变化，或配体-受体结合亲和力的环境依赖性。</li>
-</ul>
-<h2>16 研究想法</h2>
-<p><strong>Agent 生成的研究候选</strong>:</p>
+<hr />
+<h2>13 讨论与解读</h2>
+<h3>对 IDP/IDR × 蛋白互作 × AI 课题的启示</h3>
 <ol>
 <li>
-<p><strong>名称</strong>: IDR-Interactome条件预测器</p>
-<ul>
-<li><strong>来源局限/观察</strong>: LLPSense仅预测单蛋白相分离，未涉及IDP/IDR与多个伙伴的互作网络。IDP/IDR的互作通常是混杂且条件依赖的。</li>
-<li><strong>核心假设</strong>: 将IDP/IDR的pLM嵌入与每个潜在伙伴的pLM嵌入及环境条件拼接，可以预测IDP/IDR在特定条件下与特定伙伴的互作概率。</li>
-<li><strong>相对本文的增量</strong>: 将预测目标从“单蛋白相分离”扩展到“双分子互作”，并处理多伙伴场景。</li>
-<li><strong>初步方法</strong>: 1) 从数据库（如BioGRID, IntAct）收集IDP/IDR与其伙伴的互作数据，并标注实验条件。2) 使用ProtT5提取IDP和伙伴的序列嵌入。3) 构建XGBoost模型，输入为[IDP嵌入, 伙伴嵌入, 条件向量]，输出为互作概率。4) 使用负采样（随机蛋白对）进行训练。</li>
-<li><strong>验证方式</strong>: 1) 在留出的IDP-伙伴对上测试AUROC/AUPRC。2) 选择预测为条件依赖的互作对（如仅在低盐下互作），通过体外实验（如ITC, SPR）验证。</li>
-<li><strong>可能的失败模式</strong>: 1) 数据稀疏，尤其缺乏条件标注的互作数据。2) 互作机制复杂（如涉及竞争、协同），简单拼接无法捕捉。3) pLM嵌入无法区分IDP与不同伙伴互作的细微结构差异。</li>
-<li><strong>创新状态</strong>: unverified</li>
-</ul>
+<p><strong>条件维度是 IDR 预测的核心缺口</strong>：IDR 的相分离行为高度依赖环境（温度、盐、pH、crowding），本文证明将条件参数纳入模型可显著提升预测精度。本课题若涉及 IDR 介导的互作，可借鉴"序列嵌入 + 条件参数"的联合建模策略，将互作伙伴浓度、离子强度等纳入预测。</p>
 </li>
 <li>
-<p><strong>名称</strong>: 基于物理模拟的IDP凝聚体物质状态分类器</p>
-<ul>
-<li><strong>来源局限/观察</strong>: LLPSense无法区分液滴、凝胶、聚集等不同物质状态，而这些状态在病理和功能上意义不同。</li>
-<li><strong>核心假设</strong>: 通过粗粒化分子动力学（CG-MD）模拟IDP/IDR在不同条件下的凝聚行为，可以提取区分物质状态的物理特征（如扩散系数、团簇分形维数、链间接触寿命），这些特征可作为标签训练一个分类器。</li>
-<li><strong>相对本文的增量</strong>: 将预测从“是否相分离”提升到“形成何种凝聚体”，并引入物理模拟作为数据生成和特征提取工具。</li>
-<li><strong>初步方法</strong>: 1) 选择10-20个已知在不同条件下形成不同状态（液滴、凝胶、纤维）的IDP/IDR。2) 使用CG-MD（如HPS模型, CALVADOS）模拟其在多种条件下的行为。3) 从模拟轨迹计算物理特征。4) 基于实验文献或模拟观察，为每个模拟条件分配状态标签。5) 训练一个分类器（如随机森林），输入为序列嵌入+条件向量，输出为状态类别。</li>
-<li><strong>验证方式</strong>: 1) 在未参与训练的IDP/IDR上进行模拟预测，并与文献报道的状态比较。2) 对预测为特定状态的IDP，进行体外实验（如FRAP, 流变学）验证。</li>
-<li><strong>可能的失败模式</strong>: 1) CG-MD力场对特定IDP/IDR不准确，导致模拟状态与实验不符。2) 计算成本高，难以覆盖大量序列和条件。3) 物质状态的定义和边界本身是模糊的，难以获得清晰标签。</li>
-<li><strong>创新状态</strong>: unverified</li>
-</ul>
+<p><strong>pLM 嵌入的迁移价值</strong>：ProtT5 嵌入无需手工特征即可捕获相分离相关序列模式，这对 IDR 研究尤为重要——IDR 缺乏稳定结构，传统结构特征（如疏水核心）不适用，而 pLM 嵌入可捕获序列上下文中的隐式物理化学信息。</p>
 </li>
 <li>
-<p><strong>名称</strong>: 基于图神经网络的IDR互作位点与条件敏感性联合预测</p>
-<ul>
-<li><strong>来源局限/观察</strong>: LLPSense使用平均池化，丢失了残基级别的空间信息。IDP/IDR的互作通常由特定的短线性基序（SLiMs）介导，其活性受条件（如磷酸化）调控。</li>
-<li><strong>核心假设</strong>: 使用图神经网络（GNN）处理序列，可以学习残基间的长程依赖，从而识别出关键的互作位点（SLiMs），并预测这些位点在不同条件下的活性变化。</li>
-<li><strong>相对本文的增量</strong>: 从全局概率预测深入到残基级别的互作位点预测，并引入条件对位点活性的影响。</li>
-<li><strong>初步方法</strong>: 1) 构建一个GNN模型，将序列视为图（节点为残基，边为序列相邻或结构预测的接触）。2) 节点特征为ProtT5嵌入，边特征为距离或序列间隔。3) 模型输出每个残基的“互作潜力”和“条件敏感性向量”（对pH、温度等的响应）。4) 训练数据使用已知SLiMs及其条件依赖的互作数据（如ELM数据库）。</li>
-<li><strong>验证方式</strong>: 1) 在已知SLiMs的IDP上，检查模型是否高亮这些位点。2) 预测突变对特定SLiM活性的影响，并通过实验（如肽段微阵列）验证。3) 预测磷酸化模拟突变如何改变位点的条件敏感性。</li>
-<li><strong>可能的失败模式</strong>: 1) 缺乏高质量、带条件标注的SLiM互作数据。2) GNN可能难以处理IDP的高度动态性，其“结构”在模拟中不断变化。3) 模型可能学到序列模式而非真正的物理化学机制。</li>
-<li><strong>创新状态</strong>: unverified</li>
-</ul>
+<p><strong>负样本问题的普遍性</strong>：本文揭示"非相分离"蛋白中 16.4% 在特定条件下可相分离，这对 IDR 互作研究同样适用——被标记为"不互作"的蛋白对可能在特定条件下互作。构建条件感知的负样本是未来方向。</p>
 </li>
-</ol></div>
+<li>
+<p><strong>突变效应预测的 IDR 应用</strong>：α-synuclein 的残基级突变预测方法可直接迁移到其他 IDR 系统，用于预测疾病相关突变对相分离的影响。</p>
+</li>
+<li>
+<p><strong>相行为重编程的合成生物学价值</strong>：UBQLN4 的 LCST→UCST 重编程展示了"计算设计→实验验证"的闭环，对设计条件响应型凝聚体或合成细胞器具有直接参考价值。</p>
+</li>
+</ol>
+<h3>争议/需注意之处 [Analysis]</h3>
+<ul>
+<li><strong>训练数据条件标注的可靠性</strong>：LLPSDB v2 来自文献汇总，不同实验的条件标注可能存在不一致，这可能影响模型在极端条件下的外推能力（如 RAD23A 高盐案例）。</li>
+<li><strong>XGBoost 的可扩展性</strong>：树模型难以处理连续条件空间的平滑插值，可能限制了对未采样条件组合的预测能力。神经网络架构（如条件归一化网络）可能更适合。</li>
+<li><strong>"相分离概率"的物理意义</strong>：模型输出的是概率而非物理化学参数（如饱和浓度、临界温度），限制了与理论模型的直接对接。</li>
+</ul>
+<hr />
+<h2>14 Agent 提炼的知识候选</h2>
+<ol>
+<li>
+<p><strong>条件感知预测范式</strong>：将环境条件参数作为显式输入特征与序列嵌入联合建模，可显著提升 IDR 相分离预测精度。可迁移到 IDR 介导的互作预测（将互作伙伴浓度、温度、离子强度作为条件输入）。</p>
+</li>
+<li>
+<p><strong>pLM 嵌入替代手工特征</strong>：ProtT5 等预训练语言模型嵌入可自动捕获 IDR 中与相分离/互作相关的序列模式，无需人工设计特征。建议在 IDR 互作预测中优先尝试 pLM 嵌入。</p>
+</li>
+<li>
+<p><strong>ΔProbability 突变分析框架</strong>：通过计算突变体与野生型的预测概率差，可实现双向突变效应预测（增强/抑制），适用于疾病相关突变筛选。</p>
+</li>
+<li>
+<p><strong>迭代突变设计策略</strong>：每轮选择 ΔProbability 斜率最大的突变累积，可系统性地重编程相行为类型。该策略可推广到设计具有特定互作亲和力或条件响应性的 IDR 变体。</p>
+</li>
+<li>
+<p><strong>负数据集重新审视</strong>：现有"非相分离"或"非互作"数据集可能存在系统性偏差，建议在构建训练集时纳入条件信息，或使用条件感知的负样本采样策略。</p>
+</li>
+<li>
+<p><strong>Cluster-based 交叉验证</strong>：使用 MMseqs2 序列聚类（&lt;20% 同一性）划分训练/验证集，可防止同源序列泄漏，是 IDR 预测模型评估的推荐实践。</p>
+</li>
+<li>
+<p><strong>物理化学规律一致性检验</strong>：模型预测的全局趋势（crowding 促进、高盐抑制）与已知物理化学原理一致，可作为 IDR 预测模型的 sanity check。</p>
+</li>
+</ol>
+<hr />
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>PSPir​​e（2022）¹¹</strong>：本文的直接前驱，提供 ID/noID 分类数据集和评估基准。LLPSeq 在相同数据集上达到可比 AUROC 并超越 AUPRC，验证了 pLM 嵌入的优越性。</li>
+<li><strong>catGRANULE 2.0（2024）¹³</strong>：首个尝试突变效应预测的工具，但仅支持增强方向。本文的 ΔProbability 框架实现双向预测，且通过 α-synuclein 案例展示了更细粒度的残基分辨率。</li>
+<li><strong>Droppler（2023）¹⁶</strong>：首个条件感知相分离预测器，但性能有限。本文通过 pLM 嵌入 + XGBoost 架构实现显著提升（AUROC 0.64 → 0.77）。</li>
+<li><strong>LLPSDB v2（2020）²⁰</strong>：核心训练数据来源，提供条件标注的相分离实验数据。</li>
+<li><strong>ProtT5（2021）¹⁷</strong>：序列嵌入提取器，已在多种蛋白质预测任务中验证有效性。</li>
+<li><strong>α-synuclein 相分离研究（2019-2023）⁴⁶⁻⁴⁹</strong>：提供了突变-相分离行为的实验数据，用于验证模型预测。</li>
+<li><strong>UBQLN 家族相分离研究（2020）⁵¹</strong>：UBQLN2 的 LCST 行为为本文的相行为重编程提供了生物学基础。</li>
+<li><strong>与 IDP/IDR 互作预测的连接</strong>：本文方法可扩展到 IDR 介导的互作预测——将互作伙伴浓度作为条件变量，将互作亲和力作为预测目标，形成"序列×条件→互作"的预测框架。</li>
+</ul>
+<hr />
+<h2>16 研究想法</h2>
+<h3>候选 1：IDR 互作的条件感知预测框架</h3>
+<ul>
+<li><strong>名称</strong>：IDR-InteractSense</li>
+<li><strong>来源局限/观察</strong>：现有 IDR 互作预测器（如 D2P2、IUPred 等）仅基于序列，忽略互作条件（浓度、温度、离子强度）</li>
+<li><strong>核心假设</strong>：将互作伙伴浓度、温度、pH 作为条件输入，可显著提升 IDR 介导互作的预测精度</li>
+<li><strong>初步方法</strong>：采用 LLPSense 架构，将 ProtT5 嵌入 + 条件参数输入 XGBoost，训练数据来自条件标注的互作实验数据库</li>
+<li><strong>验证方式</strong>：与现有序列预测器对比，在条件依赖的互作数据集上评估</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+<h3>候选 2：相分离突变效应的残基级图谱</h3>
+<ul>
+<li><strong>名称</strong>：PhaseMutScan</li>
+<li><strong>来源局限/观察</strong>：本文仅对 α-synuclein 进行了 2,660 个单点突变的预测，未扩展到其他 IDR 系统</li>
+<li><strong>核心假设</strong>：LLPSense 的 ΔProbability 框架可泛化到其他疾病相关 IDR 蛋白</li>
+<li><strong>初步方法</strong>：对 TDP-43、FUS、hnRNPA1 等 ALS/FTD 相关 IDR 进行全残基突变扫描，构建相分离突变图谱</li>
+<li><strong>验证方式</strong>：选择预测增强/抑制最强的突变进行体外 turbidity 验证</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+<h3>候选 3：相态判别模型</h3>
+<ul>
+<li><strong>名称</strong>：PhaseStateNet</li>
+<li><strong>来源局限/观察</strong>：LLPSense 无法区分液-液相分离、凝胶化、聚集等不同相态</li>
+<li><strong>核心假设</strong>：通过多标签分类或回归，可预测特定条件下的相态类型</li>
+<li><strong>初步方法</strong>：扩展训练标签以涵盖相态类型，使用多任务学习架构</li>
+<li><strong>验证方式</strong>：在已知相态的蛋白数据集上评估分类精度</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+<h3>候选 4：IDR 凝聚体的可编程设计平台</h3>
+<ul>
+<li><strong>名称</strong>：CondensateDesigner</li>
+<li><strong>来源局限/观察</strong>：UBQLN4 的 LCST→UCST 重编程展示了计算设计的可行性，但仅针对单一蛋白</li>
+<li><strong>核心假设</strong>：通过迭代突变筛选，可以系统性地设计具有目标相行为（如特定温度响应、特定盐敏感性）的 IDR 序列</li>
+<li><strong>初步方法</strong>：结合 LLPSense 预测与遗传算法/贝叶斯优化，实现多目标序列设计</li>
+<li><strong>验证方式</strong>：设计 10-20 个序列，体外验证相行为与设计目标的一致性</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+<h3>候选 5：条件感知的 IDR 互作网络预测</h3>
+<ul>
+<li><strong>名称</strong>：ConditionAwareInteractome</li>
+<li><strong>来源局限/观察</strong>：LLPSense 聚焦单蛋白相分离，未涉及多组分互作网络</li>
+<li><strong>核心假设</strong>：将 LLPSense 扩展到多蛋白系统，可预测特定条件下的互作网络拓扑</li>
+<li><strong>初步方法</strong>：对蛋白对进行联合嵌入 + 条件参数输入，预测互作概率矩阵</li>
+<li><strong>验证方式</strong>：在已知的相分离凝聚体蛋白组（如应激颗粒蛋白组）上评估</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+<h3>候选 6：AlphaFold 3 结构特征与相分离预测的整合</h3>
+<ul>
+<li><strong>名称</strong>：AF3-PhaseFusion</li>
+<li><strong>来源局限/观察</strong>：作者在 Discussion 中提出计划整合 AlphaFold 3 结构特征</li>
+<li><strong>核心假设</strong>：结构特征（如表面电荷分布、疏水斑块）可补充序列嵌入，提升相分离预测精度</li>
+<li><strong>初步方法</strong>：将 AF3 预测结构的几何特征与 ProtT5 嵌入联合建模</li>
+<li><strong>验证方式</strong>：在 LLPSDB v2 上对比有无结构特征的性能差异</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul></div>
   </section>
   
   
@@ -416,111 +612,160 @@
     <h2>审稿人评审</h2>
     <div class="md"><h2>Review setup</h2>
 <ul>
-<li><strong>Input scope</strong> Full manuscript (including Abstract, Introduction, Results, Discussion, Methods, and Supplementary Information references)</li>
-<li><strong>Assessment boundary</strong> Scientific claims, methodology, experimental validation, and data interpretation as presented in the provided text</li>
-<li><strong>Shared manuscript claim summary</strong> The authors present LLPSense, a machine learning framework that integrates protein language model embeddings with environmental parameters (e.g., temperature, pH, salt concentration) to predict condition-dependent protein phase separation. They claim that LLPSense outperforms existing sequence-only and condition-aware models, identifies previously unrecognized phase-separating proteins (e.g., SGTA), predicts mutational effects on α-synuclein phase behavior, and enables reprogramming of UBQLN4 from LCST to UCST behavior.</li>
-<li><strong>Visible evidence base</strong> Abstract, Introduction, Results (including Figures 1–6 and Supplementary Figures 1–23), Discussion, Methods, and Supplementary Information references</li>
-<li><strong>Missing materials affecting confidence</strong> Source data files, Supplementary Data files (1–3), and Supplementary Notes are referenced but not provided; code and trained model weights are not available for independent verification; raw experimental images beyond representative fields are not shown; full dataset for LLPSense training (curated from LLPSDB v2) is not provided in the manuscript.</li>
+<li><strong>Input scope</strong> Full manuscript text (Abstract, Introduction, Results, Discussion, Methods) without supplementary figures, tables, or data files</li>
+<li><strong>Assessment boundary</strong> Scientific validity, technical soundness, and significance of the claims as presented in the main text; experimental validation quality as described; methodological transparency</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present LLPSense, a machine learning framework that integrates ProtT5 protein language model embeddings with 13 environmental condition variables (concentration, temperature, pH, crowding agents, salts, glycerol) to predict condition-dependent protein phase separation. They report: (1) superior predictive performance over Droppler; (2) identification of SGTA as a novel phase-separating protein with reentrant temperature-dependent behavior, validated experimentally; (3) accurate prediction of α-synuclein mutations that enhance or suppress phase separation, validated experimentally; (4) successful reprogramming of UBQLN4 from LCST to UCST behavior via iterative mutation; (5) proteome-wide analysis revealing physicochemical trends consistent with established principles.</li>
+<li><strong>Visible evidence base</strong> Main text figures (Figs. 1–6) and their legends; Methods section; Supplementary figure and table references (without actual content)</li>
+<li><strong>Missing materials affecting confidence</strong> Supplementary figures, tables, and data files; Source Data; detailed Methods for supplementary analyses; exact dataset statistics for LLPSDB v2 curation; hyperparameter configurations; code availability statement</li>
 </ul>
 <h2>Reviewer</h2>
 <ul>
-<li><strong>Overall assessment</strong> This manuscript presents a timely and ambitious framework for predicting condition-dependent protein phase separation, addressing a critical gap in the field. The integration of protein language model embeddings with environmental parameters is conceptually sound, and the experimental validations—particularly for SGTA, α-synuclein mutants, and UBQLN4 reprogramming—are impressive in scope. However, several technical concerns undermine the strength of the claims, including potential data leakage in the training set, insufficient benchmarking against state-of-the-art methods, and lack of clarity on model generalizability. The manuscript would benefit from addressing these issues to establish the case for LLPSense as a robust tool.</li>
-<li><strong>Who would be interested in the results, and why</strong> Researchers in biomolecular condensates, phase separation, and machine learning for protein biophysics will find this work highly relevant. The condition-aware prediction capability and the demonstration of mutational engineering for phase behavior modulation are of particular interest for understanding disease mechanisms (e.g., neurodegeneration) and for synthetic biology applications. The proteome-wide analysis also provides a resource for the community.</li>
-<li><strong>Major strengths</strong> 1. Addresses a significant limitation of existing sequence-only predictors by incorporating environmental parameters, enabling condition-aware predictions. 2. Comprehensive experimental validation across multiple proteins (SGTA, α-synuclein, UBQLN4, LAF-SUMO) with diverse phase behaviors, including reentrant and LCST/UCST regimes. 3. Demonstrates a novel application of model-guided mutagenesis to reprogram phase behavior (UBQLN4 LCST-to-UCST), which is a proof-of-concept for programmable condensate design. 4. Proteome-wide analysis provides insights into physicochemical dependencies of phase separation.</li>
-<li><strong>Major Concerns</strong><ul>
-<li><strong>Concern ID</strong> R1-M1</li>
-<li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Data integrity and model validation</li>
-<li><strong>Claim pointer</strong> "LLPSense accurately predicts condition-dependent protein phase behavior" and "LLPSense demonstrated robust predictive performance, achieving an average AUROC of 0.77 and an AUPRC of 0.74" (Results, paragraph 2).</li>
-<li><strong>Evidence pointer</strong> Figure 1f–h; Methods: Dataset preparation and model training</li>
-<li><strong>Concern</strong> The training dataset for LLPSense is curated from LLPSDB v2, which includes entries for α-synuclein (as acknowledged in the text: "even with the target protein included in its training"). This raises a critical concern about data leakage: the model is evaluated on α-synuclein mutants, but the wild-type α-synuclein sequence and its condition-dependent data are likely present in the training set. The authors acknowledge this ("The absolute probability for the WT sequence (0.204) may be subject to moderate overestimation due to its inclusion in the training set") but do not provide a clear analysis of how this affects the mutational predictions. For example, the model's ability to rank mutants (e.g., E28M &gt; WT) could be biased if the training data includes similar sequences or conditions. The cluster-based cross-validation (MMseqs2 at 20% identity) may not fully exclude homologous sequences, especially for well-studied proteins like α-synuclein. The authors should perform a leave-one-protein-out validation for α-synuclein and other key test proteins to assess true generalization.</li>
-<li><strong>Why it matters</strong> If the model's performance on α-synuclein mutants is inflated due to data leakage, the claims of "single-residue resolution" and "bidirectional prediction" are not robustly supported. This undermines the core utility of LLPSense for disease-associated mutation analysis.</li>
-<li><strong>Resolution test</strong> Perform a leave-one-protein-out cross-validation where all entries for α-synuclein (and other test proteins) are excluded from the training set. Report AUROC/AUPRC for the condition-dependent task on these held-out proteins. Alternatively, provide a clear list of all proteins in the training set and demonstrate that α-synuclein and its close homologs (e.g., β-synuclein) are not present.</li>
-<li><strong>Concern ID</strong> R1-M2</li>
-<li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Benchmarking and comparison</li>
-<li><strong>Claim pointer</strong> "This performance significantly surpasses the AUROC value reported for Droppler (0.64)" and "LLPSense continued to exhibit superior predictive accuracy" (Results, paragraph 2).</li>
-<li><strong>Evidence pointer</strong> Figure 1f; Supplementary Figure 1</li>
-<li><strong>Concern</strong> The comparison with Droppler is incomplete and potentially unfair. The authors compare LLPSense (trained on their curated dataset) with Droppler's reported AUROC of 0.64, but Droppler was trained on a different, likely smaller dataset. The authors also retrained Droppler on their dataset ("Droppler+ProtT5"), but the architecture of this retrained model is not clearly described. Was the original Droppler neural network architecture used, or was it modified? The disentanglement experiment (Supplementary Figure 2) shows that ProtT5 embeddings improve Droppler's performance, but the final LLPSense still outperforms. However, the authors do not compare with other condition-aware methods (e.g., catGRANULE 2.0, which is mentioned only for α-synuclein mutants) or with simpler baselines (e.g., logistic regression on the same features). Without a comprehensive benchmark, the claim of "superior predictive accuracy" is not fully substantiated.</li>
-<li><strong>Why it matters</strong> The field needs clear evidence that LLPSense is a significant advance over existing tools. Incomplete benchmarking risks overstating the model's novelty and utility.</li>
-<li><strong>Resolution test</strong> 1. Provide a detailed description of the retrained Droppler model (architecture, hyperparameters, training procedure). 2. Compare LLPSense with at least one additional condition-aware method (e.g., catGRANULE 2.0) on the same test set. 3. Include a simple baseline (e.g., logistic regression on ProtT5 embeddings + condition variables) to demonstrate the benefit of the XGBoost architecture.</li>
-<li><strong>Concern ID</strong> R1-M3</li>
-<li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> No</li>
-<li><strong>Axis</strong> Experimental validation and reproducibility</li>
-<li><strong>Claim pointer</strong> "LLPSense accurately predicts mutations in Parkinson's disease-associated α-synuclein that either enhance or suppress phase separation" and "LLPSense-guided mutations reprogram UBQLN4 from LCST to UCST phase behavior" (Abstract; Results).</li>
-<li><strong>Evidence pointer</strong> Figures 4–6; Methods: Turbidity assays and microscopy</li>
-<li><strong>Concern</strong> The experimental validation, while extensive, has several limitations that affect the strength of the claims. 1. For α-synuclein mutants, turbidity measurements are performed under a limited set of conditions (nine combinations of PEG8k and protein concentration). The authors do not test whether the predicted mutational effects are consistent across other environmental parameters (e.g., temperature, salt). 2. For UBQLN4 reprogramming, the final variant (UBQLN4-UCST) contains 30 mutations, and the authors do not assess whether these mutations affect protein stability, folding, or function. The microscopy images (Supplementary Figure 14b) show "percolated clusters," which may indicate aggregation rather than liquid-liquid phase separation. 3. The authors do not provide quantitative droplet metrics (e.g., size distribution, number density, fusion events) for any of the experimental systems, relying primarily on turbidity (A350) as a proxy for phase separation. Turbidity can be influenced by aggregation, precipitation, or gelation, which are not equivalent to LLPS.</li>
-<li><strong>Why it matters</strong> The claims of "modulating phase behavior" and "programmable condensate design" require rigorous evidence that the observed phenomena are indeed liquid-liquid phase separation, not aggregation or gelation. Without quantitative characterization, the biological relevance of the findings is unclear.</li>
-<li><strong>Resolution test</strong> 1. For α-synuclein mutants, perform turbidity or microscopy under at least one additional condition (e.g., varying temperature or salt) to confirm that the predicted rank order holds. 2. For UBQLN4-UCST, provide evidence of liquid-like behavior (e.g., droplet fusion, fluorescence recovery after photobleaching (FRAP), or rheological measurements). 3. Report quantitative droplet metrics (e.g., mean droplet size, number of droplets per field) for key experiments (SGTA, α-synuclein, UBQLN4).</li>
-<li><strong>Concern ID</strong> R1-M4</li>
-<li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> No</li>
-<li><strong>Axis</strong> Model interpretability and feature importance</li>
-<li><strong>Claim pointer</strong> "LLPSense accurately predicts condition-dependent protein phase behavior" and "Proteome-wide analysis of physicochemical dependencies" (Results).</li>
-<li><strong>Evidence pointer</strong> Supplementary Figures 16, 17, 20, 23</li>
-<li><strong>Concern</strong> The model uses 13 condition variables concatenated with 1024-dimensional ProtT5 embeddings. The authors perform SHAP analysis (Supplementary Figure 23) and UMAP projections (Supplementary Figure 20), but these analyses are superficial. For example, the SHAP analysis does not show which condition variables are most important for prediction, nor does it reveal how the model integrates sequence and condition information. The claim that the model "recapitulates the underlying physicochemical rules" (Discussion) is based on correlative analyses (e.g., salt sensitivity vs. FCR), but these do not demonstrate that the model has learned causal relationships. Without a deeper understanding of feature importance, it is difficult to assess whether the model is robust or overfits to spurious correlations in the training data.</li>
-<li><strong>Why it matters</strong> For a model intended for biological discovery (e.g., identifying disease mutations), interpretability is crucial. Users need to trust that predictions are based on meaningful physicochemical principles, not artifacts of the training data.</li>
-<li><strong>Resolution test</strong> 1. Provide a SHAP summary plot showing the top 10–20 features (including condition variables and sequence embedding dimensions) that contribute most to predictions. 2. Perform ablation studies where individual condition variables are removed to assess their impact on model performance. 3. Test the model on synthetic or perturbed data (e.g., scrambled sequences, randomized conditions) to confirm that predictions degrade as expected.</li>
-</ul>
+<li>
+<p><strong>Overall assessment</strong> This manuscript addresses a genuine and important limitation in the field of protein phase separation prediction: the static, sequence-only nature of existing predictors. The authors propose a conceptually sound framework that integrates environmental conditions, which is a meaningful advance. The experimental validations, particularly the SGTA discovery and the UBQLN4 reprogramming, are compelling and demonstrate practical utility. However, the manuscript as presented has several technical concerns that need to be addressed. The most significant issues are: (1) the lack of a clear description of the training data construction from LLPSDB v2, particularly how positive and negative instances are defined and how the interval-partitioning strategy affects label integrity; (2) the absence of a rigorous comparison with Droppler under identical evaluation protocols, as the reported comparison appears to rely on previously published performance metrics; (3) the RAD23A high-salt discrepancy, while acknowledged, raises questions about the model's reliability in extrapolation; (4) the UBQLN4 reprogramming, while impressive, is based on a single protein and the mechanism of the 30 accumulated mutations is not analyzed. The writing is generally clear and accessible, though some methodological details are deferred to supplementary materials. Overall, the core idea is strong and the validations are promising, but the technical rigor of the evaluation and the transparency of the data curation need to be strengthened to fully establish the case.</p>
 </li>
-<li><strong>Minor Comments</strong><ul>
-<li><strong>Concern ID</strong> R1-m1</li>
+<li>
+<p><strong>Who would be interested in the results, and why</strong> Researchers in the fields of biomolecular condensates, phase separation, and intrinsically disordered proteins would be the primary audience. The framework's ability to predict condition-dependent behavior and guide mutagenesis would be of interest to those studying disease-associated mutations in proteins like α-synuclein and to synthetic biologists aiming to design programmable condensates. The methodological approach of integrating language model embeddings with environmental parameters may also appeal to the broader computational biology and machine learning community.</p>
+</li>
+<li>
+<p><strong>Major strengths</strong> (1) The conceptual advance of incorporating environmental conditions into phase separation prediction is significant and addresses a clear gap in the field. (2) The experimental validation of SGTA as a novel phase-separating protein with complex reentrant behavior is a strong demonstration of the model's discovery power. (3) The bidirectional prediction of α-synuclein mutations and the experimental confirmation provide a rigorous test of the model's granularity. (4) The successful reprogramming of UBQLN4's phase behavior from LCST to UCST is a compelling proof-of-concept for the model's utility in protein design. (5) The proteome-wide analysis provides useful insights into the physicochemical determinants of phase separation.</p>
+</li>
+<li>
+<p><strong>Major Concerns</strong></p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M1</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Data and label construction</li>
+<li><strong>Claim pointer</strong> The authors claim that LLPSense is trained on a "rigorously curated, ML-ready dataset" derived from LLPSDB v2, filtered for single-protein entries, with 13 condition variables extracted and standardized.</li>
+<li><strong>Evidence pointer</strong> Methods, "Sampling of experimental condition data"; Results, "LLPSense accurately predicts condition-dependent protein phase behavior"</li>
+<li><strong>Concern</strong> The description of how the training dataset was constructed from LLPSDB v2 is insufficient. Specifically, it is unclear how positive and negative instances are defined. Does a "positive" instance mean a condition under which phase separation was observed, and a "negative" instance a condition under which it was not? How are entries with ranges handled in terms of label assignment? The interval-partitioning strategy is mentioned, but the details of how this affects the label (e.g., if a range is partitioned, does each sub-interval inherit the same label?) are not provided. This is a critical methodological detail that directly impacts the validity of the training data and the interpretation of the model's output.</li>
+<li><strong>Why it matters</strong> If the labels are not clearly defined, the model's predictions are difficult to interpret. For example, a probability of 0.5 is used as a threshold for "phase separation" in screening, but it is unclear what this probability represents in terms of experimental observation. The lack of clarity on label construction undermines the reproducibility and the scientific validity of the model's outputs.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should provide a detailed description of the data curation process, including a clear definition of positive and negative instances, the exact procedure for handling ranges and the interval-partitioning strategy, and the distribution of labels in the final dataset. Ideally, a data availability statement with a link to the curated dataset should be provided.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M2</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Comparative evaluation</li>
+<li><strong>Claim pointer</strong> The authors claim that LLPSense "significantly surpasses the AUROC value reported for Droppler (0.64)" and that it outperforms Droppler retrained on their dataset.</li>
+<li><strong>Evidence pointer</strong> Results, "LLPSense accurately predicts condition-dependent protein phase behavior"; Fig. 1f</li>
+<li><strong>Concern</strong> The comparison with Droppler is not described with sufficient rigor. The AUROC of 0.64 for Droppler is cited from the original publication, but it is unclear if this was computed on the same evaluation protocol (e.g., same cross-validation scheme, same test set). The retrained Droppler (Droppler+ProtT5) is mentioned, but the details of its training (e.g., hyperparameters, data split) are not provided. A fair comparison requires that both models are evaluated on the same held-out test set using the same metrics and the same cross-validation procedure.</li>
+<li><strong>Why it matters</strong> The claim of superior performance is a central pillar of the manuscript. Without a rigorous, apples-to-apples comparison, the reader cannot assess whether the improvement is due to the model architecture, the input features, or the training data. This weakens the case for LLPSense's advantage.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should provide a detailed description of the evaluation protocol, including the exact data split, the cross-validation scheme, and the hyperparameters for all models compared. Ideally, they should report performance metrics (AUROC, AUPRC) for all models on the same test set, with confidence intervals.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M3</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Experimental validation scope</li>
+<li><strong>Claim pointer</strong> The authors claim that "Multiple experimental validations confirm LLPSense's predictive power and utility," citing SGTA, α-synuclein, and UBQLN4 experiments.</li>
+<li><strong>Evidence pointer</strong> Results, "Identification of potential phase-separating proteins...", "In silico mapping of the α-synuclein mutational landscape...", "LLPSense-guided mutations reprogram UBQLN4..."</li>
+<li><strong>Concern</strong> While the experimental validations are a strength, the scope is limited. The SGTA validation is based on turbidity and microscopy, but the reentrant behavior is only shown for a limited set of conditions. The α-synuclein validation is based on turbidity, but the relationship between turbidity and actual phase separation (e.g., droplet formation) is not fully established for all variants. The UBQLN4 reprogramming is based on a single protein with 30 accumulated mutations, and the mechanism by which these mutations collectively invert the temperature dependence is not investigated. The authors acknowledge the RAD83A discrepancy, but this highlights the model's limitations in extrapolation.</li>
+<li><strong>Why it matters</strong> The claims of "predictive power and utility" are strong, and the experimental evidence, while supportive, is not exhaustive. A more thorough validation, including a broader range of conditions and a mechanistic analysis of the mutations, would strengthen the case. The RAD23A discrepancy, while acknowledged, should be discussed more thoroughly in terms of its implications for the model's applicability.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should provide additional experimental data, such as microscopy images for the α-synuclein variants, a more detailed analysis of the SGTA phase diagram, and a discussion of the potential mechanisms underlying the UBQLN4 reprogramming. They should also discuss the RAD23A discrepancy in the context of the model's limitations.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M4</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Model interpretability and feature analysis</li>
+<li><strong>Claim pointer</strong> The authors claim that LLPSense "reveals complex, temperature-dependent reentrant behavior" and that it can "guide sequence modifications for tuning condition-specific phase behavior."</li>
+<li><strong>Evidence pointer</strong> Results, "Identification of potential phase-separating proteins...", "LLPSense-guided mutations reprogram UBQLN4..."</li>
+<li><strong>Concern</strong> The manuscript does not provide any analysis of which features (sequence or environmental) are most important for the model's predictions. The authors mention SHAP analysis in the supplementary materials, but it is not described in the main text. Understanding which environmental parameters and which sequence regions drive the predictions would provide valuable biological insight and help build trust in the model's mechanisms.</li>
+<li><strong>Why it matters</strong> A "black box" model, even with good predictive performance, is less useful for generating hypotheses about the underlying biophysics. An interpretability analysis would help the reader understand why the model makes certain predictions, such as the reentrant behavior of SGTA or the effect of specific mutations in α-synuclein.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should include a section in the main text or a more detailed supplementary analysis that uses SHAP or a similar method to identify the most influential features for key predictions. This would enhance the biological interpretability of the model.</p>
+</li>
+<li>
+<p><strong>Minor Comments</strong></p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m1</p>
+</li>
 <li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Clarity and presentation</li>
-<li><strong>Affected element</strong> Figure 2c</li>
-<li><strong>Evidence pointer</strong> Figure 2c</li>
-<li><strong>Issue</strong> The predicted temperature profile for SGTA (Figure 2c) shows a "reentrant phase behavior," but the y-axis label is "Probability" without specifying the condition (e.g., protein concentration, PEG concentration). The text mentions "under physiological conditions (100 µM protein concentration, pH 7.3, and 160 mM NaCl)," but this is not stated in the figure legend.</li>
-<li><strong>Required correction</strong> Add the specific conditions (protein concentration, pH, NaCl, crowding agent) to the figure legend for Figure 2c. Consider adding a second y-axis or a table to clarify the conditions for each panel.</li>
-<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Axis</strong> Clarity of terminology</li>
+<li><strong>Affected element</strong> Introduction, "Droppler represents a pioneering effort..."</li>
+<li><strong>Evidence pointer</strong> Introduction, paragraph 3</li>
+<li><strong>Issue</strong> The term "condition-dependent LLPS" is used throughout, but the distinction between "condition-dependent" and "sequence-dependent" is not always clear. The authors should explicitly define what they mean by "condition" (e.g., temperature, pH, concentration) and how this differs from the sequence-based features.</li>
+<li>
+<p><strong>Required correction</strong> Add a brief definition of "condition" in the Introduction and clarify how the model integrates these conditions with sequence information.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m2</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Experimental reproducibility</li>
+<li><strong>Affected element</strong> Methods, "Turbidity assays"</li>
+<li><strong>Evidence pointer</strong> Methods, "Turbidity assays"</li>
+<li><strong>Issue</strong> The turbidity assay description states that "Each reported turbidity value represents the average of ten consecutive measurements taken from a single sample." This is a single technical replicate, not a biological replicate. The manuscript does not state how many independent protein preparations or experiments were performed.</li>
+<li>
+<p><strong>Required correction</strong> Clarify the number of independent biological replicates for each turbidity experiment and report the variability (e.g., standard deviation) across these replicates.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m3</p>
+</li>
 <li><strong>Severity</strong> Minor</li>
 <li><strong>Axis</strong> Data availability</li>
 <li><strong>Affected element</strong> Data Availability statement</li>
-<li><strong>Evidence pointer</strong> Methods: "All curated datasets and preprocessing scripts used in this study are publicly available"</li>
-<li><strong>Issue</strong> The manuscript states that datasets and scripts are publicly available, but no repository link or accession number is provided in the main text. The URL in the abstract (https://pubmed.ncbi.nlm.nih.gov/42669678/) is a PubMed ID, not a data repository.</li>
-<li><strong>Required correction</strong> Provide a clear data availability statement with a link to a public repository (e.g., GitHub, Zenodo, Figshare) containing the curated dataset, preprocessing scripts, and trained model weights.</li>
-<li><strong>Concern ID</strong> R1-m3</li>
-<li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Statistical reporting</li>
-<li><strong>Affected element</strong> Figure 5b</li>
-<li><strong>Evidence pointer</strong> Figure 5b</li>
-<li><strong>Issue</strong> The statistical test for Figure 5b is a two-sided Wilcoxon rank-sum test, but the sample sizes are large (n=2660), and the p-value (3.76 × 10^-91) is extremely small. The authors should report effect size (e.g., Cohen's d) or a measure of practical significance, as the p-value is likely inflated by the large sample size.</li>
-<li><strong>Required correction</strong> Report effect size (e.g., Cohen's d or rank-biserial correlation) alongside the p-value. Alternatively, use a visualization that better conveys the distribution differences (e.g., cumulative distribution functions).</li>
-<li><strong>Concern ID</strong> R1-m4</li>
-<li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Technical detail</li>
-<li><strong>Affected element</strong> Methods: Sampling of experimental condition data</li>
-<li><strong>Evidence pointer</strong> Methods: "If the resulting combinatorial expansion exceeded a predefined limit (n &gt; 100), a random subset of configurations was sampled."</li>
-<li><strong>Issue</strong> The random subset sampling is not described in sufficient detail. The authors do not specify the random seed or whether the sampling was stratified. This could introduce bias in the training data, especially for conditions with sparse experimental data.</li>
-<li><strong>Required correction</strong> Describe the random sampling procedure in detail (e.g., seed, stratification strategy). Provide a sensitivity analysis showing that the model performance is robust to different random subsets.</li>
-<li><strong>Concern ID</strong> R1-m5</li>
-<li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Presentation</li>
-<li><strong>Affected element</strong> Figure 6d</li>
-<li><strong>Evidence pointer</strong> Figure 6d</li>
-<li><strong>Issue</strong> The schematic in Figure 6d is difficult to interpret. The "top 10 mutations" are selected per iteration, but the bottom plots show "the simultaneous introduction of the top 10 mutations." It is unclear whether the mutations are additive or if each round starts from the wild-type sequence.</li>
-<li><strong>Required correction</strong> Clarify the mutagenesis strategy in the figure legend. Indicate whether mutations are cumulative (i.e., round 2 builds on round 1) or independent. Add a step-by-step workflow in the main text or a supplementary figure.</li>
-</ul>
+<li><strong>Evidence pointer</strong> Not explicitly stated in the main text</li>
+<li><strong>Issue</strong> The manuscript mentions that "All curated datasets and preprocessing scripts used in this study are publicly available," but the specific repository or accession number is not provided in the main text.</li>
+<li>
+<p><strong>Required correction</strong> Provide the specific repository name and accession number or DOI for the curated dataset and code in the Data Availability statement.</p>
 </li>
-<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (data leakage), R1-M2 (incomplete benchmarking), R1-M3 (experimental validation rigor)</li>
-<li><strong>Assessment against Nature-style criteria</strong> <ul>
-<li><strong>Originality</strong> High. The integration of protein language model embeddings with environmental parameters for condition-aware phase separation prediction is novel. The demonstration of model-guided reprogramming of phase behavior (LCST to UCST) is particularly innovative.</li>
-<li><strong>Scientific importance</strong> High. Condition-dependent phase separation is a fundamental biological process with implications for disease and synthetic biology. A reliable predictive tool would be of broad interest.</li>
-<li><strong>Interdisciplinary readership</strong> Moderate to high. The work bridges computational biology, biophysics, and cell biology. The proteome-wide analysis and mutational scanning are accessible to a broad audience, but the machine learning details may be less so.</li>
-<li><strong>Technical soundness</strong> Moderate. The experimental validation is impressive, but the concerns about data leakage, benchmarking, and experimental rigor (e.g., lack of quantitative droplet metrics) weaken the technical foundation. The model interpretability analysis is superficial.</li>
-<li><strong>Readability for nonspecialists</strong> Good. The manuscript is well-written, with clear figures and a logical flow. The abstract and introduction effectively motivate the problem. However, the Methods section is dense and may be challenging for nonspecialists.</li>
-</ul>
+<li>
+<p><strong>Concern ID</strong> R1-m4</p>
 </li>
-<li><strong>Recommendation posture</strong> Supportive if technical concerns are resolved. The core idea and experimental validations are promising, but the issues of data leakage, incomplete benchmarking, and experimental rigor must be addressed before the claims can be fully accepted. The authors should provide a leave-one-protein-out validation, a more comprehensive benchmark, and quantitative characterization of phase behavior (e.g., droplet fusion, FRAP) for key experiments.</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Figure clarity</li>
+<li><strong>Affected element</strong> Fig. 2c</li>
+<li><strong>Evidence pointer</strong> Fig. 2c</li>
+<li><strong>Issue</strong> The predicted temperature profile for SGTA is described as exhibiting "reentrant phase behavior," but the figure legend does not clearly indicate the regions corresponding to UCST and LCST behavior. The smoothed curve may obscure the underlying data points.</li>
+<li>
+<p><strong>Required correction</strong> Add annotations to Fig. 2c to clearly indicate the UCST and LCST regions, and consider overlaying the raw data points on the smoothed curve.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m5</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Discussion of limitations</li>
+<li><strong>Affected element</strong> Discussion</li>
+<li><strong>Evidence pointer</strong> Discussion, paragraph 2</li>
+<li><strong>Issue</strong> The Discussion mentions "inaccuracies under high salt concentrations in the case of RAD23A" but does not provide a detailed analysis of why this might occur or what it implies for the model's applicability to other proteins or conditions.</li>
+<li>
+<p><strong>Required correction</strong> Expand the discussion of the RAD23A discrepancy, including potential reasons (e.g., data scarcity, feature limitations) and the implications for the model's use in extrapolative predictions.</p>
+</li>
+<li>
+<p><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (data and label construction) and R1-M2 (comparative evaluation) are the most critical. Without a clear description of the training data and a rigorous comparison with existing methods, the core claims of the manuscript cannot be fully evaluated. The other concerns, while important, are less fundamental.</p>
+</li>
+<li>
+<p><strong>Assessment against Nature-style criteria</strong> </p>
+</li>
+<li><strong>Originality</strong>: The concept of integrating environmental conditions with sequence-based language model embeddings is a novel and valuable contribution. While Droppler attempted condition-dependent prediction, LLPSense's use of ProtT5 embeddings and its demonstrated experimental validation represent a significant step forward.</li>
+<li><strong>Scientific importance</strong>: The ability to predict and modulate condition-dependent phase separation has broad implications for understanding disease mechanisms and for synthetic biology. The framework's potential for proteome-wide analysis is particularly valuable.</li>
+<li><strong>Interdisciplinary readership</strong>: The work bridges computational biology, biophysics, and cell biology. The findings would be of interest to a broad readership, but the technical details of the machine learning approach may be challenging for non-specialists.</li>
+<li><strong>Technical soundness</strong>: The core methodology is sound, but the lack of detail on data construction and the comparative evaluation protocol are significant gaps. The experimental validations are well-executed but limited in scope.</li>
+<li>
+<p><strong>Readability for nonspecialists</strong>: The manuscript is generally well-written and accessible. The abstract and introduction clearly frame the problem and the approach. However, the Methods section is dense and relies heavily on supplementary materials for key details.</p>
+</li>
+<li>
+<p><strong>Recommendation posture</strong> Supportive if technical concerns are resolved. The core idea is strong and the experimental validations are promising. However, the manuscript cannot be accepted in its current form due to the lack of clarity on the training data construction and the comparative evaluation. These issues are addressable and, if resolved, would significantly strengthen the case for LLPSense's utility and validity.</p>
+</li>
 </ul>
 <h2>Risk / unsupported claims</h2>
 <ul>
-<li>The claim that LLPSense "accurately predicts mutations in Parkinson's disease-associated α-synuclein" is not fully supported due to potential data leakage (R1-M1). The model's performance on α-synuclein mutants may be inflated.</li>
-<li>The claim that LLPSense "reprograms UBQLN4 from LCST to UCST phase behavior" is not fully supported because the final variant (UBQLN4-UCST) contains 30 mutations, and the observed "percolated clusters" may indicate aggregation rather than LLPS (R1-M3). Quantitative evidence of liquid-like behavior is missing.</li>
-<li>The claim that LLPSense "surpasses" Droppler is not fully supported due to incomplete benchmarking (R1-M2). The comparison is based on a retrained model with unclear architecture.</li>
-<li>The claim that LLPSense "recapitulates the underlying physicochemical rules" is not supported by the provided interpretability analysis (R1-M4). The SHAP and correlation analyses are insufficient to demonstrate causal learning.</li>
+<li>The claim that LLPSense "significantly surpasses" Droppler is not fully supported without a rigorous, same-protocol comparison.</li>
+<li>The claim that the model can "reliably pinpoint sequence alterations that shift α-synuclein toward LLPS-prone states" is supported by the experimental data for the selected variants, but the generalizability to all possible mutations is not established.</li>
+<li>The claim that LLPSense can "guide sequence modifications for tuning condition-specific phase behavior" is supported by the UBQLN4 example, but this is a single case and the mechanism is not understood.</li>
+<li>The proteome-wide analysis claims (e.g., trends with salt concentration) are based on model predictions, not experimental validation, and should be presented as such.</li>
+<li>The statement that "LLPSense accurately predicts the LCST behavior of both UBQLN1 and UBQLN4" is based on a single experimental validation for UBQLN4; the prediction for UBQLN1 is not experimentally confirmed.</li>
 </ul></div>
   </section>
   

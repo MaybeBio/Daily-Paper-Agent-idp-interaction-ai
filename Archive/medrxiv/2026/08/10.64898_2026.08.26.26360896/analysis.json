@@ -6,15 +6,15 @@
   "journal": "medRxiv",
   "published_date": "2026-08-31",
   "window": {
-    "start": "2026-08-30",
-    "end": "2026-09-12"
+    "start": "2026-08-31",
+    "end": "2026-09-13"
   },
   "score": 6,
-  "one_liner_zh": "该研究通过AlphaFold预测KDM3C无序区域SNP影响其与RNF8的互作，并实验验证DNA修复与化疗敏感性，虽涉及IDR和PPI及AI建模，但核心是临床表型与DNA修复机制，非相分离/凝聚体背景，互作机制建模深度有限。",
+  "one_liner_zh": "该文研究KDM3C无序区域SNP影响其与RNF8互作并损害DNA修复，虽以无序蛋白互作为对象并用AlphaFold建模，但核心是临床表型与DNA修复机制，非PPI机制建模或相分离，方法应用较浅。",
   "abstract": "Chemoradiotherapy (CRT) is the standard-of-care therapy for many solid malignancies, yet predictive biomarkers of treatment response remain limited. We identified a germline single nucleotide polymorphism (SNP) in an intrinsically disordered region of the lysine demethylase KDM3C/JMJD1C (p.S464T) that is associated with CRT outcomes in locally advanced rectal cancers (LARC) and head and neck squamous cell carcinoma (LA-HNSCC). In silico modeling with AlphaFold predicted S464T substitution influenced interaction between phosphorylated KDM3C and RNF8 FHA domain. In cellular models, conversion of S464 to T464 increased sensitivity to DNA-damaging agents. S464T substitution impaired damage-induced MDC1-RAP80 signaling and downstream RAP80-BRCA1 colocalization. SNP carrying cells impaired DNA repair causing genotoxic stress that is associated with increased cGAS-cGAMP innate immune signaling and increased apoptosis. Population analyses with the SNP highlighted an increase incidence of UV-induced skin and other cancers, linking inherited variation in the chromatin regulatory gene KDM3C to genome instability, cancer risk, and therapeutic vulnerability.",
-  "abstract_zh": "化放疗（CRT）是多种实体恶性肿瘤的标准治疗方案，然而治疗反应的预测性生物标志物仍然有限。我们在赖氨酸去甲基化酶KDM3C/JMJD1C的一个内在无序区域中鉴定出一个种系单核苷酸多态性（SNP）（p.S464T），该多态性与局部晚期直肠癌（LARC）和头颈部鳞状细胞癌（LA-HNSCC）的CRT结局相关。利用AlphaFold进行的计算机模拟预测表明，S464T替换影响了磷酸化KDM3C与RNF8 FHA结构域之间的相互作用。在细胞模型中，S464转换为T464增加了对DNA损伤剂的敏感性。S464T替换损害了损伤诱导的MDC1-RAP80信号传导及下游RAP80-BRCA1共定位。携带SNP的细胞DNA修复受损，导致基因毒性应激，这与cGAS-cGAMP先天免疫信号增强和细胞凋亡增加相关。对SNP的人群分析突显了紫外线诱导的皮肤癌及其他癌症发病率的增加，将染色质调控基因KDM3C的遗传变异与基因组不稳定性、癌症风险和治疗脆弱性联系起来。",
-  "has_fulltext": true,
-  "fulltext_source": "europepmc",
+  "abstract_zh": "放化疗（CRT）是多种实体恶性肿瘤的标准治疗方案，然而治疗反应的预测性生物标志物仍然有限。我们在赖氨酸去甲基化酶KDM3C/JMJD1C的一个内在无序区域中鉴定出一个种系单核苷酸多态性（SNP）（p.S464T），该多态性与局部晚期直肠癌（LARC）和头颈部鳞状细胞癌（LA-HNSCC）的CRT结局相关。利用AlphaFold进行的计算机模拟预测表明，S464T替换影响了磷酸化KDM3C与RNF8 FHA结构域之间的相互作用。在细胞模型中，S464到T464的转换增加了对DNA损伤剂的敏感性。S464T替换损害了损伤诱导的MDC1-RAP80信号传导及下游RAP80-BRCA1共定位。携带SNP的细胞DNA修复受损，导致基因毒性应激，这与cGAS-cGAMP先天免疫信号增强和细胞凋亡增加相关。对SNP的人群分析突显了紫外线诱导的皮肤癌及其他癌症发病率的增加，将染色质调控基因KDM3C的遗传变异与基因组不稳定性、癌症风险和治疗脆弱性联系起来。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
   "fulltext_path": "fulltext.md",
   "paper_card_path": "paper-card.md",
   "review_path": "review.md",

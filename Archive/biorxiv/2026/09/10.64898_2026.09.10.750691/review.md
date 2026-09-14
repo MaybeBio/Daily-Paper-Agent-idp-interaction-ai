@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that ESM-2, a protein language model, exhibits reduced attention on intrinsically disordered regions relative to folded regions, yet retains meaningful biological signal in disordered contexts. They further claim that disease-relevant residues receive heightened attention even at high disorder levels, and that radius of gyration and dynamic contact maps can be predicted from model logits and embeddings.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation metrics are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical analyses, model architecture details, dataset descriptions, and benchmark comparisons
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis-driven investigation into how protein language models behave on intrinsically disordered proteins. The premise that PLMs trained on evolutionary constraints may respond differently to disordered regions is scientifically plausible and worth testing. However, the abstract provides no quantitative evidence, no methodological detail, and no validation strategy. The central claims are stated without supporting numbers, error bars, or comparisons to baselines. As presented, the work cannot be evaluated for technical soundness or reproducibility. The findings may be of interest to the protein language model and IDP communities, but the current evidence base is insufficient to assess whether the claims are established.
+- **Who would be interested in the results, and why** Computational biologists working on protein language models would be interested in understanding model biases toward structured regions. Researchers studying intrinsically disordered proteins, particularly those interested in sequence-to-property prediction, would value evidence that PLM embeddings carry information about disorder-relevant biophysical properties. The disease relevance angle may attract translational researchers working on disordered proteins implicated in pathologies.
+- **Major strengths** The hypothesis is clearly framed and biologically motivated. The focus on IDPs addresses a genuine gap in PLM interpretability studies. The claim structure is logical, moving from attention behavior to encoded biophysical properties. The potential practical implication, that PLMs can be used for IDP property prediction despite structural bias, is valuable if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ESM-2 exhibits reduced attention on disordered regions yet still encodes meaningful biological signals, and that disease-relevant residues receive heightened attention even at high disorder levels.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support the attention-related claims. There are no attention scores, no statistical comparisons between disordered and folded regions, no effect sizes, and no definition of what constitutes "heightened" attention. The claim that disease-relevant residues receive heightened attention is particularly underspecified, as no disease annotation source, residue selection criteria, or baseline comparison is described.
+  - **Why it matters** The central thesis of the paper rests on these attention patterns. Without quantitative evidence, the reader cannot assess whether the observed effects are robust, biologically meaningful, or simply noise. The disease relevance claim carries translational weight and requires rigorous statistical support.
+  - **Resolution test** Provide attention score distributions for disordered versus folded regions with appropriate statistical tests. Define disease-relevant residues using a stated annotation source and compare attention on these residues against matched control residues with appropriate multiple testing correction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim that radius of gyration and individual dynamic contact maps can be obtained from model logits and embeddings.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological detail is given for how radius of gyration and contact maps are derived from logits and embeddings. It is unclear whether these are direct predictions, fine-tuned outputs, or extracted features. No performance metrics, correlation coefficients, or comparisons to existing predictors are reported. The term "obtained" is ambiguous and could mean anything from a strong correlation to a weak qualitative trend.
+  - **Why it matters** These property prediction claims are the most practically significant part of the abstract. Without knowing the prediction setup and quantitative accuracy, the reader cannot judge whether the approach is useful for the IDP community or merely a preliminary observation.
+  - **Resolution test** Describe the prediction architecture, training or calibration procedure, and evaluation metrics. Report correlation coefficients, errors, and comparisons to established IDP property predictors on held-out test sets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of validation
+  - **Claim pointer** The authors state that PLMs capture valuable information relevant to IDP biology despite their bias toward structured residues.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state how many proteins were analyzed, whether the results generalize across diverse IDP families, or whether the findings are specific to ESM-2 or extend to other PLMs. No information is given about the disorder prediction method used to classify regions, the threshold for "high disorder," or the diversity of the protein dataset.
+  - **Why it matters** The generalizability of the findings is central to the claim that PLMs capture IDP-relevant information. A narrow dataset or a single model would substantially limit the scope of the conclusions.
+  - **Resolution test** Specify dataset size and composition, disorder classification method, and include validation across multiple PLM architectures and diverse IDP sequence families.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology clarity
+  - **Affected element** "Reduced attention"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "reduced attention" is ambiguous. It could refer to lower attention weights, fewer attended positions, or reduced attention entropy. The biological interpretation differs depending on the operational definition.
+  - **Required correction** Define the specific attention metric used and justify its biological relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextual framing
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that interpretability studies have focused on folded proteins but does not cite or briefly contextualize what those studies found. This makes it difficult to assess what new information the present work adds.
+  - **Required correction** Add brief context on what prior interpretability studies established for folded proteins and state explicitly what novel insight the IDP focus provides.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Claim precision
+  - **Affected element** "Meaningful biological signals"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "meaningful biological signals" is vague. It is unclear what constitutes meaningfulness and how it was determined.
+  - **Required correction** Specify the biological signals referenced and the criteria used to establish their meaningfulness.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks all quantitative and methodological detail required to assess whether the stated claims are supported.
+- **Assessment against Nature-style criteria** Originality: the hypothesis that PLMs behave differently on disordered regions is a reasonable extension of existing interpretability work, but the abstract does not demonstrate what is conceptually new beyond applying known interpretability tools to a new protein class. Scientific importance: the potential to predict IDP biophysical properties from PLM embeddings is important if validated, but the current evidence does not establish this. Interdisciplinary readership: the topic bridges machine learning and biophysics, which could appeal to both communities, but the abstract is too thin to engage either audience substantively. Technical soundness: cannot be assessed from the abstract alone; no methods, metrics, or validation are presented. Readability for nonspecialists: the abstract is accessible in its framing but lacks the concrete detail that would allow a nonspecialist to understand what was actually done.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is worth investigating and the potential findings are interesting, but the abstract provides no quantitative support. A full manuscript with methods, results, and validation would be required to assess whether the claims hold.
+
+## Risk / unsupported claims
+- The claim that ESM-2 exhibits reduced attention on disordered regions is unsupported by any quantitative data.
+- The claim that disease-relevant residues receive heightened attention is unsupported and lacks definition of disease relevance.
+- The claim that radius of gyration and dynamic contact maps can be obtained from model outputs is unsupported by any methodological description or performance metric.
+- The claim that PLMs capture valuable information relevant to IDP biology is a general conclusion that cannot be evaluated without dataset details and validation across models and protein families.
+- The implicit claim that the findings are generalizable beyond the specific model and dataset used is not assessable from the abstract.

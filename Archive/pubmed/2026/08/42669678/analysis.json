@@ -6,13 +6,13 @@
   "journal": "Nature communications",
   "published_date": "2026-08-31",
   "window": {
-    "start": "2026-08-30",
-    "end": "2026-09-12"
+    "start": "2026-08-31",
+    "end": "2026-09-13"
   },
   "score": 9,
-  "one_liner_zh": "该文提出LLPSense，一个整合蛋白质语言模型嵌入与环境参数的机器学习框架，用于预测和调控条件依赖的蛋白质相分离，直接以无序蛋白/相分离为对象，研究PPI相关的相分离机制，并采用AI方法，高度契合本课题。",
+  "one_liner_zh": "该文提出LLPSense，一个整合蛋白质语言模型与环境参数的机器学习框架，用于预测和调控条件依赖的蛋白质相分离，直接以无序蛋白/相分离为对象，研究PPI相关相分离机制，并采用AI方法，高度契合课题。",
   "abstract": "Protein phase separation is a fundamental process in organizing membraneless organelles and is implicated in pathological conditions. Importantly, this process is dynamic and depends on conditions such as concentration, temperature, and solvent composition. However, current machine learning models infer phase separation propensity solely from amino acid sequences, failing to capture these context-dependent behaviors. Here we show that LLPSense, a machine learning framework that integrates protein language model embeddings with environmental parameters, achieves accurate, condition-aware predictions of phase separation. Multiple experimental validations confirm LLPSense's predictive power and utility. The model reveals complex, temperature-dependent reentrant behavior in SGTA, previously unrecognized as phase-separating. Moreover, LLPSense accurately predicts mutations in Parkinson's disease-associated alpha-synuclein that either enhance or suppress phase separation. Beyond predictive accuracy, model-guided mutagenesis enables the modulation of phase behavior. Collectively, LLPSense establishes a robust computational framework for interrogating phase landscapes, facilitating mechanistic disease studies and programmable condensate design.",
-  "abstract_zh": "蛋白质相分离（phase separation）是组织无膜细胞器的基本过程，并与病理状态相关。重要的是，这一过程是动态的，并依赖于浓度、温度和溶剂组成等条件。然而，当前的机器学习模型仅从氨基酸序列推断相分离倾向，未能捕捉这些依赖于情境的行为。在此，我们展示LLPSense，一种将蛋白质语言模型嵌入与环境参数相结合的机器学习框架，实现了准确且情境感知的相分离预测。多项实验验证确认了LLPSense的预测能力和实用性。该模型揭示了SGTA中复杂的、温度依赖的重入行为，此前未被识别为相分离蛋白。此外，LLPSense准确预测了与帕金森病相关的α-突触核蛋白中增强或抑制相分离的突变。除了预测准确性外，模型引导的诱变能够调节相行为。总体而言，LLPSense建立了一个稳健的计算框架，用于探究相景观，促进机制性疾病研究和可编程凝聚体设计。",
+  "abstract_zh": "蛋白质相分离（phase separation）是组织无膜细胞器的基本过程，并与病理状态相关。重要的是，这一过程是动态的，依赖于浓度、温度和溶剂组成等条件。然而，当前的机器学习模型仅从氨基酸序列推断相分离倾向，未能捕捉这些情境依赖行为。在此，我们展示LLPSense，一种将蛋白质语言模型嵌入与环境参数整合的机器学习框架，实现了准确且条件感知的相分离预测。多项实验验证确认了LLPSense的预测能力和实用性。该模型揭示了SGTA中复杂的、温度依赖的重入行为，此前未被识别为相分离蛋白。此外，LLPSense准确预测了与帕金森病相关的α-突触核蛋白中增强或抑制相分离的突变。超越预测准确性，模型引导的诱变能够调节相行为。总体而言，LLPSense建立了一个稳健的计算框架，用于探究相景观，促进机制性疾病研究和可编程凝聚体设计。",
   "has_fulltext": true,
   "fulltext_source": "pmc",
   "fulltext_path": "fulltext.md",

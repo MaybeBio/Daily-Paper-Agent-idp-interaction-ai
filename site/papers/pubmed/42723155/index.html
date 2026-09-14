@@ -18,7 +18,7 @@
   <main>
 <article class="paper">
   <div class="paper-head">
-    <span class="score score-high">8</span>
+    <span class="score score-mid">7</span>
     <div>
       <h1>A Site-Aware Representation Learning Framework For Unified Molecular Interaction Modeling and Generative Design.</h1>
       <div class="meta">Luo, Gang; Zhang, Qianqian; Wang, Chenhao; Yi, Zhiheng; Wang, Alex Jinpeng; Tang, Jing; Li, Min</div>
@@ -26,10 +26,10 @@
         
         <span class="journal">Advanced science (Weinheim, Baden-Wurttemberg, Germany)</span>
         · 2026-09-11
-         · 仅摘要
+         · 全文(pmc)
          · <a href="https://pubmed.ncbi.nlm.nih.gov/42723155/">原文</a>
       </div>
-      <p class="one-liner">提出一个统一框架MolDBG，通过结合位点感知表示学习，实现药物-靶标亲和力预测、结合位点识别和条件分子生成，并特别适用于包括无序蛋白在内的结构难解靶标，对无序蛋白介导的PPI机制建模有直接启发。</p>
+      <p class="one-liner">提出统一位点感知框架MolDBG，将亲和力预测、结合位点识别与条件分子生成结合，并宣称可推广至无序蛋白等动态靶标，但对象非IDP专一且互作机制建模深度有限。</p>
     </div>
   </div>
   
@@ -41,7 +41,7 @@
   
   <section>
     <h2>摘要翻译</h2>
-    <div class="md">在单一可解释框架内统一药物-靶点亲和力预测与靶向分子设计仍具挑战。许多基于序列的亲和力与设计方法依赖全局靶点表征，未显式建模结合区域，导致筛选与设计中存在位点层面的模糊性。相比之下，基于结构的方法需要高质量结构数据，且难以适用于动态靶点。本研究提出名为MolDBG的新模型，作为一种统一的位点感知框架，在单一架构中整合了亲和力预测、结合位点识别及亲和力条件分子生成。通过结合位点监督，MolDBG在学习药物-靶点表征前优先关注相互作用关键残基，从而减少因结合位点错位导致的假阳性，并提升可解释性。MolDBG在所有三项任务中均取得具有竞争力的性能，同时实现位点特异性亲和力预测与可解释的结合位点发现。该框架可泛化至结构难以捉摸的靶点，包括隐蔽口袋与固有无序蛋白。总体而言，这些结果表明MolDBG是分子设计与筛选领域一个前景广阔的框架。</div>
+    <div class="md">在单一可解释框架内统一药物-靶点亲和力预测与靶向分子设计仍具挑战。许多基于序列的亲和力与设计方法依赖全局靶点表征，未显式建模结合区域，导致筛选与设计中存在位点层面的模糊性。相比之下，基于结构的方法需要高质量结构数据，且难以适用于动态靶点。本研究提出名为MolDBG的新模型，作为一种统一的位点感知框架，在单一架构中整合了亲和力预测、结合位点识别及亲和力条件分子生成。通过结合位点监督，MolDBG在学习药物-靶点表征前优先关注相互作用关键残基，从而减少因结合位点错配导致的假阳性，并提升可解释性。MolDBG在所有三项任务中均取得具有竞争力的性能，同时实现位点特异性亲和力预测与可解释的结合位点发现。该框架可泛化至结构难以捉摸的靶点，包括隐蔽口袋与固有无序蛋白。总体而言，这些结果表明MolDBG是分子设计与筛选领域一个前景广阔的框架。</div>
   </section>
   
   
@@ -50,43 +50,46 @@
     <div class="md"><h2>01 基本信息</h2>
 <ul>
 <li><strong>标题</strong>: A Site-Aware Representation Learning Framework For Unified Molecular Interaction Modeling and Generative Design</li>
-<li><strong>作者与单位</strong>: Luo, Gang; Zhang, Qianqian; Wang, Chenhao; Yi, Zhiheng; Wang, Alex Jinpeng; Tang, Jing; Li, Min（单位未提供）</li>
+<li><strong>作者与单位</strong>: Luo, Gang; Zhang, Qianqian; Wang, Chenhao; Yi, Zhiheng; Wang, Alex Jinpeng; Tang, Jing; Li, Min (Central South University)</li>
 <li><strong>期刊/预印本平台</strong>: Advanced Science (Weinheim, Baden-Wurttemberg, Germany)</li>
 <li><strong>年份</strong>: 2026-09-11</li>
 <li><strong>论文类型</strong>: 研究论文</li>
-<li><strong>领域</strong>: 药物-靶标相互作用预测、分子生成设计、AI方法</li>
+<li><strong>领域</strong>: 药物发现、AI、分子设计、蛋白质-配体相互作用</li>
 <li><strong>关键词</strong>: 未提供</li>
 <li><strong>DOI/arXiv 号</strong>: 10.1002/advs.77238</li>
-<li><strong>代码</strong>: 未提供</li>
-<li><strong>数据</strong>: 未提供</li>
-<li><strong>阅读日期</strong>: 2025-04-05</li>
-<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>: 本文提出了一种位点感知的表示学习框架MolDBG，统一了亲和力预测、结合位点识别和条件分子生成。其关键贡献在于显式建模结合位点（binding site），并声称能泛化到结构难以捉摸的靶标，包括<strong>内在无序蛋白（IDPs）</strong>。这为IDP/IDR介导的蛋白互作研究提供了一种无需高分辨率结构、仅依赖序列信息即可进行位点特异性建模和分子设计的AI方法，直接关联本课题方向。</li>
+<li><strong>代码</strong>: https://github.com/CSUBioGroup/MolDBG</li>
+<li><strong>数据</strong>: BindingDB, Q-BioLiP, PocketMiner, UniProtKB-IDP, UniSite-DS</li>
+<li><strong>阅读日期</strong>: 2025-04-08</li>
+<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>: 本文提出一个基于序列的、位点感知的统一框架（MolDBG），用于药物-靶标亲和力预测、结合位点识别和条件分子生成。其核心创新在于通过结合位点预测任务约束注意力模块，使模型能够显式建模相互作用区域，从而提升可解释性和泛化能力。该框架特别强调对结构动态靶标（包括隐式口袋蛋白和<strong>无序蛋白（IDPs）</strong>）的适用性，并在IDP结合位点预测任务上取得了初步成功（AUROC 0.8187，样本级成功率72.62%）。这为将AI方法应用于IDP介导的蛋白-小分子互作建模提供了可迁移的序列级框架，但本文未涉及相分离/凝聚体。</li>
 </ul>
 <h2>02 一句话总结</h2>
-<p>本文提出MolDBG框架，通过结合位点监督（binding-site supervision）优先学习关键残基的表示，统一了药物-靶标亲和力预测、结合位点识别和条件分子生成三个任务，并声称能泛化到包括内在无序蛋白在内的结构动态靶标。</p>
+<p>本文提出一个名为MolDBG的序列级、位点感知的统一深度学习框架，通过结合位点预测任务约束注意力机制，同时实现药物-靶标亲和力预测、结合位点识别和条件分子生成，并在隐式口袋蛋白和无序蛋白上展现出泛化能力。</p>
 <h2>03 研究问题</h2>
 <ul>
-<li><strong>具体问题</strong>: 如何在一个统一的、可解释的框架中，同时实现准确的药物-靶标亲和力预测和靶向分子设计，特别是对于结合位点不明确或结构动态的靶标（如IDPs）？</li>
-<li><strong>为什么重要</strong>: 现有方法要么是序列基的（全局表示，缺乏位点特异性，导致假阳性），要么是结构基的（依赖高质量结构，不适用于动态靶标）。统一框架能提升药物筛选和设计的效率与可解释性。</li>
-<li><strong>现有方法为何不足</strong>: 序列基方法（如基于CNN/Transformer的亲和力预测）使用全局靶标表示，无法区分哪个区域负责结合，导致位点模糊和假阳性。结构基方法（如对接）需要高分辨率结构，对IDP等动态靶标不适用。</li>
-<li><strong>精确的「Can ... ?」研究问题</strong>: Can a single, site-aware framework, trained with binding-site supervision, simultaneously achieve competitive performance in affinity prediction, binding-site identification, and targeted molecular generation, while generalizing to structurally elusive targets like intrinsically disordered proteins?</li>
+<li><strong>具体问题</strong>: 如何在一个统一的、可解释的框架中，同时实现药物-靶标亲和力预测和靶向分子设计，并解决现有方法中因结合位点错配导致的假阳性、缺乏可解释性以及对动态结构靶标（如IDPs）适用性差的问题。</li>
+<li><strong>为什么重要</strong>: 药物发现流程（设计-筛选）依赖于准确的亲和力预测和有效的分子生成。现有方法要么是全局靶标感知（忽略位点特异性），要么依赖高质量3D结构（不适用于IDPs和隐式口袋），导致筛选和设计效率低下。</li>
+<li><strong>现有方法为何不足</strong>: 1) 序列方法缺乏位点特异性，导致假阳性；2) 结构方法依赖高质量晶体数据，不适用于动态靶标；3) 现有方法缺乏可解释性，无法明确指示相互作用发生的区域。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>: Can a unified, sequence-only, site-aware framework simultaneously achieve competitive drug-target affinity prediction, binding site identification, and affinity-conditioned molecular generation, while generalizing to structurally elusive targets like intrinsically disordered proteins and cryptic pocket proteins?</li>
 </ul>
 <h2>04 背景与发展脉络</h2>
 <ul>
-<li><strong>阶段一: 序列基方法</strong> (如DeepDTA, GraphDTA)<ul>
-<li><strong>代表性方法</strong>: 使用1D序列或2D图表示药物和靶标，通过CNN或Transformer学习全局表示进行亲和力预测。</li>
-<li><strong>优点</strong>: 无需蛋白结构，数据易得。</li>
-<li><strong>局限</strong>: 缺乏位点特异性，无法区分关键结合区域，可解释性差，易产生假阳性。</li>
+<li><strong>阶段1: 基于序列的亲和力预测与分子生成</strong> (如DeepDTA, GraphDTA, DeepDTAGen)<ul>
+<li><strong>优点</strong>: 无需3D结构，计算成本低。</li>
+<li><strong>局限</strong>: 依赖全局靶标表示，缺乏位点特异性，可解释性差，易产生假阳性。</li>
 </ul>
 </li>
-<li><strong>阶段二: 结构基方法</strong> (如分子对接, 基于结构的深度学习)<ul>
-<li><strong>代表性方法</strong>: 使用蛋白3D结构进行对接或基于结构的深度学习预测。</li>
-<li><strong>优点</strong>: 物理上更精确，能提供结合模式信息。</li>
-<li><strong>局限</strong>: 依赖高质量蛋白结构，对IDP、膜蛋白等动态或难结晶靶标不适用，计算成本高。</li>
+<li><strong>阶段2: 基于结构的分子生成</strong> (如Pocket2Mol, DEVELOP)<ul>
+<li><strong>优点</strong>: 能利用3D口袋几何信息进行精准设计。</li>
+<li><strong>局限</strong>: 严重依赖高质量蛋白质结构数据，不适用于动态靶标（如IDPs）和隐式口袋。</li>
 </ul>
 </li>
-<li><strong>本文主张的位置</strong>: MolDBG属于<strong>序列基但位点感知</strong>的方法。它通过引入结合位点监督信号，在序列信息的基础上显式建模关键残基，从而克服了传统序列基方法缺乏位点特异性的缺点，同时避免了结构基方法对高分辨率结构的依赖。它声称能统一多个任务，并泛化到IDP等动态靶标。</li>
-<li><strong>脉络来源</strong>: 经外部核验，该脉络是药物-靶标相互作用预测领域的常见分类。</li>
+<li><strong>阶段3: 预训练表示学习增强</strong> (如ESM-2, MolFormer)<ul>
+<li><strong>优点</strong>: 提供高度泛化的语义表示，提升下游任务性能。</li>
+<li><strong>局限</strong>: 直接用于亲和力预测和分子设计时，仍缺乏对结合位点的显式建模。</li>
+</ul>
+</li>
+<li><strong>本文主张的位置</strong>: 本文提出MolDBG，作为阶段3的进阶，通过引入<strong>结合位点预测任务</strong>作为显式监督，将预训练表示与<strong>位点感知</strong>的交互建模相结合，在一个统一框架内同时解决亲和力预测、结合位点识别和条件分子生成，并首次系统性地验证了对IDPs和隐式口袋蛋白的泛化能力。</li>
+<li><strong>注</strong>: 此脉络基于本文引言和讨论部分，经外部核验（如DeepDTA, Pocket2Mol等为已知方法）。</li>
 </ul>
 <h2>05 核心痛点</h2>
 <table>
@@ -100,55 +103,68 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>位点模糊性</strong></td>
-<td style="text-align: left;">序列基方法在亲和力预测和分子设计中，无法确定药物与靶标的哪个区域结合，导致假阳性预测和无效设计。</td>
-<td style="text-align: left;">模型使用全局靶标表示，没有显式学习或利用结合位点信息。</td>
-<td style="text-align: left;">作者在引言中明确指出“Many sequence-based affinity and design methods rely on global target representations without explicitly modeling binding regions, leading to site-level ambiguity”。</td>
+<td style="text-align: left;"><strong>结合位点错配导致的假阳性</strong></td>
+<td style="text-align: left;">全局靶标感知的亲和力预测模型无法区分同一蛋白上不同口袋与同一配体的结合强度，导致筛选结果不可靠。</td>
+<td style="text-align: left;">许多天然蛋白具有多个口袋或别构位点，全局表示忽略了空间匹配性。</td>
+<td style="text-align: left;">Introduction: "the target-drug spatial mismatch leads to frequent false positives or failed targeted molecular design due to misaligned binding sites."</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>对结构动态靶标不适用</strong></td>
-<td style="text-align: left;">结构基方法无法处理IDP、隐式口袋（cryptic pockets）等结构动态或难以解析的靶标。</td>
-<td style="text-align: left;">这些方法需要高质量的静态3D结构作为输入。</td>
-<td style="text-align: left;">作者在摘要和引言中提及“structure-based methods require high-quality structural data and are poorly suited to dynamic targets”，并声称MolDBG能泛化到“structurally elusive targets, including cryptic pockets and intrinsically disordered proteins”。</td>
+<td style="text-align: left;"><strong>缺乏可解释性</strong></td>
+<td style="text-align: left;">现有DTA预测和靶向设计方法依赖理化特征或预训练表示，无法明确输出相互作用的关键残基或区域。</td>
+<td style="text-align: left;">模型内部是黑盒，即使可视化注意力权重，也缺乏显式的结合位点评估。</td>
+<td style="text-align: left;">Introduction: "existing DTA prediction and targeted design methods often lack interpretability... they lack explicit binding site evaluation and outputs."</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>任务不统一</strong></td>
-<td style="text-align: left;">亲和力预测、结合位点识别和分子设计通常由独立的模型完成，缺乏协同和可解释性。</td>
-<td style="text-align: left;">不同任务的目标和输入输出格式差异大，难以在一个框架内整合。</td>
-<td style="text-align: left;">作者提出MolDBG作为“a unified site-aware framework that combines affinity prediction, binding-site identification, and affinity-conditioned molecular generation within a single architecture”。</td>
+<td style="text-align: left;"><strong>对动态结构蛋白（IDPs/隐式口袋）适用性差</strong></td>
+<td style="text-align: left;">结构依赖的方法无法处理缺乏稳定3D结构的IDPs和构象动态的隐式口袋蛋白。</td>
+<td style="text-align: left;">这些蛋白的构象高度动态，无法获得高质量晶体结构。</td>
+<td style="text-align: left;">Introduction: "there remain significant limitations for cryptic pocket proteins and intrinsically disordered proteins (IDPs)."</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>小数据集下多任务训练困难</strong></td>
+<td style="text-align: left;">在仅有约1.1万样本的BioLip-BS数据集上，直接训练多任务模型（如DeepDTAGen）难以收敛。</td>
+<td style="text-align: left;">数据集规模限制了模型学习复杂交互模式的能力，导致梯度不稳定。</td>
+<td style="text-align: left;">Results: "We attribute the comparatively lower performance of DeepDTAGen to the limited size of the BioLip-BS dataset, which complicates the direct construction of molecular design models and impedes gradient convergence within a dual-task framework."</td>
 </tr>
 </tbody>
 </table>
 <h2>06 核心思想</h2>
 <ol>
-<li><strong>表面方法</strong>: 构建一个名为MolDBG的深度学习框架，该框架包含一个<strong>位点感知编码器（Site-Aware Encoder）</strong>，该编码器在训练时使用结合位点标签进行监督，从而学习优先关注靶标序列中与结合相关的关键残基。然后，基于这些位点感知的表示，框架通过不同的解码器或预测头来执行亲和力预测、结合位点识别和条件分子生成三个任务。</li>
-<li><strong>核心洞察</strong>: <strong>显式地将“结合位点”作为先验知识和监督信号引入序列基模型，可以迫使模型学习到更具物理意义和可解释性的表示</strong>。这种表示不仅提升了亲和力预测的准确性（通过减少位点模糊性），还自然地为结合位点识别和靶向分子设计提供了基础。对于IDP等动态靶标，尽管其整体结构不固定，但其与配体相互作用的<strong>关键残基（结合位点）</strong> 在序列上可能相对保守或可预测，因此基于序列的位点感知方法可以绕过对静态结构的依赖。</li>
-<li><strong>可能的普适教训 [Analysis]</strong>: 在生物序列建模中，当全局表示不足以捕捉关键功能区域时，引入<strong>局部功能区域（如结合位点、活性位点、修饰位点）的弱监督或自监督信号</strong>，可以显著提升模型的可解释性和下游任务性能，尤其适用于结构信息缺失或动态的系统（如IDP/IDR）。这提示我们，对于IDP介导的互作，与其试图预测其整体构象，不如聚焦于预测其<strong>关键的线性基序（SLiMs）或相互作用热点</strong>。</li>
+<li><strong>表面方法</strong>: 构建一个多任务、端到端的深度学习框架（MolDBG），使用预训练的蛋白质语言模型（ESM-2）和分子语言模型（MolFormer）提取特征，通过一个受结合位点预测任务监督的注意力模块（LSQM）来提取潜在结合残基的表示，并基于此表示同时进行亲和力预测、结合位点识别和条件分子生成。</li>
+<li><strong>核心洞察</strong>: 亲和力预测和条件分子生成本质上都依赖于对<strong>特定蛋白位点</strong>与<strong>小分子</strong>之间物理结合相互作用的建模。通过引入<strong>结合位点预测任务</strong>作为显式监督信号，可以强制模型的中间表示（LSQM的输出）聚焦于真正的相互作用区域，从而将注意力驱动的查询转化为物理结合驱动的查询，提升模型在三个任务上的性能和可解释性。</li>
+<li><strong>可能的普适教训 [Analysis]</strong>: 在多任务学习中，引入一个与核心任务（如亲和力预测）在物理机制上高度耦合的辅助任务（如结合位点预测），可以作为一种有效的<strong>归纳偏置</strong>，引导模型学习更本质、更鲁棒的表示，从而提升所有相关任务的性能。这比单纯增加数据或模型容量更有效。</li>
 </ol>
 <h2>07 方法总览</h2>
 <ul>
-<li><strong>输入</strong>: 药物分子（SMILES或分子图）、靶标蛋白（氨基酸序列）、（训练时）结合位点标签（二进制掩码，标记哪些残基是结合位点）。</li>
-<li><strong>输出</strong>: 亲和力分数（标量）、结合位点概率（每个残基的概率）、新分子（SMILES或分子图）。</li>
+<li><strong>输入</strong>: 蛋白质序列 (P), 分子SMILES字符串 (M), 亲和力值 (c, 用于条件生成), 结合位点标签 (用于训练)。</li>
+<li><strong>输出</strong>: 预测的亲和力值 (ŷ), 每个残基的结合概率 (ŷ_i), 生成的分子SMILES字符串 (M_gen)。</li>
 <li><strong>模块</strong>:<ol>
-<li><strong>药物编码器</strong>: 将药物分子编码为向量表示。</li>
-<li><strong>靶标编码器</strong>: 将靶标蛋白序列编码为残基级别的表示。</li>
-<li><strong>位点感知编码器</strong>: 核心模块。它接收靶标编码器的输出，并结合结合位点监督信号，学习一个注意力机制或门控机制，<strong>优先关注</strong>被标记为结合位点的残基，生成一个加权后的靶标表示。</li>
-<li><strong>亲和力预测头</strong>: 将药物表示和位点感知的靶标表示进行交互（如拼接、点积），预测亲和力。</li>
-<li><strong>结合位点识别头</strong>: 基于靶标编码器或位点感知编码器的输出，预测每个残基是结合位点的概率。</li>
-<li><strong>分子生成器</strong>: 一个条件生成模型（如VAE或GAN），以位点感知的靶标表示和期望的亲和力条件为输入，生成新的药物分子。</li>
+<li><strong>编码器</strong>: 冻结的ESM-2 (蛋白) 和 MolFormer (分子) 提取token级表示。</li>
+<li><strong>LSQM (Latent Sites Query Module)</strong>: 基于交叉注意力的模块，以分子表示为Query，蛋白表示为Key/Value，提取潜在结合残基表示。受结合位点预测任务监督。</li>
+<li><strong>DTALayerNorm</strong>: 基于亲和力值c的条件层归一化，用于将条件信息注入分子表示。</li>
+<li><strong>Mix-Encoder</strong>: 混合Transformer编码器，对拼接后的潜在结合表示和分子表示进行跨模态自注意力，生成联合交互表示。</li>
+<li><strong>解码器</strong>:<ul>
+<li><strong>Mol-Decoder</strong>: 自回归Transformer，用于条件分子生成。</li>
+<li><strong>BS-Decoder</strong>: 轻量级解码器，用于预测每个残基是否为结合位点。</li>
+<li><strong>DTA-Decoder</strong>: 包含MoE (Mixture of Experts) 的回归模块，用于预测亲和力。</li>
+</ul>
+</li>
 </ol>
 </li>
-<li><strong>训练</strong>: 多任务学习，同时优化亲和力预测损失、结合位点识别损失和分子生成损失。</li>
-<li><strong>工具</strong>: 深度学习框架（如PyTorch/TensorFlow），图神经网络（GNN）或Transformer。</li>
-<li><strong>反馈回路</strong>: 分子生成器生成的分子可以反馈给亲和力预测头进行虚拟筛选，形成闭环。</li>
-<li><strong>假设</strong>: 结合位点标签是准确且可获取的；位点感知的表示能够有效提升所有下游任务的性能；对于IDP，其序列上的结合位点信息足以指导分子设计。</li>
+<li><strong>训练</strong>: 两阶段策略。第一阶段在BindingDB (140万对) 上预训练，仅使用亲和力预测和分子生成任务。第二阶段在BioLip-BS (约1.1万对) 上微调，引入结合位点预测任务，使用三任务联合损失进行端到端优化。</li>
+<li><strong>工具</strong>: PyTorch Lightning, Adam优化器, 余弦退火学习率调度。</li>
+<li><strong>反馈回路</strong>: 结合位点预测任务的梯度反向传播到LSQM模块，指导其学习更准确的潜在结合残基表示，进而提升亲和力预测和分子生成的质量。</li>
+<li><strong>假设</strong>: 亲和力预测和条件分子生成的核心是建模特定蛋白位点与分子的相互作用，且这种相互作用可以通过序列信息进行有效学习。</li>
 </ul>
 <p><strong>文字流程</strong>:
-1.  药物分子和靶标序列分别通过各自的编码器得到初始表示。
-2.  靶标序列的残基级表示进入位点感知编码器，该编码器在训练时利用结合位点标签学习一个注意力权重，使得模型更关注结合位点残基，输出一个加权的、位点感知的靶标表示。
-3.  药物表示和位点感知的靶标表示被送入亲和力预测头，输出预测的亲和力分数。
-4.  靶标序列的残基级表示（或位点感知编码器的中间表示）被送入结合位点识别头，输出每个残基是结合位点的概率。
-5.  位点感知的靶标表示和一个目标亲和力值被送入分子生成器，生成一个符合该靶标和亲和力要求的新分子。</p>
+1.  输入蛋白序列P和分子SMILES M。
+2.  通过ESM-2和MolFormer分别提取蛋白表示P_prot和分子表示M_mol。
+3.  (条件生成时) 通过DTALayerNorm将亲和力条件c注入随机采样的伪配体表示M_sample，得到M~_mol。
+4.  将M_mol (或M~_mol) 作为Query，P_prot作为Key/Value，输入LSQM模块，得到潜在结合特征H_query。
+5.  将H_query与分子表示M_q拼接，并加入位置编码和模态编码，输入Mix-Encoder，得到联合交互表示H_fusion。
+6.  <strong>亲和力预测</strong>: 将H_fusion输入DTA-Decoder (含MoE)，输出预测亲和力ŷ。
+7.  <strong>结合位点预测</strong>: 将H_query输入BS-Decoder，输出每个残基的结合概率ŷ_i。
+8.  <strong>分子生成</strong>: 将H_fusion再次注入亲和力条件后，输入Mol-Decoder，自回归生成分子SMILES M_gen。</p>
 <h2>08 核心模块拆解</h2>
 <table>
 <thead>
@@ -163,51 +179,93 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>位点感知编码器</strong></td>
-<td style="text-align: left;">学习一个注意力机制，优先关注结合位点残基，生成位点感知的靶标表示。</td>
-<td style="text-align: left;">解决传统序列基方法缺乏位点特异性的核心痛点，提升可解释性和预测准确性。</td>
-<td style="text-align: left;"><strong>输入</strong>: 靶标残基级表示 + 结合位点标签（训练时）。<strong>输出</strong>: 加权的、位点感知的靶标表示。</td>
-<td style="text-align: left;">作者声称该模块是框架的核心，并指出其能“reducing false positives from misaligned binding sites and improving interpretability”。</td>
-<td style="text-align: left;"><strong>预期影响</strong>: 模型退化为传统的全局表示模型，亲和力预测的假阳性率可能上升，可解释性下降，分子生成可能失去靶向性。<strong>实测消融效应</strong>: 未提供。</td>
+<td style="text-align: left;"><strong>LSQM (Latent Sites Query Module)</strong></td>
+<td style="text-align: left;">通过交叉注意力，以分子为Query，从蛋白表示中提取潜在结合残基的表示。</td>
+<td style="text-align: left;">核心创新点。将模型注意力聚焦于可能的相互作用区域，是实现位点感知和可解释性的关键。</td>
+<td style="text-align: left;"><strong>输入</strong>: M_mol (Query), P_prot (Key, Value). <strong>输出</strong>: H_query (潜在结合特征).</td>
+<td style="text-align: left;">Results 图4: 结合位点预测性能优于基线。Results 图3: 实现了位点特异性亲和力预测。</td>
+<td style="text-align: left;"><strong>预期影响</strong>: 模型退化为全局靶标感知，无法区分同一蛋白不同位点的亲和力，可解释性显著下降，结合位点预测任务无法执行。</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>亲和力预测头</strong></td>
-<td style="text-align: left;">基于药物和位点感知的靶标表示，预测结合亲和力。</td>
-<td style="text-align: left;">实现统一框架中的核心任务之一。</td>
-<td style="text-align: left;"><strong>输入</strong>: 药物表示 + 位点感知的靶标表示。<strong>输出</strong>: 亲和力分数。</td>
-<td style="text-align: left;">作者声称MolDBG在亲和力预测上达到“competitive performance”。</td>
-<td style="text-align: left;"><strong>预期影响</strong>: 无法进行亲和力预测，框架失去筛选功能。</td>
+<td style="text-align: left;"><strong>BS-Decoder (Binding Sites Decoder)</strong></td>
+<td style="text-align: left;">基于LSQM的输出，预测每个蛋白残基是否为结合位点。</td>
+<td style="text-align: left;">为LSQM提供显式梯度监督，强制其学习物理结合相关的表示。</td>
+<td style="text-align: left;"><strong>输入</strong>: H_query. <strong>输出</strong>: 每个残基的结合概率。</td>
+<td style="text-align: left;">Results 图4: 在BioLip-BS, PocketMiner, UniProtKB-IDP上均取得良好预测性能。</td>
+<td style="text-align: left;"><strong>预期影响</strong>: LSQM失去关键监督信号，其学习到的表示可能偏离物理结合区域，导致亲和力预测和分子生成性能下降，尤其是位点特异性能力丧失。</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>结合位点识别头</strong></td>
-<td style="text-align: left;">预测靶标序列上每个残基是结合位点的概率。</td>
-<td style="text-align: left;">提供可解释性，并验证位点感知编码器学到的知识。</td>
-<td style="text-align: left;"><strong>输入</strong>: 靶标残基级表示。<strong>输出</strong>: 每个残基的结合位点概率。</td>
-<td style="text-align: left;">作者声称框架能实现“interpretable binding-site discovery”。</td>
-<td style="text-align: left;"><strong>预期影响</strong>: 框架失去位点识别能力，可解释性降低。</td>
+<td style="text-align: left;"><strong>DTA-Decoder (含MoE)</strong></td>
+<td style="text-align: left;">基于联合交互表示，通过多个专家网络和门控机制预测亲和力。</td>
+<td style="text-align: left;">MoE架构能处理异质性和混合结合模式，提升预测精度和冷启动泛化能力。</td>
+<td style="text-align: left;"><strong>输入</strong>: H_fusion. <strong>输出</strong>: 预测亲和力ŷ.</td>
+<td style="text-align: left;">Results 图2: 在MSE, Pearson, CI等指标上达到SOTA。Results 表S4: 在冷启动场景下优于DTIAM。</td>
+<td style="text-align: left;"><strong>预期影响</strong>: 模型可能难以捕捉复杂的结合模式，导致在高亲和力区域的预测灵敏度下降，冷启动泛化能力减弱。</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>分子生成器</strong></td>
-<td style="text-align: left;">根据位点感知的靶标表示和亲和力条件，生成新的药物分子。</td>
-<td style="text-align: left;">实现统一框架中的设计任务，实现从“筛选”到“设计”的闭环。</td>
-<td style="text-align: left;"><strong>输入</strong>: 位点感知的靶标表示 + 目标亲和力。<strong>输出</strong>: 新分子。</td>
-<td style="text-align: left;">作者声称框架能实现“affinity-conditioned molecular generation”。</td>
-<td style="text-align: left;"><strong>预期影响</strong>: 框架失去分子设计能力。</td>
+<td style="text-align: left;"><strong>DTALayerNorm</strong></td>
+<td style="text-align: left;">基于亲和力值c，对分子表示进行条件缩放和偏移。</td>
+<td style="text-align: left;">将条件信息（目标亲和力）注入分子生成过程，实现亲和力条件控制。</td>
+<td style="text-align: left;"><strong>输入</strong>: 分子表示x, 亲和力c. <strong>输出</strong>: 条件化分子表示。</td>
+<td style="text-align: left;">Results 图5b: 条件生成实验显示，生成的分子库（HDTAM/LDTAM）的预测亲和力分布围绕指定阈值。</td>
+<td style="text-align: left;"><strong>预期影响</strong>: 分子生成将失去亲和力条件控制，无法生成具有特定目标活性的分子。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>两阶段训练策略</strong></td>
+<td style="text-align: left;">先在大型数据集BindingDB上预训练，再在小型标注数据集BioLip-BS上微调。</td>
+<td style="text-align: left;">解决小数据集下多任务模型难以训练的问题，提升分子生成模块的解码能力。</td>
+<td style="text-align: left;"><strong>预训练</strong>: 亲和力预测+分子生成。<strong>微调</strong>: 三任务联合。</td>
+<td style="text-align: left;">Results 表1: MolDBG (有预训练) 相比MolDBG-Vanilla (无预训练) 在Validity上提升约6.6%。</td>
+<td style="text-align: left;"><strong>预期影响</strong>: 模型在BioLip-BS上难以收敛，分子生成的有效性（Validity）和多样性（Uniqueness）会显著下降。</td>
 </tr>
 </tbody>
 </table>
 <h2>09 关键公式符号</h2>
-<p>不适用。提供的材料（摘要）中未包含任何数学公式。</p>
+<ul>
+<li>
+<p><strong>公式(2): 交叉注意力 (LSQM)</strong></p>
+<ul>
+<li><code>Q = W_Q M_mol, K = W_K P_prot, V = W_V P_prot</code></li>
+<li><code>H_query = softmax(Q K^T / sqrt(d)) V</code></li>
+<li><strong>符号含义</strong>: <code>M_mol</code> 分子表示, <code>P_prot</code> 蛋白表示, <code>W_*</code> 可学习权重, <code>d</code> 特征维度, <code>H_query</code> 潜在结合特征。</li>
+<li><strong>用途</strong>: 实现分子对蛋白序列的位点感知查询。</li>
+<li><strong>直觉</strong>: 分子作为“探针”，在蛋白序列上寻找与其最匹配的“结合区域”。</li>
+<li><strong>来源</strong>: Methods 节。</li>
+</ul>
+</li>
+<li>
+<p><strong>公式(3): DTALayerNorm</strong></p>
+<ul>
+<li><code>γ(c) = W_γ,2 φ(W_γ,1 c + b_γ,1) + b_γ,2</code></li>
+<li><code>β(c) = W_β,2 φ(W_β,1 c + b_β,1) + b_β,2</code></li>
+<li><code>DTALayerNorm(x; c) = γ(c) ⊙ (x - μ)/σ + β(c)</code></li>
+<li><strong>符号含义</strong>: <code>c</code> 亲和力条件值, <code>γ, β</code> 由MLP生成的缩放和偏移参数, <code>x</code> 输入表示, <code>μ, σ</code> 均值和标准差, <code>⊙</code> 逐元素乘。</li>
+<li><strong>用途</strong>: 将亲和力条件注入分子表示。</li>
+<li><strong>直觉</strong>: 根据目标亲和力值，动态调整分子表示的“风格”或“强度”。</li>
+<li><strong>来源</strong>: Methods 节。</li>
+</ul>
+</li>
+<li>
+<p><strong>公式(9): 总损失函数</strong></p>
+<ul>
+<li><code>L = L_Gen + L_BS + L_DTA</code></li>
+<li><strong>符号含义</strong>: <code>L_Gen</code> 分子生成交叉熵损失, <code>L_BS</code> 结合位点预测损失 (BCE + Dice), <code>L_DTA</code> 亲和力预测MSE损失。</li>
+<li><strong>用途</strong>: 多任务联合优化目标。</li>
+<li><strong>直觉</strong>: 三个任务共享表示，通过联合损失反向传播，协同优化。</li>
+<li><strong>来源</strong>: Methods 节。</li>
+</ul>
+</li>
+</ul>
 <h2>10 实验设计与证据链</h2>
 <ul>
-<li><strong>数据集/群体</strong>: 未提供。</li>
-<li><strong>规模</strong>: 未提供。</li>
-<li><strong>指标</strong>: 未提供。</li>
-<li><strong>基线</strong>: 未提供。</li>
-<li><strong>预算</strong>: 未提供。</li>
-<li><strong>骨干/仪器</strong>: 未提供。</li>
-<li><strong>Oracle 输入</strong>: 未提供。</li>
-<li><strong>评测协议</strong>: 未提供。</li>
+<li><strong>数据集/群体</strong>: BindingDB (预训练, 140万对), BioLip-BS (微调, 约1.1万对, 含结合位点标签), PocketMiner (38个隐式口袋蛋白), UniProtKB-IDP (336个IDP序列), UniSite-DS (多结合位点注释)。</li>
+<li><strong>规模</strong>: 见上。</li>
+<li><strong>指标</strong>: 亲和力预测 (MSE, RMSE, Pearson, CI, Spearman, rm2), 结合位点预测 (Acc, Rec, Precision, F1, AUROC, AUPRC, MCC), 分子生成 (Novelty, Uniqueness, Validity, RAM), 样本级成功率 (SR)。</li>
+<li><strong>基线</strong>: 亲和力预测 (DeepDTA, GraphDTA, WGNN-DTA, AttentionDTA, DTIAM, DeepDTAGen), 结合位点预测 (CLAPE-SMB, Pseq2Sites, LABind), 分子生成 (SyntaLinker, Pocket2Mol, DEVELOP, LS-MolGen, REINVENT 2.0, PGMG)。</li>
+<li><strong>预算</strong>: 8块NVIDIA V100 GPU, 预训练5天, 微调时间未明确。</li>
+<li><strong>骨干/仪器</strong>: ESM-2, MolFormer。</li>
+<li><strong>Oracle 输入</strong>: 亲和力预测使用真实分子SMILES；分子生成使用随机采样的伪配体表示和给定亲和力值。</li>
+<li><strong>评测协议</strong>: 5折交叉验证 (BioLip-BS), 独立测试集 (PocketMiner, UniProtKB-IDP), 序列身份冷启动评估 (BioLip-BS)。</li>
 </ul>
 <table>
 <thead>
@@ -223,61 +281,117 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">亲和力预测任务</td>
-<td style="text-align: left;">MolDBG在亲和力预测上达到竞争性表现。</td>
-<td style="text-align: left;">未提供具体基线和方法。</td>
-<td style="text-align: left;">作者声称“competitive performance”。</td>
-<td style="text-align: left;">MolDBG在亲和力预测上表现良好。</td>
-<td style="text-align: left;">无法判断其是否优于或等同于现有SOTA方法，缺乏定量比较。</td>
-<td style="text-align: left;">摘要</td>
+<td style="text-align: left;"><strong>DTA预测性能</strong></td>
+<td style="text-align: left;">MolDBG在亲和力预测上达到SOTA。</td>
+<td style="text-align: left;">与6个基线在BioLip-BS上5折交叉验证。</td>
+<td style="text-align: left;">MSE=0.6933, Pearson=0.9009, CI=0.8850。</td>
+<td style="text-align: left;">MolDBG在MSE, Pearson, CI上具有竞争力，与DTIAM并列CI最高。</td>
+<td style="text-align: left;">未在所有指标上全面超越所有基线。</td>
+<td style="text-align: left;">Results 图2</td>
 </tr>
 <tr>
-<td style="text-align: left;">结合位点识别任务</td>
-<td style="text-align: left;">MolDBG能进行可解释的结合位点发现。</td>
-<td style="text-align: left;">未提供。</td>
-<td style="text-align: left;">作者声称“interpretable binding-site discovery”。</td>
-<td style="text-align: left;">模型具备位点识别能力。</td>
-<td style="text-align: left;">无法评估其识别精度和与专用位点预测方法的比较。</td>
-<td style="text-align: left;">摘要</td>
+<td style="text-align: left;"><strong>位点特异性亲和力预测</strong></td>
+<td style="text-align: left;">MolDBG能区分同一蛋白不同位点的亲和力。</td>
+<td style="text-align: left;">在CA2蛋白上，对同一配体在不同位点的预测亲和力与Vina对接分数比较。</td>
+<td style="text-align: left;">CI=0.7124, Pearson=0.6010。</td>
+<td style="text-align: left;">模型具备区分不同位点结合强度的能力。</td>
+<td style="text-align: left;">与Vina分数存在一定偏差（如Site 2 vs Site 20），精度有待提升。</td>
+<td style="text-align: left;">Results 图3</td>
 </tr>
 <tr>
-<td style="text-align: left;">分子生成任务</td>
-<td style="text-align: left;">MolDBG能进行亲和力条件分子生成。</td>
-<td style="text-align: left;">未提供。</td>
-<td style="text-align: left;">作者声称“affinity-conditioned molecular generation”。</td>
-<td style="text-align: left;">模型具备条件生成能力。</td>
-<td style="text-align: left;">无法评估生成分子的质量、新颖性和可合成性。</td>
-<td style="text-align: left;">摘要</td>
+<td style="text-align: left;"><strong>结合位点预测 (BioLip-BS)</strong></td>
+<td style="text-align: left;">MolDBG在结合位点预测上优于专用模型。</td>
+<td style="text-align: left;">与3个基线在BioLip-BS上5折交叉验证。</td>
+<td style="text-align: left;">在Recall, Precision, AUPRC, MCC上均优于LABind等。</td>
+<td style="text-align: left;">多任务框架和LSQM设计提升了结合位点预测性能。</td>
+<td style="text-align: left;">未在IDP和隐式口袋上与其他基线比较。</td>
+<td style="text-align: left;">Results 图4f-j</td>
 </tr>
 <tr>
-<td style="text-align: left;">泛化到动态靶标</td>
-<td style="text-align: left;">MolDBG能泛化到IDP和隐式口袋。</td>
-<td style="text-align: left;">未提供具体测试集和对比。</td>
-<td style="text-align: left;">作者声称“generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins”。</td>
-<td style="text-align: left;">模型在概念上适用于动态靶标。</td>
-<td style="text-align: left;">缺乏在IDP或隐式口袋数据集上的定量验证，无法确认其实际泛化能力。</td>
-<td style="text-align: left;">摘要</td>
+<td style="text-align: left;"><strong>隐式口袋蛋白结合位点预测</strong></td>
+<td style="text-align: left;">MolDBG能泛化到隐式口袋蛋白。</td>
+<td style="text-align: left;">在PocketMiner数据集上独立测试，与PocketMiner模型比较。</td>
+<td style="text-align: left;">AUROC=0.9014 (优于PocketMiner的0.87), 样本级SR=73.68%。</td>
+<td style="text-align: left;">模型能有效预测隐式口袋的结合位点，无需3D结构。</td>
+<td style="text-align: left;">样本级SR在严格条件下（k=0, δ=0.5）为73.68%，仍有提升空间。</td>
+<td style="text-align: left;">Results 图4b-c</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IDP结合位点预测</strong></td>
+<td style="text-align: left;">MolDBG能泛化到无序蛋白。</td>
+<td style="text-align: left;">在UniProtKB-IDP数据集上独立测试。</td>
+<td style="text-align: left;">AUROC=0.8187, 样本级SR (k=2, δ=0.3) =72.62%。</td>
+<td style="text-align: left;">模型成功从结构化蛋白泛化到IDP，具备预测IDP结合位点的潜力。</td>
+<td style="text-align: left;">整体性能低于结构化蛋白，且IDP数据集主要含核苷酸/辅酶结合位点，而非临床药物分子。</td>
+<td style="text-align: left;">Results 图4d-e</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>条件分子生成</strong></td>
+<td style="text-align: left;">MolDBG能生成具有指定亲和力的分子。</td>
+<td style="text-align: left;">生成HDTAM和LDTAM库，用DTIAM验证亲和力分布。</td>
+<td style="text-align: left;">HDTAM和LDTAM的预测亲和力分布分别围绕高/低阈值。</td>
+<td style="text-align: left;">模型具备稳健的条件亲和力设计能力。</td>
+<td style="text-align: left;">生成的分子Novelty分数中等，存在一定保守性。</td>
+<td style="text-align: left;">Results 图5b</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>分子生成案例研究</strong></td>
+<td style="text-align: left;">生成的分子具有合理的结合模式和可解释性。</td>
+<td style="text-align: left;">对VEGFR2和EGFR生成分子，用Vina对接验证。</td>
+<td style="text-align: left;">Vina计算的结合位点与MolDBG预测的位点高度重叠。</td>
+<td style="text-align: left;">模型能生成有效候选药物，并提供可解释的相互作用信息。</td>
+<td style="text-align: left;">仅展示了两个靶标，需更多案例验证。</td>
+<td style="text-align: left;">Results 图5g-l</td>
 </tr>
 </tbody>
 </table>
 <h2>11 结论正确解读</h2>
 <ul>
-<li><strong>任务范围</strong>: 本文结论严格限定在药物-靶标相互作用建模和分子设计领域，具体为亲和力预测、结合位点识别和条件分子生成三个任务。</li>
-<li><strong>Oracle/真值输入</strong>: 训练过程依赖于<strong>结合位点标签</strong>作为监督信号。这意味着模型的性能上限受限于这些标签的质量和覆盖范围。对于IDP，其结合位点（如SLiMs）的定义和标注可能比结构化蛋白更模糊。</li>
-<li><strong>端到端状态</strong>: 框架是端到端训练的，但分子生成模块可能依赖于预训练的生成模型或特定的解码策略。</li>
-<li><strong>算力成本</strong>: 未提供。</li>
-<li><strong>历史数据依赖</strong>: 模型性能高度依赖于训练数据中药物-靶标对和结合位点标注的分布。对于数据稀疏的靶标（如某些IDP），性能可能下降。</li>
-<li><strong>模型依赖</strong>: 结论依赖于MolDBG的具体架构设计（如位点感知编码器的具体实现）。</li>
-<li><strong>最难情形</strong>: 对于结合位点高度动态、模糊或由多个远距离残基构成的IDP，模型可能难以准确学习。</li>
-<li><strong>群体/领域边界</strong>: 结论主要适用于小分子药物与蛋白靶标的相互作用。对于蛋白-蛋白相互作用（PPI）或核酸-蛋白相互作用，其适用性未知。</li>
-<li><strong>不确定性</strong>: 作者声称“competitive performance”和“generalizes to...”，但未提供任何定量数据或统计显著性检验，因此这些结论的强度和边界是高度不确定的。</li>
+<li><strong>任务范围</strong>: 本文结论严格限定在<strong>序列级</strong>的药物-靶标亲和力预测、结合位点识别和条件分子生成任务上。不涉及3D结构预测、构象采样或动力学模拟。</li>
+<li><strong>Oracle/真值输入</strong>: 亲和力预测和结合位点预测任务依赖实验测定的亲和力值和结构解析的结合位点标签。分子生成任务在训练时使用真实分子SMILES进行教师强制。</li>
+<li><strong>端到端状态</strong>: 模型是端到端训练的，但编码器（ESM-2, MolFormer）的参数在训练过程中被冻结。</li>
+<li><strong>算力成本</strong>: 预训练需要8块V100 GPU运行5天，计算成本较高。</li>
+<li><strong>历史数据依赖</strong>: 模型性能高度依赖于预训练数据（BindingDB）和微调数据（BioLip-BS）的质量和分布。对IDP的泛化能力受限于IDP数据集的规模和性质（主要为核苷酸/辅酶结合位点）。</li>
+<li><strong>模型依赖</strong>: 模型架构（LSQM, MoE, 两阶段训练）是性能的关键。移除或替换这些组件可能导致性能下降。</li>
+<li><strong>最难情形</strong>: 对IDP的结合位点预测是相对最难的，性能低于结构化蛋白。分子生成的Novelty分数不高，表明模型在探索全新化学空间方面存在局限。</li>
+<li><strong>群体/领域边界</strong>: 结论主要适用于小分子药物与蛋白质的相互作用。对于蛋白-蛋白相互作用、核酸-蛋白相互作用等，其适用性未经验证。</li>
+<li><strong>不确定性</strong>: 模型预测的亲和力值与真实实验值之间存在误差（MSE=0.6933）。位点特异性预测与Vina对接结果存在偏差。</li>
 </ul>
-<p><strong>有边界的复述</strong>: 本文提出的MolDBG框架，在<strong>有结合位点标签监督</strong>的条件下，能够在一个模型中同时完成药物-靶标亲和力预测、结合位点识别和条件分子生成，并在<strong>所测试的数据集上</strong>（未公开）取得了有竞争力的结果。该框架的设计理念使其<strong>理论上</strong>能够应用于IDP等结构动态靶标，但<strong>缺乏在IDP相关数据集上的定量验证</strong>。</p>
+<p><strong>有边界的复述</strong>: 本文提出的MolDBG框架，在<strong>仅使用序列信息</strong>的条件下，能够在一个统一的模型中同时实现<strong>有竞争力</strong>的药物-靶标亲和力预测、结合位点识别和条件分子生成。该框架通过显式建模结合位点，提升了<strong>可解释性</strong>，并能有效区分同一蛋白上不同位点的亲和力。更重要的是，它成功<strong>泛化</strong>到了隐式口袋蛋白和<strong>无序蛋白（IDPs）</strong> 的结合位点预测任务上，尽管在IDP上的性能低于结构化蛋白。然而，该方法的<strong>分子新颖性</strong>有限，且其IDP泛化能力主要基于核苷酸/辅酶结合位点数据，对临床药物分子的适用性有待进一步验证。</p>
 <h2>12 作者自认局限</h2>
-<p>在提供的材料（摘要）中未发现作者明确承认的局限。</p>
-<p><strong>作者提及的相关约束</strong>:
-- 作者提到“Many sequence-based affinity and design methods rely on global target representations...”，这间接承认了当前方法的局限性，但未将其作为本文的局限。
-- 作者提到“structure-based methods require high-quality structural data and are poorly suited to dynamic targets”，这指出了结构基方法的局限，而非本文的局限。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">局限</th>
+<th style="text-align: left;">具体表现</th>
+<th style="text-align: left;">作者提出的未来方向</th>
+<th style="text-align: left;">来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>分子新颖性有限</strong></td>
+<td style="text-align: left;">生成的分子Novelty分数中等，倾向于保守。</td>
+<td style="text-align: left;">未来迭代的生成网络旨在鼓励更广泛地探索未知化学空间，同时保持高亲和力。</td>
+<td style="text-align: left;">Discussion</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>缺乏显式空间几何</strong></td>
+<td style="text-align: left;">序列方法缺乏精确的原子距离和键角等3D信息，不利于后期先导化合物优化。</td>
+<td style="text-align: left;">引入轻量级、动态的3D构象采样模块，以实现直接的对接验证。</td>
+<td style="text-align: left;">Discussion</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>IDP和隐式口袋的评估基准不足</strong></td>
+<td style="text-align: left;">缺乏专门针对IDP和隐式口袋的从头设计方法和评估基准。</td>
+<td style="text-align: left;">开发专门针对IDP和隐式口袋的从头设计方法和评估基准。</td>
+<td style="text-align: left;">Discussion</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>作者提及的相关约束</strong>: 作者在Discussion中提到，IDP数据集主要包含核苷酸、其衍生物或辅酶的结合位点，而少于15%涉及临床药物分子，这解释了IDP任务性能相对较低的原因。这并非作者明确承认的模型局限，而是对数据集特性的说明。</li>
+</ul>
 <h2>13 批判性分析</h2>
 <table>
 <thead>
@@ -291,115 +405,110 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">声称能泛化到IDP，但未提供任何IDP相关的实验证据。</td>
-<td style="text-align: left;">这可能只是一个概念上的声称，实际性能可能很差。IDP的结合位点（SLiMs）通常很短且动态，与结构化蛋白的刚性口袋有本质区别，模型可能无法有效处理。</td>
-<td style="text-align: left;">这是本文对IDP/IDR领域最直接的声称，其真实性直接决定了该工作对本课题的价值。</td>
-<td style="text-align: left;">在公开的IDP-配体相互作用数据集（如DisProt, ELM相关数据）上测试MolDBG的亲和力预测和结合位点识别性能，并与专门为IDP设计的方法（如基于SLiM匹配的方法）进行比较。</td>
-<td style="text-align: left;">摘要中仅提及“generalizes to... intrinsically disordered proteins”，无任何数据支撑。</td>
+<td style="text-align: left;"><strong>IDP泛化实验的数据集偏差</strong></td>
+<td style="text-align: left;">IDP数据集（UniProtKB-IDP）中超过85%的结合位点是核苷酸/辅酶，而非临床药物分子。模型可能只是学会了识别与核苷酸/辅酶结合的序列模式，而非真正泛化到IDP-药物分子相互作用。</td>
+<td style="text-align: left;">这直接挑战了“模型成功泛化到IDP”这一核心结论的普适性。对于药物发现，IDP-药物分子互作才是关键。</td>
+<td style="text-align: left;">1. 构建一个包含更多IDP-临床药物分子结合数据的测试集。2. 在IDP测试集上，分别评估模型对核苷酸/辅酶结合位点和药物分子结合位点的预测性能。</td>
+<td style="text-align: left;">Results: "Although most annotated sites in the UniProtKB-IDP test set bind nucleotides, their derivatives, or coenzymes, and fewer than 15% involve clinical drug molecules..."</td>
 </tr>
 <tr>
-<td style="text-align: left;">未提供任何定量结果（指标、基线对比）。</td>
-<td style="text-align: left;">结论“competitive performance”缺乏客观依据，可能是在特定、有利的数据集上取得的结果，或性能远低于SOTA。</td>
-<td style="text-align: left;">科学论文的核心是提供可验证的证据。缺乏定量结果使得本文的结论无法被评估和复现。</td>
-<td style="text-align: left;">要求作者提供详细的实验设置、数据集划分、性能指标（如RMSE, CI, AUC, ROC-AUC等）以及与多个强基线的对比结果。</td>
-<td style="text-align: left;">摘要中完全没有数字、表格或图表引用。</td>
+<td style="text-align: left;"><strong>位点特异性亲和力预测的验证方法</strong></td>
+<td style="text-align: left;">使用AutoDock Vina的对接分数作为“真值”来验证MolDBG的位点特异性亲和力预测。Vina分数本身是计算预测值，存在误差，且其与实验测定的亲和力并非线性对应。</td>
+<td style="text-align: left;">验证方法不够严谨。用计算模型验证另一个计算模型，可能放大系统误差。</td>
+<td style="text-align: left;">使用实验测定的、针对同一蛋白不同位点的亲和力数据（如来自文献或专门数据库）进行验证。</td>
+<td style="text-align: left;">Results: "we additionally performed parallel protein-ligand docking with AutoDock Vina for comparison."</td>
 </tr>
 <tr>
-<td style="text-align: left;">依赖结合位点标签作为监督信号。</td>
-<td style="text-align: left;">获取高质量的结合位点标签成本高昂，且对于许多靶标（尤其是IDP）可能不存在或不可靠。这限制了模型的适用范围。</td>
-<td style="text-align: left;">这是模型的核心假设和输入要求。如果标签难以获取，模型的实际可用性会大打折扣。</td>
-<td style="text-align: left;">测试模型在仅有少量或弱结合位点标签（如从突变扫描或进化信息推断）情况下的性能。探索使用自监督或弱监督方法来减少对精确标签的依赖。</td>
-<td style="text-align: left;">作者在摘要中明确提到“With binding-site supervision”。</td>
+<td style="text-align: left;"><strong>冷启动评估的局限性</strong></td>
+<td style="text-align: left;">冷启动评估仅在BioLip-BS数据集上进行，该数据集规模较小（约1.1万对）。在更大、更多样化的数据集上的冷启动性能未知。</td>
+<td style="text-align: left;">冷启动能力是模型泛化性的关键指标。在小数据集上的成功可能无法推广到真实世界的药物发现场景。</td>
+<td style="text-align: left;">在更大规模、更严格的冷启动协议下（如BindingDB的冷启动划分）进行测试。</td>
+<td style="text-align: left;">Results: "we performed a strict sequence-identity-based cold-start evaluation on the BioLip-BS dataset."</td>
 </tr>
 <tr>
-<td style="text-align: left;">统一框架的“统一”程度可能有限。</td>
-<td style="text-align: left;">三个任务可能共享底层编码器，但预测头和生成器可能是独立训练的，或者生成器的性能远低于专用模型。</td>
-<td style="text-align: left;">“统一”是本文的主要卖点之一。如果各任务间没有正向协同，甚至相互干扰，那么统一框架的优势就不复存在。</td>
-<td style="text-align: left;">进行消融实验，比较多任务联合训练与单任务训练的性能差异。评估生成分子的质量是否受益于位点感知的表示。</td>
-<td style="text-align: left;">摘要中仅声称“unified”，未提供任何关于任务间协同作用的分析。</td>
+<td style="text-align: left;"><strong>分子新颖性低的解释</strong></td>
+<td style="text-align: left;">作者将Novelty低归因于微调时的数据增强和生成过程受靶标/亲和力约束。但这也可能表明模型过度拟合了训练数据，或生成能力不足。</td>
+<td style="text-align: left;">低新颖性限制了模型在发现全新骨架分子方面的应用价值。</td>
+<td style="text-align: left;">1. 在生成过程中引入显式的多样性奖励或正则化项。2. 使用更强大的生成模型（如扩散模型）作为解码器。</td>
+<td style="text-align: left;">Results: "While the Novelty scores were modest, we attribute this primarily to minor overfitting introduced by data augmentation during fine-tuning."</td>
 </tr>
 </tbody>
 </table>
-<h2>14 学到什么</h2>
-<p><strong>Agent 提炼的知识候选</strong></p>
-<ol>
-<li>
-<p><strong>概念: 位点感知（Site-Awareness）作为序列基方法的增强策略</strong></p>
+<h2>14 学到什么 (Agent 提炼的知识候选)</h2>
 <ul>
-<li><strong>可迁移性</strong>: 对于IDP/IDR介导的蛋白互作，我们可以借鉴“位点感知”的思想，但将“结合位点”替换为“<strong>相互作用基序（SLiMs）</strong>”或“<strong>相分离驱动区域（如PLDs, RGG boxes）</strong>”。</li>
-<li><strong>如何迁移</strong>: 在预测IDP与某蛋白的互作时，不再使用IDP的全局序列表示，而是先通过一个<strong>SLiM识别模块</strong>（可基于已知基序库或从头预测模型）定位IDR中的关键短线性基序，然后让模型<strong>优先关注这些基序</strong>的表示，再进行互作预测。这有望提升对IDP介导的弱但特异性互作的预测能力。</li>
+<li>
+<p><strong>可迁移概念: 位点感知的交互建模</strong></p>
+<ul>
+<li><strong>概念</strong>: 将相互作用建模从全局表示（整个蛋白）分解为局部、位点感知的表示（潜在结合区域）。</li>
+<li><strong>如何迁移到本课题</strong>: 对于IDP/IDR介导的蛋白互作，可以借鉴此思想。IDP/IDR的相互作用通常通过短线性基序（SLiMs）或特定区域发生。可以设计一个模型，通过一个可学习的“探针”（如一个分子或另一个蛋白的片段表示）来查询IDP/IDR序列，识别出关键的相互作用区域，并基于此区域进行下游任务（如预测结合强度、设计互作肽段）。</li>
 </ul>
 </li>
 <li>
-<p><strong>方法: 多任务学习框架统一预测与设计</strong></p>
+<p><strong>可迁移方法: 辅助任务作为归纳偏置</strong></p>
 <ul>
-<li><strong>可迁移性</strong>: 将“预测”和“设计”统一在一个框架中的思路可以迁移到IDP领域。例如，我们可以设计一个框架，同时预测“<strong>某IDR序列是否驱动相分离</strong>”和“<strong>设计能够调控该IDR相分离能力的突变或多肽</strong>”。</li>
-<li><strong>如何迁移</strong>: 构建一个模型，输入IDR序列，输出其相分离倾向性分数（预测任务），同时，一个条件生成器以该IDR表示和期望的相分离倾向性为条件，生成新的IDR序列变体（设计任务）。位点感知机制可以聚焦于已知的相分离驱动区域。</li>
+<li><strong>方法</strong>: 引入一个与核心任务物理机制耦合的辅助任务（如结合位点预测），通过其显式监督信号来引导模型学习更本质的表示。</li>
+<li><strong>如何迁移到本课题</strong>: 在研究IDP/IDR介导的相分离时，可以引入一个辅助任务，如预测“凝聚体形成的关键区域”或“液-液相分离的倾向性”。这个辅助任务可以强制模型学习与相分离物理化学性质（如多价相互作用、疏水/电荷模式）相关的表示，从而提升对凝聚体形成、性质预测等核心任务的性能。</li>
 </ul>
 </li>
 <li>
-<p><strong>实验设计: 声称泛化到IDP需要专门的验证</strong></p>
+<p><strong>可迁移方法: 两阶段训练策略</strong></p>
 <ul>
-<li><strong>可迁移性</strong>: 本文的教训是，仅仅在摘要中声称“泛化到IDP”是不够的。在未来的研究中，如果声称一个AI模型能处理IDP，<strong>必须在专门的IDP数据集上进行定量评估</strong>，并与针对IDP设计的基线方法进行比较。</li>
-<li><strong>如何迁移</strong>: 在构建IDP互作或相分离预测模型时，应主动收集或构建包含IDP/IDR的基准数据集（如从DisProt, ELM, PhaSePro等数据库），并明确报告模型在这些数据集上的性能，而不是仅在通用蛋白数据集上测试。</li>
+<li><strong>方法</strong>: 先在大型、弱标注数据集上预训练，再在小型、强标注数据集上微调。</li>
+<li><strong>如何迁移到本课题</strong>: IDP/IDR相关的实验数据（如结合位点、相分离条件）相对稀缺。可以先在大型蛋白质序列数据库（如UniRef）或蛋白-配体相互作用数据库（如BindingDB）上预训练一个通用模型，学习蛋白质和分子的基本特征。然后，在IDP/IDR相关的特定数据集上进行微调，以学习IDP特有的相互作用模式。</li>
 </ul>
 </li>
-</ol>
+<li>
+<p><strong>可迁移公式/设计: 条件层归一化 (Conditional LayerNorm)</strong></p>
+<ul>
+<li><strong>设计</strong>: 使用一个标量条件（如亲和力值）通过一个MLP生成缩放和偏移参数，对特征表示进行调制。</li>
+<li><strong>如何迁移到本课题</strong>: 在研究IDP/IDR的相分离时，可以将“溶液条件”（如盐浓度、pH值、温度）或“蛋白浓度”作为条件，通过Conditional LayerNorm注入到模型中，使模型能够预测不同环境条件下的相分离行为。</li>
+</ul>
+</li>
+</ul>
 <h2>15 与已有知识连接</h2>
 <ul>
-<li><strong>相似工作</strong>: 本文与<strong>AlphaFold3</strong>等结构预测方法形成对比。AlphaFold3需要预测结构，而MolDBG试图绕过结构，直接基于序列和位点信息进行互作建模。这与IDP领域“功能源于序列而非固定结构”的理念更契合。</li>
-<li><strong>组合方向</strong>: 本文的“位点感知”思想可以与<strong>进化信息（MSA）</strong> 结合。对于IDP，其SLiM区域的进化保守性通常较高，将MSA特征作为位点感知模块的输入，可能进一步提升对IDP互作位点的预测能力。</li>
-<li><strong>冲突观点</strong>: 一些研究认为，IDP的相互作用依赖于其整体的构象系综（conformational ensemble），而不仅仅是线性基序。MolDBG的纯序列基方法可能无法捕捉这种构象依赖性。这是一个潜在的冲突点，值得深入探讨。</li>
-<li><strong>可迁移领域</strong>: 除了药物-靶标，该框架的思想可直接迁移到<strong>蛋白-蛋白相互作用（PPI）</strong> 预测，特别是涉及IDR的PPI。例如，预测一个IDR与一个结构化蛋白的哪个表面区域结合。</li>
+<li><strong>相似工作</strong>: 本文与 <strong>DeepDTAGen</strong> (36) 在目标上相似，都试图统一亲和力预测和分子生成。但MolDBG通过引入<strong>结合位点预测</strong>任务，实现了更精细的位点感知和更高的可解释性，并解决了DeepDTAGen在小数据集上难以收敛的问题。</li>
+<li><strong>组合工作</strong>: 本文的<strong>LSQM模块</strong>与<strong>LABind</strong> (21) 等结合位点预测模型有相似之处，都使用交叉注意力。但MolDBG的创新在于将LSQM作为整个多任务框架的枢纽，而非独立的预测模块。</li>
+<li><strong>冲突工作</strong>: 本文强调<strong>序列方法</strong>对动态靶标的优势，这与<strong>Pocket2Mol</strong> (33) 等<strong>结构方法</strong>形成对比。本文的结果表明，对于IDPs和隐式口袋，序列方法可能比结构方法更有效，因为后者无法获得可靠的3D结构。</li>
+<li><strong>可迁移领域</strong>: 本文的<strong>位点感知</strong>和<strong>多任务学习</strong>思想可以迁移到<strong>蛋白-蛋白相互作用（PPI）</strong> 预测和设计领域。例如，可以设计一个模型，同时预测PPI的结合位点、结合亲和力，并生成能够干扰PPI的肽段或小分子。</li>
 </ul>
-<h2>16 研究想法</h2>
-<p><strong>Agent 生成的研究候选</strong></p>
-<ol>
-<li>
-<p><strong>名称</strong>: IDR-SLiM Aware 互作预测与调控序列设计框架</p>
+<h2>16 研究想法 (Agent 生成的研究候选)</h2>
 <ul>
-<li><strong>来源局限/观察</strong>: MolDBG依赖结合位点标签，且未在IDP上验证。IDP的互作通常由SLiMs介导，SLiMs的标注比结构化蛋白的结合位点更易获取（基于序列模式）。</li>
-<li><strong>核心假设</strong>: 显式建模IDR中的SLiMs可以显著提升对IDP介导的蛋白互作的预测能力，并可用于设计调控互作的IDR序列变体。</li>
-<li><strong>相对本文的增量</strong>: 将“结合位点”替换为“SLiMs”，并针对IDP的特性（如低复杂度区域、构象动态）调整模型架构（例如，使用更长的上下文窗口或图网络建模残基间长程相互作用）。构建专门的IDP互作数据集进行验证。</li>
+<li><strong>名称</strong>: IDP-SLiM-Gen: 基于位点感知的IDP互作肽段生成与亲和力预测框架<ul>
+<li><strong>来源局限/观察</strong>: MolDBG成功将位点感知框架应用于IDP的小分子结合位点预测，但其分子生成任务针对小分子。IDP/IDR的互作常通过SLiMs与球状蛋白结构域结合，其互作模式与小分子-蛋白互作有相似性（都依赖特定区域）。</li>
+<li><strong>核心假设</strong>: 通过将“小分子”替换为“肽段/蛋白片段”，并引入SLiM预测作为辅助任务，可以构建一个统一的框架，用于预测IDP-球状蛋白的相互作用亲和力，并生成靶向IDP特定SLiM的互作肽段。</li>
+<li><strong>相对本文的增量</strong>:<ol>
+<li><strong>任务迁移</strong>: 从“小分子-蛋白”互作迁移到“肽段/蛋白片段-IDP”互作。</li>
+<li><strong>辅助任务</strong>: 将“结合位点预测”替换为“SLiM/相互作用区域预测”，更贴合IDP互作特性。</li>
+<li><strong>生成对象</strong>: 从生成小分子SMILES变为生成肽段序列。</li>
+</ol>
+</li>
 <li><strong>初步方法</strong>:<ol>
-<li>数据: 从ELM数据库获取SLiM注释，从BioGRID或IntAct获取IDP参与的PPI数据。</li>
-<li>模型: 构建一个类似MolDBG的框架，但位点感知模块的监督信号来自SLiM标签。输入为IDR序列和伴侣蛋白序列（或结构），输出为互作概率和SLiM概率。分子生成器替换为<strong>IDR序列生成器</strong>，以目标互作亲和力为条件。</li>
-<li>训练: 多任务学习。</li>
+<li>使用ESM-2编码IDP序列和球状蛋白序列。</li>
+<li>使用一个可学习的“互作探针”表示（如一个随机初始化的向量或一个已知SLiM的嵌入）作为Query，通过交叉注意力（类似LSQM）从IDP序列中提取潜在SLiM区域表示。</li>
+<li>引入SLiM预测任务（基于已知数据库如ELM）作为辅助监督。</li>
+<li>基于联合表示，使用一个回归头预测结合亲和力。</li>
+<li>使用一个自回归Transformer解码器，以亲和力为条件，生成靶向该SLiM的互作肽段序列。</li>
 </ol>
 </li>
 <li><strong>验证方式</strong>:<ol>
-<li>在IDP-PPI测试集上比较与全局序列模型（如基于Transformer的PPI预测器）的性能。</li>
-<li>进行SLiM扰动实验：突变预测的SLiM区域，观察互作预测分数的变化。</li>
-<li>评估生成的IDR序列是否包含合理的SLiM模式。</li>
+<li>在已知的IDP-SLiM-球状蛋白互作数据集（如PDB, ELM, 文献挖掘）上进行训练和测试。</li>
+<li>评估SLiM预测的准确率（AUROC, Precision, Recall）。</li>
+<li>评估亲和力预测的MSE, Pearson。</li>
+<li>评估生成的肽段是否与已知的互作肽段在序列和结合模式上相似。</li>
+<li>对生成的肽段进行分子对接或MD模拟，验证其与目标球状蛋白的结合。</li>
 </ol>
 </li>
-<li><strong>可能的失败模式</strong>: SLiM注释不完整或噪声大；模型无法区分功能性和非功能性SLiM；生成的IDR序列在实验上不可行或无法折叠/互作。</li>
+<li><strong>可能的失败模式</strong>:<ol>
+<li>IDP-SLiM互作数据比小分子-蛋白数据更稀疏，模型难以训练。</li>
+<li>生成的肽段可能缺乏特异性，与多个蛋白结合。</li>
+<li>模型可能无法捕捉IDP的构象动态对SLiM可及性的影响。</li>
+</ol>
+</li>
 <li><strong>创新状态</strong>: unverified</li>
 </ul>
 </li>
-<li>
-<p><strong>名称</strong>: 基于位点感知的IDR相分离驱动能力预测与突变设计</p>
-<ul>
-<li><strong>来源局限/观察</strong>: MolDBG的“位点感知”思想可以应用于相分离领域。相分离通常由IDR中的特定“粘性”区域（如PLDs, RGG boxes）驱动。现有预测方法（如catGRANUL, PScore）多基于全局氨基酸组成，缺乏位点特异性。</li>
-<li><strong>核心假设</strong>: 显式建模IDR中已知的相分离驱动区域（如从PhaSePro或LLPSDB数据库获取）可以更准确地预测相分离倾向性，并指导设计增强或减弱相分离的突变。</li>
-<li><strong>相对本文的增量</strong>: 将任务从“药物-靶标”改为“IDR序列-相分离能力”。将“结合位点”替换为“相分离驱动区域”。输出从“亲和力”变为“相分离倾向性分数”。</li>
-<li><strong>初步方法</strong>:<ol>
-<li>数据: 从PhaSePro, LLPSDB等数据库收集IDR序列及其相分离标签（是/否），并标注已知的驱动区域。</li>
-<li>模型: 构建一个位点感知的回归/分类模型。输入为IDR序列，输出为相分离倾向性分数。位点感知模块通过注意力机制聚焦于标注的驱动区域。</li>
-<li>设计任务: 训练一个条件变分自编码器（CVAE），以目标相分离倾向性分数为条件，生成新的IDR序列变体。</li>
-</ol>
-</li>
-<li><strong>验证方式</strong>:<ol>
-<li>在独立测试集上比较与catGRANUL, PScore等全局特征方法的AUC/准确率。</li>
-<li>进行消融实验，移除位点感知模块，观察性能下降。</li>
-<li>对生成的序列变体进行实验验证（如体外相分离实验），或使用AlphaFold2预测其凝聚状态。</li>
-</ol>
-</li>
-<li><strong>可能的失败模式</strong>: 相分离的机制非常复杂，不仅取决于序列，还受环境（盐浓度、pH、伴侣蛋白）影响，纯序列模型可能无法完全捕捉。驱动区域的标注可能不准确。</li>
-<li><strong>创新状态</strong>: unverified</li>
-</ul>
-</li>
-</ol></div>
+</ul></div>
   </section>
   
   
@@ -407,80 +516,172 @@
     <h2>审稿人评审</h2>
     <div class="md"><h2>Review setup</h2>
 <ul>
-<li><strong>Input scope</strong> Abstract only</li>
-<li><strong>Assessment boundary</strong> Claims made in the abstract</li>
-<li><strong>Shared manuscript claim summary</strong> The authors propose MolDBG, a unified site-aware representation learning framework that simultaneously performs drug-target affinity prediction, binding-site identification, and affinity-conditioned molecular generation. The model uses binding-site supervision to prioritize interaction-critical residues, claims competitive performance across all three tasks, and generalizes to structurally elusive targets such as cryptic pockets and intrinsically disordered proteins.</li>
-<li><strong>Visible evidence base</strong> Abstract text only; no figures, tables, methods, or results sections provided</li>
-<li><strong>Missing materials affecting confidence</strong> Full manuscript (methods, datasets, training details, evaluation metrics, baseline comparisons, ablation studies, case studies, code, and data); no quantitative results are available for assessment</li>
+<li><strong>Input scope</strong> Full manuscript (abstract, introduction, results, discussion, experimental section, and references)</li>
+<li><strong>Assessment boundary</strong> Scientific claims, methodology, experimental design, results, and conclusions as presented in the manuscript</li>
+<li><strong>Shared manuscript claim summary</strong> The authors propose MolDBG, a unified site-aware framework that integrates drug-target affinity prediction, binding-site identification, and affinity-conditioned molecular generation within a single architecture, using only sequence data and achieving competitive performance across all three tasks.</li>
+<li><strong>Visible evidence base</strong> Full text including figures (referenced but not provided), tables (Table 1 referenced but not provided), and supplementary materials (referenced but not provided)</li>
+<li><strong>Missing materials affecting confidence</strong> Figures 1-5, Table 1, Tables S1-S10, and all supplementary sections (S2-S8) are referenced but not provided. The code repository URL is provided but not accessible for verification.</li>
 </ul>
 <h2>Reviewer</h2>
 <ul>
-<li><strong>Overall assessment</strong> The abstract presents an ambitious and potentially impactful framework that aims to unify three distinct molecular modeling tasks under a single architecture. The concept of site-aware representation learning with explicit binding-site supervision is timely and addresses a recognized limitation in sequence-based methods. However, the abstract lacks any quantitative evidence, making it impossible to evaluate the validity of the claimed competitive performance or the generalizability claims. The claims are currently unsubstantiated.</li>
-<li><strong>Who would be interested in the results, and why</strong> Computational drug discovery researchers, medicinal chemists, and structural biologists would be interested if the claims are validated. The unified framework could streamline screening and design workflows, and the ability to handle structurally elusive targets (cryptic pockets, IDPs) would be of particular interest to those working on challenging protein families.</li>
-<li><strong>Major strengths</strong> 1. The problem formulation is well-motivated: unifying affinity prediction, site identification, and generation under a single interpretable framework is a clear gap. 2. The site-aware approach with explicit binding-site supervision is a logical and potentially powerful way to reduce false positives from misaligned binding sites. 3. The claimed generalizability to cryptic pockets and intrinsically disordered proteins, if true, would represent a significant advance over structure-dependent methods.</li>
-<li><strong>Major Concerns</strong><ul>
+<li><strong>Overall assessment</strong> This manuscript presents an ambitious and technically sophisticated framework that attempts to unify three critical tasks in computational drug discovery. The core idea of using binding-site supervision to guide both affinity prediction and molecular generation is conceptually sound and addresses a genuine limitation in current methods. However, the manuscript suffers from several significant issues that undermine the strength of the claims. The most critical concern is the lack of a rigorous comparison against state-of-the-art methods under identical conditions, particularly for the molecular generation task where key baselines (e.g., REINVENT 2.0, PGMG) are not retrained on the same data. Additionally, the evaluation of site-specific affinity prediction relies on a single case study (CA2) with limited statistical power, and the generalization claims to cryptic pockets and IDPs are based on binding-site prediction alone, not on the full integrated tasks. The technical novelty, while present, is incremental over existing multi-task and pre-training approaches.</li>
+<li><strong>Who would be interested in the results, and why</strong> Computational chemists, medicinal chemists, and researchers in AI-driven drug discovery would be interested because the framework offers a unified approach to affinity prediction, binding-site identification, and molecular generation, which could streamline the drug design pipeline. The demonstrated ability to handle cryptic pockets and IDPs, even if only for binding-site prediction, is of particular interest to those working on challenging protein targets.</li>
+<li><strong>Major strengths</strong> 1. The unified multi-task framework is conceptually elegant and addresses a real need in the field. 2. The use of binding-site supervision to guide representation learning is a well-motivated approach that improves interpretability. 3. The extension to challenging protein classes (cryptic pockets, IDPs) is a valuable contribution. 4. The two-stage training strategy (pre-training on large-scale data, fine-tuning on curated data) is practical and well-justified.</li>
+<li><strong>Major Concerns</strong> </li>
 <li><strong>Concern ID</strong> R1-M1</li>
 <li><strong>Severity</strong> Major</li>
 <li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Evidence sufficiency</li>
-<li><strong>Claim pointer</strong> "MolDBG achieves competitive performance across all three tasks"</li>
-<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
-<li><strong>Concern</strong> The abstract provides no quantitative results, metrics, or comparisons to baselines for any of the three tasks (affinity prediction, binding-site identification, molecular generation). The term "competitive performance" is undefined.</li>
-<li><strong>Why it matters</strong> Without any numerical evidence, the central claim of the paper cannot be evaluated. The reader cannot assess whether the model is state-of-the-art, merely adequate, or underperforming.</li>
-<li><strong>Resolution test</strong> Provide performance metrics (e.g., RMSE, Pearson/Spearman correlation for affinity; DCC, F1, or IoU for site identification; validity, uniqueness, novelty, and docking scores for generation) and compare against a set of established baselines (e.g., DeepDTA, GraphDTA, EquiDock, TargetDiff, etc.).</li>
-<li><strong>Concern ID</strong> R1-M2</li>
-<li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Generalizability claim</li>
-<li><strong>Claim pointer</strong> "The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins."</li>
-<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
-<li><strong>Concern</strong> This is a strong claim that requires specific experimental validation. The abstract provides no details on how this was tested, what datasets were used, or what metrics were achieved.</li>
-<li><strong>Why it matters</strong> Generalization to cryptic pockets and IDPs is a major challenge. If unsubstantiated, this claim could mislead the community. The abstract does not even specify whether the model was tested on known cryptic pocket systems (e.g., PTP1B, CDK2) or IDP benchmarks.</li>
-<li><strong>Resolution test</strong> Provide case studies or benchmark results on established cryptic pocket and IDP datasets. Show that the model can identify binding sites and generate ligands for these targets with performance comparable to or better than structure-based methods.</li>
-<li><strong>Concern ID</strong> R1-M3</li>
-<li><strong>Severity</strong> Major</li>
-<li><strong>Blocking</strong> Yes</li>
-<li><strong>Axis</strong> Methodological clarity</li>
-<li><strong>Claim pointer</strong> "With binding-site supervision, MolDBG prioritizes interaction-critical residues before learning drug-target representations"</li>
-<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
-<li><strong>Concern</strong> The abstract does not explain how binding-site supervision is obtained or integrated. Is it derived from known structures, predicted by a separate module, or learned from co-complex data? The mechanism of "prioritizing" residues is unclear.</li>
-<li><strong>Why it matters</strong> The novelty of the framework hinges on this site-aware mechanism. Without understanding the supervision source and integration, the contribution cannot be distinguished from existing attention-based or graph-based methods that also learn residue importance.</li>
-<li><strong>Resolution test</strong> Clearly describe the supervision source (e.g., known PDB binding sites, AlphaFold predictions, or a learned attention mask). Provide an ablation study showing the impact of removing site supervision on all three tasks.</li>
-</ul>
+<li><strong>Axis</strong> Experimental design and fairness of comparison</li>
+<li><strong>Claim pointer</strong> "MolDBG achieved competitive performance across all three tasks" and "our approach consistently outperforms baselines across all three base tasks"</li>
+<li><strong>Evidence pointer</strong> Results sections (Drug-Target affinity Prediction Performance, Small Molecule-Protein Interaction Binding Sites Prediction Performance, Random Molecule Generation Performance)</li>
+<li><strong>Concern</strong> The baseline comparisons are fundamentally unfair. For the molecular generation task, the authors compare against models like REINVENT 2.0 and PGMG that were trained on different datasets (likely much larger or different chemical spaces) and report their published performance. The authors explicitly state that DeepDTAGen could not converge on the BioLip-BS dataset due to its small size, yet they compare MolDBG (pre-trained on 1.4M pairs) against models that were not pre-trained on the same data. For affinity prediction, all baselines are retrained on BioLip-BS, but this dataset is only 11,045 samples, which is extremely small for training deep learning models from scratch. The authors do not report whether these baselines were also pre-trained or if they were trained from scratch, creating an apples-to-oranges comparison. The claim of "outperforming" is not supported without controlling for training data size and pre-training strategy.</li>
+<li><strong>Why it matters</strong> The central claim of the paper is that MolDBG achieves superior or competitive performance. If the baselines are not evaluated under equivalent conditions (same training data, same pre-training if applicable), the comparison is invalid and the claims are unsupported. This undermines the entire results section.</li>
+<li>
+<p><strong>Resolution test</strong> The authors must retrain all baseline models under identical conditions: either (a) pre-train all baselines on the same 1.4M BindingDB data before fine-tuning on BioLip-BS, or (b) train MolDBG from scratch on BioLip-BS without pre-training and compare against baselines trained from scratch. Alternatively, provide a clear ablation showing the contribution of pre-training by comparing MolDBG with and without pre-training against baselines with and without pre-training.</p>
 </li>
-<li><strong>Minor Comments</strong><ul>
+<li>
+<p><strong>Concern ID</strong> R1-M2</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Statistical rigor and validation</li>
+<li><strong>Claim pointer</strong> "MolDBG achieved a CI value of 0.7124 and a Pearson of 0.6010, indicating that the model possesses a robust ability to distinguish affinity variations across distinct binding sites"</li>
+<li><strong>Evidence pointer</strong> Site-Specific Affinity Prediction and the Discrimination of Regional Binding Variations section, Figure 3</li>
+<li><strong>Concern</strong> The site-specific affinity prediction evaluation is based on a single protein (CA2) with a limited number of binding sites. The authors report CI and Pearson values but do not provide confidence intervals, p-values, or any measure of statistical significance. The comparison against AutoDock Vina docking scores is problematic because Vina scores are not directly comparable to pKd/pIC50 values; the authors negate Vina scores to align correlation direction, but this transformation is not validated. Furthermore, the authors acknowledge a discrepancy between Site 2 and Site 20 but dismiss it as "acceptable" without quantitative justification. A single case study with 20-30 data points is insufficient to support the claim of "robust ability."</li>
+<li><strong>Why it matters</strong> The ability to discriminate binding affinities across different sites on the same protein is a key claimed advantage of MolDBG over global methods. Without rigorous statistical validation on multiple proteins and a larger number of binding sites, this claim remains anecdotal. The field requires systematic evaluation across diverse multi-site proteins.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should evaluate site-specific affinity prediction on at least 5-10 multi-site proteins from UniSite-DS, report per-protein and aggregate statistics with confidence intervals, and provide a statistical test (e.g., permutation test) to assess whether the correlation is significantly better than random. The comparison against docking should use a validated transformation or a common metric.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M3</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Generalization claims vs. evidence</li>
+<li><strong>Claim pointer</strong> "The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins"</li>
+<li><strong>Evidence pointer</strong> Cryptic Pocket Proteins Binding Site Prediction and Disordered Protein Binding Sites Prediction sections, Figure 4b-e</li>
+<li><strong>Concern</strong> The generalization claims are based solely on binding-site prediction, not on the full integrated tasks of affinity prediction or molecular generation for these challenging targets. For cryptic pockets, the model achieves an AUROC of 0.9014 on PocketMiner, but this is a binding-site prediction benchmark, not a test of whether the model can predict affinity or generate molecules for cryptic pocket proteins. For IDPs, the model achieves an AUROC of 0.8187, but the authors note that most annotated sites bind nucleotides or coenzymes, not clinical drug molecules, and fewer than 15% involve drug molecules. The claim of generalization to "structurally elusive targets" for the full framework (affinity prediction and molecular design) is not supported by the evidence presented.</li>
+<li><strong>Why it matters</strong> The abstract and introduction frame MolDBG as a unified framework for all three tasks, and the generalization to challenging targets is a major selling point. If the evidence only supports binding-site prediction for these targets, the claims are overstated and misleading. Readers may assume the model can perform affinity prediction and molecular design for IDPs and cryptic pockets, which is not demonstrated.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should either (a) provide evidence of affinity prediction and/or molecular generation performance on cryptic pocket and IDP targets, or (b) explicitly qualify the claims to state that generalization is demonstrated only for binding-site prediction, and that affinity prediction and molecular generation for these targets remain to be validated.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M4</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Novelty and conservatism in molecular generation</li>
+<li><strong>Claim pointer</strong> "MolDBG achieved performance comparable to PGMG and REINVENT 2.0 across multiple metrics" and "While the Novelty scores were modest, we attribute this primarily to minor overfitting"</li>
+<li><strong>Evidence pointer</strong> Random Molecule Generation Performance section, Table 1</li>
+<li><strong>Concern</strong> The authors report modest Novelty scores and attribute this to "minor overfitting" and the "inherent constraints" of target-specific generation. However, the novelty metric is critical for generative models: a model that generates molecules already in the training set is not truly designing new compounds. The authors do not provide a quantitative analysis of how many generated molecules are truly novel (i.e., not in any training or test set) versus simple variations of known molecules. The claim that "these results confirm the model's ability to generate valid drug candidates" is weakened if the generated molecules are largely known. Furthermore, the comparison against PGMG and REINVENT 2.0 is problematic because these models were not retrained on the same data (see R1-M1).</li>
+<li><strong>Why it matters</strong> The value of a generative model in drug discovery is its ability to propose novel, synthesizable molecules with desired properties. If the model primarily reproduces known molecules, its practical utility is limited. The authors need to provide a more rigorous analysis of novelty, including Tanimoto similarity to nearest training set molecules and a discussion of whether the generated molecules are truly novel or merely recombinations of known fragments.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should provide a detailed novelty analysis: (a) report the distribution of Tanimoto similarities between generated molecules and the nearest training set molecules, (b) provide examples of truly novel molecules (e.g., with Tanimoto &lt; 0.4 to any training molecule), and (c) discuss whether the modest novelty is a fundamental limitation of the approach or can be addressed by future modifications.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M5</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Interpretability and validation of binding-site predictions</li>
+<li><strong>Claim pointer</strong> "MolDBG explicitly models drug-target interactions and predicts binding sites concomitantly with molecule generation" and "the physical interaction sites determined by Vina docking exhibit a high degree of spatial overlap with the binding sites predicted by our model"</li>
+<li><strong>Evidence pointer</strong> Affinity-Based Conditional Molecular Design section, Figure 5g-l</li>
+<li><strong>Concern</strong> The claim of interpretability is supported by a qualitative comparison between MolDBG-predicted binding sites and Vina docking poses for two targets (EGFR and VEGFR2). However, the authors do not provide quantitative metrics (e.g., overlap coefficient, distance between predicted and docked residues) to support the claim of "high degree of spatial overlap." The visualization is limited to six molecules (three per target), which is insufficient to demonstrate general interpretability. Additionally, the use of Vina docking as a ground truth for binding sites is questionable because docking predictions can be inaccurate, especially for flexible targets.</li>
+<li><strong>Why it matters</strong> Interpretability is a key claimed advantage of MolDBG over black-box models. Without quantitative validation on a larger set of protein-ligand complexes, the interpretability claim remains anecdotal. The field needs rigorous benchmarks for evaluating interpretability, such as comparing predicted binding residues against crystallographic data.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should provide a quantitative evaluation of binding-site prediction accuracy for the generated molecules, using either (a) crystallographic data from the PDB for known complexes, or (b) a larger set of docking predictions with statistical measures (e.g., mean distance between predicted and docked residues, fraction of predicted residues within 5Å of docked ligand). A minimum of 50-100 protein-ligand pairs should be evaluated.</p>
+</li>
+<li>
+<p><strong>Minor Comments</strong> </p>
+</li>
 <li><strong>Concern ID</strong> R1-m1</li>
 <li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Clarity</li>
-<li><strong>Affected element</strong> Terminology</li>
-<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
-<li><strong>Issue</strong> The term "site-aware" is used but not defined. It is unclear whether this refers to known binding sites, predicted sites, or a learned latent representation of binding regions.</li>
-<li><strong>Required correction</strong> Define "site-aware" explicitly in the abstract or introduction. For example, specify whether the model uses known binding site annotations or learns them end-to-end.</li>
-<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Axis</strong> Clarity and completeness</li>
+<li><strong>Affected element</strong> Abstract</li>
+<li><strong>Evidence pointer</strong> Abstract</li>
+<li><strong>Issue</strong> The abstract states "MolDBG achieves competitive performance across all three tasks" but does not specify which metrics or datasets were used. This is too vague for a Nature-style abstract.</li>
+<li>
+<p><strong>Required correction</strong> Include specific performance numbers (e.g., MSE, Pearson, AUROC) for at least the primary task in the abstract.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m2</p>
+</li>
 <li><strong>Severity</strong> Minor</li>
-<li><strong>Axis</strong> Scope</li>
-<li><strong>Affected element</strong> Claim scope</li>
-<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
-<li><strong>Issue</strong> The abstract claims "unified molecular interaction modeling and generative design" but only mentions three tasks. It is unclear if the framework can handle other interaction types (e.g., protein-protein, protein-nucleic acid) or if it is limited to drug-target pairs.</li>
-<li><strong>Required correction</strong> Clarify the scope of "molecular interaction modeling" in the abstract. If the framework is drug-target specific, state this explicitly.</li>
-</ul>
+<li><strong>Axis</strong> Reproducibility</li>
+<li><strong>Affected element</strong> Experimental Section - Datasets</li>
+<li><strong>Evidence pointer</strong> Datasets section</li>
+<li><strong>Issue</strong> The authors state that the BioLip-BS dataset was constructed by "performing rigorous structure, sequence, and binding-site alignment checks on Q-BioLiP" but do not provide the exact filtering criteria or thresholds used. This makes it difficult for others to reproduce the dataset.</li>
+<li>
+<p><strong>Required correction</strong> Provide the exact filtering criteria (e.g., sequence identity threshold, structure alignment RMSD cutoff, binding-site overlap requirement) in the main text or supplementary materials.</p>
 </li>
-<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (no quantitative evidence), R1-M2 (unsubstantiated generalizability claim), R1-M3 (unclear methodology for site supervision)</li>
-<li><strong>Assessment against Nature-style criteria</strong> <ul>
-<li><strong>Originality</strong>: The concept of a unified, site-aware framework for three tasks is novel and addresses a clear gap. However, the abstract does not provide enough detail to assess whether the technical implementation is truly novel or a straightforward combination of existing methods.</li>
-<li><strong>Scientific importance</strong>: If validated, the framework could have high impact on drug discovery, particularly for challenging targets. The importance is currently speculative.</li>
-<li><strong>Interdisciplinary readership</strong>: The work would appeal to computational chemists, structural biologists, and AI researchers. The abstract is accessible to a broad audience.</li>
-<li><strong>Technical soundness</strong>: Cannot be assessed from the abstract alone. The lack of any quantitative results or methodological details is a critical deficiency.</li>
-<li><strong>Readability for nonspecialists</strong>: The abstract is well-written and clear, but the lack of concrete results makes it difficult for a nonspecialist to gauge the significance.</li>
-</ul>
+<li>
+<p><strong>Concern ID</strong> R1-m3</p>
 </li>
-<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The abstract presents an interesting concept but provides no data to support the central claims. A full manuscript with quantitative results, baseline comparisons, and methodological details is required before a meaningful assessment can be made.</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Statistical reporting</li>
+<li><strong>Affected element</strong> Drug-Target affinity Prediction Performance section</li>
+<li><strong>Evidence pointer</strong> Figure 2c-h</li>
+<li><strong>Issue</strong> The authors report MSE, Pearson, and CI for MolDBG but do not provide standard deviations or confidence intervals for these metrics, even though 5-fold cross-validation was performed.</li>
+<li>
+<p><strong>Required correction</strong> Report mean and standard deviation (or 95% confidence intervals) for all metrics across the 5 folds.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m4</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity of methodology</li>
+<li><strong>Affected element</strong> Model Architecture - Drug-Target Interaction Learning Module</li>
+<li><strong>Evidence pointer</strong> Equation 2 and surrounding text</li>
+<li><strong>Issue</strong> The LSQM module uses cross-attention with molecular embedding as Query and protein embedding as Key/Value. However, the authors do not explain how the "pseudo-ligand embedding" is generated for the molecular design task. They mention "random sampling" but do not specify the distribution or dimensionality.</li>
+<li>
+<p><strong>Required correction</strong> Clearly specify the distribution (e.g., N(0,I)) and dimensionality of the pseudo-ligand embedding, and explain how it is sampled during training and inference.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m5</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Data availability</li>
+<li><strong>Affected element</strong> Data Availability Statement</li>
+<li><strong>Evidence pointer</strong> Data Availability Statement</li>
+<li><strong>Issue</strong> The code repository URL is provided, but the authors do not state whether the data (BioLip-BS, processed BindingDB) will be made available. Given the complexity of dataset construction, this is essential for reproducibility.</li>
+<li>
+<p><strong>Required correction</strong> State explicitly that all datasets (raw and processed) will be made available upon publication, and provide a plan for data deposition (e.g., Zenodo, Figshare).</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m6</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Overclaiming</li>
+<li><strong>Affected element</strong> Discussion</li>
+<li><strong>Evidence pointer</strong> Discussion section</li>
+<li><strong>Issue</strong> The authors state "MolDBG can not only predict affinity but also dynamically distinguish binding strengths across distinct pockets for the same ligand." This is supported by only a single case study (CA2), which is insufficient for such a strong claim.</li>
+<li>
+<p><strong>Required correction</strong> Qualify the claim by adding "as demonstrated in a case study on Carbonic Anhydrase II" or provide additional validation.</p>
+</li>
+<li>
+<p><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (unfair baseline comparison), R1-M2 (insufficient statistical validation for site-specific affinity prediction), R1-M3 (overclaimed generalization), R1-M4 (insufficient novelty analysis), R1-M5 (unvalidated interpretability claim)</p>
+</li>
+<li>
+<p><strong>Assessment against Nature-style criteria</strong> </p>
+</li>
+<li><strong>Originality</strong>: Moderate. The idea of unifying affinity prediction, binding-site identification, and molecular generation in a single framework is not entirely novel (DeepDTAGen and other multi-task models exist), but the specific use of binding-site supervision to guide representation learning is a meaningful contribution. The extension to cryptic pockets and IDPs, while limited, adds some originality.</li>
+<li><strong>Scientific importance</strong>: High. The problem of integrating multiple tasks in drug discovery is important, and the potential to improve interpretability and reduce false positives is valuable. However, the importance is diminished by the lack of rigorous validation and the overclaimed generalization.</li>
+<li><strong>Interdisciplinary readership</strong>: Moderate. The work is relevant to computational chemistry, structural biology, and machine learning, but the technical depth and lack of clear biological validation may limit appeal to a broader audience.</li>
+<li><strong>Technical soundness</strong>: Low to moderate. The methodology is well-motivated and technically sophisticated, but the experimental validation is flawed (unfair comparisons, insufficient statistics, overclaimed results). The technical soundness of the core claims is not established from the provided evidence.</li>
+<li>
+<p><strong>Readability for nonspecialists</strong>: Moderate. The manuscript is well-written and the concepts are explained clearly, but the heavy reliance on technical jargon and the lack of a clear summary of key results for a general audience are limitations.</p>
+</li>
+<li>
+<p><strong>Recommendation posture</strong> Currently not established from the provided evidence. The manuscript presents a promising framework with a sound conceptual basis, but the experimental validation is insufficient to support the major claims. The authors must address the critical concerns regarding baseline fairness, statistical rigor, and overclaimed generalization before the case can be considered established. A major revision with additional experiments and more careful claims is required.</p>
+</li>
 </ul>
 <h2>Risk / unsupported claims</h2>
 <ul>
-<li>"MolDBG achieves competitive performance across all three tasks" – unsupported; no quantitative evidence provided.</li>
-<li>"The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins" – unsupported; no experimental validation or dataset details provided.</li>
-<li>"reducing false positives from misaligned binding sites and improving interpretability" – unsupported; no ablation or interpretability analysis provided.</li>
+<li>"MolDBG achieves competitive performance across all three tasks" - unsupported due to unfair baseline comparisons (R1-M1)</li>
+<li>"robust ability to distinguish affinity variations across distinct binding sites" - unsupported due to single case study and lack of statistical rigor (R1-M2)</li>
+<li>"The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins" - unsupported for affinity prediction and molecular generation; only binding-site prediction is demonstrated (R1-M3)</li>
+<li>"the physical interaction sites determined by Vina docking exhibit a high degree of spatial overlap with the binding sites predicted by our model" - unsupported due to lack of quantitative metrics and small sample size (R1-M5)</li>
+<li>"MolDBG effectively generates drug candidates with specified binding affinities for given protein sequences" - partially supported but weakened by modest novelty scores and lack of rigorous novelty analysis (R1-M4)</li>
 </ul></div>
   </section>
   

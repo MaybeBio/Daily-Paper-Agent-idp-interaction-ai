@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.10.750468",
+  "title": "A new class of inherently efficient SUMOylation substrates",
+  "authors": "Cisse EH; Visticot L; Cepa R; Mishra A; Coste F; Goffinont S; Mance L; Battault S; Guigneau D; Talhaoui I; Castaing B; Aucagne V; Defossez P; Suskiewicz MJ",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-13",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究折叠BTB结构域中非经典SUMO化底物的识别机制，通过晶体学、预测和实验揭示其模拟线性共识基序的表面，虽非IDP对象但涉及酶-底物互作机制建模，对无序蛋白互作机制研究有方法学启发。",
+  "abstract": "SUMOylation is an essential eukaryotic ubiquitin-like post-translational modification that plays a central role in the regulation of various nuclear processes and stress responses. It canonically occurs at lysine residues within ΨKXE consensus motifs that lie in intrinsically disordered regions or loops and interact specifically with the SUMO-conjugating E2 enzyme UBC9. However, many detected SUMOylation sites are found within structured domains, and it remains unclear how these are recognised by UBC9. Here, we investigated the SUMOylation of Lys43 in the BTB domain of human ZBTB38 (ZBTB38BTB), a lysine located within a rigid β-sheet. By combining X-ray crystallography, structural prediction, and in-vitro UBC9 interaction and SUMOylation assays, we show that ZBTB38BTB possesses a dedicated surface that recapitulates the spatial arrangement of residues found in canonical linear consensus motifs. This surface binds UBC9 with mid-micromolar affinity and is predicted to position Lys43 in its active site for efficient SUMOylation. Structural modelling and sequence analyses suggest that this property is shared by BTB domains of five members (10%) of the ZBTB-protein family across vertebrates, revealing a previously unrecognised property of a subset of ZBTBBTB domains. Kinetic analyses reveal that, under the reaction conditions used, the catalytic efficiency of ZBTB38BTB and ZBTB33BTB SUMOylation are closely comparable to that of the C-terminal domain of RANGAP1, the best-characterised and most efficiently SUMOylated substrate known. This defines a new class of inherently efficient, E3 ligase-independent SUMOylation substrates beyond RANGAP1 and suggests that structural pre-organisation of the acceptor lysine and its environment may promote productive UBC9 engagement. Lastly, we demonstrate the presence of higher-molecular-weight, modified forms of ZBTB38 in human cells, consistent with SUMOylation. Together, these results provide a biochemical basis for interpreting existing and designing future studies on the functional impact of ZBTB SUMOylation. More broadly, our findings offer insights into the determinants of efficient SUMOylation, and may facilitate the identification of further inherently efficient targets, and, potentially, the design of SUMOylation modulators.",
+  "abstract_zh": "SUMO化 (SUMOylation) 是一种必需的真核生物类泛素 (ubiquitin-like) 翻译后修饰，在多种核过程及应激反应的调控中发挥核心作用。它通常发生在位于内在无序区或环区的ΨKXE共有基序 (consensus motif) 内的赖氨酸残基上，并与SUMO结合E2酶UBC9特异性相互作用。然而，许多检测到的SUMO化位点位于结构域内部，目前尚不清楚UBC9如何识别这些位点。在此，我们研究了人ZBTB38的BTB结构域 (ZBTB38BTB) 中Lys43的SUMO化，该赖氨酸位于刚性β-折叠片内。通过结合X射线晶体学 (X-ray crystallography)、结构预测以及体外UBC9相互作用和SUMO化实验，我们证明ZBTB38BTB拥有一个专用表面，该表面重现了典型线性共有基序中残基的空间排布。该表面以中微摩尔亲和力结合UBC9，并预测将Lys43定位在其活性位点以实现高效SUMO化。结构建模和序列分析表明，这一特性在脊椎动物ZBTB蛋白家族五个成员（10%）的BTB结构域中共享，揭示了一部分ZBTBBTB结构域先前未被认识到的特性。动力学分析显示，在所采用的反应条件下，ZBTB38BTB和ZBTB33BTB的SUMO化催化效率与已知特征最明确且SUMO化效率最高的底物RANGAP1的C端结构域相当。这定义了一类超越RANGAP1的、固有的、不依赖E3连接酶的SUMO化底物，并表明受体赖氨酸及其环境的结构预组织可能促进有效的UBC9结合。最后，我们证明了人细胞中存在高分子量修饰形式的ZBTB38，这与SUMO化一致。总之，这些结果为解释现有关于ZBTB SUMO化功能影响的研究以及设计未来研究提供了生化基础。更广泛地说，我们的发现为理解高效SUMO化的决定因素提供了见解，并可能有助于识别更多固有的高效靶标，以及潜在地设计SUMO化调节剂。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750468",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750468",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.10.750468/index.html"
+}

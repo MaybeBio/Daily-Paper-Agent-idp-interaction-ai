@@ -175,7 +175,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/11 17:36",
-    "fetched_at": "2026-09-13 05:43:50"
+    "fetched_at": "2026-09-14 15:56:33"
   },
   "links": {
     "cites": [],
@@ -299,7 +299,29 @@
     ],
     "pmc": [],
     "entrez": {},
-    "external": [],
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.ppat.1014607",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
     "text_mined": []
   }
 }

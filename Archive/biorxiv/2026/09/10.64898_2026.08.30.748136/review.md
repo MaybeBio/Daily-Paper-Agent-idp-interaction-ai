@@ -1,85 +1,87 @@
 ## Review setup
 - **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence presented in the abstract, without access to full manuscript, figures, tables, or supplementary materials
-- **Shared manuscript claim summary** The authors present PocketScope, a training-free framework using frozen ESM-C 600M embeddings and exhaustive late-interaction MaxSim to retrieve binding sites across the AlphaFold human proteome. They report identification of 153,805 cavities across 37,682 proteins, recovery of documented drug off-targets in curated pharmacological pairs, and a 1st of 23 rank by mean rank on the ProSPECCTs benchmark. The framework is claimed to be practical for proteome-scale off-target prediction and is available as open source and a web server.
-- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary data were provided for assessment.
-- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark methodology details, dataset definitions, curation criteria for pharmacological pairs, computational resource specifications, and validation statistics. The absence of these materials substantially limits the ability to verify the central claims.
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present PocketScope, a training-free framework using frozen ESM-C 600M embeddings and exhaustive late-interaction MaxSim to retrieve binding sites across the AlphaFold human proteome. They report identification of 153,805 cavities across 37,682 proteins, recovery of documented drug off-targets in a curated pharmacological set, and top ranking (1st of 23 methods) on the ProSPECCTs benchmark by mean rank across ten collections.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, or supplementary data were supplied
+- **Missing materials affecting confidence** Full methods, benchmark details, curation criteria for pharmacological pairs, definition of cavity detection, computational cost analysis, comparison methodology for ProSPECCTs, and any statistical validation. Without these, the core claims cannot be independently assessed.
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially interesting application of protein language model representations to binding-site retrieval at proteome scale. The training-free design and exhaustive MaxSim approach are conceptually clear, and the reported benchmark ranking is notable. However, the abstract alone provides insufficient evidence to evaluate the validity of the methodological choices, the robustness of the results, or the significance of the contribution relative to existing methods. Several claims are stated without supporting quantitative detail, and the relationship between the proteome-scale cavity identification and the benchmark performance is not made explicit. The work may be of interest to the structural bioinformatics and drug discovery communities, but the case is not established from the supplied material.
-- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, binding site annotation, and proteome-scale analysis would be interested. Drug discovery researchers focused on off-target prediction and polypharmacology would also find the framework relevant, particularly if the off-target recovery claim holds under scrutiny. Developers of protein language model applications may be interested in the training-free retrieval design as a baseline or alternative to fine-tuned approaches.
-- **Major strengths** The training-free design is a practical advantage, as it avoids the need for task-specific fine-tuning and may generalize across diverse binding site types. The use of exhaustive MaxSim without pooling or approximate nearest-neighbor search is methodologically transparent and avoids approximation artifacts. The reported scale of analysis, covering 37,682 proteins and 153,805 cavities, suggests a serious computational effort. The open-source and web server availability is a positive step for reproducibility and community adoption.
+- **Overall assessment** The abstract describes a potentially useful and scalable approach to proteome-wide binding-site retrieval. The central idea of using frozen PLM embeddings with exhaustive MaxSim, avoiding training and approximate search, is conceptually appealing and could be of interest to the structural bioinformatics and drug discovery communities. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or significance of the reported results. Key methodological details and quantitative validations are absent, and several claims are presented without supporting data. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, drug repurposing, and off-target identification would be the primary audience. Researchers developing or applying protein language models to structural and functional problems would also find the approach relevant. The proteome-scale scope and training-free design may appeal to those seeking practical tools for large-scale screening.
+- **Major strengths** The proposed framework is training-free, which is a practical advantage for scalability and reproducibility. The use of frozen ESM-C 600M embeddings leverages a widely adopted model, enhancing accessibility. The reported scale of analysis (153,805 cavities across 37,682 proteins) suggests a substantial computational effort. The claim of ranking 1st of 23 methods on ProSPECCTs, if substantiated, would indicate competitive performance.
 - **Major Concerns**
   - **Concern ID** R1-M1
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Evidence sufficiency
-  - **Claim pointer** The claim that PocketScope "ranks 1st of 23 methods by mean rank across the ten collections" on the ProSPECCTs benchmark.
-  - **Evidence pointer** Abstract only, location not provided
-  - **Concern** The abstract provides no statistical context for this ranking. There is no information on the distribution of ranks across the ten collections, the magnitude of differences between PocketScope and the second-ranked method, or whether the ranking is based on statistically significant improvements. Without these details, the "1st of 23" claim cannot be interpreted as a meaningful advantage.
-  - **Why it matters** A top rank on a benchmark is only meaningful if the margin is substantial and consistent. If PocketScope ranks first by a narrow margin or performs poorly on several collections, the claim of superiority is misleading. The absence of per-collection results prevents assessment of robustness.
-  - **Resolution test** Provide per-collection ranks, the mean and median rank with confidence intervals, and a statistical comparison against the second-best method. Report whether the ranking is stable under variations in the cavity detection step or embedding parameters.
+  - **Axis** Technical soundness
+  - **Claim pointer** PocketScope identified 153,805 cavities across 37,682 proteins in the AlphaFold human proteome
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no definition of what constitutes a "cavity" in this context, no description of the detection algorithm, and no validation that the identified cavities are biologically meaningful or structurally accurate. The numbers are presented as facts without any supporting analysis or comparison to existing cavity databases.
+  - **Why it matters** Without a clear and validated cavity definition, the reported scale of the analysis cannot be interpreted. If the cavity detection is flawed or overly permissive, the downstream retrieval results would be compromised, undermining the entire framework.
+  - **Resolution test** Provide a detailed methods section describing the cavity detection algorithm, including thresholds and parameters. Validate a random sample of detected cavities against experimentally determined binding sites or established structural annotations, and report precision and recall statistics.
   - **Concern ID** R1-M2
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Claim substantiation
-  - **Claim pointer** The claim that PocketScope "recovered documented drug off-targets across a curated set of pharmacological pairs."
-  - **Evidence pointer** Abstract only, location not provided
-  - **Concern** The abstract does not specify the size of the curated set, the source of the off-target annotations, the retrieval threshold used to define "recovery," or the success rate. Without these details, it is impossible to determine whether the recovery rate is high, moderate, or trivially low. The term "curated" implies manual selection, which raises the risk of selection bias.
-  - **Why it matters** Off-target prediction is the stated practical application. If the recovery rate is low or the curated set is small or biased, the claim of practical utility is weakened. The absence of a comparison to baseline methods for this specific task further limits interpretation.
-  - **Resolution test** Report the number of pharmacological pairs, the source of annotations, the recovery rate with a clear definition of success, and a comparison to a simple sequence-similarity baseline or a random expectation. Provide the full list of pairs and retrieval scores in supplementary materials.
+  - **Axis** Technical soundness
+  - **Claim pointer** PocketScope recovered documented drug off-targets across a curated set of pharmacological pairs
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the size of the curated set, the criteria for inclusion, the source of the off-target annotations, or the retrieval success rate. Without these details, the claim of "recovery" is unquantified and cannot be evaluated for statistical significance or practical utility.
+  - **Why it matters** Off-target prediction is a key application claim. If the curated set is small or biased, or if the recovery rate is low, the practical value of PocketScope for this purpose would be questionable. The claim as stated is too vague to support the framework's utility.
+  - **Resolution test** Report the number of pharmacological pairs, the source of annotations, the retrieval success rate (e.g., fraction of off-targets ranked within a defined threshold), and a comparison to a baseline or random expectation. Provide the full list of pairs and results in supplementary materials.
   - **Concern ID** R1-M3
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Methodological transparency
-  - **Claim pointer** The claim that PocketScope "represents cavity-lining residues using frozen ESM-C 600M embeddings" and "retrieves related binding sites through exhaustive late-interaction MaxSim."
-  - **Evidence pointer** Abstract only, location not provided
-  - **Concern** The abstract does not describe how cavities are detected, how cavity-lining residues are defined, how the MaxSim score is computed across cavities of different sizes, or how the final retrieval ranking is generated. The choice of ESM-C 600M over other model sizes or architectures is not justified. The computational cost of exhaustive MaxSim at proteome scale is not reported.
-  - **Why it matters** Reproducibility and scalability are central to the claimed practical utility. Without details on cavity detection and scoring, other groups cannot replicate the method. If the computational cost is prohibitive, the "practical framework" claim is undermined.
-  - **Resolution test** Provide a detailed methods section describing cavity detection, residue selection, embedding extraction, MaxSim computation, and ranking. Report runtime and memory requirements for the full proteome scan. Justify the choice of ESM-C 600M with a comparison to alternative models.
+  - **Axis** Technical soundness
+  - **Claim pointer** On the ProSPECCTs benchmark, PocketScope ranks 1st of 23 methods by mean rank across the ten collections
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the evaluation protocol, the specific metric definitions, the statistical significance of the ranking, or the variance across collections. A single aggregate rank can mask poor performance on individual collections. No confidence intervals or per-collection results are provided.
+  - **Why it matters** Benchmark claims are only meaningful with full transparency on methodology and results. Without per-collection breakdowns and statistical testing, the "1st of 23" claim could be driven by a single favorable collection or by a metric that favors the method's specific design.
+  - **Resolution test** Provide a table with per-collection mean ranks for all 23 methods, report standard deviations or confidence intervals, and describe the exact evaluation protocol including any preprocessing steps. State whether the ranking difference is statistically significant relative to the second-best method.
   - **Concern ID** R1-M4
   - **Severity** Major
-  - **Blocking** No
-  - **Axis** Comparative validity
-  - **Claim pointer** The claim that PocketScope "ranks 1st of 23 methods" implies superiority over existing approaches.
-  - **Evidence pointer** Abstract only, location not provided
-  - **Concern** The abstract does not describe the 22 other methods in the ProSPECCTs benchmark, whether they are training-free or trained, or whether the comparison is apples-to-apples. If the other methods use different cavity definitions or different input features, the ranking may reflect benchmark design rather than method quality.
-  - **Why it matters** A benchmark ranking is only informative if the comparison is fair and the methods are described. Without this context, the "1st of 23" claim is difficult to interpret.
-  - **Resolution test** List the 22 other methods with their type (training-free vs. trained), input features, and any benchmark-specific constraints. Discuss potential sources of bias in the comparison.
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** PocketScope is a training-free framework that represents cavity-lining residues using frozen ESM-C 600M embeddings and retrieves related binding sites through exhaustive late-interaction MaxSim, without pooling or approximate nearest-neighbor search
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the computational cost of the exhaustive MaxSim approach at proteome scale. The claim of "training-free" does not address the inference time or memory requirements, which could be prohibitive for 153,805 cavities. No runtime or resource usage data are provided.
+  - **Why it matters** Scalability is a central selling point of the framework. If the exhaustive search is computationally intractable for typical users, the practical utility is limited despite the proteome-scale demonstration. The absence of cost analysis prevents assessment of feasibility.
+  - **Resolution test** Report wall-clock time and memory usage for the full proteome scan, describe the hardware used, and provide a complexity analysis of the MaxSim step. Compare to at least one approximate method to justify the exhaustive choice.
 - **Minor Comments**
   - **Concern ID** R1-m1
   - **Severity** Minor
   - **Axis** Clarity
-  - **Affected element** Abstract wording
-  - **Evidence pointer** Abstract, "training-free framework" and "exhaustive late-interaction MaxSim"
-  - **Issue** The term "training-free" is used but not defined. It is unclear whether this means no fine-tuning of ESM-C, no training of any new parameters, or no supervised training at all. The term "late-interaction" is a technical term that may not be familiar to all readers.
-  - **Required correction** Define "training-free" explicitly in the abstract or methods. Add a brief explanation of "late-interaction" or replace with a more accessible term.
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "late-interaction MaxSim" is used without definition. Readers unfamiliar with this specific architecture may not understand the distinction from standard attention or pooling mechanisms.
+  - **Required correction** Provide a brief definition or a citation to the original late-interaction model (e.g., ColBERT) in the methods or a footnote.
   - **Concern ID** R1-m2
   - **Severity** Minor
   - **Axis** Completeness
-  - **Affected element** Benchmark description
-  - **Evidence pointer** Abstract, "ProSPECCTs benchmark"
-  - **Issue** The abstract does not state what the ProSPECCTs benchmark measures, how many queries are in each collection, or what the evaluation metric is beyond "mean rank."
-  - **Required correction** Add one sentence describing the benchmark and the evaluation metric. Specify the number of collections and queries.
+  - **Affected element** Availability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the tool is open source and available as a web server, but no license type, repository URL, or usage instructions are given.
+  - **Required correction** Include the repository URL and license in the abstract or a data availability statement.
   - **Concern ID** R1-m3
   - **Severity** Minor
-  - **Axis** Reproducibility
-  - **Affected element** Web server and code availability
-  - **Evidence pointer** Abstract, "open source and also freely available as a web server"
-  - **Issue** The abstract states availability but does not specify the license, the programming language, or the dependencies. The URL is provided but no version or release date is given.
-  - **Required correction** Provide a license, a version number, and a brief description of the implementation in the abstract or a data availability statement.
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any existing binding-site retrieval or pocket-matching methods, making it difficult to contextualize the claimed improvement.
+  - **Required correction** Add one or two sentences in the introduction or discussion referencing prior methods and stating the specific gap PocketScope addresses.
   - **Concern ID** R1-m4
   - **Severity** Minor
-  - **Axis** Interpretation
-  - **Affected element** Proteome-scale results
-  - **Evidence pointer** Abstract, "identified 153,805 cavities across 37,682 proteins"
-  - **Issue** The abstract does not state how many of these cavities are predicted to be binding sites versus merely detected as pockets. The number of cavities per protein varies widely, and the abstract does not indicate whether this distribution is biologically plausible.
-  - **Required correction** Clarify whether all detected cavities are considered binding sites or whether a filtering step is applied. Report the distribution of cavities per protein.
+  - **Axis** Statistical reporting
+  - **Affected element** Benchmark result
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of ranking 1st of 23 methods is presented without any measure of uncertainty or variability.
+  - **Required correction** Report the margin over the second-best method and, if possible, a bootstrap or permutation-based confidence interval for the ranking.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cavity definition and validation), R1-M2 (off-target recovery quantification), R1-M3 (benchmark transparency), R1-M4 (computational cost analysis). These are all blocking because the core claims of scale, utility, and performance cannot be verified without them.
+- **Assessment against Nature-style criteria** Originality: The combination of frozen PLM embeddings with exhaustive MaxSim for binding-site retrieval is a reasonable incremental contribution, but the abstract does not demonstrate conceptual novelty beyond existing late-interaction models applied to protein structures. Scientific importance: The potential for proteome-scale off-target prediction is significant, but the evidence provided is insufficient to establish practical impact. Interdisciplinary readership: The work could appeal to structural biology, machine learning, and pharmacology audiences, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the missing methodological details and validations are critical. Readability for nonspecialists: The abstract assumes familiarity with PLMs, MaxSim, and benchmark conventions, and does not explain the biological rationale in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the authors should be encouraged to resubmit with full methods, quantitative validations, and computational cost analysis. If those are provided and the claims hold, the work could be of interest to a specialized audience, though the scope and framing would need to be adjusted for a general journal.
 
 ## Risk / unsupported claims
-- The "1st of 23 methods" ranking is unsupported without per-collection results and statistical context.
-- The "recovered documented drug off-targets" claim is unsupported without the size of the curated set, the recovery rate, and the definition of recovery.
-- The "practical framework" claim is unsupported without computational cost and runtime data.
-- The biological significance of identifying 153,805 cavities is not interpretable without a comparison to expected numbers or a functional annotation analysis.
-- The generalizability of the training-free approach beyond the tested benchmark is not assessable from the abstract.
-- The claim that ESM-C 600M embeddings are appropriate for this task is not justified with comparative data.
+- The claim of identifying 153,805 cavities across 37,682 proteins is unsupported without a validated cavity detection method.
+- The claim of recovering documented drug off-targets is unquantified and cannot be evaluated.
+- The claim of ranking 1st of 23 methods on ProSPECCTs is unsupported without per-collection results and statistical testing.
+- The implied practical utility of the training-free, exhaustive search approach is unsupported without computational cost data.
+- The statement that PocketScope "provides a practical framework" is an assertion not backed by any usability or performance evidence in the abstract.

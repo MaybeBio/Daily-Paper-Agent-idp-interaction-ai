@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.10.750691",
+  "title": "Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins",
+  "authors": "Lauren E Naworski; Lydia L Good; Rob Scrutton; Tuomas P.J. Knowles",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-13",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究蛋白质语言模型ESM-2在无序蛋白上的可解释性，揭示其编码无序蛋白的结构与功能特性，虽未直接研究PPI，但方法（PLM可解释性）和对象（IDP）高度相关，对理解IDP的序列-结构-功能关系有启发，可迁移至IDP介导的互作机制建模。",
+  "abstract": "Protein language models (PLMs) such as ESM-2 encode protein sequences as embeddings for downstream tasks. PLMs are trained on a masked learning objective that leverages evolutionary constraints. While interpretability studies of ESM-2 have focused on folded proteins, their behavior on intrinsically disordered proteins (IDPs), which constitute a substantial fraction of the human proteome and are implicated in numerous diseases, remains understudied. Because IDPs experience different types of evolutionary constraints on their amino acid sequences, we hypothesized that PLMs would behave differently on disordered versus folded regions. Here we show that ESM-2 exhibits reduced attention on disordered regions, yet still encodes meaningful biological signals. The model assigns heightened attention to disease-relevant residues even at high levels of disorder. Moreover, we show that both the radius of gyration and individual dynamic contact maps, key characteristics of IDPs, can be obtained from the model logits and embeddings. These findings suggest PLMs capture valuable information relevant to IDP biology despite their bias toward structured residues.",
+  "abstract_zh": "蛋白质语言模型（protein language models, PLMs）如ESM-2将蛋白质序列编码为嵌入向量（embeddings）用于下游任务。PLMs基于掩码学习目标（masked learning objective）进行训练，该目标利用了进化约束（evolutionary constraints）。尽管ESM-2的可解释性研究主要聚焦于折叠蛋白，但其在固有无序蛋白（intrinsically disordered proteins, IDPs）上的行为仍未被充分研究——IDPs占人类蛋白质组的相当大比例，并与多种疾病相关。由于IDPs的氨基酸序列经历不同类型的进化约束，我们假设PLMs在无序区域与折叠区域上的行为会有所不同。在此我们证明，ESM-2对无序区域的注意力（attention）降低，但仍能编码有意义的生物学信号。即使在高度无序的情况下，模型仍对疾病相关残基赋予更高的注意力。此外，我们证明IDPs的关键特征——回转半径（radius of gyration）和单个动态接触图（dynamic contact maps）——均可从模型logits和嵌入向量中获取。这些发现表明，尽管PLMs偏向于结构化残基，但它们仍捕获了与IDP生物学相关的有价值信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750691",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750691",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.10.750691/index.html"
+}
