@@ -1,3 +1,5 @@
+import httpx
+
 import backfill
 
 
@@ -105,3 +107,75 @@ def test_week_degradations_empty_on_a_clean_run():
 def test_week_degradations_ignores_an_outright_platform_failure():
     log = "[biorxiv] FAILED: connection refused\nWarning: 1 platform(s) failed: ['biorxiv']\n"
     assert backfill.week_degradations(log) == []
+
+
+def _labels():
+    return [label for label, _, _ in backfill.probe_targets()]
+
+
+def test_probe_targets_covers_every_external_service(monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "sk-x")
+    monkeypatch.setenv("LLM_BASE_URL", "https://gw.example/v1")
+    assert _labels() == ["NCBI eutils", "Europe PMC", "arXiv", "LLM gateway"]
+
+
+def test_probe_targets_joins_the_gateway_url_without_doubling_slashes(monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "sk-secret")
+    monkeypatch.setenv("LLM_BASE_URL", "https://gw.example/v1/")
+    _, url, headers = backfill.probe_targets()[-1]
+    assert url == "https://gw.example/v1/models"
+    assert headers["Authorization"] == "Bearer sk-secret"
+
+
+def test_probe_targets_falls_back_to_the_openai_default(monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "sk-x")
+    monkeypatch.delenv("LLM_BASE_URL", raising=False)
+    assert backfill.probe_targets()[-1][1] == "https://api.openai.com/v1/models"
+
+
+class _FakeResponse:
+    def __init__(self, status_code):
+        self.status_code = status_code
+
+
+def test_check_target_flags_an_unhealthy_status(monkeypatch):
+    monkeypatch.setattr(backfill.httpx, "get", lambda *a, **k: _FakeResponse(503))
+    assert backfill._check_target(("Europe PMC", "http://x", {}), 1.0) == "Europe PMC: HTTP 503"
+
+
+def test_check_target_accepts_a_404(monkeypatch):
+    # A gateway that does not expose /models still proves it is reachable by answering.
+    monkeypatch.setattr(backfill.httpx, "get", lambda *a, **k: _FakeResponse(404))
+    assert backfill._check_target(("LLM gateway", "http://x", {}), 1.0) is None
+
+
+def test_check_target_flags_a_rejected_key(monkeypatch):
+    monkeypatch.setattr(backfill.httpx, "get", lambda *a, **k: _FakeResponse(401))
+    assert backfill._check_target(("LLM gateway", "http://x", {}), 1.0) == "LLM gateway: HTTP 401"
+
+
+def test_check_target_reports_a_connection_error(monkeypatch):
+    def boom(*a, **k):
+        raise httpx.ConnectError("nope")
+
+    monkeypatch.setattr(backfill.httpx, "get", boom)
+    assert backfill._check_target(("NCBI eutils", "http://x", {}), 1.0) == "NCBI eutils: ConnectError"
+
+
+def test_preflight_is_empty_when_every_service_answers(monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "sk-x")
+    monkeypatch.setattr(backfill, "_check_target", lambda target, timeout: None)
+    assert backfill.preflight() == []
+
+
+def test_preflight_names_the_broken_services_in_target_order(monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "sk-x")
+    monkeypatch.setattr(
+        backfill, "_check_target",
+        lambda target, timeout: None if target[0] == "arXiv" else f"{target[0]}: ConnectError",
+    )
+    assert backfill.preflight() == [
+        "NCBI eutils: ConnectError",
+        "Europe PMC: ConnectError",
+        "LLM gateway: ConnectError",
+    ]

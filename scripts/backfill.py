@@ -22,12 +22,16 @@ import os
 import re
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor
+
+import httpx
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MONITOR = os.path.join(HERE, "monitor.py")
 WINDOW_DAYS = 7
 REQUIRED_ENV = ("ENTREZ_EMAIL", "LLM_API_KEY")
 RETRY_CMD = "python scripts/backfill.py"
+PREFLIGHT_TIMEOUT = 15.0
 
 # monitor.py's closing stderr line on a partial failure, e.g.
 #   Warning: 1 platform(s) failed: ['pubmed']
@@ -76,6 +80,49 @@ def week_args(run_date: str, config: str, out_dir: str) -> list[str]:
 
 def missing_env() -> list[str]:
     return [name for name in REQUIRED_ENV if not (os.environ.get(name) or "").strip()]
+
+
+def probe_targets() -> list[tuple[str, str, dict]]:
+    """(label, url, headers) for every external service a week depends on."""
+    llm_base = (os.environ.get("LLM_BASE_URL") or "").strip() or "https://api.openai.com/v1"
+    llm_key = (os.environ.get("LLM_API_KEY") or "").strip()
+    return [
+        ("NCBI eutils", "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi", {}),
+        ("Europe PMC", "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SRC%3APPR&format=json&pageSize=1", {}),
+        ("arXiv", "https://export.arxiv.org/api/query?search_query=all:electron&max_results=1", {}),
+        ("LLM gateway", llm_base.rstrip("/") + "/models", {"Authorization": f"Bearer {llm_key}"}),
+    ]
+
+
+def _check_target(target: tuple[str, str, dict], timeout: float) -> str | None:
+    """None when the service answered, else a one-line reason it did not.
+
+    Any answer counts as reachable — a gateway may not expose /models at all, and
+    a 404 still proves the connection and the proxy path work. Only a 5xx, a
+    rejected key, or no response at all means the run would be wasted.
+    """
+    label, url, headers = target
+    try:
+        response = httpx.get(url, headers=headers, timeout=timeout, follow_redirects=True)
+    except Exception as exc:
+        return f"{label}: {type(exc).__name__}"
+    if response.status_code >= 500 or response.status_code in (401, 403):
+        return f"{label}: HTTP {response.status_code}"
+    return None
+
+
+def preflight(timeout: float = PREFLIGHT_TIMEOUT) -> list[str]:
+    """Probe every service once and return a message per broken one.
+
+    Runs before the first week so a dead network — typically a fresh tmux pane
+    that never inherited http_proxy from ~/.zshrc — costs seconds, not hours.
+    """
+    targets = probe_targets()
+    with ThreadPoolExecutor(max_workers=max(1, len(targets))) as pool:
+        problems = list(pool.map(lambda t: _check_target(t, timeout), targets))
+    for (label, _, _), problem in zip(targets, problems):
+        print(f"  [{'FAIL' if problem else ' ok '}] {label:<12} {problem or ''}")
+    return [problem for problem in problems if problem]
 
 
 def week_failures(stderr: str) -> list[str]:
@@ -162,6 +209,14 @@ def main():
     missing = missing_env()
     if missing:
         print(f"Missing env var(s): {', '.join(missing)}. Refusing to start.", file=sys.stderr)
+        return 1
+
+    print("Pre-flight:", flush=True)
+    unreachable = preflight()
+    if unreachable:
+        print(f"\n{len(unreachable)} service(s) unreachable. Nothing was fetched.", file=sys.stderr)
+        print("A fresh tmux pane usually lacks the proxy — check that http_proxy /", file=sys.stderr)
+        print("https_proxy are exported in this shell before re-running.", file=sys.stderr)
         return 1
 
     problems: dict[str, list[str]] = {}
