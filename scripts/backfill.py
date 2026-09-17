@@ -35,6 +35,17 @@ RETRY_CMD = "python scripts/backfill.py"
 # FAILED:" lines (one paper's LLM call died) out of the platform-failure count.
 _PLATFORM_FAILURES = re.compile(r"Warning: \d+ platform\(s\) failed: (\[.*\])\s*$", re.MULTILINE)
 
+# A fetcher that loses Europe PMC falls back to Crossref-only and *keeps going*,
+# so monitor.py never counts it as a failure. It is not equivalent: Crossref
+# cannot do boolean groups, so the query degrades to a lossy superset. The notice
+# is hardcoded "[biorxiv]" inside BioRxivFetcher, which medrxiv also runs on.
+# The window is [\s\S] rather than "." because the interpolated httpx error spans
+# lines ("...\nFor more information check: ..."), so "." would never reach the tail.
+_DEGRADED = re.compile(
+    r"^\[(\w+)\] Europe PMC search failed [\s\S]{0,2000}?returning Crossref-only results\.",
+    re.MULTILINE,
+)
+
 
 def monday_run_dates(since: str, until: str) -> list[str]:
     """Every Monday in [since, until] as ISO dates.
@@ -81,6 +92,15 @@ def week_failures(stderr: str) -> list[str]:
     except (ValueError, SyntaxError):
         return []
     return list(failed) if isinstance(failed, list) else []
+
+
+def week_degradations(stderr: str) -> list[str]:
+    """Platforms that fell back to a lossy source instead of failing outright."""
+    seen = []
+    for name in _DEGRADED.findall(stderr):
+        if name not in seen:
+            seen.append(name)
+    return seen
 
 
 def retry_commands(weeks: list[str]) -> list[str]:
@@ -144,34 +164,34 @@ def main():
         print(f"Missing env var(s): {', '.join(missing)}. Refusing to start.", file=sys.stderr)
         return 1
 
-    failed = []   # week crashed: monitor.py exited non-zero
-    incomplete = []  # week finished, but one or more platforms returned nothing
+    problems: dict[str, list[str]] = {}
     for i, week in enumerate(weeks, 1):
         print(f"[{i}/{len(weeks)}] run-date {week}  window {_window(week)}", flush=True)
         rc, stderr = run_week(week, args.config, args.out_dir)
+
+        reasons = []
         if rc != 0:
-            failed.append(week)
-            print(f"[{i}/{len(weeks)}] {week} FAILED (exit {rc})", file=sys.stderr, flush=True)
-            continue
-        missing_platforms = week_failures(stderr)
-        if missing_platforms:
-            incomplete.append((week, missing_platforms))
-            print(
-                f"[{i}/{len(weeks)}] {week} INCOMPLETE (no results from: {', '.join(missing_platforms)})",
-                file=sys.stderr, flush=True,
-            )
+            reasons.append(f"crashed (exit {rc})")
+        else:
+            # monitor.py exits 0 in both of these cases, so the log is the only
+            # evidence that the week came back with less than it should have.
+            failed = week_failures(stderr)
+            if failed:
+                reasons.append(f"no results from: {', '.join(failed)}")
+            degraded = week_degradations(stderr)
+            if degraded:
+                reasons.append(f"degraded to Crossref-only: {', '.join(degraded)}")
 
-    if failed:
-        print(f"\n{len(failed)} of {len(weeks)} week(s) crashed: {', '.join(failed)}", file=sys.stderr)
-    if incomplete:
-        print(f"\n{len(incomplete)} of {len(weeks)} week(s) incomplete (a platform failed):", file=sys.stderr)
-        for week, missing_platforms in incomplete:
-            print(f"  {week}  missing: {', '.join(missing_platforms)}", file=sys.stderr)
+        if reasons:
+            problems[week] = reasons
+            print(f"[{i}/{len(weeks)}] {week} PROBLEM — {'; '.join(reasons)}", file=sys.stderr, flush=True)
 
-    problem_weeks = sorted(set(failed) | {week for week, _ in incomplete})
-    if problem_weeks:
+    if problems:
+        print(f"\n{len(problems)} of {len(weeks)} week(s) need attention:", file=sys.stderr)
+        for week in sorted(problems):
+            print(f"  {week}  {'; '.join(problems[week])}", file=sys.stderr)
         print("\nRe-run these weeks (a repeat week re-runs its LLM work too):", file=sys.stderr)
-        for cmd in retry_commands(problem_weeks):
+        for cmd in retry_commands(sorted(problems)):
             print(f"  {cmd}", file=sys.stderr)
         return 1
 

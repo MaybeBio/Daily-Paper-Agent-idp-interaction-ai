@@ -74,3 +74,34 @@ def test_retry_commands_pin_each_week_to_itself():
         "python scripts/backfill.py --since 2026-03-02 --until 2026-03-02",
         "python scripts/backfill.py --since 2026-09-14 --until 2026-09-14",
     ]
+
+
+# Verbatim shape of a real 503 week: the interpolated httpx error wraps onto a
+# second line, so the "returning Crossref-only results." tail is NOT on the line
+# that starts with the platform tag.
+_DEGRADED_NOTICE = (
+    "[biorxiv] Europe PMC search failed (Server error '503 Service Temporarily Unavailable' for url "
+    "'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SRC%3APPR&cursorMark=%2A'\n"
+    "For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503); "
+    "returning Crossref-only results.\n"
+)
+_DEGRADED_LOG = _DEGRADED_NOTICE + "[biorxiv] 2 records (archived 2)\n"
+
+
+def test_week_degradations_detects_crossref_only_fallback():
+    assert backfill.week_degradations(_DEGRADED_LOG) == ["biorxiv"]
+
+
+def test_week_degradations_dedupes_a_repeated_notice():
+    # The medrxiv run reuses BioRxivFetcher, whose notice is hardcoded "[biorxiv]",
+    # so one Europe PMC outage prints the same line twice.
+    assert backfill.week_degradations(_DEGRADED_LOG * 2) == ["biorxiv"]
+
+
+def test_week_degradations_empty_on_a_clean_run():
+    assert backfill.week_degradations("[biorxiv] 2 records (archived 2)\n") == []
+
+
+def test_week_degradations_ignores_an_outright_platform_failure():
+    log = "[biorxiv] FAILED: connection refused\nWarning: 1 platform(s) failed: ['biorxiv']\n"
+    assert backfill.week_degradations(log) == []

@@ -48,6 +48,12 @@ PLATFORMS = ["pubmed", "biorxiv", "arxiv", "chemrxiv", "medrxiv"]
 # max_results is unset — a rich OR-query hangs. Cap keeps only the freshest records.
 ARXIV_MAX_RESULTS = 150
 
+# pyPaperFlow retries Europe PMC 3 times with a backoff capped at 2s — the whole budget
+# is ~1.5s, which a 503 does not clear. On exhaustion the fetcher silently returns
+# Crossref-only results, and Crossref cannot do boolean groups, so the week comes back
+# thin. A bigger budget buys ~13s to ride out the blip.
+PREPRINT_MAX_RETRIES = 8
+
 _MONTH_ABBR = {
     m: f"{i:02d}"
     for i, m in enumerate(
@@ -229,7 +235,9 @@ def fetch_platform(platform, cfg, start, end, root_dir):
         else:
             records = fetcher.search(query=query, max_results=max_results, start_date=start, end_date=end)
     elif platform in ("biorxiv", "medrxiv"):
-        records = BioRxivFetcher(root_dir=root_dir, platform=platform).search(query=query, start_date=start, end_date=end)
+        records = BioRxivFetcher(
+            root_dir=root_dir, platform=platform, max_retries=PREPRINT_MAX_RETRIES
+        ).search(query=query, start_date=start, end_date=end)
     elif platform == "chemrxiv":
         records = ChemRxivFetcher(root_dir=root_dir).search(query=query, start_date=start, end_date=end)
     else:
