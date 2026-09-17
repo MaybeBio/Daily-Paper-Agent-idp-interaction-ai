@@ -8,12 +8,18 @@ arXiv's max_results cap — a multi-year window would silently blow past both.
 
     python scripts/backfill.py --since 2025-09-15 --until 2026-09-14 --dry-run
     python scripts/backfill.py --since 2025-09-15 --until 2026-09-14
+
+Exits non-zero and lists the affected weeks if any week crashed or finished
+with one or more platforms missing (monitor.py itself exits 0 on a partial
+failure, so a week can silently lack e.g. all PubMed results).
 """
 from __future__ import annotations
 
 import argparse
+import ast
 import datetime as dt
 import os
+import re
 import subprocess
 import sys
 
@@ -21,6 +27,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 MONITOR = os.path.join(HERE, "monitor.py")
 WINDOW_DAYS = 7
 REQUIRED_ENV = ("ENTREZ_EMAIL", "LLM_API_KEY")
+RETRY_CMD = "python scripts/backfill.py"
+
+# monitor.py's closing stderr line on a partial failure, e.g.
+#   Warning: 1 platform(s) failed: ['pubmed']
+# Matching this line rather than "[pubmed] FAILED:" keeps per-paper "[agent] ...
+# FAILED:" lines (one paper's LLM call died) out of the platform-failure count.
+_PLATFORM_FAILURES = re.compile(r"Warning: \d+ platform\(s\) failed: (\[.*\])\s*$", re.MULTILINE)
 
 
 def monday_run_dates(since: str, until: str) -> list[str]:
@@ -52,6 +65,48 @@ def week_args(run_date: str, config: str, out_dir: str) -> list[str]:
 
 def missing_env() -> list[str]:
     return [name for name in REQUIRED_ENV if not (os.environ.get(name) or "").strip()]
+
+
+def week_failures(stderr: str) -> list[str]:
+    """Platforms monitor.py reported as failed for one week, from its stderr.
+
+    monitor.py exits 0 when only some platforms fail, so a week can finish with
+    a hole in its coverage — this is how backfill.py notices.
+    """
+    match = _PLATFORM_FAILURES.search(stderr)
+    if not match:
+        return []
+    try:
+        failed = ast.literal_eval(match.group(1))
+    except (ValueError, SyntaxError):
+        return []
+    return list(failed) if isinstance(failed, list) else []
+
+
+def retry_commands(weeks: list[str]) -> list[str]:
+    """One command per week, so retrying doesn't re-run the weeks in between."""
+    return [f"{RETRY_CMD} --since {w} --until {w}" for w in weeks]
+
+
+def run_week(run_date: str, config: str, out_dir: str) -> tuple[int, str]:
+    """Run monitor.py for one week, returning (exit code, captured stderr).
+
+    stderr is echoed back out as it arrives — a week takes minutes to hours and
+    the run must stay observable, so it is piped-and-tee'd rather than
+    swallowed with capture_output.
+    """
+    proc = subprocess.Popen(
+        [sys.executable, MONITOR] + week_args(run_date, config, out_dir),
+        stderr=subprocess.PIPE,
+        text=True,
+        bufsize=1,
+    )
+    captured = []
+    for line in proc.stderr:
+        sys.stderr.write(line)
+        sys.stderr.flush()
+        captured.append(line)
+    return proc.wait(), "".join(captured)
 
 
 def parse_args():
@@ -89,18 +144,37 @@ def main():
         print(f"Missing env var(s): {', '.join(missing)}. Refusing to start.", file=sys.stderr)
         return 1
 
-    failed = []
+    failed = []   # week crashed: monitor.py exited non-zero
+    incomplete = []  # week finished, but one or more platforms returned nothing
     for i, week in enumerate(weeks, 1):
         print(f"[{i}/{len(weeks)}] run-date {week}  window {_window(week)}", flush=True)
-        rc = subprocess.call([sys.executable, MONITOR] + week_args(week, args.config, args.out_dir))
+        rc, stderr = run_week(week, args.config, args.out_dir)
         if rc != 0:
             failed.append(week)
             print(f"[{i}/{len(weeks)}] {week} FAILED (exit {rc})", file=sys.stderr, flush=True)
+            continue
+        missing_platforms = week_failures(stderr)
+        if missing_platforms:
+            incomplete.append((week, missing_platforms))
+            print(
+                f"[{i}/{len(weeks)}] {week} INCOMPLETE (no results from: {', '.join(missing_platforms)})",
+                file=sys.stderr, flush=True,
+            )
 
     if failed:
-        print(f"\n{len(failed)} of {len(weeks)} week(s) failed: {', '.join(failed)}", file=sys.stderr)
-        print(f"Retry: {sys.argv[0]} --since {failed[0]} --until {failed[-1]}", file=sys.stderr)
+        print(f"\n{len(failed)} of {len(weeks)} week(s) crashed: {', '.join(failed)}", file=sys.stderr)
+    if incomplete:
+        print(f"\n{len(incomplete)} of {len(weeks)} week(s) incomplete (a platform failed):", file=sys.stderr)
+        for week, missing_platforms in incomplete:
+            print(f"  {week}  missing: {', '.join(missing_platforms)}", file=sys.stderr)
+
+    problem_weeks = sorted(set(failed) | {week for week, _ in incomplete})
+    if problem_weeks:
+        print("\nRe-run these weeks (a repeat week re-runs its LLM work too):", file=sys.stderr)
+        for cmd in retry_commands(problem_weeks):
+            print(f"  {cmd}", file=sys.stderr)
         return 1
+
     print(f"\nAll {len(weeks)} week(s) done. Now run: python scripts/build_site.py --out-dir . --config config.yaml")
     return 0
 

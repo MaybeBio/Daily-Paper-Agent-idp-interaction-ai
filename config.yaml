@@ -21,8 +21,9 @@ llm:
   enable_card: true
   enable_reviewer: true
   # LLM 并发数（线程池大小）。顺序跑 80+ 篇 × 3 次调用会超过 GitHub Actions 6h 上限，
-  # 并发跑可把墙钟时间压到几十分钟。按网关 QPS 承受力调，默认 8。
-  concurrency: 8
+  # 并发跑可把墙钟时间压到几十分钟。按网关 QPS 承受力调：20 约等于典型一周的篇数，
+  # 让一周一批跑完。若日志里出现大量 [agent] ... FAILED，说明网关扛不住，需调低。
+  concurrency: 20
   # 评分阈值：score >= min_score 才生成 Paper Card + Reviewer 报告；低于则只保留
   # 评分 + 一句话 + 摘要(翻译)。对应评分分档 0-4/5-7/8-10，5 为「部分命中」入口。
   min_score: 5
