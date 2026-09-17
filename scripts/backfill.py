@@ -33,22 +33,18 @@ REQUIRED_ENV = ("ENTREZ_EMAIL", "LLM_API_KEY")
 RETRY_CMD = "python scripts/backfill.py"
 PREFLIGHT_TIMEOUT = 15.0
 
-# monitor.py's closing stderr line on a partial failure, e.g.
+# monitor.py's closing stderr lines on a partial or lossy run, e.g.
 #   Warning: 1 platform(s) failed: ['pubmed']
-# Matching this line rather than "[pubmed] FAILED:" keeps per-paper "[agent] ...
-# FAILED:" lines (one paper's LLM call died) out of the platform-failure count.
+#   Warning: 1 platform(s) degraded: ['biorxiv']
+# Matching these lines rather than the per-platform "[pubmed] FAILED:" /
+# "[biorxiv] DEGRADED:" lines keeps per-paper "[agent] ... FAILED:" (one paper's
+# LLM call died) out of the platform-failure count.
 _PLATFORM_FAILURES = re.compile(r"Warning: \d+ platform\(s\) failed: (\[.*\])\s*$", re.MULTILINE)
 
 # A fetcher that loses Europe PMC falls back to Crossref-only and *keeps going*,
 # so monitor.py never counts it as a failure. It is not equivalent: Crossref
-# cannot do boolean groups, so the query degrades to a lossy superset. The notice
-# is hardcoded "[biorxiv]" inside BioRxivFetcher, which medrxiv also runs on.
-# The window is [\s\S] rather than "." because the interpolated httpx error spans
-# lines ("...\nFor more information check: ..."), so "." would never reach the tail.
-_DEGRADED = re.compile(
-    r"^\[(\w+)\] Europe PMC search failed [\s\S]{0,2000}?returning Crossref-only results\.",
-    re.MULTILINE,
-)
+# cannot do boolean groups, so the query degrades to a lossy superset.
+_PLATFORM_DEGRADED = re.compile(r"Warning: \d+ platform\(s\) degraded: (\[.*\])\s*$", re.MULTILINE)
 
 
 def monday_run_dates(since: str, until: str) -> list[str]:
@@ -125,29 +121,29 @@ def preflight(timeout: float = PREFLIGHT_TIMEOUT) -> list[str]:
     return [problem for problem in problems if problem]
 
 
+def _summary_platforms(pattern: re.Pattern, stderr: str) -> list[str]:
+    match = pattern.search(stderr)
+    if not match:
+        return []
+    try:
+        names = ast.literal_eval(match.group(1))
+    except (ValueError, SyntaxError):
+        return []
+    return list(names) if isinstance(names, list) else []
+
+
 def week_failures(stderr: str) -> list[str]:
     """Platforms monitor.py reported as failed for one week, from its stderr.
 
     monitor.py exits 0 when only some platforms fail, so a week can finish with
     a hole in its coverage — this is how backfill.py notices.
     """
-    match = _PLATFORM_FAILURES.search(stderr)
-    if not match:
-        return []
-    try:
-        failed = ast.literal_eval(match.group(1))
-    except (ValueError, SyntaxError):
-        return []
-    return list(failed) if isinstance(failed, list) else []
+    return _summary_platforms(_PLATFORM_FAILURES, stderr)
 
 
 def week_degradations(stderr: str) -> list[str]:
     """Platforms that fell back to a lossy source instead of failing outright."""
-    seen = []
-    for name in _DEGRADED.findall(stderr):
-        if name not in seen:
-            seen.append(name)
-    return seen
+    return _summary_platforms(_PLATFORM_DEGRADED, stderr)
 
 
 def retry_commands(weeks: list[str]) -> list[str]:

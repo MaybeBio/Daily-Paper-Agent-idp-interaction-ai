@@ -1,6 +1,7 @@
 import httpx
 
 import backfill
+import monitor
 
 
 def test_monday_run_dates_returns_only_mondays():
@@ -78,35 +79,55 @@ def test_retry_commands_pin_each_week_to_itself():
     ]
 
 
-# Verbatim shape of a real 503 week: the interpolated httpx error wraps onto a
-# second line, so the "returning Crossref-only results." tail is NOT on the line
-# that starts with the platform tag.
-_DEGRADED_NOTICE = (
-    "[biorxiv] Europe PMC search failed (Server error '503 Service Temporarily Unavailable' for url "
-    "'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SRC%3APPR&cursorMark=%2A'\n"
-    "For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503); "
-    "returning Crossref-only results.\n"
+# Verbatim shape of a degraded week: monitor.py prints a per-platform reason line
+# and a closing summary line. backfill.py reads only the summary line.
+_DEGRADED_LOG = (
+    "[biorxiv] DEGRADED: Europe PMC unavailable (HTTP 503)\n"
+    "[biorxiv] 2 records (archived 2)\n"
+    "Warning: 1 platform(s) degraded: ['biorxiv']\n"
 )
-_DEGRADED_LOG = _DEGRADED_NOTICE + "[biorxiv] 2 records (archived 2)\n"
 
 
-def test_week_degradations_detects_crossref_only_fallback():
+def test_week_degradations_reads_platforms_from_the_summary_line():
     assert backfill.week_degradations(_DEGRADED_LOG) == ["biorxiv"]
 
 
-def test_week_degradations_dedupes_a_repeated_notice():
-    # The medrxiv run reuses BioRxivFetcher, whose notice is hardcoded "[biorxiv]",
-    # so one Europe PMC outage prints the same line twice.
-    assert backfill.week_degradations(_DEGRADED_LOG * 2) == ["biorxiv"]
+def test_week_degradations_handles_several_platforms():
+    log = "Warning: 2 platform(s) degraded: ['biorxiv', 'medrxiv']\n"
+    assert backfill.week_degradations(log) == ["biorxiv", "medrxiv"]
 
 
 def test_week_degradations_empty_on_a_clean_run():
     assert backfill.week_degradations("[biorxiv] 2 records (archived 2)\n") == []
 
 
+def test_week_degradations_ignores_a_per_platform_reason_line():
+    # Only the summary line counts; a reason line without it (e.g. monitor.py
+    # died mid-run) must not be mistaken for a completed degraded week.
+    assert backfill.week_degradations("[biorxiv] DEGRADED: Europe PMC unavailable (HTTP 503)\n") == []
+
+
 def test_week_degradations_ignores_an_outright_platform_failure():
     log = "[biorxiv] FAILED: connection refused\nWarning: 1 platform(s) failed: ['biorxiv']\n"
     assert backfill.week_degradations(log) == []
+
+
+def test_week_failures_ignores_a_degraded_summary():
+    log = "Warning: 1 platform(s) degraded: ['biorxiv']\n"
+    assert backfill.week_failures(log) == []
+
+
+# monitor.py writes these lines and backfill.py reads them, so the two scripts
+# share a stderr format. Build the fixtures from monitor's own formatter instead
+# of hand-copying the text — a copy stays green after monitor's wording changes.
+def test_week_failures_parses_monitors_own_summary_line():
+    line = monitor.platform_summary_line("failed", ["pubmed", "arxiv"])
+    assert backfill.week_failures(line + "\n") == ["pubmed", "arxiv"]
+
+
+def test_week_degradations_parses_monitors_own_summary_line():
+    line = monitor.platform_summary_line("degraded", ["biorxiv"])
+    assert backfill.week_degradations(line + "\n") == ["biorxiv"]
 
 
 def _labels():
