@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42757025",
+  "title": "Training a force field for proteins and small molecules from scratch.",
+  "authors": "Blanco-Gonzalez, Alexandre; Schulze, Thea K; Rovers, Evianne; Greener, Joe G",
+  "journal": "Chemical science",
+  "published_date": "2026-09-18",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用图神经网络从头训练通用力场Garnet，覆盖无序蛋白和蛋白复合物，虽非直接研究IDR介导的PPI机制，但其AI驱动的力场建模方法对无序蛋白互作的物理模拟具有可迁移价值。",
+  "abstract": "Force fields for molecular dynamics are usually developed manually, limiting their transferability and making systematic exploration of functional forms challenging. We developed a graph neural network that assigns all force field parameters for diverse molecules using continuous atom typing. The freely-available model, called Garnet, was trained on quantum mechanical, condensed phase and protein nuclear magnetic resonance data without the use of existing parameters. The resulting force field shows comparable performance to current force fields on small molecules, folded proteins, protein complexes and disordered proteins. It shows similar results to popular approaches for relative binding free energy predictions across a range of targets. Assessing different functional forms shows that the double exponential potential is a flexible and accurate alternative to the Lennard-Jones potential. Garnet provides a platform for automated, reproducible force field discovery that brings the benefits of machine learning to classical force fields.",
+  "abstract_zh": "分子动力学力场通常依赖人工开发，这限制了其可迁移性，并使得对函数形式的系统探索变得困难。我们开发了一种图神经网络，通过连续原子类型为多种分子分配所有力场参数。该免费可用的模型名为Garnet，基于量子力学、凝聚相和蛋白质核磁共振数据训练，且未使用现有参数。所得力场在小分子、折叠蛋白、蛋白复合物及无序蛋白上表现出与当前力场相当的性能。在多种靶标的相对结合自由能预测中，其结果与主流方法相似。评估不同函数形式表明，双指数势能是Lennard-Jones势能的一种灵活且准确的替代方案。Garnet为自动化、可复现的力场发现提供了一个平台，将机器学习的优势引入经典力场领域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42757025/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42757025/",
+  "paper_page_path": "papers/pubmed/42757025/index.html"
+}

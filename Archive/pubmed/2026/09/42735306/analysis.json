@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42735306",
+  "title": "Maintaining transcriptome solubility constrains mRNA sequence composition.",
+  "authors": "Todisco, Marco; Ausler, Christalyn; Jain, Ankur",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-09-14",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用大规模模拟研究mRNA转录组的自聚集倾向，对象为RNA而非无序蛋白/IDR，虽涉及分子间互作与物理模拟，但无PPI机制建模且对IDP课题启发有限。",
+  "abstract": "RNA is built from a four-nucleotide alphabet. Complementary sequences inevitably arise, creating pervasive opportunities for promiscuous RNA-RNA interactions. Here, we show that this chemistry makes the transcriptome intrinsically prone to self-association. We simulated the simultaneous interactions of ~7,500 mRNAs representing the Escherichia coli transcriptome at physiological concentrations. These large-scale simulations predict widespread, dynamic clustering driven by RNA alone and organized by long, multivalent transcripts. Purified mRNA recapitulates this behavior in vitro, with aggregate composition mirroring model predictions. Strikingly, native mRNA sequences are markedly less prone to self-association than matched randomized controls: They fold more stably, expose shorter single-stranded regions, and form weaker intermolecular contacts. Similar signatures are observed in abundant human mRNAs, suggesting that evolution has shaped coding sequences to minimize self-association. These findings identify transcriptome solubility as an unrecognized constraint on mRNA sequence evolution and provide a framework for understanding how cells keep their transcriptomes dispersed and functional.",
+  "abstract_zh": "RNA由四种核苷酸字母构成。互补序列不可避免地产生，为混杂的RNA-RNA相互作用创造了普遍机会。在此，我们展示这种化学性质使转录组固有地倾向于自关联。我们模拟了约7,500个代表大肠杆菌（Escherichia coli）转录组的mRNA在生理浓度下的同时相互作用。这些大规模模拟预测了由RNA单独驱动、由长链多价转录本组织的广泛动态聚集。纯化的mRNA在体外重现了这种行为，聚集组成与模型预测相吻合。引人注目的是，天然mRNA序列比匹配的随机对照序列更不易于自关联：它们折叠更稳定，暴露更短的单链区域，并形成较弱的分子间接触。在丰富的人类mRNA中也观察到类似特征，表明进化已塑造编码序列以最小化自关联。这些发现将转录组溶解度识别为mRNA序列进化中未被认识到的约束，并为理解细胞如何保持其转录组分散且功能正常提供了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42735306/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42735306/",
+  "paper_page_path": "papers/pubmed/42735306/index.html"
+}

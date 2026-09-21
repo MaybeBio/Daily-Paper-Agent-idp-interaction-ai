@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, methodological rigor, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors present Garnet, a graph neural network that assigns all force field parameters for proteins and small molecules from scratch, trained on quantum mechanical, condensed phase, and protein NMR data without reusing legacy parameters. They claim competitive performance to established force fields on small molecule conformer generation, folded proteins, protein complexes, disordered proteins, and relative binding free energy predictions, and identify the double exponential potential as a trainable alternative to Lennard-Jones.
+- **Visible evidence base** Abstract, full introduction, results sections with figures referenced (Fig. 1, 2, 3, 4, 5, 6), discussion, methods sections for neural network architecture, training, potential functional forms, small molecule benchmark, protein benchmark, and relative binding free energy benchmark, author contributions, data availability statement
+- **Missing materials affecting confidence** Actual figure images and tables are not provided, only references to them; supplementary information (SI) figures and tables are referenced but not included; specific numerical values for benchmark results are partially embedded in text but not fully detailed; the exact code implementation is not reviewed
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant advance in automated force field development by demonstrating that all parameters, including non-bonded terms, can be trained from scratch using a graph neural network with a double exponential potential. The work addresses a key limitation of prior methods like Espaloma that reuse Lennard-Jones parameters. The training strategy combining DFT data with condensed phase and NMR data via ensemble reweighting is innovative and well-motivated. However, the evidence provided is incomplete in several critical areas, particularly regarding the statistical significance of benchmark comparisons, the handling of known limitations such as over-polarisation, and the generalisability of the approach. The claims of competitive performance are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists developing or using molecular dynamics force fields, particularly those interested in automated parameterisation and machine learning approaches. Drug discovery researchers using relative binding free energy calculations would be interested in the potential for a unified, automatically parameterised force field. Method developers in the Open Force Field ecosystem and related communities would find the training pipeline and functional form analysis valuable.
+- **Major strengths** 1) The core contribution, training all force field parameters from scratch without legacy parameters, directly addresses a well-known limitation in the field. 2) The use of ensemble reweighting to incorporate condensed phase and NMR data during training is methodologically sophisticated and appropriate. 3) The systematic exploration of functional forms, particularly the finding that double exponential potentials train more stably than Lennard-Jones, provides practical guidance. 4) The evaluation across multiple domains (small molecules, folded proteins, complexes, IDPs, RBFE) is comprehensive in scope. 5) The work is presented with a clear commitment to open science with code and data availability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for performance claims
+  - **Claim pointer** The manuscript claims "comparable performance to current force fields" and "competitive results to commercial alternatives" for RBFE predictions, but the numerical evidence is not fully presented in the text provided.
+  - **Evidence pointer** Results sections on small molecule benchmark, protein benchmark, and RBFE benchmark; figures 2, 3, 4, 6; tables 1 and 2
+  - **Concern** The text provides qualitative statements about performance but lacks detailed quantitative comparisons with confidence intervals or statistical tests for most benchmarks. For example, the RBFE results state RMSE values for Garnet (1.66 kcal/mol) compared to OpenFE (1.50) and FEP+ (1.15), but it is unclear if these differences are statistically significant given the small number of systems (8) and the variability across targets. Similarly, the protein benchmark results are described as "comparable" without presenting the full distribution of errors or the significance of differences. The small molecule condensed phase results show Garnet underperforming OpenFF on both enthalpy of vaporisation and density, but the implications of these differences for practical use are not discussed.
+  - **Why it matters** The central claim of the paper is that Garnet performs competitively with established force fields. Without rigorous statistical analysis and full reporting of results, this claim cannot be adequately evaluated. The reader cannot determine whether the observed differences are meaningful or within noise.
+  - **Resolution test** Provide full numerical results for all benchmarks, including per-system values, confidence intervals, and appropriate statistical tests (e.g., bootstrap or permutation tests) for differences between methods. For RBFE, report the distribution of per-target RMSE values and the uncertainty in the weighted average. For protein benchmarks, report the full set of ANE values and their uncertainties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency for training data
+  - **Claim pointer** The manuscript states that training data came from SPICE, Espaloma, GEMS, and MACE-OFF datasets, and that differences due to DFT functionals "are likely to be small compared to the high error inherent in MM force fields."
+  - **Evidence pointer** Methods section "Neural network training"
+  - **Concern** The mixing of data from different DFT functionals is a significant methodological choice that is not fully justified. The authors acknowledge the issue but do not provide evidence that the functional differences are indeed negligible for the training outcomes. The statement is plausible but unsupported. Additionally, the relative weighting of different datasets in training is not described, and it is unclear how the balance was determined. The validation and test sets are described as coming from SPICE, but the composition of these sets relative to the training data from other sources is not clear.
+  - **Why it matters** The quality and consistency of training data directly affect the resulting force field. If the DFT functional differences are not negligible, the model may learn inconsistent targets, potentially degrading performance. The lack of detail on dataset weighting and validation set composition makes it difficult to assess the robustness of the training procedure.
+  - **Resolution test** Provide a quantitative analysis of the differences in forces and energies between the DFT functionals used, perhaps on a common test set. Describe the exact composition of training, validation, and test sets, including the number of molecules from each source. Justify the weighting scheme used for different datasets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalisability and limitations
+  - **Claim pointer** The manuscript claims the model is applicable to "diverse molecules" and "arbitrary molecules" without reusing legacy parameters, but the evaluation is limited to specific test sets.
+  - **Evidence pointer** Results sections on small molecule benchmark and protein benchmark; discussion of limitations
+  - **Concern** The evaluation of Garnet is limited to molecules and proteins within the training distribution. The authors note that performance has not been validated for all supported elements, and the model may not generalise to chemical space far from the training data. The manuscript does not discuss the scope of chemical diversity in the training data or provide an analysis of where Garnet might fail. The over-polarisation issue is acknowledged but not addressed as a limitation for condensed phase properties.
+  - **Why it matters** A key selling point of automated force field development is transferability to new chemical space. Without a clear analysis of the model's limitations and the boundaries of its applicability, users may apply it inappropriately. The over-polarisation issue, in particular, could lead to systematic errors in condensed phase simulations.
+  - **Resolution test** Provide an analysis of the chemical space covered by the training data and the model's performance as a function of molecular complexity or distance from training data. Discuss specific cases where Garnet is expected to fail and suggest potential remedies. Address the over-polarisation issue more directly, perhaps by comparing to force fields with polarisation or by discussing the impact on condensed phase properties.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and implementation details
+  - **Claim pointer** The manuscript states that the model was trained using Julia with Molly.jl, Enzyme.jl, and Zygote.jl, and that the final model was converted to PyTorch for inference.
+  - **Evidence pointer** Methods sections "Neural network training" and "Potential functional forms"
+  - **Concern** The description of the training procedure lacks sufficient detail for reproduction. Key hyperparameters (e.g., learning rate schedule, batch size for condensed phase training, number of training steps) are not fully specified. The ensemble reweighting procedure is described but the implementation details (e.g., how the reference trajectory was generated, how the reweighting was performed) are not fully clear. The statement that "the actual code used differed from the above equation as described in the source code" is concerning and needs clarification.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without full details of the training procedure, other researchers cannot replicate the work or build upon it. The discrepancy between the described and actual code raises questions about the validity of the reported results.
+  - **Resolution test** Provide a complete description of the training procedure, including all hyperparameters, the exact ensemble reweighting implementation, and a clear explanation of the code discrepancy. Consider providing a reproducible training script or container.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section "The Garnet force field"
+  - **Issue** The description of Figure 1 is brief and does not fully explain the architecture details, particularly the ensemble reweighting scheme shown in Fig. 1B.
+  - **Required correction** Expand the figure caption or text to clearly describe the training scheme, including how the ensemble reweighting is applied and what the different components represent.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of benchmark description
+  - **Affected element** RBFE benchmark
+  - **Evidence pointer** Methods section "Relative binding free energy benchmark"
+  - **Issue** The selection criteria for the 8 RBFE systems are described, but the rationale for choosing these specific systems is not fully explained. The statement that systems were "selected randomly" from categories is vague.
+  - **Required correction** Provide more detail on the selection process, including the number of systems in each category and the specific criteria used to avoid bias.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of over-polarisation is brief and does not fully explore the implications for the force field's applicability.
+  - **Required correction** Expand the discussion to address the potential impact of over-polarisation on different types of simulations and suggest possible mitigation strategies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The statement that data is available at a GitHub repository is good, but it is unclear if the training data itself (the DFT datasets) is included or only the code and model.
+  - **Required correction** Clarify what exactly is available at the repository, including whether the training data is included or if it must be obtained from the original sources.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of benchmark comparisons) and R1-M2 (training data consistency) are the most critical. The lack of quantitative evidence for the central performance claims and the insufficient justification for mixing DFT functionals undermine the case for the manuscript's main conclusions. R1-M4 (reproducibility) is also important but less directly tied to the scientific claims.
+- **Assessment against Nature-style criteria** Originality: High. The work addresses a fundamental limitation in automated force field development and introduces a novel training strategy. Scientific importance: High. If validated, this approach could significantly impact the field of molecular simulation. Interdisciplinary readership: Moderate. The work is primarily of interest to computational chemists and biophysicists, though the methodological advances could appeal to a broader machine learning audience. Technical soundness: Moderate. The approach is well-motivated and the methods are appropriate, but the evidence presented is insufficient to fully establish the claims. Readability for nonspecialists: Moderate. The manuscript is generally well-written but assumes familiarity with force field development and molecular simulation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is novel and promising, and the authors have made a commendable effort to evaluate across multiple domains. However, the current evidence is insufficient to fully support the performance claims, and the training data methodology needs clarification. Addressing these concerns would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim of "comparable performance to current force fields" is not fully supported by the quantitative evidence presented in the text.
+- The claim that differences between DFT functionals in the training data are "likely to be small" is unsupported by direct evidence.
+- The statement that the model is applicable to "arbitrary molecules" is an overstatement given the limited evaluation and acknowledged limitations.
+- The claim that the double exponential potential is a "flexible and accurate alternative" to Lennard-Jones is supported for training stability but not fully for accuracy across all applications.
+- The performance on IDPs is described as better than Amber14SB but the significance of this finding is not discussed in detail.
+- The RBFE results are based on only 8 systems, which limits the generalisability of the conclusions.

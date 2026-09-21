@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42745995",
+  "title": "Intrinsically disordered regions in the NLRP family of receptors act as regulatory hubs for inflammasome condensation and activation.",
+  "authors": "Nava-Ramirez, Teresa B; Cuevas-Velazquez, Cesar L; Covarrubias, Alejandra A; Rudino-Pinera, Enrique; Perez-Martinez, Leonor; Pedraza-Alva, Gustavo",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-09-16",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过结构预测分析揭示NLRP家族受体中IDR作为炎症小体凝聚和激活的调控枢纽，提出IDR介导的相分离驱动组装机制，虽以计算预测为主且未深入PPI建模，但对象和机制方向高度契合。",
+  "abstract": "Inflammasomes are multiprotein complexes that orchestrate immune responses to pathogenic and sterile insults by regulating the maturation of inflammatory cytokines and pyroptotic cell death. While inflammasome activation is well-characterized at the biochemical level, the mechanisms governing the spatial and temporal assembly of these complexes remain poorly understood. Here, we uncover a critical role for intrinsically disordered regions (IDRs) in activating NLRP1, NLRP3, and NLRP14 inflammasomes. Through structural prediction analyses, we identify IDRs within these receptors that harbor post-translational modification sites essential for inflammasome assembly and function. Notably, disease-associated mutations in NLRP1 and NLRP3 occur within these IDRs, underscoring their functional relevance in inflammatory disorders. Our computational analysis suggests that IDR-mediated phase separation may drive inflammasome condensation at the perinuclear membrane, serving as a sensor for cellular stress, as stress signals may change their conformation, through post-translational modifications, and thus their interaction capacity. Furthermore, inflammasomes lacking IDRs in their NLRPs may rely on interactions with chaperone or adapter proteins containing IDRs for proper assembly. These insights provide a new framework for understanding the regulation of inflammasomes, suggesting that targeting the dynamics of phase transitions could open novel therapeutic avenues for treating inflammatory and autoimmune diseases.",
+  "abstract_zh": "炎症小体是多蛋白复合物，通过调控炎症细胞因子的成熟和焦亡性细胞死亡，协调对病原性和无菌性刺激的免疫应答。尽管炎症小体激活在生化层面已被充分表征，但调控这些复合物空间和时间组装的机制仍知之甚少。在此，我们揭示了 intrinsically disordered regions (IDRs) 在激活 NLRP1、NLRP3 和 NLRP14 炎症小体中的关键作用。通过结构预测分析，我们识别出这些受体中携带对炎症小体组装和功能至关重要的翻译后修饰位点的 IDRs。值得注意的是，NLRP1 和 NLRP3 中与疾病相关的突变发生在这些 IDRs 内，突显了它们在炎症性疾病中的功能相关性。我们的计算分析表明，IDR 介导的相分离 (phase separation) 可能驱动核周膜上的炎症小体凝聚，并作为细胞应激的传感器，因为应激信号可能通过翻译后修饰改变其构象，从而改变其相互作用能力。此外，其 NLRPs 中缺乏 IDRs 的炎症小体可能依赖于与含 IDRs 的伴侣蛋白或衔接蛋白的相互作用来实现正确组装。这些见解为理解炎症小体调控提供了新框架，提示靶向相变动力学可能为治疗炎症性和自身免疫性疾病开辟新的治疗途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42745995/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42745995/",
+  "paper_page_path": "papers/pubmed/42745995/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42741268",
+  "title": "The fusion of artificial intelligence and omics: a perspective toward 2035.",
+  "authors": "Canton, Enrique Diaz",
+  "journal": "Ecancermedicalscience",
+  "published_date": "2026-09-15",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文展望将世界模型等生成式AI用于分子动力学，预测蛋白质构象动态与配体结合，并提及靶向无序蛋白，但属前瞻性综述，缺乏具体互作机制建模或方法实现。",
+  "abstract": "Artificial intelligence (AI) has catalyzed a revolution in the life sciences, culminating in AlphaFold's capacity to predict the static structure of proteins with atomic precision. However, this static view-analogous to a molecular radiograph-omits the fundamental dimension of protein dynamics, a critical factor for biological function and drug interaction. The phenomenon of induced fit, whereby proteins reconfigure upon ligand binding, remains largely beyond the reach of current models. This article posits that the next frontier in computational biology lies in the adoption of World Models-AI architectures such as Google DeepMind's Genie 3 and Meta AI's Joint-Embedding Predictive Architecture. Rather than predicting individual states, these models learn the underlying rules governing system evolution. We argue that applying these principles to molecular dynamics may enable the simulation of conformational trajectories, predicting how proteins move, flex, and respond to ligand binding. We explore the transformative implications for oncology, particularly in the design of allosteric modulators and in targeting historically \"undruggable\" proteins such as intrinsically disordered proteins. Finally, we delineate a roadmap toward 2035, highlighting challenges and opportunities at the convergence of generative AI and dynamic structural biology.",
+  "abstract_zh": "人工智能（AI）已在生命科学领域引发革命，最终体现在AlphaFold以原子级精度预测蛋白质静态结构的能力上。然而，这种静态视角——类比于分子射线照片——忽略了蛋白质动力学的根本维度，而这一维度对生物功能和药物相互作用至关重要。诱导契合现象，即蛋白质在配体结合时重新构象，目前仍远超出现有模型的能力范围。本文提出，计算生物学的下一个前沿在于采用世界模型（World Models）——如谷歌DeepMind的Genie 3和Meta AI的联合嵌入预测架构（Joint-Embedding Predictive Architecture）等AI架构。这些模型并非预测单个状态，而是学习支配系统演化的底层规则。我们认为，将这些原理应用于分子动力学可能实现构象轨迹的模拟，预测蛋白质如何移动、弯曲并响应配体结合。我们探讨了其对肿瘤学的变革性影响，特别是在变构调节剂设计和靶向历史上“不可成药”蛋白质（如固有无序蛋白质）方面。最后，我们描绘了面向2035年的路线图，强调了生成式AI与动态结构生物学交汇处的挑战与机遇。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42741268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42741268/",
+  "paper_page_path": "papers/pubmed/42741268/index.html"
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific content, methodological rigor, and claims as presented in the supplied text; figures, tables, and supplementary materials referenced but not directly examined
+- **Shared manuscript claim summary** The authors present atomistic conformational ensembles of the intrinsically disordered protein 4E-BP2, both free and bound to eIF4E, generated using IDPConformerGenerator and refined with the X-EISDv2 Bayesian approach. The ensembles are restrained by eight intramolecular and two intermolecular smFRET measurements, NMR chemical shifts, and a crystal structure template. The resulting bound-state ensemble shows heterogeneous, delocalized contacts around the canonical and secondary binding sites, with new contact regions involving the N-termini of both proteins and the C-terminus of 4E-BP2. The authors propose that this dynamic architecture facilitates accessibility of regulatory phosphosites and mTOR-binding motifs, with implications for translational control.
+- **Visible evidence base** Text descriptions of smFRET experiments (burst and TIRF), ensemble generation and refinement procedures, contact map analyses, clustering results, and solvent accessibility calculations (SASA and SAVVY). Figures 1-6 and Tables S1-S7 are referenced but not directly viewable.
+- **Missing materials affecting confidence** All figures, tables, supplementary information, and the actual smFRET data (histograms, fitted distributions, raw traces) are not provided. The SAVVY method is described but its validation and calibration are not fully detailed. The X-EISDv2 software is referenced via GitHub but its specific implementation parameters for this study are not fully specified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and largely well-executed study that addresses an important gap in the structural biology of fuzzy complexes. The combination of multiple experimental restraints with a Bayesian ensemble refinement approach is appropriate and timely. The central finding, that the 4E-BP2:eIF4E complex is highly heterogeneous with delocalized contacts beyond the canonical binding sites, is plausible and consistent with prior NMR data. However, the manuscript would benefit from clearer presentation of the validation strategy for the ensemble refinement, more explicit discussion of the limitations of the smFRET-derived distance restraints, and a more critical assessment of whether the observed contact changes are statistically robust given the ensemble size and refinement methodology. The biological implications, while interesting, are somewhat speculative and would be strengthened by direct experimental tests or more quantitative predictions.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, structural biology of dynamic complexes, and translational regulation would find this work of interest. The methodological advances in applying Bayesian ensemble refinement to protein-protein complexes with fuzzy interfaces would appeal to computational biophysicists. The specific findings regarding 4E-BP2 conformational behavior and its implications for mTOR-dependent phosphorylation could interest cell biologists studying cap-dependent translation initiation. The study also provides a template for integrating smFRET with ensemble modeling that could be adopted by the single-molecule biophysics community.
+- **Major strengths** The study addresses a challenging and biologically important problem: characterizing the conformational ensemble of a disordered protein bound to a folded partner. The use of multiple complementary experimental restraints (intramolecular and intermolecular smFRET, NMR, hydrodynamic radius) is a strength. The methodological development of X-EISDv2 for multi-chain complexes is a useful contribution. The finding that the crystal structure represents only a subset of the solution ensemble is an important cautionary message. The correlation between FRET changes and binding-region overlap provides a coherent framework for interpreting the data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of ensemble refinement
+  - **Claim pointer** The authors claim that the X-EISDv2-refined 100-conformer ensemble is "consistent with experiment" and that this ensemble accurately represents the conformational heterogeneity of the 4E-BP2:eIF4E complex in solution.
+  - **Evidence pointer** Results sections "Generation and optimization of the eIF4E:4E-BP2 ensemble" and "Binding-induced changes in the 4E-BP2 ensemble"; Figures 5 and 6; Methods section "IDP conformational ensembles: Generation, refinement and analysis"
+  - **Concern** The manuscript does not provide sufficient detail on how the ensemble size of 100 conformers was validated as sufficient to represent the full conformational space. The X-EISDv2 method selects a subset from an initial pool, but the convergence of ensemble properties (e.g., contact maps, distance distributions) with respect to ensemble size is not demonstrated. Furthermore, the authors do not report the uncertainty in the refined ensemble properties, such as confidence intervals on contact frequencies or on the fraction of Canonical/Secondary/Both conformers. Without this information, it is difficult to assess whether the reported differences between the bound and free ensembles are statistically meaningful or could arise from the refinement procedure itself.
+  - **Why it matters** The central claims of the paper rest on the reliability of the refined ensembles. If the ensemble size is too small or the refinement is not converged, the contact maps and accessibility calculations could be artifacts of the selection procedure rather than genuine features of the conformational ensemble. This would undermine the biological conclusions.
+  - **Resolution test** The authors should provide: (1) a plot showing the convergence of key ensemble observables (e.g., mean FRET efficiencies, contact frequencies) as a function of ensemble size; (2) bootstrap or jackknife estimates of the uncertainty in the reported contact frequencies and accessibility changes; (3) a comparison of the refined ensemble properties when using different random seeds or initial pool compositions to ensure the results are robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental restraint quality and interpretation
+  - **Claim pointer** The authors state that "smFRET data were given more weight" during refinement and that the resulting ensemble agrees with all eight intramolecular and two intermolecular FRET restraints.
+  - **Evidence pointer** Results section "Generation and optimization of the eIF4E:4E-BP2 ensemble"; Methods section "smFRET measurements" and "IDP conformational ensembles: Generation, refinement and analysis"
+  - **Concern** The manuscript does not report the actual FRET efficiencies, their uncertainties, or the quality of the fits to the smFRET histograms. The weighting factor Ω=50 is mentioned but the rationale for this specific value and its impact on the refined ensemble is not discussed. Additionally, the conversion from FRET efficiency to distance assumes a specific dye positioning and orientation factor (κ²), which is not addressed. The potential systematic errors from dye linker flexibility, dye-protein interactions, and the use of a single κ² value are not discussed. Without this information, the reliability of the distance restraints used in the refinement cannot be evaluated.
+  - **Why it matters** The ensemble refinement is only as good as the experimental restraints. If the FRET-derived distances have large systematic uncertainties or if the weighting is not properly calibrated, the refined ensemble could be biased toward incorrect conformations. This would affect all downstream analyses and conclusions.
+  - **Resolution test** The authors should provide: (1) a table of all FRET efficiencies with uncertainties for each construct in both free and bound states; (2) a description of how FRET efficiencies were converted to distances, including assumptions about κ² and dye linker models; (3) a sensitivity analysis showing how the refined ensemble changes with different weighting factors (e.g., Ω=1, 10, 100); (4) a comparison of back-calculated and experimental FRET efficiencies for the final ensemble.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical significance of contact differences
+  - **Claim pointer** The authors report "binding-induced changes" including "delocalization of contacts" and "compaction of segments A and C" based on comparison of contact maps between free and bound ensembles.
+  - **Evidence pointer** Results section "Binding-induced changes in the 4E-BP2 ensemble"; Figure 6; Tables S4 and S5
+  - **Concern** The contact map differences between the free and bound ensembles are presented without statistical significance testing. Given that both ensembles are finite samples (100 conformers each), the observed differences in contact frequencies could be within sampling noise. The manuscript does not report confidence intervals on the contact frequencies or a statistical test (e.g., permutation test) to determine which differences are significant.
+  - **Why it matters** The biological conclusions, particularly the emergence of new contact regions and the differential accessibility of phosphosites, depend on the reliability of these contact map differences. Without statistical assessment, the reader cannot distinguish genuine binding-induced conformational changes from sampling artifacts.
+  - **Resolution test** The authors should perform permutation tests or bootstrap analyses to assign p-values or confidence intervals to the contact frequency differences. They should also report the minimum detectable effect size given the ensemble size of 100 conformers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of the SAVVY accessibility method
+  - **Claim pointer** The authors use SAVVY to quantify "solvent accessibility" and "geometric accessibility" of phosphosites and mTOR-binding motifs, reporting percentage changes in accessibility upon eIF4E binding.
+  - **Evidence pointer** Results section "eIF4E binding reduces the accessibility of phosphosites and mTOR raptor binding motifs on 4E-BP2"; Methods section "Solvent accessibility and surface accessibility calculations"; Tables S6 and S7
+  - **Concern** The SAVVY method is described as a "geometric accessibility metric" but its validation is not presented. The manuscript does not demonstrate that SAVVY correlates with experimentally measured phosphorylation rates or binding affinities. The choice of a 4 Å probe radius and the exclusion of ±2 residues around the target are arbitrary and their impact on the results is not assessed. The relationship between SAVVY scores and actual biological accessibility (e.g., kinase access) is not established.
+  - **Why it matters** The claim that eIF4E binding reduces accessibility of phosphosites and mTOR-binding motifs is a key biological conclusion. If the SAVVY metric is not validated or is sensitive to arbitrary parameters, this conclusion may not be robust.
+  - **Resolution test** The authors should: (1) validate SAVVY against known experimental data (e.g., phosphorylation rates of 4E-BP2 mutants); (2) perform sensitivity analysis on the probe radius and exclusion window; (3) compare SAVVY results with alternative accessibility measures (e.g., standard SASA, AlphaFold2 predicted pLDDT).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of ensemble generation
+  - **Affected element** Methods section "IDP conformational ensembles: Generation, refinement and analysis"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the initial pool generation for the complex states that "three cases were modeled" with 33,000 conformers each, but it is unclear how the initial pool for the apo 4E-BP2 was generated (80,000 conformers) and whether the same protocol was used. The relationship between the initial pool size and the final 100-conformer ensemble is not explained.
+  - **Required correction** Clarify the generation protocol for both apo and bound initial pools, and explicitly state the selection criteria for the final 100-conformer ensemble.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of smFRET data
+  - **Affected element** Results section "Multiple smFRET constructs probe the heterogeneity of 4E-BP2"
+  - **Evidence pointer** Figure 2 and Figure S1
+  - **Issue** The manuscript states that "FRET efficiency generally decreases with the number of residues in a segment" but does not provide the actual FRET efficiency values or their uncertainties in the text. The reader must rely on figures that are not provided in the manuscript text.
+  - **Required correction** Include a table of all FRET efficiencies with uncertainties for each construct in both free and bound states, either in the main text or as a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors do not discuss alternative models or interpretations of their data. For example, the observed FRET changes could potentially be explained by a two-state model with a compact and extended state rather than a continuous ensemble. The authors should address whether their data can distinguish between these possibilities.
+  - **Required correction** Add a paragraph in the Discussion addressing alternative models and the limitations of the ensemble approach in distinguishing between them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility of methods
+  - **Affected element** Methods section "Solvent accessibility and surface accessibility calculations"
+  - **Evidence pointer** Location not provided
+  - **Issue** The SAVVY method is described but the code repository is only mentioned in the text. The specific version of the code and the exact parameters used (e.g., number of directions, probe radius) should be clearly stated for reproducibility.
+  - **Required correction** Provide the specific version of the SAVVY code and a table of all parameters used in the calculations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "eIF4E binding reduces the accessibility of phosphosites and mTOR raptor binding motifs on 4E-BP2"
+  - **Evidence pointer** Tables S6 and S7
+  - **Issue** The percentage changes in accessibility are reported without confidence intervals or statistical tests. Given the bootstrap resampling described in the Methods, it would be straightforward to report 95% confidence intervals for these values.
+  - **Required correction** Report 95% confidence intervals for all reported accessibility changes, either in the tables or in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ensemble size validation and uncertainty quantification) and R1-M2 (smFRET restraint quality and weighting) are the most critical. Without addressing these, the central claims of the manuscript cannot be fully evaluated. R1-M3 (statistical significance of contact differences) is also important for the biological conclusions.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is original in its application of Bayesian ensemble refinement to a fuzzy complex involving a disordered protein and a folded partner. While similar approaches have been used for single-chain IDPs, the extension to a multi-chain complex with intermolecular FRET restraints is novel.
+  - Scientific importance: The 4E-BP2:eIF4E system is biologically important for understanding translational control, and the finding that the complex is highly dynamic with delocalized contacts has implications for how phosphorylation regulates this interaction. The methodological template could be applied to other fuzzy complexes.
+  - Interdisciplinary readership: The work bridges single-molecule biophysics, computational structural biology, and cell biology of translation. The findings would be of interest to a broad readership, though the technical details may be challenging for non-specialists.
+  - Technical soundness: The experimental and computational methods are generally sound, but the lack of validation for the ensemble size and the insufficient reporting of smFRET data quality and weighting are significant gaps that need to be addressed.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, but the Results section could benefit from clearer explanations of the ensemble refinement methodology and the significance of the contact map analyses for readers not familiar with IDP ensemble modeling.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important problem and presents a plausible and interesting model, but the current manuscript does not provide sufficient evidence to fully support the central claims. The authors should address the concerns regarding ensemble validation, smFRET data quality, and statistical significance before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the refined 100-conformer ensemble is representative of the full conformational ensemble is not supported without convergence analysis.
+- The claim that the observed contact differences between free and bound states are biologically meaningful is not supported without statistical significance testing.
+- The claim that eIF4E binding reduces accessibility of phosphosites and mTOR-binding motifs is based on a method (SAVVY) that is not validated in this manuscript.
+- The claim that the secondary binding site acts "primarily in concert with the canonical binding site" is based on the low fraction of Secondary-only conformers in the refined ensemble, but this could be an artifact of the refinement procedure or the initial pool composition.
+- The statement that "the crystal structure of the analogous 4E-BP1:eIF4E complex presentation of Both at 100% is not representative of the ensemble present in solution" is a strong claim that requires more robust evidence than the current ensemble refinement provides.

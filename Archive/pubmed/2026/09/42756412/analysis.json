@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42756412",
+  "title": "Conformational dynamics of fuzzy interfaces in disordered protein complexes: mapping key residues and binding modes beyond NMR models.",
+  "authors": "Fernandez, Maria Laura; Bastien, Maria Clara; Tavolaro, Franco G; Marino-Buslje, Cristina",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2026-09-18",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用微秒级MD模拟结合NMR模型，系统解析八个无序蛋白模糊复合物中动态界面的关键残基与结合模式，直接聚焦IDP-PPI的构象动态机制建模，方法为物理模拟，高度契合本课题。",
+  "abstract": "Understanding the dynamic behavior of fuzzy complexes formed by intrinsically disordered proteins (IDPs) is challenging due to their conformational flexibility. Nuclear Magnetic Resonance (NMR) structural bundles satisfy experimental constraints and inherently provide an overview of alternative conformations in solution. However, they assign equal weight to every sampled model, obscuring the temporal prevalence and dynamics of inter-residue contacts. In this study, we performed dual 1-microsecond (micros) Molecular Dynamics (MD) simulations for eight biologically relevant fuzzy complexes, utilizing the most distant conformers from deposited NMR models, as starting configurations. Through structural clustering and contact-persistence analysis, we classified the complexes into two distinct dynamic categories. The first group comprises complexes whose trajectories remain consistent with experimental data. Notably, large-scale motions such as relative chain rotations observed during simulations are already reflected as distinct orientations within the starting NMR conformers. Conversely, the second group comprises complexes that exhibit interaction modes absent in the structural NMR ensembles. These include alternative stable interfaces arising from chain reorientation, as well as highly dynamic interfaces characterized by rapidly exchanging contacts lacking any persistent stabilizing core. Furthermore, the microsecond trajectories captured intermittent dissociation and re-association events where the proteins sampled transient contacts through alternative regions. Overall, leveraging NMR models as a baseline for MD clustering and contact weighting, provides a systematic bioinformatics analysis to solve the atomistic details of flexible interfaces. Beyond categorizing diverse binding behaviors, this approach systematically refines the interaction surfaces across all studied cases, uncovers dynamic features that escape detection in ensemble-averaged NMR structures. Furthermore, it maps key residues to guide further experimental approaches, such as mutational studies or therapeutic targeting, among other applications.",
+  "abstract_zh": "理解由固有无序蛋白（IDPs）形成的模糊复合物的动态行为因其构象灵活性而具有挑战性。核磁共振（NMR）结构束满足实验约束，并固有地提供了溶液中替代构象的概览。然而，它们对每个采样模型赋予相同权重，掩盖了残基间接触的时间流行性和动态性。在本研究中，我们对八个生物学相关的模糊复合物进行了双1微秒（μs）分子动力学（MD）模拟，利用沉积NMR模型中最远距离的构象体作为起始配置。通过结构聚类和接触持久性分析，我们将这些复合物分为两个不同的动态类别。第一组包括轨迹与实验数据保持一致的复合物。值得注意的是，模拟中观察到的大规模运动，如相对链旋转，已反映在起始NMR构象体中的不同取向中。相反，第二组包括表现出结构NMR系综中不存在的相互作用模式的复合物。这些包括由链重定向产生的替代稳定界面，以及以快速交换接触为特征且缺乏任何持久稳定核心的高度动态界面。此外，微秒级轨迹捕捉到了间歇性的解离和再结合事件，其中蛋白质通过替代区域采样瞬时接触。总体而言，利用NMR模型作为MD聚类和接触加权的基线，提供了一种系统的生物信息学分析，以解析柔性界面的原子细节。除了对多样结合行为进行分类外，该方法系统地细化了所有研究案例中的相互作用表面，揭示了在系综平均NMR结构中无法检测的动态特征。此外，它映射了关键残基，以指导进一步的实验方法，如突变研究或治疗靶向等应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42756412/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42756412/",
+  "paper_page_path": "papers/pubmed/42756412/index.html"
+}

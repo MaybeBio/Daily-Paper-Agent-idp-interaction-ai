@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that retinoid X receptors (RXRs) form condensate-like assemblies whose properties depend on receptor subtype, ligand binding, and subcellular localization. They identify the intrinsically disordered AB region as a determinant of subtype-specific assembly organization and dynamics. They report that 9cRA-induced RXRalpha and RXRgamma nuclear foci colocalize with RNA polymerase II associated with transcription initiation, whereas RXRbeta assemblies do not. They also report that RXRalpha and RXRgamma form cytoplasmic droplets with liquid-like behavior, including fusion and rapid molecular exchange.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, methods, statistical analyses, imaging data, quantification details, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation that RXR subtypes form condensate-like assemblies with distinct properties. However, the evidence base is limited to the abstract, and several claims require experimental verification that cannot be assessed from the provided material. The conceptual advance over existing condensate literature is not clearly articulated, and the functional significance of the observed assemblies remains speculative.
+- **Who would be interested in the results, and why** Researchers studying nuclear receptor biology, transcriptional regulation, and biomolecular condensates. The work may also interest those investigating the role of intrinsically disordered regions in protein organization and the subcellular compartmentalization of signaling.
+- **Major strengths** The abstract addresses a timely topic linking nuclear receptor function to condensate biology. The subtype-specific and compartment-specific framing is a useful organizing principle. The identification of the AB region as a determinant of assembly properties provides a mechanistic entry point.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "RXRalpha, RXRbeta, and RXRgamma exhibit marked differences in spatial organization and molecular dynamics, indicating subtype-specific modes of higher-order receptor organization."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims marked differences among subtypes but provides no quantitative data, imaging parameters, or statistical comparisons. Without details on how "spatial organization" and "molecular dynamics" were measured and compared, the claim cannot be evaluated.
+  - **Why it matters** The central premise of the paper is subtype specificity. If the differences are not rigorously quantified and statistically supported, the conclusion is not established.
+  - **Resolution test** Provide quantitative comparisons with appropriate statistical tests, including effect sizes and variability measures, for at least two independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Deletion analyses identify the intrinsically disordered AB region as a determinant of subtype-specific assembly organization and dynamics."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which deletion constructs were used, whether the AB region was swapped between subtypes, or how deletion affected the measured properties. The claim that the AB region is a "determinant" requires demonstration of causality, not just correlation.
+  - **Why it matters** This is a key mechanistic claim. Without proper deletion or swap experiments and appropriate controls, the role of the AB region remains speculative.
+  - **Resolution test** Show that deletion or substitution of the AB region alters assembly properties in a manner consistent with the proposed subtype-specific role, with rescue experiments where feasible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Only 9cRA-induced RXRalpha and RXRgamma foci colocalize with transcription initiation-associated RNA polymerase II, whereas fine puncta and RXRbeta assemblies show no detectable overlap."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract distinguishes "foci" from "fine puncta" but does not define these categories or explain how they were classified. The claim of "no detectable overlap" requires a negative control and a defined threshold for colocalization. Without these, the conclusion is not robust.
+  - **Why it matters** This claim is used to infer functional heterogeneity among nuclear RXR populations. If the classification or colocalization analysis is not rigorous, the functional interpretation is unsupported.
+  - **Resolution test** Provide a clear operational definition of foci versus puncta, a colocalization analysis with appropriate thresholds and controls, and quantification across multiple fields and replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "RXRalpha and RXRgamma form 9cRA-induced cytoplasmic droplets exhibiting liquid-like behavior, including fusion events and rapid molecular exchange."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims liquid-like behavior based on fusion and rapid molecular exchange but does not provide details on how these were measured. Fusion events alone are not sufficient to establish liquid-like properties, and "rapid molecular exchange" requires fluorescence recovery after photobleaching (FRAP) or similar quantitative assays.
+  - **Why it matters** The liquid-like characterization is central to the condensate claim. Without rigorous biophysical evidence, the interpretation is not established.
+  - **Resolution test** Provide FRAP data with recovery times and mobile fractions, and show fusion events with time-lapse imaging and quantitative analysis of shape relaxation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "condensate-like assemblies" is used without a clear definition or distinction from other forms of protein aggregation or clustering.
+  - **Required correction** Define the operational criteria used to classify assemblies as condensate-like, and briefly state how these differ from non-specific aggregates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state what is conceptually new about these findings relative to existing condensate literature or nuclear receptor studies.
+  - **Required correction** Add a sentence in the abstract or introduction that explicitly frames the novelty, such as the subtype-specific and compartment-specific principles that have not been previously described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Ligand specificity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions 9cRA but does not state whether other ligands were tested or whether the effects are specific to 9cRA.
+  - **Required correction** Clarify whether the observed effects are ligand-specific or general to RXR activation, and if only 9cRA was used, state this as a limitation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The topic is timely but the abstract does not clearly articulate a novel conceptual framework beyond applying condensate concepts to RXRs. Scientific importance: Potentially relevant to nuclear receptor and condensate fields, but the functional significance is not established. Interdisciplinary readership: The abstract may appeal to cell biologists and biophysicists, but the lack of methodological detail limits broader accessibility. Technical soundness: Not assessable from the abstract; several claims require quantitative and biophysical evidence. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting observations, but the key claims require rigorous experimental validation that cannot be assessed from the abstract alone. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of subtype-specific differences in spatial organization and dynamics is unsupported without quantitative data.
+- The role of the AB region as a determinant is unsupported without deletion or swap experiments.
+- The colocalization claim with RNA polymerase II is unsupported without defined thresholds and controls.
+- The liquid-like behavior claim is unsupported without FRAP or equivalent biophysical evidence.
+- The functional significance of the assemblies, including the suggestion of compartment-specific functions, is speculative and not directly tested.

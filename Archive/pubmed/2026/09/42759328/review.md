@@ -1,0 +1,56 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract presents a perspective on the state of molecular simulations of chromatin-associated biomolecular condensates, with claims about current capabilities and future requirements. Assessment is limited to the claims made in this abstract.
+- **Shared manuscript claim summary** The authors argue that molecular simulations have advanced understanding of biomolecular condensates, that coarse-grained physicochemically specific models can quantitatively reproduce phase diagrams, material properties, and sequence-phase space relationships for intrinsically disordered proteins, and that capturing nuclear condensates requires additional ingredients including explicit ionic environments, post-translational modification grammars, chromatin architecture, and nonequilibrium dynamics.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or references are provided.
+- **Missing materials affecting confidence** Full text, figures, tables, references, and any quantitative comparisons or simulation details are not available. The abstract provides no specific data, model descriptions, or validation metrics to support the claims of quantitative accuracy.
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and timely perspective on an important topic in computational biophysics. The claims are broadly consistent with trends in the field, but the abstract lacks specific evidence to substantiate the assertion of quantitative accuracy. The perspective nature of the article is acknowledged, yet the strength of the claims exceeds what can be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, molecular simulation, chromatin biology, and phase separation. The abstract addresses a growing intersection of these fields and would appeal to those developing or applying coarse-grained models to nuclear organization.
+- **Major strengths** The abstract identifies a clear and important gap between current simulation capabilities for isolated intrinsically disordered proteins and the complexity of nuclear condensates. The list of required additional ingredients is sensible and reflects current challenges in the field.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that coarse-grained physicochemically specific models "are now able to reproduce phase diagrams, material properties, and sequence-phase space relationships with quantitative accuracy" for intrinsically disordered proteins.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract asserts quantitative accuracy without presenting any specific data, benchmarks, or comparisons to experimental results. No error metrics, system details, or model validation are described.
+  - **Why it matters** Quantitative accuracy is a strong claim that requires demonstration. Without evidence, the reader cannot assess whether the claim is justified or overstated, which affects the credibility of the entire perspective.
+  - **Resolution test** Provide specific examples with quantitative comparisons to experimental data, including error ranges or correlation coefficients, for at least one model system.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** The phrase "capturing condensates as they exist in the nucleus"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not define what "capturing" means in this context, whether it refers to structural fidelity, thermodynamic properties, or dynamic behavior.
+  - **Required correction** Clarify the specific observables or properties that the authors consider necessary for a faithful representation of nuclear condensates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "post-translational modification grammars"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "grammars" is evocative but not defined. It is unclear whether this refers to combinatorial rules, sequence patterns, or something else.
+  - **Required correction** Provide a brief definition or example of what is meant by modification grammars in this context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** The list of additional ingredients for nuclear condensates
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The list omits other potentially relevant factors such as RNA interactions, chromatin remodeling activity, or nuclear body-specific protein composition.
+  - **Required correction** Acknowledge that the list is not exhaustive or justify why these four ingredients are prioritized.
+- **Technical failings that need to be addressed before the case is established** R1-M1. The central claim of quantitative accuracy is unsupported by the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not present novel findings but offers a perspective. The framing of chromatin as an explicit component and the emphasis on nonequilibrium dynamics are not new but are presented in a coherent manner.
+  - Scientific importance: The topic is important and timely, addressing a frontier in understanding nuclear organization.
+  - Interdisciplinary readership: The abstract bridges molecular simulation, biophysics, and chromatin biology, which would appeal to a broad readership.
+  - Technical soundness: Cannot be fully assessed from the abstract. The claims of quantitative accuracy require verification.
+  - Readability for nonspecialists: The abstract is concise and accessible, though terms like "phase-space relationships" and "modification grammars" may require some background.
+- **Recommendation posture** Currently not established from the provided evidence. The perspective may be valuable, but the abstract alone does not provide sufficient support for the quantitative accuracy claim. If the full article includes appropriate validation and specific examples, the case could be strengthened.
+
+## Risk / unsupported claims
+- The claim of quantitative accuracy for coarse-grained models in reproducing phase diagrams, material properties, and sequence-phase space relationships is unsupported by the abstract.
+- The assertion that the listed additional ingredients are necessary for capturing nuclear condensates is presented without justification or evidence.
+- The overall framing that molecular simulations "have most advanced our understanding" is a comparative claim that cannot be evaluated without a broader literature assessment.

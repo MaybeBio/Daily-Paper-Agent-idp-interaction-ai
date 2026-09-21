@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42759629",
+  "title": "Retinoid X receptor in motion: Subtype-specific organization and dynamics of condensate-like assemblies.",
+  "authors": "Soltys, Katarzyna; Czogalla, Aleksander; Ozyhar, Andrzej",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-09-18",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究维甲酸X受体(RXR)亚型特异性的凝聚体样组装，揭示IDR(AB区)决定组装组织与动力学，并涉及核内外液滴的相分离行为，虽未用AI/物理模拟方法，但聚焦IDR介导的凝聚体组装机制，对无序蛋白互作与相分离建模有直接参考价值。",
+  "abstract": "Biomolecular condensates have emerged as important regulators of gene expression, yet their contribution to nuclear receptor function remains poorly understood. Here, we demonstrate that retinoid X receptors (RXRs) form distinct condensate-like assemblies, the properties of which depend on receptor subtype, ligand binding, and subcellular localization. RXRalpha, RXRbeta, and RXRgamma exhibit marked differences in spatial organization and molecular dynamics, indicating subtype-specific modes of higher-order receptor organization. Deletion analyses identify the intrinsically disordered AB region as a determinant of subtype-specific assembly organization and dynamics. In the nucleus, only 9cRA-induced RXRalpha and RXRgamma foci colocalize with transcription initiation-associated RNA polymerase II, whereas fine puncta and RXRbeta assemblies show no detectable overlap, highlighting functional heterogeneity within the nuclear RXR population. Beyond the nucleus, RXRalpha and RXRgamma form 9cRA-induced cytoplasmic droplets exhibiting liquid-like behavior, including fusion events and rapid molecular exchange, indicating that higher-order RXR organization is not restricted to the nuclear compartment. Together, our findings uncover subtype-specific and compartment-specific principles governing the organization and dynamics of RXR condensate-like assemblies and suggest that distinct assemblies contribute to compartment-specific RXR functions.",
+  "abstract_zh": "生物分子凝聚体已成为基因表达的重要调控因子，然而它们对核受体功能的贡献仍知之甚少。在此，我们证明维甲酸X受体（RXRs）形成独特的凝聚体样组装体，其性质取决于受体亚型、配体结合和亚细胞定位。RXRalpha、RXRbeta和RXRgamma在空间组织和分子动力学方面表现出显著差异，表明高阶受体组织存在亚型特异性模式。缺失分析鉴定出 intrinsically disordered AB 区域是亚型特异性组装组织和动力学的决定因素。在细胞核中，仅9cRA诱导的RXRalpha和RXRgamma焦点与转录起始相关的RNA聚合酶II共定位，而细点状结构和RXRbeta组装体未显示可检测的重叠，突显了核内RXR群体的功能异质性。在细胞核之外，RXRalpha和RXRgamma形成9cRA诱导的细胞质液滴，表现出液体样行为，包括融合事件和快速分子交换，表明高阶RXR组织不局限于核区室。总之，我们的发现揭示了调控RXR凝聚体样组装体组织和动力学的亚型特异性和区室特异性原则，并提示不同组装体有助于区室特异性RXR功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42759629/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759629/",
+  "paper_page_path": "papers/pubmed/42759629/index.html"
+}

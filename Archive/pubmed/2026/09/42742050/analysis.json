@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42742050",
+  "title": "Full-length brain-derived alpha-synuclein fibril models reveal fuzzy-coat control of peptide recognition.",
+  "authors": "Pintado-Grima, Carlos; Barcenas, Oriol; Tesei, Giulio; Thomasen, F Emil; Lindorff-Larsen, Kresten; Ventura, Salvador",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2026-09-15",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化模拟构建全长α-突触核蛋白纤维模型，揭示无序fuzzy coat与核心热点协同控制肽段识别的两阶段机制，直接契合无序蛋白介导互作机制建模主题。",
+  "abstract": "alpha-Synuclein (aSyn) fibrils in Parkinson's disease are generally represented by their ordered cross-beta cores, although nearly half of the protein remains disordered in the fibrillar state. The unresolved N- and C-terminal segments form a fuzzy coat that is expected to shape the surface encountered by molecular partners. Here, we reconstructed full-length, brain-derived aSyn Lewy-fold fibrils by extending a patient-derived cryo-EM core spanning residues 31-100, with disordered termini, and sampling the resulting assemblies with the CALVADOS coarse-grained force field. The acidic C-terminal tails established recurrent, transient contacts with solvent-exposed core motifs, especially beta5/P2 and beta9/P3, generating a dynamic surface in which aggregation-prone ladders are intermittently shielded rather than permanently buried. Simulations with two experimentally validated aSyn-binding peptides, PSMalpha3 and LL-37, show that peptide recognition follows a two-step process. Cationic peptides are first retained by the anionic fuzzy coat and subsequently engage exposed hydrophobic/electrostatic hotspots on the structured core. PSMalpha3 variants and LL-37 controls support the importance of positive charge for capture, peptide flexibility for multivalent engagement, and the full-length fibril architecture for persistent binding. These results present a mechanistic model in which selectivity for aggregated aSyn arises from an emergent mesoscale interface combining a polyelectrolyte brush with recurrent core hotspots. Together, these results establish full-length, brain-derived fibril ensembles as a practical framework for understanding ligand recognition at amyloid surfaces.",
+  "abstract_zh": "帕金森病中的α-突触核蛋白（aSyn）原纤维通常以其有序的交叉β核心为代表，尽管在纤维状态下，近一半的蛋白质仍处于无序状态。未解析的N端和C端片段形成一层模糊外衣，预计会塑造分子伴侣所遇到的表面。在此，我们通过扩展源自患者的冷冻电镜核心（覆盖残基31-100）并连接无序末端，重建了全长、脑来源的aSyn Lewy折叠原纤维，并使用CALVADOS粗粒化力场对所得组装体进行采样。酸性的C端尾部与溶剂暴露的核心基序（尤其是beta5/P2和beta9/P3）建立了反复、瞬时的接触，生成了一个动态表面，其中易于聚集的梯状结构被间歇性遮蔽而非永久埋藏。使用两种经实验验证的aSyn结合肽PSMalpha3和LL-37进行的模拟表明，肽识别遵循两步过程。阳离子肽首先被阴离子模糊外衣保留，随后与结构化核心上暴露的疏水/静电热点结合。PSMalpha3变体和LL-37对照支持正电荷对捕获的重要性、肽灵活性对多价结合的重要性，以及全长纤维架构对持续结合的重要性。这些结果提出了一种机制模型，其中对聚集aSyn的选择性源于多电解质刷与重复核心热点相结合的新兴介观界面。综合来看，这些结果确立了全长、脑来源的纤维集合体作为理解淀粉样蛋白表面配体识别的实用框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42742050/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42742050/",
+  "paper_page_path": "papers/pubmed/42742050/index.html"
+}

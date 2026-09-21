@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, author contributions, declarations)
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and internal consistency of the reported findings. Editorial or stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report dual 1-microsecond MD simulations for eight fuzzy IDP complexes, using the two most distant NMR conformers as starting structures. They classify complexes into two groups based on whether MD trajectories remain consistent with NMR-derived models or reveal dynamic behaviors not captured by the NMR ensembles, including alternative stable interfaces, relative chain rotations, and intermittent dissociation/reassociation events. They further claim that their approach refines interaction surfaces, maps key residues, and provides a framework for guiding experimental and therapeutic studies.
+- **Visible evidence base** Main text with descriptions of results for eight complexes, references to Supplementary Figures S1–S3, Supplementary Tables S1–S2, Supplementary Videos S1–S11, and Supplementary Appendix S1. No figures, tables, or supplementary material were provided to the reviewer.
+- **Missing materials affecting confidence** All figures, supplementary tables, supplementary videos, and the supplementary appendix. No simulation parameter files, force field validation data, convergence metrics, or raw trajectory analyses. No code or analysis scripts. No structural coordinates or cluster representative structures.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question: how to extract dynamic information about fuzzy interfaces in IDP complexes beyond what static NMR ensembles provide. The conceptual framing is sound, and the choice of eight biologically relevant complexes with diverse reported behaviors is appropriate. However, the evidence as presented is insufficient to support several central claims. The results section is largely descriptive, with quantitative support relegated to supplementary materials that were not available for review. Key methodological details, such as how clustering cutoffs were determined, how contact persistence was calculated across trajectories, and how the two MD replicates were compared, are either missing or under-specified. The classification of complexes into two groups appears to rest on qualitative trajectory inspection rather than a defined quantitative criterion. The claim that MD "refines" NMR interfaces is plausible but not demonstrated with the provided evidence. The manuscript would benefit from clearer presentation of quantitative metrics, explicit convergence assessment, and a more critical discussion of the limitations of using only two replicates per complex.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, fuzzy complexes, and protein-protein interactions, particularly those who use or interpret NMR ensembles. Computational biophysicists interested in MD simulation of disordered systems and in methods for integrating experimental restraints with dynamics. Structural biologists seeking to identify functionally relevant residues in dynamic interfaces for mutagenesis or therapeutic targeting.
+- **Major strengths** The manuscript addresses an important gap: NMR ensembles are often treated as static collections of equally weighted models, and the authors correctly point out that temporal information is missing. The selection of eight complexes with diverse reported fuzzy behaviors is thoughtful. The use of two distant NMR conformers as starting points is a reasonable strategy to explore conformational space. The authors appropriately acknowledge limitations of sampling and the potential bias from initial structure selection. The discussion of downstream applications, such as guiding mutagenesis and therapeutic design, is well framed and realistic.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that MD simulations "refine" the interaction surfaces across all studied cases and that the approach "systematically refines the interaction surfaces across all studied cases."
+  - **Evidence pointer** Results section, all complex subsections; Supplementary Figures S1–S3; Supplementary Tables S1–S2; location not provided
+  - **Concern** The central claim of interface refinement is not supported by quantitative evidence presented in the main text. The results are described qualitatively (e.g., "core contacts," "persistent interactions," "diffuse interface") without reporting the actual contact frequencies, cluster populations, or comparison metrics between MD-derived and NMR-derived contacts. The contact frequency threshold (Fij > 0.75) is mentioned in Methods, but the resulting contact maps, their overlap with NMR contacts, and the statistical significance of any differences are not shown. Without these data, the claim that MD "refines" NMR interfaces is an assertion rather than a demonstrated result.
+  - **Why it matters** The stated novelty of the work is to go "beyond NMR models" by providing temporal weighting and identifying interactions not captured by NMR. If the quantitative evidence for this is not presented, the core contribution of the manuscript is not established.
+  - **Resolution test** Provide contact frequency matrices or equivalent quantitative comparisons for each complex, showing which contacts are shared between MD and NMR, which are MD-only, and which are NMR-only. Report cluster populations and the fraction of trajectory time each contact persists. Ideally, include a statistical test comparing MD-derived contact enrichment against the NMR ensemble distribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "the cutoff distance was determined for each simulation such that the least populated cluster would have a single structure" and that contacts were classified as high, very high, or present throughout the entire trajectory.
+  - **Evidence pointer** Materials and methods, "Molecular dynamics simulations" and "Residue interactions" sections; location not provided
+  - **Concern** The clustering cutoff procedure is circular: choosing a cutoff such that the least populated cluster has a single structure does not define a unique clustering, and it is unclear how this choice affects the resulting cluster populations and contact frequencies. Additionally, the contact classification thresholds (high, very high, present throughout) are defined but the number of contacts in each category for each complex is not reported. The relationship between the two different contact definitions (the RING-based Fij and the 7 Å heavy-atom cutoff) is not explained. It is unclear whether the 7 Å cutoff was applied to all contacts or only to those discussed in the text.
+  - **Why it matters** The quantitative results depend entirely on these methodological choices. If the clustering and contact definitions are not robust or are not clearly described, the reported classifications and contact persistence values cannot be interpreted or reproduced.
+  - **Resolution test** Justify the clustering cutoff procedure with a sensitivity analysis (e.g., vary the cutoff and show that the main conclusions are unchanged). Clearly state which contact definition was used for which analysis. Report the number of contacts in each persistence category for each complex.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that "in one simulation the complex remained associated throughout the trajectory, while in the other, transiently dissociates early in the trajectory before rebinding through the same interface" (SUMO-1/PIASX-P) and that SAE2/UBC9 "undergo continuous dissociation and re-association events, engaging through different regions."
+  - **Evidence pointer** Results, "Group 2" subsections; Supplementary Videos S10 and S11; location not provided
+  - **Concern** These are central observations for the classification of complexes into Group 2, yet they are supported only by qualitative descriptions and video files that were not available for review. No quantitative metrics are provided, such as the minimum distance between chains over time, the duration of dissociated states, the frequency of reassociation events, or the specific regions involved in alternative contacts. Without such data, it is impossible to assess whether the observed dynamics are statistically meaningful or within the range of thermal fluctuations expected for weakly bound complexes.
+  - **Why it matters** The classification of complexes into "consistent with NMR" versus "dynamic behaviors not captured by NMR" is a primary outcome of the study. If the evidence for the dynamic behaviors is only qualitative, the classification is not robustly supported.
+  - **Resolution test** Provide time series of inter-chain distances or contact maps for the dissociating complexes, with clear definitions of what constitutes a "dissociation" and a "reassociation" event. Report the duration and frequency of these events. If possible, compare with a control simulation of a stably bound complex to demonstrate that the observed dynamics are specific to these systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "we modeled the full PDB sequence using AlphaFold" for the TFB1PH/p53TAD complex.
+  - **Evidence pointer** Results, "TFB1PH/p53TAD complex" subsection; location not provided
+  - **Concern** The AlphaFold modeling is mentioned in a single sentence with no details on the version used, the confidence scores of the predictions, or how the models were compared with the MD results. The authors state that "in four of the five predicted models, p53 is rotated by ~180° relative to the NMR orientation," but no alignment or quantitative comparison is shown. The relevance of this analysis to the MD findings is unclear.
+  - **Why it matters** The AlphaFold analysis is presented as supporting evidence for interface flexibility, but without details on model confidence and comparison methodology, its contribution is difficult to evaluate.
+  - **Resolution test** Provide AlphaFold confidence metrics (pLDDT, PAE), describe the alignment procedure used to measure rotation, and show the comparison between AlphaFold models and MD-derived conformations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The final sentence of the abstract is grammatically incomplete: "Beyond categorizing diverse binding behaviors, this approach systematically refines the interaction surfaces across all studied cases, uncovers dynamic features that escape detection in ensemble-averaged NMR structures." The phrase "ensemble-averaged NMR structures" is imprecise, as NMR ensembles are not typically "averaged" in the way implied.
+  - **Required correction** Revise to: "Beyond categorizing diverse binding behaviors, this approach systematically refines the interaction surfaces across all studied cases and uncovers dynamic features that escape detection in conventional NMR ensemble analysis."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Materials and methods section; location not provided
+  - **Issue** The methods state that CHARMM36m was used with TIP3P water and 0.15 M KCl, but no details are given on the number of ions, the salt concentration calculation, the equilibration protocol beyond the stated times, or the temperature and pressure coupling parameters beyond the algorithm names. The simulation box size and the minimum distance to the box edges are not reported.
+  - **Required correction** Provide the full simulation setup, including box dimensions, ion concentration calculation, and all coupling parameters. State the total number of atoms for each system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Evidence quality
+  - **Affected element** Results, "Gal11ABD1-Gnc4cAD complex" subsection
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The claim that "the electrostatic surface analysis shows charge complementarity surrounding the binding interface" is not supported by any quantitative measure. It is unclear how the electrostatic potential was calculated and what metric was used to assess complementarity.
+  - **Required correction** Describe the electrostatic calculation method and provide a quantitative measure of complementarity, or remove the claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Group 2" subsection heading
+  - **Evidence pointer** Results section, "Group 2" heading
+  - **Issue** The heading "2.2- Intermittently interacting complexes" uses a hyphen after the numbering, which is inconsistent with the formatting of other headings.
+  - **Required correction** Change to "2.2 Intermittently interacting complexes" for consistency.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for interface refinement), R1-M2 (clustering and contact definition methodology), R1-M3 (quantitative evidence for dissociation/reassociation dynamics). These are the core technical issues that prevent the central claims from being evaluated.
+- **Assessment against Nature-style criteria**
+  - **Originality** The idea of using MD to add a temporal dimension to NMR ensembles of fuzzy complexes is not entirely new, but the systematic application to eight complexes and the classification into dynamic categories is a useful contribution. The originality is moderate; the approach is a combination of existing methods rather than a fundamentally new technique.
+  - **Scientific importance** The question of how to characterize fuzzy interfaces is important for understanding IDP function. However, the importance of the specific findings is difficult to assess without the quantitative evidence. If the classification and interface refinement claims are robust, the work could be valuable for the IDP community. As presented, the importance is not fully established.
+  - **Interdisciplinary readership** The work is primarily of interest to structural biologists, computational biophysicists, and researchers studying IDPs. The potential applications to drug design and mutagenesis broaden the appeal somewhat, but the readership is likely to be specialized.
+  - **Technical soundness** The technical soundness cannot be fully evaluated because key methodological details and quantitative results are missing. The simulation setup is described at a level that is typical for the field, but the analysis methods are under-specified. The lack of convergence assessment and the use of only two replicates per complex are concerns.
+  - **Readability for nonspecialists** The manuscript is generally well written and accessible. The introduction and discussion are clear. The results section is somewhat repetitive and would benefit from more quantitative framing. The abstract is understandable to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the conceptual framework is sound, but the central claims are not supported by the evidence presented in the main text. The missing quantitative data and methodological details are essential for evaluating the work. The authors should be encouraged to revise and resubmit with the required evidence.
+
+## Risk / unsupported claims
+- The claim that MD "systematically refines the interaction surfaces across all studied cases" is unsupported without quantitative contact frequency data and comparison with NMR-derived contacts.
+- The classification of complexes into two groups based on "consistent with NMR" versus "dynamic behaviors not captured by NMR" is not supported by a defined quantitative criterion.
+- The claim that "large-scale motions such as relative chain rotations observed during simulations are already reflected as distinct orientations within the starting NMR conformers" is presented as a finding but no quantitative comparison is shown.
+- The observation of "intermittent dissociation and re-association events" for SUMO-1/PIASX-P and SAE2/UBC9 is unsupported without time-resolved distance or contact data.
+- The AlphaFold analysis for TFB1PH/p53TAD is mentioned as supporting evidence but lacks confidence metrics and comparison methodology.
+- The statement that "the electrostatic surface analysis shows charge complementarity surrounding the binding interface" is unsupported without a quantitative measure.
+- The claim that "the disordered ULM region remains tightly bound throughout the trajectory by six contacts mediated by W22, exhibiting higher contact stability than the structured HH region itself" is not supported by quantitative stability data in the main text.

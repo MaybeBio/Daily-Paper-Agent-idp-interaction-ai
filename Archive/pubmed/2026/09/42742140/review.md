@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided for verification
+- **Shared manuscript claim summary** The authors introduce a computational framework, buffered Charge-Regulation Monte Carlo (b-CR-MC), that couples grand-canonical exchange of ions and buffer species with explicit charge regulation of titratable residues. They claim quantitative agreement with generalized grand-reaction Monte Carlo, sequence-dependent pH gradients in FUS and PGL-3 condensates, Donnan potential and ion profile resolution in slab geometry, buffer depletion within dense phases, and that dynamic charge regulation is a primary determinant of condensate electrochemistry.
+- **Visible evidence base** Abstract text only; no figures, tables, methods descriptions, or numerical results were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation parameters, validation data, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational advance in modeling charge regulation within biomolecular condensates. The conceptual framing is clear and the claimed outcomes are biologically relevant. However, the abstract alone provides insufficient detail to assess the technical soundness of the method, the rigor of the validation, or the robustness of the conclusions. Several claims are stated without supporting quantitative evidence, and the absence of methodological detail prevents independent evaluation. The work is promising in principle but not yet established from the provided material.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensate biophysics, computational chemistry, and soft matter physics would be interested. The framework addresses a recognized gap in treating proton exchange and buffer equilibria consistently, which is relevant to understanding intracellular phase behavior, pH-dependent aggregation, and the role of post-translational modifications. The method could also appeal to those studying charge regulation in polyelectrolyte systems more broadly.
+- **Major strengths** The abstract identifies a clear and important gap in existing computational frameworks. The proposed extension of CR-MC to multicomponent reservoirs is a logical and potentially impactful advance. The choice of two biologically relevant and oppositely charged proteins (FUS and PGL-3) strengthens the demonstration. The claim that dynamic charge regulation is a primary determinant rather than a secondary correction is a strong and testable statement that, if supported, would be of significant interest.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework achieves quantitative agreement with the more expensive generalized grand-reaction Monte Carlo approach.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states quantitative agreement with an established method but provides no numerical metrics, error estimates, or description of the comparison conditions. It is unclear over what parameter range, for which observables, and under what thermodynamic conditions this agreement holds.
+  - **Why it matters** The entire credibility of the new method rests on this validation claim. Without specific agreement metrics, the reader cannot judge whether the approximation is acceptable for the intended applications or whether it introduces systematic biases that could affect the reported pH gradients.
+  - **Resolution test** Provide quantitative comparison data, such as mean and maximum deviations in pH, ion densities, and titration states relative to generalized grand-reaction Monte Carlo, across a defined range of salt concentrations, buffer capacities, and protein charge densities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The dense phase of FUS exhibits an alkaline shift, while that of PGL-3 exhibits an acidic shift, in both cases driving the condensate interior toward the protein's isoelectric point.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports specific pH shift directions for two proteins but provides no numerical values, no comparison to experimental measurements, and no indication of the magnitude of the shifts relative to the bulk pH. The claim that the shifts drive the interior toward the isoelectric point is plausible but unsupported without quantitative data.
+  - **Why it matters** The biological significance of the pH gradients depends on their magnitude and direction. Without numbers, the reader cannot assess whether the effect is physiologically relevant or within the noise of the model. The isoelectric point claim also requires knowledge of the local sequence composition and titration behavior, which is not provided.
+  - **Resolution test** Report the computed interior pH values for FUS and PGL-3 under defined bulk conditions, the corresponding isoelectric points, and the magnitude of the shifts. If possible, compare to experimental measurements of condensate pH or to predictions from simpler models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Slab-geometry simulations further resolve the Donnan potential and continuous ion profiles across the condensate interface, confirming the direction of these electrochemical shifts.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims resolution of the Donnan potential and ion profiles but does not describe how these quantities were computed, what system sizes were used, how the interface was defined, or how finite-size effects were handled. The term "confirming" implies a consistency check, but the logic of this confirmation is not explained.
+  - **Why it matters** The Donnan potential is a central concept in condensate electrochemistry, and the claim of resolving it in slab geometry is a key technical achievement. Without methodological detail, the reader cannot assess whether the computed potential is physically meaningful or an artifact of the simulation setup.
+  - **Resolution test** Provide a description of the slab geometry, the method for computing the Donnan potential, the ion density profiles, and a demonstration that the results are converged with respect to system size and simulation time.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Dynamic charge regulation is a primary determinant rather than a secondary correction to condensate electrochemistry.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is the strongest conceptual claim in the abstract, but no comparative analysis is presented. The abstract does not describe what the result would be if charge regulation were treated as a fixed or mean-field correction, nor does it quantify the difference between the full treatment and any simplified alternative.
+  - **Why it matters** The claim distinguishes this work from prior approaches. Without a direct comparison to a model without dynamic charge regulation, the reader cannot evaluate whether the added complexity of b-CR-MC is justified or whether simpler models would suffice.
+  - **Resolution test** Present a comparison between b-CR-MC and a version of the model where charge regulation is treated as static or as a post-hoc correction, showing quantitative differences in pH gradients, ion distributions, and Donnan potentials.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "electrochemical microenvironments" is used without definition, and the distinction between pH gradients and ion asymmetries is not clearly delineated.
+  - **Required correction** Define the term explicitly and clarify whether pH gradients and ion asymmetries are treated as independent or coupled observables.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "under physiological conditions" but does not specify the ionic strength, buffer composition, temperature, or protein concentration used in the simulations.
+  - **Required correction** Specify the exact simulation conditions in the methods or at least in the figure captions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims the framework enables prediction of how mutations and post-translational modifications reprogram condensate microenvironments, but no such predictions are demonstrated.
+  - **Required correction** Either add a demonstration of a mutation or modification effect or soften the claim to indicate future applicability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sentence describing the b-CR-MC framework is long and packs multiple technical details, which may hinder comprehension for nonspecialist readers.
+  - **Required correction** Break the sentence into shorter components and consider moving some technical details to the methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The validation claim, the pH shift results, the Donnan potential resolution, and the primary determinant claim all require quantitative evidence and methodological detail that are not present in the abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The extension of CR-MC to buffered multicomponent reservoirs appears novel and addresses a recognized gap. This is a strength.
+  - Scientific importance: The topic is of high importance to the condensate field, and the claim that charge regulation is a primary determinant could shift thinking. However, importance is not yet demonstrated without quantitative results.
+  - Interdisciplinary readership: The work bridges physical chemistry, biophysics, and cell biology. The abstract is accessible but technical terms are not always defined.
+  - Technical soundness: Cannot be assessed from the abstract. The validation claim is central and unverified.
+  - Readability for nonspecialists: The abstract is generally readable but contains jargon and long sentences that could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance is promising and the direction is of interest, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- Quantitative agreement with generalized grand-reaction Monte Carlo is stated without any numerical evidence.
+- The specific pH shift directions for FUS and PGL-3 are reported without values or comparison to experiment.
+- The claim that pH shifts drive the condensate interior toward the isoelectric point is unsupported without titration data.
+- The resolution of the Donnan potential and ion profiles is claimed without methodological detail.
+- The statement that dynamic charge regulation is a primary determinant is not supported by any comparative analysis.
+- The claim of enabling prediction of mutation and post-translational modification effects is forward-looking and not demonstrated.

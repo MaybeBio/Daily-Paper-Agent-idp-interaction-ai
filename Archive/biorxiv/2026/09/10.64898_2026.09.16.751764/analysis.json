@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.16.751764",
+  "title": "Mimicin, an antimicrobial protein encoded by mimivirus",
+  "authors": "Tatara JM; Dey H; Goyal N; Alves AKN; Dutra LAL; Jivaji AM; Blencke H; Haug T; Aylward F; Abrahao JS; Horn M; Almeida GMdF",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-16",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文报道巨型病毒编码的抗菌蛋白Mimicin，虽涉及无序蛋白预测和AlphaFold，但核心是抗菌活性实验，无PPI互作机制或AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "Antimicrobial peptides (AMPs) are innate defense molecules found in all domains of life. Giant viruses of amoeba are known to thrive among complex microbial relationships within its hosts cells, hinting at the existence of virus-derived antimicrobial strategies. Here we show that viruses belonging to the Mimiviridae and Marseilleviridae families contain a higher density of in silico predicted AMPs per genome size than other viruses of amoeba. The investigation of potential AMPs led to the description of Mimicin, a taxonomically restricted 74 amino acid long protein coded by few mimiviruses. Mimicin contains three smaller predicted AMP sequences within it and has a broad in vitro antimicrobial activity against different bacteria, a yeast and two non-enveloped phages. In contrast, it has no activity against a marseillevirus, a mimivirus or human cell lines. When tested against bacterial endosymbionts co-cultured with Acanthamoeba terricola, Mimicin and its SIM-31 portion were able to control the attenuated Protochlamydia amoebophila but not the highly virulent Parachlamydia acanthamoebae. Based on deposited transcriptomic data, Mimicin is coded by an early gene more active during the beginning of the infection process. No structure could be predicted using Alphafold, while additional structural analysis indicate that Mimicin could be a highly disordered protein. In conclusion, we describe evidence of a biologically relevant antimicrobial activity derived from a giant virus. Mimicin highlights the relevance of AMPs from giant viruses for microbial ecology and opens the way for investigating their biotechnological and clinical potential.",
+  "abstract_zh": "抗菌肽（antimicrobial peptides, AMPs）是存在于所有生命领域中的先天防御分子。已知变形虫巨病毒在其宿主细胞内复杂的微生物关系中繁盛，暗示着存在源自病毒的抗菌策略。在此，我们表明属于Mimiviridae和Marseilleviridae家族的病毒，其每基因组大小所含有的计算机预测AMP密度高于其他变形虫病毒。对潜在AMP的研究促成了Mimicin的描述，这是一种由少数拟菌病毒编码的、分类学上受限的74个氨基酸长蛋白质。Mimicin内部包含三个较短的预测AMP序列，并对不同细菌、一种酵母和两种无包膜噬菌体具有广泛的体外抗菌活性。相反，它对一种马赛病毒、一种拟菌病毒或人类细胞系无活性。当针对与Acanthamoeba terricola共培养的细菌内共生体进行测试时，Mimicin及其SIM-31片段能够控制减毒的Protochlamydia amoebophila，但对高毒力的Parachlamydia acanthamoebae无效。基于已提交的转录组数据，Mimicin由一个早期基因编码，该基因在感染过程初期更为活跃。使用Alphafold无法预测其结构，而额外的结构分析表明Mimicin可能是一种高度无序的蛋白质。总之，我们描述了源自巨病毒的具有生物学意义的抗菌活性的证据。Mimicin突显了巨病毒来源AMP在微生物生态学中的相关性，并为其生物技术和临床潜力的研究开辟了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.16.751764",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.16.751764",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.16.751764/index.html"
+}
